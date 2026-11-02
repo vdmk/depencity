@@ -1,0 +1,219 @@
+{
+  "edges": [
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Container",
+      "target": "__module__.__binding_Container__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Container.method",
+      "target": "Container.__binding_method__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Container.method.__binding_missing__#3",
+      "target": "Container.method.__delete_missing_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Container.method.__delete_missing_0__#0",
+      "target": "Container.method.__return_0__#1"
+    },
+    {
+      "access": "write",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Container.method.missing#2",
+      "target": "Container.method.__delete_missing_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "Container.method.missing#2",
+      "target": "Container.method.__return_0__#1"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Container",
+      "id": "__module__.__binding_Container__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Container__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "method",
+      "id": "Container.__binding_method__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_method__",
+      "scope": "Container"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "Container.method.missing#2"
+      ],
+      "display_name": "del missing",
+      "id": "Container.method.__delete_missing_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": true,
+      "kind": "operation",
+      "name": "__delete_missing_0__",
+      "operation_type": "mutation",
+      "scope": "Container.method"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "Container.method.__delete_missing_0__#0",
+        "Container.method.missing#2"
+      ],
+      "display_name": "return missing",
+      "id": "Container.method.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "Container.method"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "missing",
+      "id": "Container.method.missing#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "missing",
+      "scope": "Container.method"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "missing",
+      "id": "Container.method.__binding_missing__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_missing__",
+      "scope": "Container.method"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "__module__"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [],
+      "parent": null
+    },
+    {
+      "children": [
+        "Container"
+      ],
+      "id": "__module__",
+      "kind": "module",
+      "name": "__module__",
+      "nodes": [
+        "__module__.__binding_Container__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "Container.method"
+      ],
+      "id": "Container",
+      "kind": "class",
+      "name": "Container",
+      "nodes": [
+        "Container.__binding_method__#0"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "Container.method",
+      "kind": "function",
+      "name": "method",
+      "nodes": [
+        "Container.method.__delete_missing_0__#0",
+        "Container.method.__return_0__#1",
+        "Container.method.missing#2",
+        "Container.method.__binding_missing__#3"
+      ],
+      "parent": "Container"
+    }
+  ],
+  "version": "0.1.0"
+}

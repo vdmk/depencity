@@ -1,0 +1,436 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.src_layout.worker.transform#0",
+      "target": "src_layout.entry.transform#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "src_layout.entry.__binding_transform__#1",
+      "target": "src_layout.entry.transform#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "src_layout.entry.main",
+      "target": "src_layout.entry.__binding_main__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "src_layout.entry.main.__binding_value__#3",
+      "target": "src_layout.entry.main.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "src_layout.entry.main.__call_transform_0__#1",
+      "target": "src_layout.entry.main.__return_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "src_layout.entry.main.value#0",
+      "target": "src_layout.entry.main.__call_transform_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "src_layout.entry.transform#0",
+      "target": "src_layout.entry.main.__call_transform_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "src_layout.worker.transform",
+      "target": "__root__.src_layout.worker.transform#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "src_layout.worker.transform",
+      "target": "src_layout.worker.__binding_transform__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "src_layout.worker.transform.__binding_value__#3",
+      "target": "src_layout.worker.transform.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "src_layout.worker.transform.__op_0__#1",
+      "target": "src_layout.worker.transform.__return_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "src_layout.worker.transform.__return_0__#2",
+      "target": "src_layout.entry.main.__call_transform_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "src_layout.worker.transform.value#0",
+      "target": "src_layout.worker.transform.__op_0__#1"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [
+        "src_layout.worker.transform"
+      ],
+      "display_name": "src_layout.worker.transform",
+      "id": "__root__.src_layout.worker.transform#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "src_layout.worker.transform",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.src_layout.worker.transform#0"
+      ],
+      "display_name": "transform",
+      "id": "src_layout.entry.transform#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "transform",
+      "scope": "src_layout.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "transform",
+      "id": "src_layout.entry.__binding_transform__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_transform__",
+      "scope": "src_layout.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "src_layout.entry.__binding_main__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "src_layout.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "src_layout.entry.main.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "src_layout.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "src_layout.entry.main.value#0",
+        "src_layout.entry.transform#0",
+        "src_layout.worker.transform.__return_0__#2"
+      ],
+      "display_name": "transform()",
+      "id": "src_layout.entry.main.__call_transform_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_transform_0__",
+      "scope": "src_layout.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "src_layout.entry.main.__call_transform_0__#1"
+      ],
+      "display_name": "return transform(value)",
+      "id": "src_layout.entry.main.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "src_layout.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "src_layout.entry.main.__binding_value__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "src_layout.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "transform",
+      "id": "src_layout.worker.__binding_transform__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_transform__",
+      "scope": "src_layout.worker"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "src_layout.worker.transform.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "src_layout.worker.transform"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "src_layout.worker.transform.value#0"
+      ],
+      "display_name": "value + 1",
+      "id": "src_layout.worker.transform.__op_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__op_0__",
+      "operation_type": "transform",
+      "scope": "src_layout.worker.transform"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "src_layout.worker.transform.__op_0__#1"
+      ],
+      "display_name": "return value + 1",
+      "id": "src_layout.worker.transform.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "src_layout.worker.transform"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "src_layout.worker.transform.__binding_value__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "src_layout.worker.transform"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "src_layout",
+        "src_layout.entry",
+        "src_layout.worker"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.src_layout.worker.transform#0"
+      ],
+      "parent": null
+    },
+    {
+      "children": [],
+      "id": "src_layout",
+      "kind": "module",
+      "name": "src_layout",
+      "nodes": [],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "src_layout.entry.main"
+      ],
+      "id": "src_layout.entry",
+      "kind": "module",
+      "name": "src_layout.entry",
+      "nodes": [
+        "src_layout.entry.transform#0",
+        "src_layout.entry.__binding_transform__#1",
+        "src_layout.entry.__binding_main__#2"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "src_layout.entry.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "src_layout.entry.main.value#0",
+        "src_layout.entry.main.__call_transform_0__#1",
+        "src_layout.entry.main.__return_0__#2",
+        "src_layout.entry.main.__binding_value__#3"
+      ],
+      "parent": "src_layout.entry"
+    },
+    {
+      "children": [
+        "src_layout.worker.transform"
+      ],
+      "id": "src_layout.worker",
+      "kind": "module",
+      "name": "src_layout.worker",
+      "nodes": [
+        "src_layout.worker.__binding_transform__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "src_layout.worker.transform",
+      "kind": "function",
+      "name": "transform",
+      "nodes": [
+        "src_layout.worker.transform.value#0",
+        "src_layout.worker.transform.__op_0__#1",
+        "src_layout.worker.transform.__return_0__#2",
+        "src_layout.worker.transform.__binding_value__#3"
+      ],
+      "parent": "src_layout.worker"
+    }
+  ],
+  "version": "0.1.0"
+}

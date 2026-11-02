@@ -1,0 +1,42 @@
+digraph {
+  rankdir=LR;
+  compound=true;
+  node [fontname="monospace"];
+
+  subgraph cluster_n0 {
+    label="__root__\n(root)";
+    style=rounded;
+    n0 [style=invis];
+
+    subgraph cluster_n1 {
+      label="source_encodings.latin1\n(module)";
+      style=rounded;
+      n1 [style=invis];
+      n2 [label="message"];
+      n3 [label="message" shape=box style="rounded,filled" fillcolor=lightyellow];
+    }
+
+
+    subgraph cluster_n4 {
+      label="source_encodings.utf8\n(module)";
+      style=rounded;
+      n4 [style=invis];
+      n5 [label="message"];
+      n6 [label="message" shape=box style="rounded,filled" fillcolor=lightyellow];
+    }
+
+
+    subgraph cluster_n7 {
+      label="source_encodings.utf8_bom\n(module)";
+      style=rounded;
+      n7 [style=invis];
+      n8 [label="message"];
+      n9 [label="message" shape=box style="rounded,filled" fillcolor=lightyellow];
+    }
+
+  }
+
+  n3 -> n2 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n6 -> n5 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n9 -> n8 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+}

@@ -1,0 +1,206 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.namespace#0",
+      "target": "module_alias_attribute_target.entry.namespace#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_alias_attribute_target.entry.__binding_module_alias__#3",
+      "target": "module_alias_attribute_target.entry.module_alias#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_alias_attribute_target.entry.__binding_namespace__#2",
+      "target": "module_alias_attribute_target.entry.namespace#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_alias_attribute_target.entry.namespace#0",
+      "target": "module_alias_attribute_target.entry.module_alias#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_alias_attribute_target.namespace.worker.__binding_VALUE__#1",
+      "target": "module_alias_attribute_target.namespace.worker.VALUE#0"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "namespace",
+      "id": "__root__.namespace#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "namespace",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.namespace#0"
+      ],
+      "display_name": "namespace",
+      "id": "module_alias_attribute_target.entry.namespace#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "namespace",
+      "scope": "module_alias_attribute_target.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "module_alias_attribute_target.entry.namespace#0"
+      ],
+      "display_name": "module_alias",
+      "id": "module_alias_attribute_target.entry.module_alias#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "module_alias",
+      "scope": "module_alias_attribute_target.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "namespace",
+      "id": "module_alias_attribute_target.entry.__binding_namespace__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_namespace__",
+      "scope": "module_alias_attribute_target.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "module_alias",
+      "id": "module_alias_attribute_target.entry.__binding_module_alias__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_module_alias__",
+      "scope": "module_alias_attribute_target.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "VALUE",
+      "id": "module_alias_attribute_target.namespace.worker.VALUE#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "VALUE",
+      "scope": "module_alias_attribute_target.namespace.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "VALUE",
+      "id": "module_alias_attribute_target.namespace.worker.__binding_VALUE__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_VALUE__",
+      "scope": "module_alias_attribute_target.namespace.worker"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "module_alias_attribute_target.entry",
+        "module_alias_attribute_target.namespace.worker"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.namespace#0"
+      ],
+      "parent": null
+    },
+    {
+      "children": [],
+      "id": "module_alias_attribute_target.entry",
+      "kind": "module",
+      "name": "module_alias_attribute_target.entry",
+      "nodes": [
+        "module_alias_attribute_target.entry.namespace#0",
+        "module_alias_attribute_target.entry.module_alias#1",
+        "module_alias_attribute_target.entry.__binding_namespace__#2",
+        "module_alias_attribute_target.entry.__binding_module_alias__#3"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "module_alias_attribute_target.namespace.worker",
+      "kind": "module",
+      "name": "module_alias_attribute_target.namespace.worker",
+      "nodes": [
+        "module_alias_attribute_target.namespace.worker.VALUE#0",
+        "module_alias_attribute_target.namespace.worker.__binding_VALUE__#1"
+      ],
+      "parent": "__root__"
+    }
+  ],
+  "version": "0.1.0"
+}

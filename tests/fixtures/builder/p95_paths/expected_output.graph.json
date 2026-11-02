@@ -1,0 +1,436 @@
+{
+  "edges": [
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "main",
+      "target": "__module__.__binding_main__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "main.__binding_deep__#11",
+      "target": "main.deep#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "main.__binding_deep__#11",
+      "target": "main.deep#4"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "main.__binding_deep__#11",
+      "target": "main.deep#6"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "main.__binding_seed__#9",
+      "target": "main.seed#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "main.__binding_shallow__#10",
+      "target": "main.shallow#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "main.__op_0__#3",
+      "target": "main.deep#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "main.__op_1__#5",
+      "target": "main.deep#6"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "main.__op_2__#7",
+      "target": "main.__return_0__#8"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "main.deep#2",
+      "target": "main.__op_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "main.deep#4",
+      "target": "main.__op_1__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "main.deep#6",
+      "target": "main.__op_2__#7"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "main.seed#0",
+      "target": "main.deep#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "main.seed#0",
+      "target": "main.shallow#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "main.shallow#1",
+      "target": "main.__op_2__#7"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "__module__.__binding_main__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "__module__"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "seed",
+      "id": "main.seed#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "seed",
+      "scope": "main"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "main.seed#0"
+      ],
+      "display_name": "shallow",
+      "id": "main.shallow#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "shallow",
+      "scope": "main"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "main.seed#0"
+      ],
+      "display_name": "deep v1",
+      "id": "main.deep#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "deep",
+      "scope": "main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "main.deep#2"
+      ],
+      "display_name": "deep + 1",
+      "id": "main.__op_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__op_0__",
+      "operation_type": "transform",
+      "scope": "main"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "main.__op_0__#3"
+      ],
+      "display_name": "deep v2",
+      "id": "main.deep#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "deep",
+      "scope": "main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "main.deep#4"
+      ],
+      "display_name": "deep + 2",
+      "id": "main.__op_1__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__op_1__",
+      "operation_type": "transform",
+      "scope": "main"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "main.__op_1__#5"
+      ],
+      "display_name": "deep v3",
+      "id": "main.deep#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "deep",
+      "scope": "main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "main.deep#6",
+        "main.shallow#1"
+      ],
+      "display_name": "shallow + deep",
+      "id": "main.__op_2__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__op_2__",
+      "operation_type": "transform",
+      "scope": "main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "main.__op_2__#7"
+      ],
+      "display_name": "return shallow + deep",
+      "id": "main.__return_0__#8",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "seed",
+      "id": "main.__binding_seed__#9",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_seed__",
+      "scope": "main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "shallow",
+      "id": "main.__binding_shallow__#10",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_shallow__",
+      "scope": "main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "deep",
+      "id": "main.__binding_deep__#11",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_deep__",
+      "scope": "main"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "__module__"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [],
+      "parent": null
+    },
+    {
+      "children": [
+        "main"
+      ],
+      "id": "__module__",
+      "kind": "module",
+      "name": "__module__",
+      "nodes": [
+        "__module__.__binding_main__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "main.seed#0",
+        "main.shallow#1",
+        "main.deep#2",
+        "main.__op_0__#3",
+        "main.deep#4",
+        "main.__op_1__#5",
+        "main.deep#6",
+        "main.__op_2__#7",
+        "main.__return_0__#8",
+        "main.__binding_seed__#9",
+        "main.__binding_shallow__#10",
+        "main.__binding_deep__#11"
+      ],
+      "parent": "__module__"
+    }
+  ],
+  "version": "0.1.0"
+}

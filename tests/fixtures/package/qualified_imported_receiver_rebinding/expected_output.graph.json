@@ -1,0 +1,2089 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.qualified_imported_receiver_rebinding.worker#0",
+      "target": "qualified_imported_receiver_rebinding.entry.worker#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.qualified_imported_receiver_rebinding.worker.A#1",
+      "target": "qualified_imported_receiver_rebinding.entry.keyword_argument.__call_worker.A_7__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.qualified_imported_receiver_rebinding.worker.A#1",
+      "target": "qualified_imported_receiver_rebinding.entry.main.__call_worker.A_1__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.qualified_imported_receiver_rebinding.worker.A#1",
+      "target": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__call_worker.A_20__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.qualified_imported_receiver_rebinding.worker.A.run#3",
+      "target": "qualified_imported_receiver_rebinding.entry.keyword_argument.__call_receiver.run_11__#7"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.qualified_imported_receiver_rebinding.worker.A.run#3",
+      "target": "qualified_imported_receiver_rebinding.entry.main.__call_receiver.run_5__#7"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.qualified_imported_receiver_rebinding.worker.B#2",
+      "target": "qualified_imported_receiver_rebinding.entry.keyword_argument.__call_worker.B_10__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.qualified_imported_receiver_rebinding.worker.B#2",
+      "target": "qualified_imported_receiver_rebinding.entry.main.__call_worker.B_4__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.qualified_imported_receiver_rebinding.worker.B#2",
+      "target": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__call_worker.B_17__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.qualified_imported_receiver_rebinding.worker.B#2",
+      "target": "qualified_imported_receiver_rebinding.entry.unbound_receiver.__call_worker.B_14__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.qualified_imported_receiver_rebinding.worker.B.run#4",
+      "target": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__call_receiver.run_21__#7"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.__binding_worker__#1",
+      "target": "qualified_imported_receiver_rebinding.entry.worker#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.keyword_argument",
+      "target": "qualified_imported_receiver_rebinding.entry.__binding_keyword_argument__#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.keyword_argument.__binding_receiver__#9",
+      "target": "qualified_imported_receiver_rebinding.entry.keyword_argument.receiver#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.keyword_argument.__binding_receiver__#9",
+      "target": "qualified_imported_receiver_rebinding.entry.keyword_argument.receiver#6"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.keyword_argument.__call_receiver.run_11__#7",
+      "target": "qualified_imported_receiver_rebinding.entry.keyword_argument.__return_0__#8"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.keyword_argument.__call_worker.A_7__#1",
+      "target": "qualified_imported_receiver_rebinding.entry.keyword_argument.receiver#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.keyword_argument.__call_worker.B_10__#5",
+      "target": "qualified_imported_receiver_rebinding.entry.keyword_argument.receiver#6"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.keyword_argument.__ref_6__#0",
+      "target": "qualified_imported_receiver_rebinding.entry.keyword_argument.__call_worker.A_7__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.keyword_argument.__ref_8__#3",
+      "target": "qualified_imported_receiver_rebinding.entry.keyword_argument.__call_receiver.run_11__#7"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.keyword_argument.__ref_9__#4",
+      "target": "qualified_imported_receiver_rebinding.entry.keyword_argument.__call_worker.B_10__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "qualified_imported_receiver_rebinding.entry.keyword_argument.receiver#2",
+      "target": "qualified_imported_receiver_rebinding.entry.keyword_argument.__ref_8__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "qualified_imported_receiver_rebinding.entry.keyword_argument.receiver#6",
+      "target": "qualified_imported_receiver_rebinding.entry.keyword_argument.__call_receiver.run_11__#7"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.main",
+      "target": "qualified_imported_receiver_rebinding.entry.__binding_main__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.main.__binding_receiver__#9",
+      "target": "qualified_imported_receiver_rebinding.entry.main.receiver#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.main.__binding_receiver__#9",
+      "target": "qualified_imported_receiver_rebinding.entry.main.receiver#6"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.main.__call_receiver.run_5__#7",
+      "target": "qualified_imported_receiver_rebinding.entry.main.__return_0__#8"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.main.__call_worker.A_1__#1",
+      "target": "qualified_imported_receiver_rebinding.entry.main.receiver#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.main.__call_worker.B_4__#5",
+      "target": "qualified_imported_receiver_rebinding.entry.main.receiver#6"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.main.__ref_0__#0",
+      "target": "qualified_imported_receiver_rebinding.entry.main.__call_worker.A_1__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.main.__ref_2__#3",
+      "target": "qualified_imported_receiver_rebinding.entry.main.__call_receiver.run_5__#7"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.main.__ref_3__#4",
+      "target": "qualified_imported_receiver_rebinding.entry.main.__call_worker.B_4__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "qualified_imported_receiver_rebinding.entry.main.receiver#2",
+      "target": "qualified_imported_receiver_rebinding.entry.main.__ref_2__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "qualified_imported_receiver_rebinding.entry.main.receiver#6",
+      "target": "qualified_imported_receiver_rebinding.entry.main.__call_receiver.run_5__#7"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.reverse_rebinding",
+      "target": "qualified_imported_receiver_rebinding.entry.__binding_reverse_rebinding__#5"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__binding_receiver__#9",
+      "target": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.receiver#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__binding_receiver__#9",
+      "target": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.receiver#6"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__call_receiver.run_21__#7",
+      "target": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__return_0__#8"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__call_worker.A_20__#5",
+      "target": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.receiver#6"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__call_worker.B_17__#1",
+      "target": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.receiver#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__ref_16__#0",
+      "target": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__call_worker.B_17__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__ref_18__#3",
+      "target": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__call_receiver.run_21__#7"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__ref_19__#4",
+      "target": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__call_worker.A_20__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.receiver#2",
+      "target": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__ref_18__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.receiver#6",
+      "target": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__call_receiver.run_21__#7"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.unbound_receiver",
+      "target": "qualified_imported_receiver_rebinding.entry.__binding_unbound_receiver__#4"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.unbound_receiver.__binding_receiver__#7",
+      "target": "qualified_imported_receiver_rebinding.entry.unbound_receiver.receiver#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.unbound_receiver.__call_receiver.run_15__#4",
+      "target": "qualified_imported_receiver_rebinding.entry.unbound_receiver.__return_0__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.unbound_receiver.__call_worker.B_14__#2",
+      "target": "qualified_imported_receiver_rebinding.entry.unbound_receiver.receiver#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.unbound_receiver.__ref_12__#0",
+      "target": "qualified_imported_receiver_rebinding.entry.unbound_receiver.__call_receiver.run_15__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.entry.unbound_receiver.__ref_13__#1",
+      "target": "qualified_imported_receiver_rebinding.entry.unbound_receiver.__call_worker.B_14__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "qualified_imported_receiver_rebinding.entry.unbound_receiver.receiver#3",
+      "target": "qualified_imported_receiver_rebinding.entry.unbound_receiver.__call_receiver.run_15__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "qualified_imported_receiver_rebinding.entry.unbound_receiver.receiver#6",
+      "target": "qualified_imported_receiver_rebinding.entry.unbound_receiver.__ref_12__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "qualified_imported_receiver_rebinding.entry.worker#0",
+      "target": "qualified_imported_receiver_rebinding.entry.keyword_argument.__ref_6__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "qualified_imported_receiver_rebinding.entry.worker#0",
+      "target": "qualified_imported_receiver_rebinding.entry.keyword_argument.__ref_9__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "qualified_imported_receiver_rebinding.entry.worker#0",
+      "target": "qualified_imported_receiver_rebinding.entry.main.__ref_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "qualified_imported_receiver_rebinding.entry.worker#0",
+      "target": "qualified_imported_receiver_rebinding.entry.main.__ref_3__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "qualified_imported_receiver_rebinding.entry.worker#0",
+      "target": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__ref_16__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "qualified_imported_receiver_rebinding.entry.worker#0",
+      "target": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__ref_19__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "qualified_imported_receiver_rebinding.entry.worker#0",
+      "target": "qualified_imported_receiver_rebinding.entry.unbound_receiver.__ref_13__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.worker",
+      "target": "__root__.qualified_imported_receiver_rebinding.worker#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.worker.A",
+      "target": "__root__.qualified_imported_receiver_rebinding.worker.A#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.worker.A",
+      "target": "qualified_imported_receiver_rebinding.worker.__binding_A__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.worker.A.run",
+      "target": "__root__.qualified_imported_receiver_rebinding.worker.A.run#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.worker.A.run",
+      "target": "qualified_imported_receiver_rebinding.worker.A.__binding_run__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.worker.A.run.__binding_self__#3",
+      "target": "qualified_imported_receiver_rebinding.worker.A.run.self#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.worker.A.run.__binding_value__#4",
+      "target": "qualified_imported_receiver_rebinding.worker.A.run.value#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.worker.A.run.__return_0__#2",
+      "target": "qualified_imported_receiver_rebinding.entry.keyword_argument.__call_receiver.run_11__#7"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.worker.A.run.__return_0__#2",
+      "target": "qualified_imported_receiver_rebinding.entry.main.__call_receiver.run_5__#7"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.worker.B",
+      "target": "__root__.qualified_imported_receiver_rebinding.worker.B#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.worker.B",
+      "target": "qualified_imported_receiver_rebinding.worker.__binding_B__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.worker.B.run",
+      "target": "__root__.qualified_imported_receiver_rebinding.worker.B.run#4"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.worker.B.run",
+      "target": "qualified_imported_receiver_rebinding.worker.B.__binding_run__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.worker.B.run.__binding_self__#3",
+      "target": "qualified_imported_receiver_rebinding.worker.B.run.self#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.worker.B.run.__binding_value__#4",
+      "target": "qualified_imported_receiver_rebinding.worker.B.run.value#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "qualified_imported_receiver_rebinding.worker.B.run.__return_0__#2",
+      "target": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__call_receiver.run_21__#7"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.worker"
+      ],
+      "display_name": "qualified_imported_receiver_rebinding.worker",
+      "id": "__root__.qualified_imported_receiver_rebinding.worker#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "qualified_imported_receiver_rebinding.worker",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.worker.A"
+      ],
+      "display_name": "qualified_imported_receiver_rebinding.worker.A",
+      "id": "__root__.qualified_imported_receiver_rebinding.worker.A#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "qualified_imported_receiver_rebinding.worker.A",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.worker.B"
+      ],
+      "display_name": "qualified_imported_receiver_rebinding.worker.B",
+      "id": "__root__.qualified_imported_receiver_rebinding.worker.B#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "qualified_imported_receiver_rebinding.worker.B",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.worker.A.run"
+      ],
+      "display_name": "qualified_imported_receiver_rebinding.worker.A.run",
+      "id": "__root__.qualified_imported_receiver_rebinding.worker.A.run#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "qualified_imported_receiver_rebinding.worker.A.run",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.worker.B.run"
+      ],
+      "display_name": "qualified_imported_receiver_rebinding.worker.B.run",
+      "id": "__root__.qualified_imported_receiver_rebinding.worker.B.run#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "qualified_imported_receiver_rebinding.worker.B.run",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.qualified_imported_receiver_rebinding.worker#0"
+      ],
+      "display_name": "worker",
+      "id": "qualified_imported_receiver_rebinding.entry.worker#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "worker",
+      "scope": "qualified_imported_receiver_rebinding.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "worker",
+      "id": "qualified_imported_receiver_rebinding.entry.__binding_worker__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_worker__",
+      "scope": "qualified_imported_receiver_rebinding.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "qualified_imported_receiver_rebinding.entry.__binding_main__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "qualified_imported_receiver_rebinding.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "keyword_argument",
+      "id": "qualified_imported_receiver_rebinding.entry.__binding_keyword_argument__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_keyword_argument__",
+      "scope": "qualified_imported_receiver_rebinding.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "unbound_receiver",
+      "id": "qualified_imported_receiver_rebinding.entry.__binding_unbound_receiver__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_unbound_receiver__",
+      "scope": "qualified_imported_receiver_rebinding.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "reverse_rebinding",
+      "id": "qualified_imported_receiver_rebinding.entry.__binding_reverse_rebinding__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_reverse_rebinding__",
+      "scope": "qualified_imported_receiver_rebinding.entry"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.entry.worker#0"
+      ],
+      "display_name": "worker.A",
+      "id": "qualified_imported_receiver_rebinding.entry.main.__ref_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_0__",
+      "scope": "qualified_imported_receiver_rebinding.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "__root__.qualified_imported_receiver_rebinding.worker.A#1",
+        "qualified_imported_receiver_rebinding.entry.main.__ref_0__#0"
+      ],
+      "display_name": "worker.A()",
+      "id": "qualified_imported_receiver_rebinding.entry.main.__call_worker.A_1__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_worker.A_1__",
+      "scope": "qualified_imported_receiver_rebinding.entry.main"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.entry.main.__call_worker.A_1__#1"
+      ],
+      "display_name": "receiver v1",
+      "id": "qualified_imported_receiver_rebinding.entry.main.receiver#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "receiver",
+      "scope": "qualified_imported_receiver_rebinding.entry.main"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.entry.main.receiver#2"
+      ],
+      "display_name": "receiver.run",
+      "id": "qualified_imported_receiver_rebinding.entry.main.__ref_2__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_2__",
+      "scope": "qualified_imported_receiver_rebinding.entry.main"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.entry.worker#0"
+      ],
+      "display_name": "worker.B",
+      "id": "qualified_imported_receiver_rebinding.entry.main.__ref_3__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_3__",
+      "scope": "qualified_imported_receiver_rebinding.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "__root__.qualified_imported_receiver_rebinding.worker.B#2",
+        "qualified_imported_receiver_rebinding.entry.main.__ref_3__#4"
+      ],
+      "display_name": "worker.B()",
+      "id": "qualified_imported_receiver_rebinding.entry.main.__call_worker.B_4__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_worker.B_4__",
+      "scope": "qualified_imported_receiver_rebinding.entry.main"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.entry.main.__call_worker.B_4__#5"
+      ],
+      "display_name": "receiver v2",
+      "id": "qualified_imported_receiver_rebinding.entry.main.receiver#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "receiver",
+      "scope": "qualified_imported_receiver_rebinding.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "__root__.qualified_imported_receiver_rebinding.worker.A.run#3",
+        "qualified_imported_receiver_rebinding.entry.main.__ref_2__#3",
+        "qualified_imported_receiver_rebinding.entry.main.receiver#6",
+        "qualified_imported_receiver_rebinding.worker.A.run.__return_0__#2"
+      ],
+      "display_name": "receiver.run()",
+      "id": "qualified_imported_receiver_rebinding.entry.main.__call_receiver.run_5__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_receiver.run_5__",
+      "scope": "qualified_imported_receiver_rebinding.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.entry.main.__call_receiver.run_5__#7"
+      ],
+      "display_name": "return receiver.run((receiver := worker.B()))",
+      "id": "qualified_imported_receiver_rebinding.entry.main.__return_0__#8",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "qualified_imported_receiver_rebinding.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "receiver",
+      "id": "qualified_imported_receiver_rebinding.entry.main.__binding_receiver__#9",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_receiver__",
+      "scope": "qualified_imported_receiver_rebinding.entry.main"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.entry.worker#0"
+      ],
+      "display_name": "worker.A",
+      "id": "qualified_imported_receiver_rebinding.entry.keyword_argument.__ref_6__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_6__",
+      "scope": "qualified_imported_receiver_rebinding.entry.keyword_argument"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "__root__.qualified_imported_receiver_rebinding.worker.A#1",
+        "qualified_imported_receiver_rebinding.entry.keyword_argument.__ref_6__#0"
+      ],
+      "display_name": "worker.A()",
+      "id": "qualified_imported_receiver_rebinding.entry.keyword_argument.__call_worker.A_7__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_worker.A_7__",
+      "scope": "qualified_imported_receiver_rebinding.entry.keyword_argument"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.entry.keyword_argument.__call_worker.A_7__#1"
+      ],
+      "display_name": "receiver v1",
+      "id": "qualified_imported_receiver_rebinding.entry.keyword_argument.receiver#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "receiver",
+      "scope": "qualified_imported_receiver_rebinding.entry.keyword_argument"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.entry.keyword_argument.receiver#2"
+      ],
+      "display_name": "receiver.run",
+      "id": "qualified_imported_receiver_rebinding.entry.keyword_argument.__ref_8__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_8__",
+      "scope": "qualified_imported_receiver_rebinding.entry.keyword_argument"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.entry.worker#0"
+      ],
+      "display_name": "worker.B",
+      "id": "qualified_imported_receiver_rebinding.entry.keyword_argument.__ref_9__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_9__",
+      "scope": "qualified_imported_receiver_rebinding.entry.keyword_argument"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "__root__.qualified_imported_receiver_rebinding.worker.B#2",
+        "qualified_imported_receiver_rebinding.entry.keyword_argument.__ref_9__#4"
+      ],
+      "display_name": "worker.B()",
+      "id": "qualified_imported_receiver_rebinding.entry.keyword_argument.__call_worker.B_10__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_worker.B_10__",
+      "scope": "qualified_imported_receiver_rebinding.entry.keyword_argument"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.entry.keyword_argument.__call_worker.B_10__#5"
+      ],
+      "display_name": "receiver v2",
+      "id": "qualified_imported_receiver_rebinding.entry.keyword_argument.receiver#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "receiver",
+      "scope": "qualified_imported_receiver_rebinding.entry.keyword_argument"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "__root__.qualified_imported_receiver_rebinding.worker.A.run#3",
+        "qualified_imported_receiver_rebinding.entry.keyword_argument.__ref_8__#3",
+        "qualified_imported_receiver_rebinding.entry.keyword_argument.receiver#6",
+        "qualified_imported_receiver_rebinding.worker.A.run.__return_0__#2"
+      ],
+      "display_name": "receiver.run()",
+      "id": "qualified_imported_receiver_rebinding.entry.keyword_argument.__call_receiver.run_11__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_receiver.run_11__",
+      "scope": "qualified_imported_receiver_rebinding.entry.keyword_argument"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.entry.keyword_argument.__call_receiver.run_11__#7"
+      ],
+      "display_name": "return receiver.run(value=(receiver := worker.B()))",
+      "id": "qualified_imported_receiver_rebinding.entry.keyword_argument.__return_0__#8",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "qualified_imported_receiver_rebinding.entry.keyword_argument"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "receiver",
+      "id": "qualified_imported_receiver_rebinding.entry.keyword_argument.__binding_receiver__#9",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_receiver__",
+      "scope": "qualified_imported_receiver_rebinding.entry.keyword_argument"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.entry.unbound_receiver.receiver#6"
+      ],
+      "display_name": "receiver.run",
+      "id": "qualified_imported_receiver_rebinding.entry.unbound_receiver.__ref_12__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_12__",
+      "scope": "qualified_imported_receiver_rebinding.entry.unbound_receiver"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.entry.worker#0"
+      ],
+      "display_name": "worker.B",
+      "id": "qualified_imported_receiver_rebinding.entry.unbound_receiver.__ref_13__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_13__",
+      "scope": "qualified_imported_receiver_rebinding.entry.unbound_receiver"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "__root__.qualified_imported_receiver_rebinding.worker.B#2",
+        "qualified_imported_receiver_rebinding.entry.unbound_receiver.__ref_13__#1"
+      ],
+      "display_name": "worker.B()",
+      "id": "qualified_imported_receiver_rebinding.entry.unbound_receiver.__call_worker.B_14__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_worker.B_14__",
+      "scope": "qualified_imported_receiver_rebinding.entry.unbound_receiver"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.entry.unbound_receiver.__call_worker.B_14__#2"
+      ],
+      "display_name": "receiver",
+      "id": "qualified_imported_receiver_rebinding.entry.unbound_receiver.receiver#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "receiver",
+      "scope": "qualified_imported_receiver_rebinding.entry.unbound_receiver"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.entry.unbound_receiver.__ref_12__#0",
+        "qualified_imported_receiver_rebinding.entry.unbound_receiver.receiver#3"
+      ],
+      "display_name": "receiver.run()",
+      "id": "qualified_imported_receiver_rebinding.entry.unbound_receiver.__call_receiver.run_15__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_receiver.run_15__",
+      "scope": "qualified_imported_receiver_rebinding.entry.unbound_receiver"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.entry.unbound_receiver.__call_receiver.run_15__#4"
+      ],
+      "display_name": "return receiver.run((receiver := worker.B()))",
+      "id": "qualified_imported_receiver_rebinding.entry.unbound_receiver.__return_0__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "qualified_imported_receiver_rebinding.entry.unbound_receiver"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "receiver",
+      "id": "qualified_imported_receiver_rebinding.entry.unbound_receiver.receiver#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "receiver",
+      "scope": "qualified_imported_receiver_rebinding.entry.unbound_receiver"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "receiver",
+      "id": "qualified_imported_receiver_rebinding.entry.unbound_receiver.__binding_receiver__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_receiver__",
+      "scope": "qualified_imported_receiver_rebinding.entry.unbound_receiver"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.entry.worker#0"
+      ],
+      "display_name": "worker.B",
+      "id": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__ref_16__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_16__",
+      "scope": "qualified_imported_receiver_rebinding.entry.reverse_rebinding"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "__root__.qualified_imported_receiver_rebinding.worker.B#2",
+        "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__ref_16__#0"
+      ],
+      "display_name": "worker.B()",
+      "id": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__call_worker.B_17__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_worker.B_17__",
+      "scope": "qualified_imported_receiver_rebinding.entry.reverse_rebinding"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__call_worker.B_17__#1"
+      ],
+      "display_name": "receiver v1",
+      "id": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.receiver#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "receiver",
+      "scope": "qualified_imported_receiver_rebinding.entry.reverse_rebinding"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.entry.reverse_rebinding.receiver#2"
+      ],
+      "display_name": "receiver.run",
+      "id": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__ref_18__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_18__",
+      "scope": "qualified_imported_receiver_rebinding.entry.reverse_rebinding"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.entry.worker#0"
+      ],
+      "display_name": "worker.A",
+      "id": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__ref_19__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_19__",
+      "scope": "qualified_imported_receiver_rebinding.entry.reverse_rebinding"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "__root__.qualified_imported_receiver_rebinding.worker.A#1",
+        "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__ref_19__#4"
+      ],
+      "display_name": "worker.A()",
+      "id": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__call_worker.A_20__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_worker.A_20__",
+      "scope": "qualified_imported_receiver_rebinding.entry.reverse_rebinding"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__call_worker.A_20__#5"
+      ],
+      "display_name": "receiver v2",
+      "id": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.receiver#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "receiver",
+      "scope": "qualified_imported_receiver_rebinding.entry.reverse_rebinding"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "__root__.qualified_imported_receiver_rebinding.worker.B.run#4",
+        "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__ref_18__#3",
+        "qualified_imported_receiver_rebinding.entry.reverse_rebinding.receiver#6",
+        "qualified_imported_receiver_rebinding.worker.B.run.__return_0__#2"
+      ],
+      "display_name": "receiver.run()",
+      "id": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__call_receiver.run_21__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_receiver.run_21__",
+      "scope": "qualified_imported_receiver_rebinding.entry.reverse_rebinding"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__call_receiver.run_21__#7"
+      ],
+      "display_name": "return receiver.run((receiver := worker.A()))",
+      "id": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__return_0__#8",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "qualified_imported_receiver_rebinding.entry.reverse_rebinding"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "receiver",
+      "id": "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__binding_receiver__#9",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_receiver__",
+      "scope": "qualified_imported_receiver_rebinding.entry.reverse_rebinding"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "A",
+      "id": "qualified_imported_receiver_rebinding.worker.__binding_A__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_A__",
+      "scope": "qualified_imported_receiver_rebinding.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "B",
+      "id": "qualified_imported_receiver_rebinding.worker.__binding_B__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_B__",
+      "scope": "qualified_imported_receiver_rebinding.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "run",
+      "id": "qualified_imported_receiver_rebinding.worker.A.__binding_run__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_run__",
+      "scope": "qualified_imported_receiver_rebinding.worker.A"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "self",
+      "id": "qualified_imported_receiver_rebinding.worker.A.run.self#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "self",
+      "scope": "qualified_imported_receiver_rebinding.worker.A.run"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "qualified_imported_receiver_rebinding.worker.A.run.value#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "qualified_imported_receiver_rebinding.worker.A.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return 1",
+      "id": "qualified_imported_receiver_rebinding.worker.A.run.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "qualified_imported_receiver_rebinding.worker.A.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "self",
+      "id": "qualified_imported_receiver_rebinding.worker.A.run.__binding_self__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_self__",
+      "scope": "qualified_imported_receiver_rebinding.worker.A.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "qualified_imported_receiver_rebinding.worker.A.run.__binding_value__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "qualified_imported_receiver_rebinding.worker.A.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "run",
+      "id": "qualified_imported_receiver_rebinding.worker.B.__binding_run__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_run__",
+      "scope": "qualified_imported_receiver_rebinding.worker.B"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "self",
+      "id": "qualified_imported_receiver_rebinding.worker.B.run.self#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "self",
+      "scope": "qualified_imported_receiver_rebinding.worker.B.run"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "qualified_imported_receiver_rebinding.worker.B.run.value#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "qualified_imported_receiver_rebinding.worker.B.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return 2",
+      "id": "qualified_imported_receiver_rebinding.worker.B.run.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "qualified_imported_receiver_rebinding.worker.B.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "self",
+      "id": "qualified_imported_receiver_rebinding.worker.B.run.__binding_self__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_self__",
+      "scope": "qualified_imported_receiver_rebinding.worker.B.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "qualified_imported_receiver_rebinding.worker.B.run.__binding_value__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "qualified_imported_receiver_rebinding.worker.B.run"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "qualified_imported_receiver_rebinding.entry",
+        "qualified_imported_receiver_rebinding.worker"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.qualified_imported_receiver_rebinding.worker#0",
+        "__root__.qualified_imported_receiver_rebinding.worker.A#1",
+        "__root__.qualified_imported_receiver_rebinding.worker.B#2",
+        "__root__.qualified_imported_receiver_rebinding.worker.A.run#3",
+        "__root__.qualified_imported_receiver_rebinding.worker.B.run#4"
+      ],
+      "parent": null
+    },
+    {
+      "children": [
+        "qualified_imported_receiver_rebinding.entry.main",
+        "qualified_imported_receiver_rebinding.entry.keyword_argument",
+        "qualified_imported_receiver_rebinding.entry.unbound_receiver",
+        "qualified_imported_receiver_rebinding.entry.reverse_rebinding"
+      ],
+      "id": "qualified_imported_receiver_rebinding.entry",
+      "kind": "module",
+      "name": "qualified_imported_receiver_rebinding.entry",
+      "nodes": [
+        "qualified_imported_receiver_rebinding.entry.worker#0",
+        "qualified_imported_receiver_rebinding.entry.__binding_worker__#1",
+        "qualified_imported_receiver_rebinding.entry.__binding_main__#2",
+        "qualified_imported_receiver_rebinding.entry.__binding_keyword_argument__#3",
+        "qualified_imported_receiver_rebinding.entry.__binding_unbound_receiver__#4",
+        "qualified_imported_receiver_rebinding.entry.__binding_reverse_rebinding__#5"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "qualified_imported_receiver_rebinding.entry.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "qualified_imported_receiver_rebinding.entry.main.__ref_0__#0",
+        "qualified_imported_receiver_rebinding.entry.main.__call_worker.A_1__#1",
+        "qualified_imported_receiver_rebinding.entry.main.receiver#2",
+        "qualified_imported_receiver_rebinding.entry.main.__ref_2__#3",
+        "qualified_imported_receiver_rebinding.entry.main.__ref_3__#4",
+        "qualified_imported_receiver_rebinding.entry.main.__call_worker.B_4__#5",
+        "qualified_imported_receiver_rebinding.entry.main.receiver#6",
+        "qualified_imported_receiver_rebinding.entry.main.__call_receiver.run_5__#7",
+        "qualified_imported_receiver_rebinding.entry.main.__return_0__#8",
+        "qualified_imported_receiver_rebinding.entry.main.__binding_receiver__#9"
+      ],
+      "parent": "qualified_imported_receiver_rebinding.entry"
+    },
+    {
+      "children": [],
+      "id": "qualified_imported_receiver_rebinding.entry.keyword_argument",
+      "kind": "function",
+      "name": "keyword_argument",
+      "nodes": [
+        "qualified_imported_receiver_rebinding.entry.keyword_argument.__ref_6__#0",
+        "qualified_imported_receiver_rebinding.entry.keyword_argument.__call_worker.A_7__#1",
+        "qualified_imported_receiver_rebinding.entry.keyword_argument.receiver#2",
+        "qualified_imported_receiver_rebinding.entry.keyword_argument.__ref_8__#3",
+        "qualified_imported_receiver_rebinding.entry.keyword_argument.__ref_9__#4",
+        "qualified_imported_receiver_rebinding.entry.keyword_argument.__call_worker.B_10__#5",
+        "qualified_imported_receiver_rebinding.entry.keyword_argument.receiver#6",
+        "qualified_imported_receiver_rebinding.entry.keyword_argument.__call_receiver.run_11__#7",
+        "qualified_imported_receiver_rebinding.entry.keyword_argument.__return_0__#8",
+        "qualified_imported_receiver_rebinding.entry.keyword_argument.__binding_receiver__#9"
+      ],
+      "parent": "qualified_imported_receiver_rebinding.entry"
+    },
+    {
+      "children": [],
+      "id": "qualified_imported_receiver_rebinding.entry.unbound_receiver",
+      "kind": "function",
+      "name": "unbound_receiver",
+      "nodes": [
+        "qualified_imported_receiver_rebinding.entry.unbound_receiver.__ref_12__#0",
+        "qualified_imported_receiver_rebinding.entry.unbound_receiver.__ref_13__#1",
+        "qualified_imported_receiver_rebinding.entry.unbound_receiver.__call_worker.B_14__#2",
+        "qualified_imported_receiver_rebinding.entry.unbound_receiver.receiver#3",
+        "qualified_imported_receiver_rebinding.entry.unbound_receiver.__call_receiver.run_15__#4",
+        "qualified_imported_receiver_rebinding.entry.unbound_receiver.__return_0__#5",
+        "qualified_imported_receiver_rebinding.entry.unbound_receiver.receiver#6",
+        "qualified_imported_receiver_rebinding.entry.unbound_receiver.__binding_receiver__#7"
+      ],
+      "parent": "qualified_imported_receiver_rebinding.entry"
+    },
+    {
+      "children": [],
+      "id": "qualified_imported_receiver_rebinding.entry.reverse_rebinding",
+      "kind": "function",
+      "name": "reverse_rebinding",
+      "nodes": [
+        "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__ref_16__#0",
+        "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__call_worker.B_17__#1",
+        "qualified_imported_receiver_rebinding.entry.reverse_rebinding.receiver#2",
+        "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__ref_18__#3",
+        "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__ref_19__#4",
+        "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__call_worker.A_20__#5",
+        "qualified_imported_receiver_rebinding.entry.reverse_rebinding.receiver#6",
+        "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__call_receiver.run_21__#7",
+        "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__return_0__#8",
+        "qualified_imported_receiver_rebinding.entry.reverse_rebinding.__binding_receiver__#9"
+      ],
+      "parent": "qualified_imported_receiver_rebinding.entry"
+    },
+    {
+      "children": [
+        "qualified_imported_receiver_rebinding.worker.A",
+        "qualified_imported_receiver_rebinding.worker.B"
+      ],
+      "id": "qualified_imported_receiver_rebinding.worker",
+      "kind": "module",
+      "name": "qualified_imported_receiver_rebinding.worker",
+      "nodes": [
+        "qualified_imported_receiver_rebinding.worker.__binding_A__#0",
+        "qualified_imported_receiver_rebinding.worker.__binding_B__#1"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "qualified_imported_receiver_rebinding.worker.A.run"
+      ],
+      "id": "qualified_imported_receiver_rebinding.worker.A",
+      "kind": "class",
+      "name": "A",
+      "nodes": [
+        "qualified_imported_receiver_rebinding.worker.A.__binding_run__#0"
+      ],
+      "parent": "qualified_imported_receiver_rebinding.worker"
+    },
+    {
+      "children": [],
+      "id": "qualified_imported_receiver_rebinding.worker.A.run",
+      "kind": "function",
+      "name": "run",
+      "nodes": [
+        "qualified_imported_receiver_rebinding.worker.A.run.self#0",
+        "qualified_imported_receiver_rebinding.worker.A.run.value#1",
+        "qualified_imported_receiver_rebinding.worker.A.run.__return_0__#2",
+        "qualified_imported_receiver_rebinding.worker.A.run.__binding_self__#3",
+        "qualified_imported_receiver_rebinding.worker.A.run.__binding_value__#4"
+      ],
+      "parent": "qualified_imported_receiver_rebinding.worker.A"
+    },
+    {
+      "children": [
+        "qualified_imported_receiver_rebinding.worker.B.run"
+      ],
+      "id": "qualified_imported_receiver_rebinding.worker.B",
+      "kind": "class",
+      "name": "B",
+      "nodes": [
+        "qualified_imported_receiver_rebinding.worker.B.__binding_run__#0"
+      ],
+      "parent": "qualified_imported_receiver_rebinding.worker"
+    },
+    {
+      "children": [],
+      "id": "qualified_imported_receiver_rebinding.worker.B.run",
+      "kind": "function",
+      "name": "run",
+      "nodes": [
+        "qualified_imported_receiver_rebinding.worker.B.run.self#0",
+        "qualified_imported_receiver_rebinding.worker.B.run.value#1",
+        "qualified_imported_receiver_rebinding.worker.B.run.__return_0__#2",
+        "qualified_imported_receiver_rebinding.worker.B.run.__binding_self__#3",
+        "qualified_imported_receiver_rebinding.worker.B.run.__binding_value__#4"
+      ],
+      "parent": "qualified_imported_receiver_rebinding.worker.B"
+    }
+  ],
+  "version": "0.1.0"
+}

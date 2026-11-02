@@ -1,0 +1,218 @@
+{
+  "edges": [
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "builtins.__binding_super__#1",
+      "target": "builtins.super#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "builtins.super#0",
+      "target": "invoke.__call_super_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "invoke",
+      "target": "__module__.__binding_invoke__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "invoke.__binding_value__#3",
+      "target": "invoke.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "invoke.__call_super_0__#1",
+      "target": "invoke.__return_0__#2"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "invoke",
+      "id": "__module__.__binding_invoke__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_invoke__",
+      "scope": "__module__"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "invoke.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "invoke"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "builtins.super#0"
+      ],
+      "display_name": "super()",
+      "id": "invoke.__call_super_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_super_0__",
+      "scope": "invoke"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "invoke.__call_super_0__#1"
+      ],
+      "display_name": "return super()",
+      "id": "invoke.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "invoke"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "invoke.__binding_value__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "invoke"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "super",
+      "id": "builtins.super#0",
+      "is_builtin": true,
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "super",
+      "scope": "builtins"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "super",
+      "id": "builtins.__binding_super__#1",
+      "is_builtin": true,
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_super__",
+      "scope": "builtins"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "__module__",
+        "builtins"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [],
+      "parent": null
+    },
+    {
+      "children": [
+        "invoke"
+      ],
+      "id": "__module__",
+      "kind": "module",
+      "name": "__module__",
+      "nodes": [
+        "__module__.__binding_invoke__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "invoke",
+      "kind": "function",
+      "name": "invoke",
+      "nodes": [
+        "invoke.value#0",
+        "invoke.__call_super_0__#1",
+        "invoke.__return_0__#2",
+        "invoke.__binding_value__#3"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "builtins",
+      "kind": "builtins",
+      "name": "builtins",
+      "nodes": [
+        "builtins.super#0",
+        "builtins.__binding_super__#1"
+      ],
+      "parent": "__root__"
+    }
+  ],
+  "version": "0.1.0"
+}

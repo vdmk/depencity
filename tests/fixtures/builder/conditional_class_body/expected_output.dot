@@ -1,0 +1,129 @@
+digraph {
+  rankdir=LR;
+  compound=true;
+  node [fontname="monospace"];
+
+  subgraph cluster_n0 {
+    label="__root__\n(root)";
+    style=rounded;
+    n0 [style=invis];
+
+    subgraph cluster_n1 {
+      label="__module__\n(module)";
+      style=rounded;
+      n1 [style=invis];
+      n2 [label="main" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+      subgraph cluster_n3 {
+        label="main\n(function)";
+        style=rounded;
+        n3 [style=invis];
+        n4 [label="flag"];
+        n5 [label="items"];
+        n6 [label="produce"];
+        n7 [label="if flag" shape=diamond];
+        n9 [label="for item in items" shape=diamond];
+        n10 [label="item in items" shape=box];
+        n11 [label="item"];
+        n13 [label="(Child, Iterated)" shape=box];
+        n14 [label="return (Child, Iterated)"];
+        n15 [label="flag" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n16 [label="items" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n17 [label="produce" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n18 [label="Child" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n19 [label="item" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n20 [label="Iterated" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+        subgraph cluster_n21 {
+          label="Child\n(class)";
+          style=rounded;
+          n21 [style=invis];
+          n22 [label="produce()" shape=box style=filled fillcolor=lightcyan];
+          n23 [label="value"];
+          n26 [label="value" shape=box style="rounded,filled" fillcolor=lightyellow];
+          n27 [label="Nested" shape=box style="rounded,filled" fillcolor=lightyellow];
+          n28 [label="method" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+          subgraph cluster_n29 {
+            label="Nested\n(class)";
+            style=rounded;
+            n29 [style=invis];
+            n30 [label="produce()" shape=box style=filled fillcolor=lightcyan];
+            n31 [label="nested_value"];
+            n32 [label="nested_value" shape=box style="rounded,filled" fillcolor=lightyellow];
+          }
+
+
+          subgraph cluster_n33 {
+            label="method\n(function)";
+            style=rounded;
+            n33 [style=invis];
+            n34 [label="self"];
+            n35 [label="produce()" shape=box style=filled fillcolor=lightcyan];
+            n36 [label="return produce()"];
+            n37 [label="self" shape=box style="rounded,filled" fillcolor=lightyellow];
+          }
+
+        }
+
+
+        subgraph cluster_n38 {
+          label="Iterated\n(class)";
+          style=rounded;
+          n38 [style=invis];
+          n39 [label="produce()" shape=box style=filled fillcolor=lightcyan];
+          n40 [label="value"];
+          n41 [label="value" shape=box style="rounded,filled" fillcolor=lightyellow];
+        }
+
+      }
+
+    }
+
+  }
+
+  n10 -> n11 [color=steelblue];
+  n13 -> n14 [color=steelblue];
+  n15 -> n4 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n16 -> n5 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n17 -> n6 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n18 -> n21 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n19 -> n11 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n20 -> n38 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n21 -> n13 [color=steelblue, ltail=cluster_n21];
+  n21 -> n18 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n21];
+  n22 -> n23 [color=steelblue];
+  n26 -> n23 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n27 -> n29 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n28 -> n33 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n29 -> n27 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n29];
+  n3 -> n2 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n3];
+  n30 -> n31 [color=steelblue];
+  n32 -> n31 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n33 -> n28 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n33];
+  n35 -> n36 [color=steelblue];
+  n37 -> n34 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n38 -> n13 [color=steelblue, ltail=cluster_n38];
+  n38 -> n20 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n38];
+  n39 -> n40 [color=steelblue];
+  n4 -> n7 [color=steelblue];
+  n41 -> n40 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n5 -> n10 [color=steelblue];
+  n5 -> n9 [color=steelblue];
+  n6 -> n22 [color=steelblue];
+  n6 -> n30 [color=steelblue];
+  n6 -> n35 [color=steelblue];
+  n6 -> n39 [color=steelblue];
+  n7 -> n21 [color=steelblue];
+  n7 -> n22 [color=steelblue];
+  n7 -> n23 [color=steelblue];
+  n7 -> n29 [color=steelblue];
+  n7 -> n30 [color=steelblue];
+  n7 -> n31 [color=steelblue];
+  n7 -> n33 [color=steelblue];
+  n9 -> n10 [color=steelblue];
+  n9 -> n11 [color=steelblue];
+  n9 -> n38 [color=steelblue];
+  n9 -> n39 [color=steelblue];
+  n9 -> n40 [color=steelblue];
+}

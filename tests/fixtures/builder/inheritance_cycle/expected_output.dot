@@ -1,0 +1,60 @@
+digraph {
+  rankdir=LR;
+  compound=true;
+  node [fontname="monospace"];
+
+  subgraph cluster_n0 {
+    label="__root__\n(root)";
+    style=rounded;
+    n0 [style=invis];
+
+    subgraph cluster_n1 {
+      label="__module__\n(module)";
+      style=rounded;
+      n1 [style=invis];
+      n4 [label="Second"];
+      n5 [label="First" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n6 [label="Second" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n7 [label="invoke" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+      subgraph cluster_n8 {
+        label="First\n(class)";
+        style=rounded;
+        n8 [style=invis];
+      }
+
+
+      subgraph cluster_n9 {
+        label="Second\n(class)";
+        style=rounded;
+        n9 [style=invis];
+      }
+
+
+      subgraph cluster_n10 {
+        label="invoke\n(function)";
+        style=rounded;
+        n10 [style=invis];
+        n11 [label="value"];
+        n12 [label="value.missing"];
+        n13 [label="value.missing()" shape=box style=filled fillcolor=lightcyan];
+        n14 [label="return value.missing()"];
+        n15 [label="value" shape=box style="rounded,filled" fillcolor=lightyellow];
+      }
+
+    }
+
+  }
+
+  n10 -> n7 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n10];
+  n11 -> n12 [color=steelblue];
+  n12 -> n13 [color=steelblue];
+  n13 -> n14 [color=steelblue];
+  n15 -> n11 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n4 -> n8 [color=steelblue];
+  n5 -> n8 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n6 -> n9 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n8 -> n5 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n8];
+  n8 -> n9 [color=steelblue, ltail=cluster_n8];
+  n9 -> n6 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n9];
+}

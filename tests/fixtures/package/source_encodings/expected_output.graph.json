@@ -1,0 +1,171 @@
+{
+  "edges": [
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "source_encodings.latin1.__binding_message__#1",
+      "target": "source_encodings.latin1.message#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "source_encodings.utf8.__binding_message__#1",
+      "target": "source_encodings.utf8.message#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "source_encodings.utf8_bom.__binding_message__#1",
+      "target": "source_encodings.utf8_bom.message#0"
+    }
+  ],
+  "nodes": [
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "message",
+      "id": "source_encodings.latin1.message#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "message",
+      "scope": "source_encodings.latin1"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "message",
+      "id": "source_encodings.latin1.__binding_message__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_message__",
+      "scope": "source_encodings.latin1"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "message",
+      "id": "source_encodings.utf8.message#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "message",
+      "scope": "source_encodings.utf8"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "message",
+      "id": "source_encodings.utf8.__binding_message__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_message__",
+      "scope": "source_encodings.utf8"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "message",
+      "id": "source_encodings.utf8_bom.message#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "message",
+      "scope": "source_encodings.utf8_bom"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "message",
+      "id": "source_encodings.utf8_bom.__binding_message__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_message__",
+      "scope": "source_encodings.utf8_bom"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "source_encodings.latin1",
+        "source_encodings.utf8",
+        "source_encodings.utf8_bom"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [],
+      "parent": null
+    },
+    {
+      "children": [],
+      "id": "source_encodings.latin1",
+      "kind": "module",
+      "name": "source_encodings.latin1",
+      "nodes": [
+        "source_encodings.latin1.message#0",
+        "source_encodings.latin1.__binding_message__#1"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "source_encodings.utf8",
+      "kind": "module",
+      "name": "source_encodings.utf8",
+      "nodes": [
+        "source_encodings.utf8.message#0",
+        "source_encodings.utf8.__binding_message__#1"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "source_encodings.utf8_bom",
+      "kind": "module",
+      "name": "source_encodings.utf8_bom",
+      "nodes": [
+        "source_encodings.utf8_bom.message#0",
+        "source_encodings.utf8_bom.__binding_message__#1"
+      ],
+      "parent": "__root__"
+    }
+  ],
+  "version": "0.1.0"
+}

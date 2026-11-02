@@ -1,0 +1,55 @@
+{
+  "scope_counts": {
+    "function": 4,
+    "module": 1,
+    "root": 1,
+    "total": 6
+  },
+  "scopes": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "id": "outer.inner",
+                  "kind": "function",
+                  "own_profile": {},
+                  "profile": {}
+                }
+              ],
+              "id": "outer",
+              "kind": "function",
+              "own_profile": {},
+              "profile": {}
+            },
+            {
+              "children": [
+                {
+                  "id": "enclosing_reassignment.read",
+                  "kind": "function",
+                  "own_profile": {},
+                  "profile": {}
+                }
+              ],
+              "id": "enclosing_reassignment",
+              "kind": "function",
+              "own_profile": {},
+              "profile": {}
+            }
+          ],
+          "id": "__module__",
+          "kind": "module",
+          "own_profile": {},
+          "profile": {}
+        }
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "own_profile": {},
+      "profile": {}
+    }
+  ],
+  "version": "0.1.0"
+}

@@ -1,0 +1,439 @@
+{
+  "edges": [
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "declaration",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Child",
+      "target": "__module__.Child#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Child",
+      "target": "__module__.__binding_Child__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Child.run",
+      "target": "Child.__binding_run__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Child.run.__binding_self__#6",
+      "target": "Child.run.self#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Child.run.__binding_value__#7",
+      "target": "Child.run.value#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Child.run.__call_super().run_2__#4",
+      "target": "Child.run.__return_0__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Child.run.__call_super_0__#2",
+      "target": "Child.run.__ref_1__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Child.run.__ref_1__#3",
+      "target": "Child.run.__call_super().run_2__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "Child.run.value#1",
+      "target": "Child.run.__call_super().run_2__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "__module__.UnknownBase#1",
+      "target": "__module__.Child#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__module__.__binding_Child__#2",
+      "target": "__module__.Child#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "builtins.__binding_super__#1",
+      "target": "builtins.super#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "builtins.super#0",
+      "target": "Child.run.__call_super_0__#2"
+    }
+  ],
+  "nodes": [
+    {
+      "access": "write",
+      "dependencies": [
+        "__module__.UnknownBase#1"
+      ],
+      "display_name": "Child",
+      "id": "__module__.Child#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Child",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "UnknownBase",
+      "id": "__module__.UnknownBase#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "UnknownBase",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Child",
+      "id": "__module__.__binding_Child__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Child__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "run",
+      "id": "Child.__binding_run__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_run__",
+      "scope": "Child"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "self",
+      "id": "Child.run.self#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "self",
+      "scope": "Child.run"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "Child.run.value#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "Child.run"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "builtins.super#0"
+      ],
+      "display_name": "super()",
+      "id": "Child.run.__call_super_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_super_0__",
+      "scope": "Child.run"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "Child.run.__call_super_0__#2"
+      ],
+      "display_name": "super().run",
+      "id": "Child.run.__ref_1__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_1__",
+      "scope": "Child.run"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "Child.run.__ref_1__#3",
+        "Child.run.value#1"
+      ],
+      "display_name": "super().run()",
+      "id": "Child.run.__call_super().run_2__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_super().run_2__",
+      "scope": "Child.run"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "Child.run.__call_super().run_2__#4"
+      ],
+      "display_name": "return super().run(value)",
+      "id": "Child.run.__return_0__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "Child.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "self",
+      "id": "Child.run.__binding_self__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_self__",
+      "scope": "Child.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "Child.run.__binding_value__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "Child.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "super",
+      "id": "builtins.super#0",
+      "is_builtin": true,
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "super",
+      "scope": "builtins"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "super",
+      "id": "builtins.__binding_super__#1",
+      "is_builtin": true,
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_super__",
+      "scope": "builtins"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "__module__",
+        "builtins"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [],
+      "parent": null
+    },
+    {
+      "children": [
+        "Child"
+      ],
+      "id": "__module__",
+      "kind": "module",
+      "name": "__module__",
+      "nodes": [
+        "__module__.Child#0",
+        "__module__.UnknownBase#1",
+        "__module__.__binding_Child__#2"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "Child.run"
+      ],
+      "id": "Child",
+      "kind": "class",
+      "name": "Child",
+      "nodes": [
+        "Child.__binding_run__#0"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "Child.run",
+      "kind": "function",
+      "name": "run",
+      "nodes": [
+        "Child.run.self#0",
+        "Child.run.value#1",
+        "Child.run.__call_super_0__#2",
+        "Child.run.__ref_1__#3",
+        "Child.run.__call_super().run_2__#4",
+        "Child.run.__return_0__#5",
+        "Child.run.__binding_self__#6",
+        "Child.run.__binding_value__#7"
+      ],
+      "parent": "Child"
+    },
+    {
+      "children": [],
+      "id": "builtins",
+      "kind": "builtins",
+      "name": "builtins",
+      "nodes": [
+        "builtins.super#0",
+        "builtins.__binding_super__#1"
+      ],
+      "parent": "__root__"
+    }
+  ],
+  "version": "0.1.0"
+}

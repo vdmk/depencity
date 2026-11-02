@@ -1,0 +1,388 @@
+{
+  "edges": [
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__module__.__binding_target__#1",
+      "target": "__module__.target#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "__module__.target#0",
+      "target": "main.__call_target_0__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "decorate",
+      "target": "__module__.__binding_decorate__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "decorate",
+      "target": "__module__.target#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "decorate.__binding_function__#2",
+      "target": "decorate.function#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "decorate.function#0",
+      "target": "decorate.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "main",
+      "target": "__module__.__binding_main__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "main.__call_target_0__#0",
+      "target": "main.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "target",
+      "target": "__module__.__binding_target__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "target#2",
+      "target": "__module__.__binding_target__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "declaration",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "target#2",
+      "target": "__module__.target#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "target#2.__return_0__#0",
+      "target": "main.__call_target_0__#0"
+    }
+  ],
+  "nodes": [
+    {
+      "access": "write",
+      "dependencies": [
+        "decorate"
+      ],
+      "display_name": "target",
+      "id": "__module__.target#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "target",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "target",
+      "id": "__module__.__binding_target__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_target__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "decorate",
+      "id": "__module__.__binding_decorate__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_decorate__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "__module__.__binding_main__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "__module__"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "function",
+      "id": "decorate.function#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "function",
+      "scope": "decorate"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "decorate.function#0"
+      ],
+      "display_name": "return function",
+      "id": "decorate.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "decorate"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "function",
+      "id": "decorate.__binding_function__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_function__",
+      "scope": "decorate"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return None (implicit)",
+      "id": "target.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "target"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return None (implicit)",
+      "id": "target#2.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "target#2"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "__module__.target#0",
+        "target#2.__return_0__#0"
+      ],
+      "display_name": "target()",
+      "id": "main.__call_target_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_target_0__",
+      "scope": "main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "main.__call_target_0__#0"
+      ],
+      "display_name": "return target()",
+      "id": "main.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "main"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "__module__"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [],
+      "parent": null
+    },
+    {
+      "children": [
+        "decorate",
+        "target",
+        "target#2",
+        "main"
+      ],
+      "id": "__module__",
+      "kind": "module",
+      "name": "__module__",
+      "nodes": [
+        "__module__.target#0",
+        "__module__.__binding_target__#1",
+        "__module__.__binding_decorate__#2",
+        "__module__.__binding_main__#3"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "decorate",
+      "kind": "function",
+      "name": "decorate",
+      "nodes": [
+        "decorate.function#0",
+        "decorate.__return_0__#1",
+        "decorate.__binding_function__#2"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "target",
+      "kind": "function",
+      "name": "target",
+      "nodes": [
+        "target.__return_0__#0"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "target#2",
+      "kind": "function",
+      "name": "target",
+      "nodes": [
+        "target#2.__return_0__#0"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "main.__call_target_0__#0",
+        "main.__return_0__#1"
+      ],
+      "parent": "__module__"
+    }
+  ],
+  "version": "0.1.0"
+}

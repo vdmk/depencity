@@ -1,0 +1,1020 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.annotation_target_retention.facade.Assigned#2",
+      "target": "annotation_target_retention.entry.Assigned#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.annotation_target_retention.facade.Factory#1",
+      "target": "annotation_target_retention.computed.Factory#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.annotation_target_retention.facade.Position#0",
+      "target": "annotation_target_retention.bare.Position#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.annotation_target_retention.facade.Position#0",
+      "target": "annotation_target_retention.computed.Position#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.external.Assigned#5",
+      "target": "annotation_target_retention.facade.Assigned#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.external.Factory#3",
+      "target": "annotation_target_retention.facade.Factory#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.external.Position#4",
+      "target": "annotation_target_retention.facade.Position#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_target_retention.bare.Position#0",
+      "target": "annotation_target_retention.bare.__call_Position_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_target_retention.bare.Position#0",
+      "target": "annotation_target_retention.bare.__call_Position_1__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_target_retention.bare.__binding_Position__#3",
+      "target": "annotation_target_retention.bare.Position#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_target_retention.computed.Factory#0",
+      "target": "annotation_target_retention.computed.__call_Factory_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_target_retention.computed.Factory#0",
+      "target": "annotation_target_retention.computed.__call_Factory_1__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_target_retention.computed.Factory#0",
+      "target": "annotation_target_retention.computed.__call_Factory_3__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_target_retention.computed.Factory#0",
+      "target": "annotation_target_retention.computed.__call_Factory_6__#8"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_target_retention.computed.Position#1",
+      "target": "annotation_target_retention.computed.__call_Position_2__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_target_retention.computed.Position#1",
+      "target": "annotation_target_retention.computed.__call_Position_4__#6"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_target_retention.computed.Position#1",
+      "target": "annotation_target_retention.computed.__call_Position_5__#7"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_target_retention.computed.__binding_Factory__#9",
+      "target": "annotation_target_retention.computed.Factory#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_target_retention.computed.__binding_Position__#10",
+      "target": "annotation_target_retention.computed.Position#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_target_retention.entry.Assigned#0",
+      "target": "annotation_target_retention.entry.main.__ref_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_target_retention.entry.Assigned#0",
+      "target": "annotation_target_retention.entry.main.__ref_1__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_target_retention.entry.__binding_Assigned__#1",
+      "target": "annotation_target_retention.entry.Assigned#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_target_retention.entry.main",
+      "target": "annotation_target_retention.entry.__binding_main__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_target_retention.entry.main.__binding_value__#4",
+      "target": "annotation_target_retention.entry.main.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_target_retention.entry.main.value#0",
+      "target": "annotation_target_retention.entry.main.__ref_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 2,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 2,
+      "source": "annotation_target_retention.entry.main.value#0",
+      "target": "annotation_target_retention.entry.main.__ref_1__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_target_retention.facade.Assigned#2",
+      "target": "__root__.annotation_target_retention.facade.Assigned#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_target_retention.facade.Factory#0",
+      "target": "__root__.annotation_target_retention.facade.Factory#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_target_retention.facade.Position#1",
+      "target": "__root__.annotation_target_retention.facade.Position#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_target_retention.facade.__binding_Assigned__#5",
+      "target": "annotation_target_retention.facade.Assigned#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_target_retention.facade.__binding_Factory__#3",
+      "target": "annotation_target_retention.facade.Factory#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_target_retention.facade.__binding_Position__#4",
+      "target": "annotation_target_retention.facade.Position#1"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_target_retention.facade.Position#1"
+      ],
+      "display_name": "annotation_target_retention.facade.Position",
+      "id": "__root__.annotation_target_retention.facade.Position#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "annotation_target_retention.facade.Position",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_target_retention.facade.Factory#0"
+      ],
+      "display_name": "annotation_target_retention.facade.Factory",
+      "id": "__root__.annotation_target_retention.facade.Factory#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "annotation_target_retention.facade.Factory",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_target_retention.facade.Assigned#2"
+      ],
+      "display_name": "annotation_target_retention.facade.Assigned",
+      "id": "__root__.annotation_target_retention.facade.Assigned#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "annotation_target_retention.facade.Assigned",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "external.Factory",
+      "id": "__root__.external.Factory#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "external.Factory",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "external.Position",
+      "id": "__root__.external.Position#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "external.Position",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "external.Assigned",
+      "id": "__root__.external.Assigned#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "external.Assigned",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.annotation_target_retention.facade.Position#0"
+      ],
+      "display_name": "Position",
+      "id": "annotation_target_retention.bare.Position#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Position",
+      "scope": "annotation_target_retention.bare"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_target_retention.bare.Position#0"
+      ],
+      "display_name": "Position()",
+      "id": "annotation_target_retention.bare.__call_Position_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_Position_0__",
+      "scope": "annotation_target_retention.bare"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_target_retention.bare.Position#0"
+      ],
+      "display_name": "Position()",
+      "id": "annotation_target_retention.bare.__call_Position_1__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_Position_1__",
+      "scope": "annotation_target_retention.bare"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Position",
+      "id": "annotation_target_retention.bare.__binding_Position__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Position__",
+      "scope": "annotation_target_retention.bare"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.annotation_target_retention.facade.Factory#1"
+      ],
+      "display_name": "Factory",
+      "id": "annotation_target_retention.computed.Factory#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Factory",
+      "scope": "annotation_target_retention.computed"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.annotation_target_retention.facade.Position#0"
+      ],
+      "display_name": "Position",
+      "id": "annotation_target_retention.computed.Position#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Position",
+      "scope": "annotation_target_retention.computed"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_target_retention.computed.Factory#0"
+      ],
+      "display_name": "Factory()",
+      "id": "annotation_target_retention.computed.__call_Factory_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_Factory_0__",
+      "scope": "annotation_target_retention.computed"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_target_retention.computed.Factory#0"
+      ],
+      "display_name": "Factory()",
+      "id": "annotation_target_retention.computed.__call_Factory_1__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_Factory_1__",
+      "scope": "annotation_target_retention.computed"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_target_retention.computed.Position#1"
+      ],
+      "display_name": "Position()",
+      "id": "annotation_target_retention.computed.__call_Position_2__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_Position_2__",
+      "scope": "annotation_target_retention.computed"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_target_retention.computed.Factory#0"
+      ],
+      "display_name": "Factory()",
+      "id": "annotation_target_retention.computed.__call_Factory_3__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_Factory_3__",
+      "scope": "annotation_target_retention.computed"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_target_retention.computed.Position#1"
+      ],
+      "display_name": "Position()",
+      "id": "annotation_target_retention.computed.__call_Position_4__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_Position_4__",
+      "scope": "annotation_target_retention.computed"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_target_retention.computed.Position#1"
+      ],
+      "display_name": "Position()",
+      "id": "annotation_target_retention.computed.__call_Position_5__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_Position_5__",
+      "scope": "annotation_target_retention.computed"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_target_retention.computed.Factory#0"
+      ],
+      "display_name": "Factory()",
+      "id": "annotation_target_retention.computed.__call_Factory_6__#8",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_Factory_6__",
+      "scope": "annotation_target_retention.computed"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Factory",
+      "id": "annotation_target_retention.computed.__binding_Factory__#9",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Factory__",
+      "scope": "annotation_target_retention.computed"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Position",
+      "id": "annotation_target_retention.computed.__binding_Position__#10",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Position__",
+      "scope": "annotation_target_retention.computed"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.annotation_target_retention.facade.Assigned#2"
+      ],
+      "display_name": "Assigned",
+      "id": "annotation_target_retention.entry.Assigned#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Assigned",
+      "scope": "annotation_target_retention.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Assigned",
+      "id": "annotation_target_retention.entry.__binding_Assigned__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Assigned__",
+      "scope": "annotation_target_retention.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "annotation_target_retention.entry.__binding_main__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "annotation_target_retention.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "annotation_target_retention.entry.main.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "annotation_target_retention.entry.main"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "annotation_target_retention.entry.Assigned#0",
+        "annotation_target_retention.entry.main.value#0"
+      ],
+      "display_name": "Assigned.field",
+      "id": "annotation_target_retention.entry.main.__ref_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_0__",
+      "scope": "annotation_target_retention.entry.main"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "annotation_target_retention.entry.Assigned#0",
+        "annotation_target_retention.entry.main.value#0"
+      ],
+      "display_name": "Assigned[value]",
+      "id": "annotation_target_retention.entry.main.__ref_1__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "subscript",
+      "name": "__ref_1__",
+      "scope": "annotation_target_retention.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return None (implicit)",
+      "id": "annotation_target_retention.entry.main.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "annotation_target_retention.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "annotation_target_retention.entry.main.__binding_value__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "annotation_target_retention.entry.main"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.external.Factory#3"
+      ],
+      "display_name": "Factory",
+      "id": "annotation_target_retention.facade.Factory#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Factory",
+      "scope": "annotation_target_retention.facade"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.external.Position#4"
+      ],
+      "display_name": "Position",
+      "id": "annotation_target_retention.facade.Position#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Position",
+      "scope": "annotation_target_retention.facade"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.external.Assigned#5"
+      ],
+      "display_name": "Assigned",
+      "id": "annotation_target_retention.facade.Assigned#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Assigned",
+      "scope": "annotation_target_retention.facade"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Factory",
+      "id": "annotation_target_retention.facade.__binding_Factory__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Factory__",
+      "scope": "annotation_target_retention.facade"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Position",
+      "id": "annotation_target_retention.facade.__binding_Position__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Position__",
+      "scope": "annotation_target_retention.facade"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Assigned",
+      "id": "annotation_target_retention.facade.__binding_Assigned__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Assigned__",
+      "scope": "annotation_target_retention.facade"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "annotation_target_retention.bare",
+        "annotation_target_retention.computed",
+        "annotation_target_retention.entry",
+        "annotation_target_retention.facade"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.annotation_target_retention.facade.Position#0",
+        "__root__.annotation_target_retention.facade.Factory#1",
+        "__root__.annotation_target_retention.facade.Assigned#2",
+        "__root__.external.Factory#3",
+        "__root__.external.Position#4",
+        "__root__.external.Assigned#5"
+      ],
+      "parent": null
+    },
+    {
+      "children": [],
+      "id": "annotation_target_retention.bare",
+      "kind": "module",
+      "name": "annotation_target_retention.bare",
+      "nodes": [
+        "annotation_target_retention.bare.Position#0",
+        "annotation_target_retention.bare.__call_Position_0__#1",
+        "annotation_target_retention.bare.__call_Position_1__#2",
+        "annotation_target_retention.bare.__binding_Position__#3"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "annotation_target_retention.computed",
+      "kind": "module",
+      "name": "annotation_target_retention.computed",
+      "nodes": [
+        "annotation_target_retention.computed.Factory#0",
+        "annotation_target_retention.computed.Position#1",
+        "annotation_target_retention.computed.__call_Factory_0__#2",
+        "annotation_target_retention.computed.__call_Factory_1__#3",
+        "annotation_target_retention.computed.__call_Position_2__#4",
+        "annotation_target_retention.computed.__call_Factory_3__#5",
+        "annotation_target_retention.computed.__call_Position_4__#6",
+        "annotation_target_retention.computed.__call_Position_5__#7",
+        "annotation_target_retention.computed.__call_Factory_6__#8",
+        "annotation_target_retention.computed.__binding_Factory__#9",
+        "annotation_target_retention.computed.__binding_Position__#10"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "annotation_target_retention.entry.main"
+      ],
+      "id": "annotation_target_retention.entry",
+      "kind": "module",
+      "name": "annotation_target_retention.entry",
+      "nodes": [
+        "annotation_target_retention.entry.Assigned#0",
+        "annotation_target_retention.entry.__binding_Assigned__#1",
+        "annotation_target_retention.entry.__binding_main__#2"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "annotation_target_retention.entry.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "annotation_target_retention.entry.main.value#0",
+        "annotation_target_retention.entry.main.__ref_0__#1",
+        "annotation_target_retention.entry.main.__ref_1__#2",
+        "annotation_target_retention.entry.main.__return_0__#3",
+        "annotation_target_retention.entry.main.__binding_value__#4"
+      ],
+      "parent": "annotation_target_retention.entry"
+    },
+    {
+      "children": [],
+      "id": "annotation_target_retention.facade",
+      "kind": "module",
+      "name": "annotation_target_retention.facade",
+      "nodes": [
+        "annotation_target_retention.facade.Factory#0",
+        "annotation_target_retention.facade.Position#1",
+        "annotation_target_retention.facade.Assigned#2",
+        "annotation_target_retention.facade.__binding_Factory__#3",
+        "annotation_target_retention.facade.__binding_Position__#4",
+        "annotation_target_retention.facade.__binding_Assigned__#5"
+      ],
+      "parent": "__root__"
+    }
+  ],
+  "version": "0.1.0"
+}

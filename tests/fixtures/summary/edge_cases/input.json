@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "source": "a",
+      "target": "b"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "a"
+    },
+    {
+      "id": "b"
+    }
+  ],
+  "scopes": [
+    {
+      "id": "__module__",
+      "kind": "module",
+      "name": "__module__",
+      "profile": {
+        "graph.paths.expressions.count": 4
+      }
+    },
+    {
+      "id": "f",
+      "kind": "function",
+      "name": "f",
+      "parent": "__module__",
+      "profile": {
+        "call.occurrences.total.count": 2,
+        "graph.paths.data.count_sum": 3,
+        "graph.paths.data.length.max": 2,
+        "graph.paths.data.length.p95": 2,
+        "graph.paths.expressions.count": 9
+      }
+    },
+    {
+      "id": "expression-heavy",
+      "kind": "function",
+      "name": "expression-heavy",
+      "profile": {
+        "graph.paths.data.count_sum": 1,
+        "graph.paths.data.length.max": 1,
+        "graph.paths.data.length.p95": 1,
+        "graph.paths.expressions.count": 1000
+      }
+    },
+    {
+      "id": "data-heavy",
+      "kind": "function",
+      "name": "data-heavy",
+      "profile": {
+        "graph.paths.data.count_sum": 10,
+        "graph.paths.data.length.max": 1,
+        "graph.paths.data.length.p95": 1,
+        "graph.paths.expressions.count": 2
+      }
+    }
+  ],
+  "profile": {}
+}

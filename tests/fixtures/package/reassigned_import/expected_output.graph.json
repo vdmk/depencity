@@ -1,0 +1,2144 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.reassigned_import#3",
+      "target": "reassigned_import.entry.repeated_dotted_root.reassigned_import#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.reassigned_import.helper#2",
+      "target": "reassigned_import.entry.repeated_absolute_alias.selected#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.reassigned_import.helper#2",
+      "target": "reassigned_import.entry.repeated_module_alias.selected#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.reassigned_import.helper.f#0",
+      "target": "reassigned_import.entry.f#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.reassigned_import.helper.f#0",
+      "target": "reassigned_import.entry.repeated_absolute_alias.__call_selected.f_10__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.reassigned_import.helper.f#0",
+      "target": "reassigned_import.entry.repeated_dotted_root.__call_reassigned_import.helper.f_14__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.reassigned_import.helper.f#0",
+      "target": "reassigned_import.entry.repeated_from_alias.selected#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.reassigned_import.helper.f#0",
+      "target": "reassigned_import.entry.repeated_module_alias.__call_selected.f_8__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.reassigned_import.helper.f#0",
+      "target": "reassigned_import.entry.stable#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.reassigned_import.helper.work#1",
+      "target": "reassigned_import.entry.repeated_unknown_alias.selected#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.reassigned_import.helper.work#1",
+      "target": "reassigned_import.entry.work#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.__binding_early__#12",
+      "target": "reassigned_import.entry.early#4"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.__binding_f__#9",
+      "target": "reassigned_import.entry.f#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.__binding_f__#9",
+      "target": "reassigned_import.entry.f#5"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.__binding_later__#13",
+      "target": "reassigned_import.entry.later#7"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.__binding_stable__#10",
+      "target": "reassigned_import.entry.stable#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.__binding_work__#11",
+      "target": "reassigned_import.entry.work#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.__call_f_0__#3",
+      "target": "reassigned_import.entry.early#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.__call_f_1__#6",
+      "target": "reassigned_import.entry.later#7"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "reassigned_import.entry.external#8",
+      "target": "reassigned_import.entry.f#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "reassigned_import.entry.f#0",
+      "target": "reassigned_import.entry.__call_f_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "reassigned_import.entry.f#5",
+      "target": "reassigned_import.entry.__call_f_1__#6"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "reassigned_import.entry.f#5",
+      "target": "reassigned_import.entry.main.__call_f_3__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.local_replacement",
+      "target": "reassigned_import.entry.__binding_local_replacement__#17"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.local_replacement.__binding_f__#4",
+      "target": "reassigned_import.entry.local_replacement.f#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.local_replacement.__call_f_5__#1",
+      "target": "reassigned_import.entry.local_replacement.__return_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "reassigned_import.entry.local_replacement.external#3",
+      "target": "reassigned_import.entry.local_replacement.f#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "reassigned_import.entry.local_replacement.f#0",
+      "target": "reassigned_import.entry.local_replacement.__call_f_5__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.main",
+      "target": "reassigned_import.entry.__binding_main__#15"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.main.__call_f_3__#0",
+      "target": "reassigned_import.entry.main.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.repeated_absolute_alias",
+      "target": "reassigned_import.entry.__binding_repeated_absolute_alias__#20"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.repeated_absolute_alias.__binding_selected__#4",
+      "target": "reassigned_import.entry.repeated_absolute_alias.selected#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.repeated_absolute_alias.__call_selected.f_10__#2",
+      "target": "reassigned_import.entry.repeated_absolute_alias.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.repeated_absolute_alias.__ref_9__#1",
+      "target": "reassigned_import.entry.repeated_absolute_alias.__call_selected.f_10__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "reassigned_import.entry.repeated_absolute_alias.selected#0",
+      "target": "reassigned_import.entry.repeated_absolute_alias.__ref_9__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.repeated_dotted_root",
+      "target": "reassigned_import.entry.__binding_repeated_dotted_root__#22"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.repeated_dotted_root.__binding_reassigned_import__#5",
+      "target": "reassigned_import.entry.repeated_dotted_root.reassigned_import#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.repeated_dotted_root.__call_reassigned_import.helper.f_14__#3",
+      "target": "reassigned_import.entry.repeated_dotted_root.__return_0__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.repeated_dotted_root.__ref_12__#1",
+      "target": "reassigned_import.entry.repeated_dotted_root.__ref_13__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.repeated_dotted_root.__ref_13__#2",
+      "target": "reassigned_import.entry.repeated_dotted_root.__call_reassigned_import.helper.f_14__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "reassigned_import.entry.repeated_dotted_root.reassigned_import#0",
+      "target": "reassigned_import.entry.repeated_dotted_root.__ref_12__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.repeated_from_alias",
+      "target": "reassigned_import.entry.__binding_repeated_from_alias__#18"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.repeated_from_alias.__binding_selected__#3",
+      "target": "reassigned_import.entry.repeated_from_alias.selected#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.repeated_from_alias.__call_selected_6__#1",
+      "target": "reassigned_import.entry.repeated_from_alias.__return_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "reassigned_import.entry.repeated_from_alias.selected#0",
+      "target": "reassigned_import.entry.repeated_from_alias.__call_selected_6__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.repeated_module_alias",
+      "target": "reassigned_import.entry.__binding_repeated_module_alias__#19"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.repeated_module_alias.__binding_selected__#4",
+      "target": "reassigned_import.entry.repeated_module_alias.selected#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.repeated_module_alias.__call_selected.f_8__#2",
+      "target": "reassigned_import.entry.repeated_module_alias.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.repeated_module_alias.__ref_7__#1",
+      "target": "reassigned_import.entry.repeated_module_alias.__call_selected.f_8__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "reassigned_import.entry.repeated_module_alias.selected#0",
+      "target": "reassigned_import.entry.repeated_module_alias.__ref_7__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.repeated_unknown_alias",
+      "target": "reassigned_import.entry.__binding_repeated_unknown_alias__#21"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.repeated_unknown_alias.__binding_selected__#3",
+      "target": "reassigned_import.entry.repeated_unknown_alias.selected#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.repeated_unknown_alias.__call_selected_11__#1",
+      "target": "reassigned_import.entry.repeated_unknown_alias.__return_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "reassigned_import.entry.repeated_unknown_alias.selected#0",
+      "target": "reassigned_import.entry.repeated_unknown_alias.__call_selected_11__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.replaced_export",
+      "target": "reassigned_import.entry.__binding_replaced_export__#16"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.replaced_export.__call_work_4__#0",
+      "target": "reassigned_import.entry.replaced_export.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "reassigned_import.entry.stable#1",
+      "target": "reassigned_import.entry.unchanged.__call_stable_2__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.unchanged",
+      "target": "reassigned_import.entry.__binding_unchanged__#14"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.entry.unchanged.__call_stable_2__#0",
+      "target": "reassigned_import.entry.unchanged.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "reassigned_import.entry.work#2",
+      "target": "reassigned_import.entry.replaced_export.__call_work_4__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.helper",
+      "target": "__root__.reassigned_import.helper#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.helper.__binding_work__#2",
+      "target": "reassigned_import.helper.work#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.helper.f",
+      "target": "__root__.reassigned_import.helper.f#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.helper.f",
+      "target": "reassigned_import.helper.__binding_f__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.helper.f.__return_0__#0",
+      "target": "reassigned_import.entry.__call_f_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.helper.f.__return_0__#0",
+      "target": "reassigned_import.entry.repeated_absolute_alias.__call_selected.f_10__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.helper.f.__return_0__#0",
+      "target": "reassigned_import.entry.repeated_dotted_root.__call_reassigned_import.helper.f_14__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.helper.f.__return_0__#0",
+      "target": "reassigned_import.entry.repeated_from_alias.__call_selected_6__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.helper.f.__return_0__#0",
+      "target": "reassigned_import.entry.repeated_module_alias.__call_selected.f_8__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.helper.f.__return_0__#0",
+      "target": "reassigned_import.entry.unchanged.__call_stable_2__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "reassigned_import.helper.source#1",
+      "target": "reassigned_import.helper.work#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.helper.work",
+      "target": "reassigned_import.helper.__binding_work__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "reassigned_import.helper.work#0",
+      "target": "__root__.reassigned_import.helper.work#1"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [
+        "reassigned_import.helper.f"
+      ],
+      "display_name": "reassigned_import.helper.f",
+      "id": "__root__.reassigned_import.helper.f#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "reassigned_import.helper.f",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "reassigned_import.helper.work#0"
+      ],
+      "display_name": "reassigned_import.helper.work",
+      "id": "__root__.reassigned_import.helper.work#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "reassigned_import.helper.work",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "reassigned_import.helper"
+      ],
+      "display_name": "reassigned_import.helper",
+      "id": "__root__.reassigned_import.helper#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "reassigned_import.helper",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "reassigned_import",
+      "id": "__root__.reassigned_import#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "reassigned_import",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.reassigned_import.helper.f#0"
+      ],
+      "display_name": "f v1",
+      "id": "reassigned_import.entry.f#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "f",
+      "scope": "reassigned_import.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.reassigned_import.helper.f#0"
+      ],
+      "display_name": "stable",
+      "id": "reassigned_import.entry.stable#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "stable",
+      "scope": "reassigned_import.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.reassigned_import.helper.work#1"
+      ],
+      "display_name": "work",
+      "id": "reassigned_import.entry.work#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "work",
+      "scope": "reassigned_import.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "reassigned_import.entry.f#0",
+        "reassigned_import.helper.f.__return_0__#0"
+      ],
+      "display_name": "f()",
+      "id": "reassigned_import.entry.__call_f_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_f_0__",
+      "scope": "reassigned_import.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "reassigned_import.entry.__call_f_0__#3"
+      ],
+      "display_name": "early",
+      "id": "reassigned_import.entry.early#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "early",
+      "scope": "reassigned_import.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "reassigned_import.entry.external#8"
+      ],
+      "display_name": "f v2",
+      "id": "reassigned_import.entry.f#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "f",
+      "scope": "reassigned_import.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "reassigned_import.entry.f#5"
+      ],
+      "display_name": "f()",
+      "id": "reassigned_import.entry.__call_f_1__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_f_1__",
+      "scope": "reassigned_import.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "reassigned_import.entry.__call_f_1__#6"
+      ],
+      "display_name": "later",
+      "id": "reassigned_import.entry.later#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "later",
+      "scope": "reassigned_import.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "external",
+      "id": "reassigned_import.entry.external#8",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "external",
+      "scope": "reassigned_import.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "f",
+      "id": "reassigned_import.entry.__binding_f__#9",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_f__",
+      "scope": "reassigned_import.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "stable",
+      "id": "reassigned_import.entry.__binding_stable__#10",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_stable__",
+      "scope": "reassigned_import.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "work",
+      "id": "reassigned_import.entry.__binding_work__#11",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_work__",
+      "scope": "reassigned_import.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "early",
+      "id": "reassigned_import.entry.__binding_early__#12",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_early__",
+      "scope": "reassigned_import.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "later",
+      "id": "reassigned_import.entry.__binding_later__#13",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_later__",
+      "scope": "reassigned_import.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "unchanged",
+      "id": "reassigned_import.entry.__binding_unchanged__#14",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_unchanged__",
+      "scope": "reassigned_import.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "reassigned_import.entry.__binding_main__#15",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "reassigned_import.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "replaced_export",
+      "id": "reassigned_import.entry.__binding_replaced_export__#16",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_replaced_export__",
+      "scope": "reassigned_import.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "local_replacement",
+      "id": "reassigned_import.entry.__binding_local_replacement__#17",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_local_replacement__",
+      "scope": "reassigned_import.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "repeated_from_alias",
+      "id": "reassigned_import.entry.__binding_repeated_from_alias__#18",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_repeated_from_alias__",
+      "scope": "reassigned_import.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "repeated_module_alias",
+      "id": "reassigned_import.entry.__binding_repeated_module_alias__#19",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_repeated_module_alias__",
+      "scope": "reassigned_import.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "repeated_absolute_alias",
+      "id": "reassigned_import.entry.__binding_repeated_absolute_alias__#20",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_repeated_absolute_alias__",
+      "scope": "reassigned_import.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "repeated_unknown_alias",
+      "id": "reassigned_import.entry.__binding_repeated_unknown_alias__#21",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_repeated_unknown_alias__",
+      "scope": "reassigned_import.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "repeated_dotted_root",
+      "id": "reassigned_import.entry.__binding_repeated_dotted_root__#22",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_repeated_dotted_root__",
+      "scope": "reassigned_import.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "reassigned_import.entry.stable#1",
+        "reassigned_import.helper.f.__return_0__#0"
+      ],
+      "display_name": "stable()",
+      "id": "reassigned_import.entry.unchanged.__call_stable_2__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_stable_2__",
+      "scope": "reassigned_import.entry.unchanged"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "reassigned_import.entry.unchanged.__call_stable_2__#0"
+      ],
+      "display_name": "return stable()",
+      "id": "reassigned_import.entry.unchanged.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "reassigned_import.entry.unchanged"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "reassigned_import.entry.f#5"
+      ],
+      "display_name": "f()",
+      "id": "reassigned_import.entry.main.__call_f_3__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_f_3__",
+      "scope": "reassigned_import.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "reassigned_import.entry.main.__call_f_3__#0"
+      ],
+      "display_name": "return f()",
+      "id": "reassigned_import.entry.main.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "reassigned_import.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "reassigned_import.entry.work#2"
+      ],
+      "display_name": "work()",
+      "id": "reassigned_import.entry.replaced_export.__call_work_4__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_work_4__",
+      "scope": "reassigned_import.entry.replaced_export"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "reassigned_import.entry.replaced_export.__call_work_4__#0"
+      ],
+      "display_name": "return work()",
+      "id": "reassigned_import.entry.replaced_export.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "reassigned_import.entry.replaced_export"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "reassigned_import.entry.local_replacement.external#3"
+      ],
+      "display_name": "f",
+      "id": "reassigned_import.entry.local_replacement.f#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "f",
+      "scope": "reassigned_import.entry.local_replacement"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "reassigned_import.entry.local_replacement.f#0"
+      ],
+      "display_name": "f()",
+      "id": "reassigned_import.entry.local_replacement.__call_f_5__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_f_5__",
+      "scope": "reassigned_import.entry.local_replacement"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "reassigned_import.entry.local_replacement.__call_f_5__#1"
+      ],
+      "display_name": "return f()",
+      "id": "reassigned_import.entry.local_replacement.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "reassigned_import.entry.local_replacement"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "external",
+      "id": "reassigned_import.entry.local_replacement.external#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "external",
+      "scope": "reassigned_import.entry.local_replacement"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "f",
+      "id": "reassigned_import.entry.local_replacement.__binding_f__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_f__",
+      "scope": "reassigned_import.entry.local_replacement"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.reassigned_import.helper.f#0"
+      ],
+      "display_name": "selected",
+      "id": "reassigned_import.entry.repeated_from_alias.selected#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "selected",
+      "scope": "reassigned_import.entry.repeated_from_alias"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "reassigned_import.entry.repeated_from_alias.selected#0",
+        "reassigned_import.helper.f.__return_0__#0"
+      ],
+      "display_name": "selected()",
+      "id": "reassigned_import.entry.repeated_from_alias.__call_selected_6__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_selected_6__",
+      "scope": "reassigned_import.entry.repeated_from_alias"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "reassigned_import.entry.repeated_from_alias.__call_selected_6__#1"
+      ],
+      "display_name": "return selected()",
+      "id": "reassigned_import.entry.repeated_from_alias.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "reassigned_import.entry.repeated_from_alias"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "selected",
+      "id": "reassigned_import.entry.repeated_from_alias.__binding_selected__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_selected__",
+      "scope": "reassigned_import.entry.repeated_from_alias"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.reassigned_import.helper#2"
+      ],
+      "display_name": "selected",
+      "id": "reassigned_import.entry.repeated_module_alias.selected#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "selected",
+      "scope": "reassigned_import.entry.repeated_module_alias"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "reassigned_import.entry.repeated_module_alias.selected#0"
+      ],
+      "display_name": "selected.f",
+      "id": "reassigned_import.entry.repeated_module_alias.__ref_7__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_7__",
+      "scope": "reassigned_import.entry.repeated_module_alias"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "__root__.reassigned_import.helper.f#0",
+        "reassigned_import.entry.repeated_module_alias.__ref_7__#1",
+        "reassigned_import.helper.f.__return_0__#0"
+      ],
+      "display_name": "selected.f()",
+      "id": "reassigned_import.entry.repeated_module_alias.__call_selected.f_8__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_selected.f_8__",
+      "scope": "reassigned_import.entry.repeated_module_alias"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "reassigned_import.entry.repeated_module_alias.__call_selected.f_8__#2"
+      ],
+      "display_name": "return selected.f()",
+      "id": "reassigned_import.entry.repeated_module_alias.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "reassigned_import.entry.repeated_module_alias"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "selected",
+      "id": "reassigned_import.entry.repeated_module_alias.__binding_selected__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_selected__",
+      "scope": "reassigned_import.entry.repeated_module_alias"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.reassigned_import.helper#2"
+      ],
+      "display_name": "selected",
+      "id": "reassigned_import.entry.repeated_absolute_alias.selected#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "selected",
+      "scope": "reassigned_import.entry.repeated_absolute_alias"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "reassigned_import.entry.repeated_absolute_alias.selected#0"
+      ],
+      "display_name": "selected.f",
+      "id": "reassigned_import.entry.repeated_absolute_alias.__ref_9__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_9__",
+      "scope": "reassigned_import.entry.repeated_absolute_alias"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "__root__.reassigned_import.helper.f#0",
+        "reassigned_import.entry.repeated_absolute_alias.__ref_9__#1",
+        "reassigned_import.helper.f.__return_0__#0"
+      ],
+      "display_name": "selected.f()",
+      "id": "reassigned_import.entry.repeated_absolute_alias.__call_selected.f_10__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_selected.f_10__",
+      "scope": "reassigned_import.entry.repeated_absolute_alias"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "reassigned_import.entry.repeated_absolute_alias.__call_selected.f_10__#2"
+      ],
+      "display_name": "return selected.f()",
+      "id": "reassigned_import.entry.repeated_absolute_alias.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "reassigned_import.entry.repeated_absolute_alias"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "selected",
+      "id": "reassigned_import.entry.repeated_absolute_alias.__binding_selected__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_selected__",
+      "scope": "reassigned_import.entry.repeated_absolute_alias"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.reassigned_import.helper.work#1"
+      ],
+      "display_name": "selected",
+      "id": "reassigned_import.entry.repeated_unknown_alias.selected#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "selected",
+      "scope": "reassigned_import.entry.repeated_unknown_alias"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "reassigned_import.entry.repeated_unknown_alias.selected#0"
+      ],
+      "display_name": "selected()",
+      "id": "reassigned_import.entry.repeated_unknown_alias.__call_selected_11__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_selected_11__",
+      "scope": "reassigned_import.entry.repeated_unknown_alias"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "reassigned_import.entry.repeated_unknown_alias.__call_selected_11__#1"
+      ],
+      "display_name": "return selected()",
+      "id": "reassigned_import.entry.repeated_unknown_alias.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "reassigned_import.entry.repeated_unknown_alias"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "selected",
+      "id": "reassigned_import.entry.repeated_unknown_alias.__binding_selected__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_selected__",
+      "scope": "reassigned_import.entry.repeated_unknown_alias"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.reassigned_import#3"
+      ],
+      "display_name": "reassigned_import",
+      "id": "reassigned_import.entry.repeated_dotted_root.reassigned_import#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "reassigned_import",
+      "scope": "reassigned_import.entry.repeated_dotted_root"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "reassigned_import.entry.repeated_dotted_root.reassigned_import#0"
+      ],
+      "display_name": "reassigned_import.helper",
+      "id": "reassigned_import.entry.repeated_dotted_root.__ref_12__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_12__",
+      "scope": "reassigned_import.entry.repeated_dotted_root"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "reassigned_import.entry.repeated_dotted_root.__ref_12__#1"
+      ],
+      "display_name": "reassigned_import.helper.f",
+      "id": "reassigned_import.entry.repeated_dotted_root.__ref_13__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_13__",
+      "scope": "reassigned_import.entry.repeated_dotted_root"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "__root__.reassigned_import.helper.f#0",
+        "reassigned_import.entry.repeated_dotted_root.__ref_13__#2",
+        "reassigned_import.helper.f.__return_0__#0"
+      ],
+      "display_name": "reassigned_import.helper.f()",
+      "id": "reassigned_import.entry.repeated_dotted_root.__call_reassigned_import.helper.f_14__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_reassigned_import.helper.f_14__",
+      "scope": "reassigned_import.entry.repeated_dotted_root"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "reassigned_import.entry.repeated_dotted_root.__call_reassigned_import.helper.f_14__#3"
+      ],
+      "display_name": "return reassigned_import.helper.f()",
+      "id": "reassigned_import.entry.repeated_dotted_root.__return_0__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "reassigned_import.entry.repeated_dotted_root"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "reassigned_import",
+      "id": "reassigned_import.entry.repeated_dotted_root.__binding_reassigned_import__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_reassigned_import__",
+      "scope": "reassigned_import.entry.repeated_dotted_root"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "reassigned_import.helper.source#1"
+      ],
+      "display_name": "work",
+      "id": "reassigned_import.helper.work#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "work",
+      "scope": "reassigned_import.helper"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "source",
+      "id": "reassigned_import.helper.source#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "source",
+      "scope": "reassigned_import.helper"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "work",
+      "id": "reassigned_import.helper.__binding_work__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_work__",
+      "scope": "reassigned_import.helper"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "f",
+      "id": "reassigned_import.helper.__binding_f__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_f__",
+      "scope": "reassigned_import.helper"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return 'helper'",
+      "id": "reassigned_import.helper.f.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "reassigned_import.helper.f"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return 1",
+      "id": "reassigned_import.helper.work.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "reassigned_import.helper.work"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "reassigned_import.entry",
+        "reassigned_import.helper"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.reassigned_import.helper.f#0",
+        "__root__.reassigned_import.helper.work#1",
+        "__root__.reassigned_import.helper#2",
+        "__root__.reassigned_import#3"
+      ],
+      "parent": null
+    },
+    {
+      "children": [
+        "reassigned_import.entry.unchanged",
+        "reassigned_import.entry.main",
+        "reassigned_import.entry.replaced_export",
+        "reassigned_import.entry.local_replacement",
+        "reassigned_import.entry.repeated_from_alias",
+        "reassigned_import.entry.repeated_module_alias",
+        "reassigned_import.entry.repeated_absolute_alias",
+        "reassigned_import.entry.repeated_unknown_alias",
+        "reassigned_import.entry.repeated_dotted_root"
+      ],
+      "id": "reassigned_import.entry",
+      "kind": "module",
+      "name": "reassigned_import.entry",
+      "nodes": [
+        "reassigned_import.entry.f#0",
+        "reassigned_import.entry.stable#1",
+        "reassigned_import.entry.work#2",
+        "reassigned_import.entry.__call_f_0__#3",
+        "reassigned_import.entry.early#4",
+        "reassigned_import.entry.f#5",
+        "reassigned_import.entry.__call_f_1__#6",
+        "reassigned_import.entry.later#7",
+        "reassigned_import.entry.external#8",
+        "reassigned_import.entry.__binding_f__#9",
+        "reassigned_import.entry.__binding_stable__#10",
+        "reassigned_import.entry.__binding_work__#11",
+        "reassigned_import.entry.__binding_early__#12",
+        "reassigned_import.entry.__binding_later__#13",
+        "reassigned_import.entry.__binding_unchanged__#14",
+        "reassigned_import.entry.__binding_main__#15",
+        "reassigned_import.entry.__binding_replaced_export__#16",
+        "reassigned_import.entry.__binding_local_replacement__#17",
+        "reassigned_import.entry.__binding_repeated_from_alias__#18",
+        "reassigned_import.entry.__binding_repeated_module_alias__#19",
+        "reassigned_import.entry.__binding_repeated_absolute_alias__#20",
+        "reassigned_import.entry.__binding_repeated_unknown_alias__#21",
+        "reassigned_import.entry.__binding_repeated_dotted_root__#22"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "reassigned_import.entry.unchanged",
+      "kind": "function",
+      "name": "unchanged",
+      "nodes": [
+        "reassigned_import.entry.unchanged.__call_stable_2__#0",
+        "reassigned_import.entry.unchanged.__return_0__#1"
+      ],
+      "parent": "reassigned_import.entry"
+    },
+    {
+      "children": [],
+      "id": "reassigned_import.entry.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "reassigned_import.entry.main.__call_f_3__#0",
+        "reassigned_import.entry.main.__return_0__#1"
+      ],
+      "parent": "reassigned_import.entry"
+    },
+    {
+      "children": [],
+      "id": "reassigned_import.entry.replaced_export",
+      "kind": "function",
+      "name": "replaced_export",
+      "nodes": [
+        "reassigned_import.entry.replaced_export.__call_work_4__#0",
+        "reassigned_import.entry.replaced_export.__return_0__#1"
+      ],
+      "parent": "reassigned_import.entry"
+    },
+    {
+      "children": [],
+      "id": "reassigned_import.entry.local_replacement",
+      "kind": "function",
+      "name": "local_replacement",
+      "nodes": [
+        "reassigned_import.entry.local_replacement.f#0",
+        "reassigned_import.entry.local_replacement.__call_f_5__#1",
+        "reassigned_import.entry.local_replacement.__return_0__#2",
+        "reassigned_import.entry.local_replacement.external#3",
+        "reassigned_import.entry.local_replacement.__binding_f__#4"
+      ],
+      "parent": "reassigned_import.entry"
+    },
+    {
+      "children": [],
+      "id": "reassigned_import.entry.repeated_from_alias",
+      "kind": "function",
+      "name": "repeated_from_alias",
+      "nodes": [
+        "reassigned_import.entry.repeated_from_alias.selected#0",
+        "reassigned_import.entry.repeated_from_alias.__call_selected_6__#1",
+        "reassigned_import.entry.repeated_from_alias.__return_0__#2",
+        "reassigned_import.entry.repeated_from_alias.__binding_selected__#3"
+      ],
+      "parent": "reassigned_import.entry"
+    },
+    {
+      "children": [],
+      "id": "reassigned_import.entry.repeated_module_alias",
+      "kind": "function",
+      "name": "repeated_module_alias",
+      "nodes": [
+        "reassigned_import.entry.repeated_module_alias.selected#0",
+        "reassigned_import.entry.repeated_module_alias.__ref_7__#1",
+        "reassigned_import.entry.repeated_module_alias.__call_selected.f_8__#2",
+        "reassigned_import.entry.repeated_module_alias.__return_0__#3",
+        "reassigned_import.entry.repeated_module_alias.__binding_selected__#4"
+      ],
+      "parent": "reassigned_import.entry"
+    },
+    {
+      "children": [],
+      "id": "reassigned_import.entry.repeated_absolute_alias",
+      "kind": "function",
+      "name": "repeated_absolute_alias",
+      "nodes": [
+        "reassigned_import.entry.repeated_absolute_alias.selected#0",
+        "reassigned_import.entry.repeated_absolute_alias.__ref_9__#1",
+        "reassigned_import.entry.repeated_absolute_alias.__call_selected.f_10__#2",
+        "reassigned_import.entry.repeated_absolute_alias.__return_0__#3",
+        "reassigned_import.entry.repeated_absolute_alias.__binding_selected__#4"
+      ],
+      "parent": "reassigned_import.entry"
+    },
+    {
+      "children": [],
+      "id": "reassigned_import.entry.repeated_unknown_alias",
+      "kind": "function",
+      "name": "repeated_unknown_alias",
+      "nodes": [
+        "reassigned_import.entry.repeated_unknown_alias.selected#0",
+        "reassigned_import.entry.repeated_unknown_alias.__call_selected_11__#1",
+        "reassigned_import.entry.repeated_unknown_alias.__return_0__#2",
+        "reassigned_import.entry.repeated_unknown_alias.__binding_selected__#3"
+      ],
+      "parent": "reassigned_import.entry"
+    },
+    {
+      "children": [],
+      "id": "reassigned_import.entry.repeated_dotted_root",
+      "kind": "function",
+      "name": "repeated_dotted_root",
+      "nodes": [
+        "reassigned_import.entry.repeated_dotted_root.reassigned_import#0",
+        "reassigned_import.entry.repeated_dotted_root.__ref_12__#1",
+        "reassigned_import.entry.repeated_dotted_root.__ref_13__#2",
+        "reassigned_import.entry.repeated_dotted_root.__call_reassigned_import.helper.f_14__#3",
+        "reassigned_import.entry.repeated_dotted_root.__return_0__#4",
+        "reassigned_import.entry.repeated_dotted_root.__binding_reassigned_import__#5"
+      ],
+      "parent": "reassigned_import.entry"
+    },
+    {
+      "children": [
+        "reassigned_import.helper.f",
+        "reassigned_import.helper.work"
+      ],
+      "id": "reassigned_import.helper",
+      "kind": "module",
+      "name": "reassigned_import.helper",
+      "nodes": [
+        "reassigned_import.helper.work#0",
+        "reassigned_import.helper.source#1",
+        "reassigned_import.helper.__binding_work__#2",
+        "reassigned_import.helper.__binding_f__#3"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "reassigned_import.helper.f",
+      "kind": "function",
+      "name": "f",
+      "nodes": [
+        "reassigned_import.helper.f.__return_0__#0"
+      ],
+      "parent": "reassigned_import.helper"
+    },
+    {
+      "children": [],
+      "id": "reassigned_import.helper.work",
+      "kind": "function",
+      "name": "work",
+      "nodes": [
+        "reassigned_import.helper.work.__return_0__#0"
+      ],
+      "parent": "reassigned_import.helper"
+    }
+  ],
+  "version": "0.1.0"
+}

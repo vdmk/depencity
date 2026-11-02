@@ -1,0 +1,278 @@
+{
+  "edges": [
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "main",
+      "target": "__module__.__binding_main__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "main.__binding_first__#6",
+      "target": "main.__delete_first_0__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "main.__binding_first__#6",
+      "target": "main.first#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "main.__binding_second__#7",
+      "target": "main.__delete_second_1__#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "main.__binding_second__#7",
+      "target": "main.second#1"
+    },
+    {
+      "access": "write",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "main.first#0",
+      "target": "main.__delete_first_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "main.missing#5",
+      "target": "main.__return_0__#4"
+    },
+    {
+      "access": "write",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "main.second#1",
+      "target": "main.__delete_second_1__#3"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "__module__.__binding_main__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "__module__"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "first v1",
+      "id": "main.first#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "first",
+      "scope": "main"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "second v1",
+      "id": "main.second#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "second",
+      "scope": "main"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "main.first#0"
+      ],
+      "display_name": "del first",
+      "id": "main.__delete_first_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__delete_first_0__",
+      "operation_type": "mutation",
+      "scope": "main"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "main.second#1"
+      ],
+      "display_name": "del second",
+      "id": "main.__delete_second_1__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__delete_second_1__",
+      "operation_type": "mutation",
+      "scope": "main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "main.missing#5"
+      ],
+      "display_name": "return missing",
+      "id": "main.__return_0__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "missing",
+      "id": "main.missing#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "missing",
+      "scope": "main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "first",
+      "id": "main.__binding_first__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_first__",
+      "scope": "main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "second",
+      "id": "main.__binding_second__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_second__",
+      "scope": "main"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "__module__"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [],
+      "parent": null
+    },
+    {
+      "children": [
+        "main"
+      ],
+      "id": "__module__",
+      "kind": "module",
+      "name": "__module__",
+      "nodes": [
+        "__module__.__binding_main__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "main.first#0",
+        "main.second#1",
+        "main.__delete_first_0__#2",
+        "main.__delete_second_1__#3",
+        "main.__return_0__#4",
+        "main.missing#5",
+        "main.__binding_first__#6",
+        "main.__binding_second__#7"
+      ],
+      "parent": "__module__"
+    }
+  ],
+  "version": "0.1.0"
+}

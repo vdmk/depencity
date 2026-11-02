@@ -1,0 +1,942 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.imported_constructor_capture.worker.Box#0",
+      "target": "imported_constructor_capture.entry.Box#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.imported_constructor_capture.worker.Box#0",
+      "target": "imported_constructor_capture.entry.KeywordBase#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "builtins.__binding_type__#1",
+      "target": "builtins.type#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "builtins.type#0",
+      "target": "imported_constructor_capture.entry.KeywordBase#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "imported_constructor_capture.entry.Box#0",
+      "target": "imported_constructor_capture.entry.main.__call_Box_1__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "imported_constructor_capture.entry.Box#0",
+      "target": "imported_constructor_capture.entry.main.__call_Box_3__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "imported_constructor_capture.entry.KeywordBase#1",
+      "target": "imported_constructor_capture.entry.KeywordChild#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "imported_constructor_capture.entry.KeywordBase#2",
+      "target": "imported_constructor_capture.entry.KeywordChild#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "declaration",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_constructor_capture.entry.KeywordChild",
+      "target": "imported_constructor_capture.entry.KeywordChild#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_constructor_capture.entry.KeywordChild",
+      "target": "imported_constructor_capture.entry.__binding_KeywordChild__#6"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "imported_constructor_capture.entry.KeywordChild#3",
+      "target": "imported_constructor_capture.entry.inherited_constructor.__call_KeywordChild_4__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_constructor_capture.entry.__binding_Box__#4",
+      "target": "imported_constructor_capture.entry.Box#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_constructor_capture.entry.__binding_Box__#4",
+      "target": "imported_constructor_capture.entry.main.__write_Box_2__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_constructor_capture.entry.__binding_KeywordBase__#5",
+      "target": "imported_constructor_capture.entry.KeywordBase#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_constructor_capture.entry.__binding_KeywordBase__#5",
+      "target": "imported_constructor_capture.entry.KeywordBase#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_constructor_capture.entry.__binding_KeywordChild__#6",
+      "target": "imported_constructor_capture.entry.KeywordChild#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_constructor_capture.entry.inherited_constructor",
+      "target": "imported_constructor_capture.entry.__binding_inherited_constructor__#8"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_constructor_capture.entry.inherited_constructor.__call_KeywordChild_4__#0",
+      "target": "imported_constructor_capture.entry.inherited_constructor.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_constructor_capture.entry.main",
+      "target": "imported_constructor_capture.entry.__binding_main__#7"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_constructor_capture.entry.main.__call_Box_1__#0",
+      "target": "imported_constructor_capture.entry.main.__container_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_constructor_capture.entry.main.__call_Box_3__#2",
+      "target": "imported_constructor_capture.entry.main.__container_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_constructor_capture.entry.main.__container_0__#3",
+      "target": "imported_constructor_capture.entry.main.__return_0__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "imported_constructor_capture.entry.main.__write_Box_2__#1",
+      "target": "imported_constructor_capture.entry.main.__call_Box_3__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_constructor_capture.worker.Box",
+      "target": "__root__.imported_constructor_capture.worker.Box#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_constructor_capture.worker.Box",
+      "target": "imported_constructor_capture.worker.__binding_Box__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_constructor_capture.worker.Box.__init__",
+      "target": "imported_constructor_capture.worker.Box.__binding___init____#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_constructor_capture.worker.Box.__init__.__binding_self__#4",
+      "target": "imported_constructor_capture.worker.Box.__init__.self#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_constructor_capture.worker.Box.__init__.__binding_value__#5",
+      "target": "imported_constructor_capture.worker.Box.__init__.value#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_constructor_capture.worker.Box.__init__.__return_0__#3",
+      "target": "imported_constructor_capture.entry.inherited_constructor.__call_KeywordChild_4__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_constructor_capture.worker.Box.__init__.__return_0__#3",
+      "target": "imported_constructor_capture.entry.main.__call_Box_1__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_constructor_capture.worker.Box.__init__.__return_0__#3",
+      "target": "imported_constructor_capture.entry.main.__call_Box_3__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "imported_constructor_capture.worker.Box.__init__.self#0",
+      "target": "imported_constructor_capture.worker.Box.__init__.__ref_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "imported_constructor_capture.worker.Box.__init__.value#1",
+      "target": "imported_constructor_capture.worker.Box.__init__.__ref_0__#2"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [
+        "imported_constructor_capture.worker.Box"
+      ],
+      "display_name": "imported_constructor_capture.worker.Box",
+      "id": "__root__.imported_constructor_capture.worker.Box#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "imported_constructor_capture.worker.Box",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.imported_constructor_capture.worker.Box#0"
+      ],
+      "display_name": "Box",
+      "id": "imported_constructor_capture.entry.Box#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Box",
+      "scope": "imported_constructor_capture.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.imported_constructor_capture.worker.Box#0"
+      ],
+      "display_name": "KeywordBase v1",
+      "id": "imported_constructor_capture.entry.KeywordBase#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "KeywordBase",
+      "scope": "imported_constructor_capture.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "builtins.type#0"
+      ],
+      "display_name": "KeywordBase v2",
+      "id": "imported_constructor_capture.entry.KeywordBase#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "KeywordBase",
+      "scope": "imported_constructor_capture.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "imported_constructor_capture.entry.KeywordBase#1",
+        "imported_constructor_capture.entry.KeywordBase#2"
+      ],
+      "display_name": "KeywordChild",
+      "id": "imported_constructor_capture.entry.KeywordChild#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "KeywordChild",
+      "scope": "imported_constructor_capture.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Box",
+      "id": "imported_constructor_capture.entry.__binding_Box__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Box__",
+      "scope": "imported_constructor_capture.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "KeywordBase",
+      "id": "imported_constructor_capture.entry.__binding_KeywordBase__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_KeywordBase__",
+      "scope": "imported_constructor_capture.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "KeywordChild",
+      "id": "imported_constructor_capture.entry.__binding_KeywordChild__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_KeywordChild__",
+      "scope": "imported_constructor_capture.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "imported_constructor_capture.entry.__binding_main__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "imported_constructor_capture.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "inherited_constructor",
+      "id": "imported_constructor_capture.entry.__binding_inherited_constructor__#8",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_inherited_constructor__",
+      "scope": "imported_constructor_capture.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "imported_constructor_capture.entry.Box#0",
+        "imported_constructor_capture.worker.Box.__init__.__return_0__#3"
+      ],
+      "display_name": "Box()",
+      "id": "imported_constructor_capture.entry.main.__call_Box_1__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_Box_1__",
+      "scope": "imported_constructor_capture.entry.main"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "Box",
+      "id": "imported_constructor_capture.entry.main.__write_Box_2__#1",
+      "is_class_attribute": false,
+      "is_global_write": true,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "__write_Box_2__",
+      "scope": "imported_constructor_capture.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "imported_constructor_capture.entry.Box#0",
+        "imported_constructor_capture.entry.main.__write_Box_2__#1",
+        "imported_constructor_capture.worker.Box.__init__.__return_0__#3"
+      ],
+      "display_name": "Box()",
+      "id": "imported_constructor_capture.entry.main.__call_Box_3__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_Box_3__",
+      "scope": "imported_constructor_capture.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "imported_constructor_capture.entry.main.__call_Box_1__#0",
+        "imported_constructor_capture.entry.main.__call_Box_3__#2"
+      ],
+      "display_name": "(Box(1), Box((Box := 3)))",
+      "id": "imported_constructor_capture.entry.main.__container_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__container_0__",
+      "operation_type": "container",
+      "scope": "imported_constructor_capture.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "imported_constructor_capture.entry.main.__container_0__#3"
+      ],
+      "display_name": "return (Box(1), Box((Box := 3)))",
+      "id": "imported_constructor_capture.entry.main.__return_0__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "imported_constructor_capture.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "imported_constructor_capture.entry.KeywordChild#3",
+        "imported_constructor_capture.worker.Box.__init__.__return_0__#3"
+      ],
+      "display_name": "KeywordChild()",
+      "id": "imported_constructor_capture.entry.inherited_constructor.__call_KeywordChild_4__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_KeywordChild_4__",
+      "scope": "imported_constructor_capture.entry.inherited_constructor"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "imported_constructor_capture.entry.inherited_constructor.__call_KeywordChild_4__#0"
+      ],
+      "display_name": "return KeywordChild(1)",
+      "id": "imported_constructor_capture.entry.inherited_constructor.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "imported_constructor_capture.entry.inherited_constructor"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Box",
+      "id": "imported_constructor_capture.worker.__binding_Box__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Box__",
+      "scope": "imported_constructor_capture.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "__init__",
+      "id": "imported_constructor_capture.worker.Box.__binding___init____#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding___init____",
+      "scope": "imported_constructor_capture.worker.Box"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "self",
+      "id": "imported_constructor_capture.worker.Box.__init__.self#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "self",
+      "scope": "imported_constructor_capture.worker.Box.__init__"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "imported_constructor_capture.worker.Box.__init__.value#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "imported_constructor_capture.worker.Box.__init__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "imported_constructor_capture.worker.Box.__init__.self#0",
+        "imported_constructor_capture.worker.Box.__init__.value#1"
+      ],
+      "display_name": "self.value",
+      "id": "imported_constructor_capture.worker.Box.__init__.__ref_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": true,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_0__",
+      "scope": "imported_constructor_capture.worker.Box.__init__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return None (implicit)",
+      "id": "imported_constructor_capture.worker.Box.__init__.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "imported_constructor_capture.worker.Box.__init__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "self",
+      "id": "imported_constructor_capture.worker.Box.__init__.__binding_self__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_self__",
+      "scope": "imported_constructor_capture.worker.Box.__init__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "imported_constructor_capture.worker.Box.__init__.__binding_value__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "imported_constructor_capture.worker.Box.__init__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "type",
+      "id": "builtins.type#0",
+      "is_builtin": true,
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "type",
+      "scope": "builtins"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "type",
+      "id": "builtins.__binding_type__#1",
+      "is_builtin": true,
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_type__",
+      "scope": "builtins"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "imported_constructor_capture.entry",
+        "imported_constructor_capture.worker",
+        "builtins"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.imported_constructor_capture.worker.Box#0"
+      ],
+      "parent": null
+    },
+    {
+      "children": [
+        "imported_constructor_capture.entry.main",
+        "imported_constructor_capture.entry.KeywordChild",
+        "imported_constructor_capture.entry.inherited_constructor"
+      ],
+      "id": "imported_constructor_capture.entry",
+      "kind": "module",
+      "name": "imported_constructor_capture.entry",
+      "nodes": [
+        "imported_constructor_capture.entry.Box#0",
+        "imported_constructor_capture.entry.KeywordBase#1",
+        "imported_constructor_capture.entry.KeywordBase#2",
+        "imported_constructor_capture.entry.KeywordChild#3",
+        "imported_constructor_capture.entry.__binding_Box__#4",
+        "imported_constructor_capture.entry.__binding_KeywordBase__#5",
+        "imported_constructor_capture.entry.__binding_KeywordChild__#6",
+        "imported_constructor_capture.entry.__binding_main__#7",
+        "imported_constructor_capture.entry.__binding_inherited_constructor__#8"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "imported_constructor_capture.entry.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "imported_constructor_capture.entry.main.__call_Box_1__#0",
+        "imported_constructor_capture.entry.main.__write_Box_2__#1",
+        "imported_constructor_capture.entry.main.__call_Box_3__#2",
+        "imported_constructor_capture.entry.main.__container_0__#3",
+        "imported_constructor_capture.entry.main.__return_0__#4"
+      ],
+      "parent": "imported_constructor_capture.entry"
+    },
+    {
+      "children": [],
+      "id": "imported_constructor_capture.entry.KeywordChild",
+      "kind": "class",
+      "name": "KeywordChild",
+      "nodes": [],
+      "parent": "imported_constructor_capture.entry"
+    },
+    {
+      "children": [],
+      "id": "imported_constructor_capture.entry.inherited_constructor",
+      "kind": "function",
+      "name": "inherited_constructor",
+      "nodes": [
+        "imported_constructor_capture.entry.inherited_constructor.__call_KeywordChild_4__#0",
+        "imported_constructor_capture.entry.inherited_constructor.__return_0__#1"
+      ],
+      "parent": "imported_constructor_capture.entry"
+    },
+    {
+      "children": [
+        "imported_constructor_capture.worker.Box"
+      ],
+      "id": "imported_constructor_capture.worker",
+      "kind": "module",
+      "name": "imported_constructor_capture.worker",
+      "nodes": [
+        "imported_constructor_capture.worker.__binding_Box__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "imported_constructor_capture.worker.Box.__init__"
+      ],
+      "id": "imported_constructor_capture.worker.Box",
+      "kind": "class",
+      "name": "Box",
+      "nodes": [
+        "imported_constructor_capture.worker.Box.__binding___init____#0"
+      ],
+      "parent": "imported_constructor_capture.worker"
+    },
+    {
+      "children": [],
+      "id": "imported_constructor_capture.worker.Box.__init__",
+      "kind": "function",
+      "name": "__init__",
+      "nodes": [
+        "imported_constructor_capture.worker.Box.__init__.self#0",
+        "imported_constructor_capture.worker.Box.__init__.value#1",
+        "imported_constructor_capture.worker.Box.__init__.__ref_0__#2",
+        "imported_constructor_capture.worker.Box.__init__.__return_0__#3",
+        "imported_constructor_capture.worker.Box.__init__.__binding_self__#4",
+        "imported_constructor_capture.worker.Box.__init__.__binding_value__#5"
+      ],
+      "parent": "imported_constructor_capture.worker.Box"
+    },
+    {
+      "children": [],
+      "id": "builtins",
+      "kind": "builtins",
+      "name": "builtins",
+      "nodes": [
+        "builtins.type#0",
+        "builtins.__binding_type__#1"
+      ],
+      "parent": "__root__"
+    }
+  ],
+  "version": "0.1.0"
+}

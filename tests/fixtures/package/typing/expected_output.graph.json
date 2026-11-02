@@ -1,0 +1,874 @@
+{
+  "edges": [
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "typing.Sequence",
+      "target": "typing.__binding_Sequence__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "typing.Sequence.__binding_T__#1",
+      "target": "typing.Sequence.T#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "typing.entry.Worker",
+      "target": "typing.entry.__binding_Worker__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "typing.entry.Worker.run",
+      "target": "typing.entry.Worker.__binding_run__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "typing.entry.Worker.run.__binding_self__#3",
+      "target": "typing.entry.Worker.run.self#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "typing.entry.Worker.run.__return_0__#1",
+      "target": "typing.entry.native.__call_items[0].run_8__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "typing.entry.Worker.run.payload#2",
+      "target": "typing.entry.Worker.run.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "typing.entry.named",
+      "target": "typing.entry.__binding_named__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "typing.entry.named.__binding_items__#5",
+      "target": "typing.entry.named.items#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "typing.entry.named.__call_items[0].run_2__#3",
+      "target": "typing.entry.named.__return_0__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "typing.entry.named.__ref_0__#1",
+      "target": "typing.entry.named.__ref_1__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "typing.entry.named.__ref_1__#2",
+      "target": "typing.entry.named.__call_items[0].run_2__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "typing.entry.named.items#0",
+      "target": "typing.entry.named.__ref_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "typing.entry.native",
+      "target": "typing.entry.__binding_native__#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "typing.entry.native.__binding_items__#5",
+      "target": "typing.entry.native.items#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "typing.entry.native.__call_items[0].run_8__#3",
+      "target": "typing.entry.native.__return_0__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "typing.entry.native.__ref_6__#1",
+      "target": "typing.entry.native.__ref_7__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "typing.entry.native.__ref_7__#2",
+      "target": "typing.entry.native.__call_items[0].run_8__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "typing.entry.native.items#0",
+      "target": "typing.entry.native.__ref_6__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "typing.entry.qualified",
+      "target": "typing.entry.__binding_qualified__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "typing.entry.qualified.__binding_items__#5",
+      "target": "typing.entry.qualified.items#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "typing.entry.qualified.__call_items[0].run_5__#3",
+      "target": "typing.entry.qualified.__return_0__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "typing.entry.qualified.__ref_3__#1",
+      "target": "typing.entry.qualified.__ref_4__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "typing.entry.qualified.__ref_4__#2",
+      "target": "typing.entry.qualified.__call_items[0].run_5__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "typing.entry.qualified.items#0",
+      "target": "typing.entry.qualified.__ref_3__#1"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Sequence",
+      "id": "typing.__binding_Sequence__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Sequence__",
+      "scope": "typing"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "T",
+      "id": "typing.Sequence.T#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "T",
+      "scope": "typing.Sequence"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "T",
+      "id": "typing.Sequence.__binding_T__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_T__",
+      "scope": "typing.Sequence"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Worker",
+      "id": "typing.entry.__binding_Worker__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Worker__",
+      "scope": "typing.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "named",
+      "id": "typing.entry.__binding_named__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_named__",
+      "scope": "typing.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "qualified",
+      "id": "typing.entry.__binding_qualified__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_qualified__",
+      "scope": "typing.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "native",
+      "id": "typing.entry.__binding_native__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_native__",
+      "scope": "typing.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "run",
+      "id": "typing.entry.Worker.__binding_run__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_run__",
+      "scope": "typing.entry.Worker"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "self",
+      "id": "typing.entry.Worker.run.self#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "self",
+      "scope": "typing.entry.Worker.run"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "typing.entry.Worker.run.payload#2"
+      ],
+      "display_name": "return payload",
+      "id": "typing.entry.Worker.run.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "typing.entry.Worker.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "payload",
+      "id": "typing.entry.Worker.run.payload#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "payload",
+      "scope": "typing.entry.Worker.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "self",
+      "id": "typing.entry.Worker.run.__binding_self__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_self__",
+      "scope": "typing.entry.Worker.run"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "items",
+      "id": "typing.entry.named.items#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "items",
+      "scope": "typing.entry.named"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "typing.entry.named.items#0"
+      ],
+      "display_name": "items[0]",
+      "id": "typing.entry.named.__ref_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "subscript",
+      "name": "__ref_0__",
+      "scope": "typing.entry.named"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "typing.entry.named.__ref_0__#1"
+      ],
+      "display_name": "items[0].run",
+      "id": "typing.entry.named.__ref_1__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_1__",
+      "scope": "typing.entry.named"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "typing.entry.named.__ref_1__#2"
+      ],
+      "display_name": "items[0].run()",
+      "id": "typing.entry.named.__call_items[0].run_2__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_items[0].run_2__",
+      "scope": "typing.entry.named"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "typing.entry.named.__call_items[0].run_2__#3"
+      ],
+      "display_name": "return items[0].run()",
+      "id": "typing.entry.named.__return_0__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "typing.entry.named"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "items",
+      "id": "typing.entry.named.__binding_items__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_items__",
+      "scope": "typing.entry.named"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "items",
+      "id": "typing.entry.qualified.items#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "items",
+      "scope": "typing.entry.qualified"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "typing.entry.qualified.items#0"
+      ],
+      "display_name": "items[0]",
+      "id": "typing.entry.qualified.__ref_3__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "subscript",
+      "name": "__ref_3__",
+      "scope": "typing.entry.qualified"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "typing.entry.qualified.__ref_3__#1"
+      ],
+      "display_name": "items[0].run",
+      "id": "typing.entry.qualified.__ref_4__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_4__",
+      "scope": "typing.entry.qualified"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "typing.entry.qualified.__ref_4__#2"
+      ],
+      "display_name": "items[0].run()",
+      "id": "typing.entry.qualified.__call_items[0].run_5__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_items[0].run_5__",
+      "scope": "typing.entry.qualified"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "typing.entry.qualified.__call_items[0].run_5__#3"
+      ],
+      "display_name": "return items[0].run()",
+      "id": "typing.entry.qualified.__return_0__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "typing.entry.qualified"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "items",
+      "id": "typing.entry.qualified.__binding_items__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_items__",
+      "scope": "typing.entry.qualified"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "items",
+      "id": "typing.entry.native.items#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "items",
+      "scope": "typing.entry.native"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "typing.entry.native.items#0"
+      ],
+      "display_name": "items[0]",
+      "id": "typing.entry.native.__ref_6__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "subscript",
+      "name": "__ref_6__",
+      "scope": "typing.entry.native"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "typing.entry.native.__ref_6__#1"
+      ],
+      "display_name": "items[0].run",
+      "id": "typing.entry.native.__ref_7__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_7__",
+      "scope": "typing.entry.native"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "typing.entry.Worker.run.__return_0__#1",
+        "typing.entry.native.__ref_7__#2"
+      ],
+      "display_name": "items[0].run()",
+      "id": "typing.entry.native.__call_items[0].run_8__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_items[0].run_8__",
+      "scope": "typing.entry.native"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "typing.entry.native.__call_items[0].run_8__#3"
+      ],
+      "display_name": "return items[0].run()",
+      "id": "typing.entry.native.__return_0__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "typing.entry.native"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "items",
+      "id": "typing.entry.native.__binding_items__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_items__",
+      "scope": "typing.entry.native"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "typing",
+        "typing.entry"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [],
+      "parent": null
+    },
+    {
+      "children": [
+        "typing.Sequence"
+      ],
+      "id": "typing",
+      "kind": "module",
+      "name": "typing",
+      "nodes": [
+        "typing.__binding_Sequence__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "typing.Sequence",
+      "kind": "class",
+      "name": "Sequence",
+      "nodes": [
+        "typing.Sequence.T#0",
+        "typing.Sequence.__binding_T__#1"
+      ],
+      "parent": "typing"
+    },
+    {
+      "children": [
+        "typing.entry.Worker",
+        "typing.entry.named",
+        "typing.entry.qualified",
+        "typing.entry.native"
+      ],
+      "id": "typing.entry",
+      "kind": "module",
+      "name": "typing.entry",
+      "nodes": [
+        "typing.entry.__binding_Worker__#0",
+        "typing.entry.__binding_named__#1",
+        "typing.entry.__binding_qualified__#2",
+        "typing.entry.__binding_native__#3"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "typing.entry.Worker.run"
+      ],
+      "id": "typing.entry.Worker",
+      "kind": "class",
+      "name": "Worker",
+      "nodes": [
+        "typing.entry.Worker.__binding_run__#0"
+      ],
+      "parent": "typing.entry"
+    },
+    {
+      "children": [],
+      "id": "typing.entry.Worker.run",
+      "kind": "function",
+      "name": "run",
+      "nodes": [
+        "typing.entry.Worker.run.self#0",
+        "typing.entry.Worker.run.__return_0__#1",
+        "typing.entry.Worker.run.payload#2",
+        "typing.entry.Worker.run.__binding_self__#3"
+      ],
+      "parent": "typing.entry.Worker"
+    },
+    {
+      "children": [],
+      "id": "typing.entry.named",
+      "kind": "function",
+      "name": "named",
+      "nodes": [
+        "typing.entry.named.items#0",
+        "typing.entry.named.__ref_0__#1",
+        "typing.entry.named.__ref_1__#2",
+        "typing.entry.named.__call_items[0].run_2__#3",
+        "typing.entry.named.__return_0__#4",
+        "typing.entry.named.__binding_items__#5"
+      ],
+      "parent": "typing.entry"
+    },
+    {
+      "children": [],
+      "id": "typing.entry.qualified",
+      "kind": "function",
+      "name": "qualified",
+      "nodes": [
+        "typing.entry.qualified.items#0",
+        "typing.entry.qualified.__ref_3__#1",
+        "typing.entry.qualified.__ref_4__#2",
+        "typing.entry.qualified.__call_items[0].run_5__#3",
+        "typing.entry.qualified.__return_0__#4",
+        "typing.entry.qualified.__binding_items__#5"
+      ],
+      "parent": "typing.entry"
+    },
+    {
+      "children": [],
+      "id": "typing.entry.native",
+      "kind": "function",
+      "name": "native",
+      "nodes": [
+        "typing.entry.native.items#0",
+        "typing.entry.native.__ref_6__#1",
+        "typing.entry.native.__ref_7__#2",
+        "typing.entry.native.__call_items[0].run_8__#3",
+        "typing.entry.native.__return_0__#4",
+        "typing.entry.native.__binding_items__#5"
+      ],
+      "parent": "typing.entry"
+    }
+  ],
+  "version": "0.1.0"
+}

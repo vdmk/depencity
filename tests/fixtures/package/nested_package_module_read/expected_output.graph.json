@@ -1,0 +1,510 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.nested_package_module_read.facade#0",
+      "target": "nested_package_module_read.entry.facade#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.nested_package_module_read.facade.worker#1",
+      "target": "nested_package_module_read.entry.main.__ref_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.nested_package_module_read.facade.worker#1",
+      "target": "nested_package_module_read.facade.worker#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.nested_package_module_read.facade.worker.run#2",
+      "target": "nested_package_module_read.entry.main.__call_facade.worker.run_2__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "nested_package_module_read.entry.__binding_facade__#1",
+      "target": "nested_package_module_read.entry.facade#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "nested_package_module_read.entry.facade#0",
+      "target": "nested_package_module_read.entry.main.__ref_0__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "nested_package_module_read.entry.main",
+      "target": "nested_package_module_read.entry.__binding_main__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "nested_package_module_read.entry.main.__call_facade.worker.run_2__#2",
+      "target": "nested_package_module_read.entry.main.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "nested_package_module_read.entry.main.__ref_0__#0",
+      "target": "nested_package_module_read.entry.main.__ref_1__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "nested_package_module_read.entry.main.__ref_1__#1",
+      "target": "nested_package_module_read.entry.main.__call_facade.worker.run_2__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "nested_package_module_read.facade",
+      "target": "__root__.nested_package_module_read.facade#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "nested_package_module_read.facade.__binding_worker__#1",
+      "target": "nested_package_module_read.facade.worker#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "nested_package_module_read.facade.worker",
+      "target": "__root__.nested_package_module_read.facade.worker#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "nested_package_module_read.facade.worker#0",
+      "target": "__root__.nested_package_module_read.facade.worker#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "nested_package_module_read.facade.worker.run",
+      "target": "__root__.nested_package_module_read.facade.worker.run#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "nested_package_module_read.facade.worker.run",
+      "target": "nested_package_module_read.facade.worker.__binding_run__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "nested_package_module_read.facade.worker.run.__return_0__#0",
+      "target": "nested_package_module_read.entry.main.__call_facade.worker.run_2__#2"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [
+        "nested_package_module_read.facade"
+      ],
+      "display_name": "nested_package_module_read.facade",
+      "id": "__root__.nested_package_module_read.facade#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "nested_package_module_read.facade",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "nested_package_module_read.facade.worker",
+        "nested_package_module_read.facade.worker#0"
+      ],
+      "display_name": "nested_package_module_read.facade.worker",
+      "id": "__root__.nested_package_module_read.facade.worker#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "nested_package_module_read.facade.worker",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "nested_package_module_read.facade.worker.run"
+      ],
+      "display_name": "nested_package_module_read.facade.worker.run",
+      "id": "__root__.nested_package_module_read.facade.worker.run#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "nested_package_module_read.facade.worker.run",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.nested_package_module_read.facade#0"
+      ],
+      "display_name": "facade",
+      "id": "nested_package_module_read.entry.facade#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "facade",
+      "scope": "nested_package_module_read.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "facade",
+      "id": "nested_package_module_read.entry.__binding_facade__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_facade__",
+      "scope": "nested_package_module_read.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "nested_package_module_read.entry.__binding_main__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "nested_package_module_read.entry"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "__root__.nested_package_module_read.facade.worker#1",
+        "nested_package_module_read.entry.facade#0"
+      ],
+      "display_name": "facade.worker",
+      "id": "nested_package_module_read.entry.main.__ref_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_0__",
+      "scope": "nested_package_module_read.entry.main"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "nested_package_module_read.entry.main.__ref_0__#0"
+      ],
+      "display_name": "facade.worker.run",
+      "id": "nested_package_module_read.entry.main.__ref_1__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_1__",
+      "scope": "nested_package_module_read.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "__root__.nested_package_module_read.facade.worker.run#2",
+        "nested_package_module_read.entry.main.__ref_1__#1",
+        "nested_package_module_read.facade.worker.run.__return_0__#0"
+      ],
+      "display_name": "facade.worker.run()",
+      "id": "nested_package_module_read.entry.main.__call_facade.worker.run_2__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_facade.worker.run_2__",
+      "scope": "nested_package_module_read.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "nested_package_module_read.entry.main.__call_facade.worker.run_2__#2"
+      ],
+      "display_name": "return facade.worker.run()",
+      "id": "nested_package_module_read.entry.main.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "nested_package_module_read.entry.main"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.nested_package_module_read.facade.worker#1"
+      ],
+      "display_name": "worker",
+      "id": "nested_package_module_read.facade.worker#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "worker",
+      "scope": "nested_package_module_read.facade"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "worker",
+      "id": "nested_package_module_read.facade.__binding_worker__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_worker__",
+      "scope": "nested_package_module_read.facade"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "run",
+      "id": "nested_package_module_read.facade.worker.__binding_run__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_run__",
+      "scope": "nested_package_module_read.facade.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return 1",
+      "id": "nested_package_module_read.facade.worker.run.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "nested_package_module_read.facade.worker.run"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "nested_package_module_read.entry",
+        "nested_package_module_read.facade",
+        "nested_package_module_read.facade.worker"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.nested_package_module_read.facade#0",
+        "__root__.nested_package_module_read.facade.worker#1",
+        "__root__.nested_package_module_read.facade.worker.run#2"
+      ],
+      "parent": null
+    },
+    {
+      "children": [
+        "nested_package_module_read.entry.main"
+      ],
+      "id": "nested_package_module_read.entry",
+      "kind": "module",
+      "name": "nested_package_module_read.entry",
+      "nodes": [
+        "nested_package_module_read.entry.facade#0",
+        "nested_package_module_read.entry.__binding_facade__#1",
+        "nested_package_module_read.entry.__binding_main__#2"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "nested_package_module_read.entry.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "nested_package_module_read.entry.main.__ref_0__#0",
+        "nested_package_module_read.entry.main.__ref_1__#1",
+        "nested_package_module_read.entry.main.__call_facade.worker.run_2__#2",
+        "nested_package_module_read.entry.main.__return_0__#3"
+      ],
+      "parent": "nested_package_module_read.entry"
+    },
+    {
+      "children": [],
+      "id": "nested_package_module_read.facade",
+      "kind": "module",
+      "name": "nested_package_module_read.facade",
+      "nodes": [
+        "nested_package_module_read.facade.worker#0",
+        "nested_package_module_read.facade.__binding_worker__#1"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "nested_package_module_read.facade.worker.run"
+      ],
+      "id": "nested_package_module_read.facade.worker",
+      "kind": "module",
+      "name": "nested_package_module_read.facade.worker",
+      "nodes": [
+        "nested_package_module_read.facade.worker.__binding_run__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "nested_package_module_read.facade.worker.run",
+      "kind": "function",
+      "name": "run",
+      "nodes": [
+        "nested_package_module_read.facade.worker.run.__return_0__#0"
+      ],
+      "parent": "nested_package_module_read.facade.worker"
+    }
+  ],
+  "version": "0.1.0"
+}

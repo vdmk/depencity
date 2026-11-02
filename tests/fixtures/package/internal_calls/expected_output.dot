@@ -1,0 +1,113 @@
+digraph {
+  rankdir=LR;
+  compound=true;
+  node [fontname="monospace"];
+
+  subgraph cluster_n0 {
+    label="__root__\n(root)";
+    style=rounded;
+    n0 [style=invis];
+    n1 [label="internal_calls.worker.build_total"];
+    n2 [label="internal_calls.worker"];
+
+    subgraph cluster_n3 {
+      label="internal_calls.entry\n(module)";
+      style=rounded;
+      n3 [style=invis];
+      n4 [label="build_total"];
+      n5 [label="internal_calls"];
+      n6 [label="build_total" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n7 [label="internal_calls" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n8 [label="main" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n9 [label="aliased" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+      subgraph cluster_n10 {
+        label="main\n(function)";
+        style=rounded;
+        n10 [style=invis];
+        n11 [label="items"];
+        n12 [label="build_total()" shape=box style=filled fillcolor=lightcyan];
+        n13 [label="return build_total(items)"];
+        n14 [label="items" shape=box style="rounded,filled" fillcolor=lightyellow];
+      }
+
+
+      subgraph cluster_n15 {
+        label="aliased\n(function)";
+        style=rounded;
+        n15 [style=invis];
+        n16 [label="items"];
+        n17 [label="internal_calls.build_total"];
+        n18 [label="internal_calls.build_total()" shape=box style=filled fillcolor=lightcyan];
+        n19 [label="return internal_calls.build_total(items)"];
+        n20 [label="items" shape=box style="rounded,filled" fillcolor=lightyellow];
+      }
+
+    }
+
+
+    subgraph cluster_n21 {
+      label="internal_calls.worker\n(module)";
+      style=rounded;
+      n21 [style=invis];
+      n22 [label="build_total" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+      subgraph cluster_n23 {
+        label="build_total\n(function)";
+        style=rounded;
+        n23 [style=invis];
+        n24 [label="items"];
+        n25 [label="total v1"];
+        n26 [label="for item in items" shape=diamond];
+        n27 [label="item in items" shape=box];
+        n28 [label="item"];
+        n29 [label="total += item" shape=box];
+        n30 [label="total v2"];
+        n31 [label="return total"];
+        n32 [label="items" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n33 [label="total" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n34 [label="item" shape=box style="rounded,filled" fillcolor=lightyellow];
+      }
+
+    }
+
+  }
+
+  n1 -> n18 [color=steelblue];
+  n1 -> n4 [color=steelblue];
+  n10 -> n8 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n10];
+  n11 -> n12 [color=steelblue];
+  n12 -> n13 [color=steelblue];
+  n14 -> n11 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n15 -> n9 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n15];
+  n16 -> n18 [color=steelblue];
+  n17 -> n18 [color=steelblue];
+  n18 -> n19 [color=steelblue];
+  n2 -> n5 [color=steelblue];
+  n20 -> n16 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n21 -> n2 [color=steelblue, ltail=cluster_n21];
+  n23 -> n1 [color=steelblue, ltail=cluster_n23];
+  n23 -> n22 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n23];
+  n24 -> n26 [color=steelblue];
+  n24 -> n27 [color=steelblue];
+  n25 -> n29 [color=steelblue];
+  n25 -> n31 [color=steelblue];
+  n26 -> n27 [color=steelblue];
+  n26 -> n28 [color=steelblue];
+  n26 -> n29 [color=steelblue];
+  n26 -> n30 [color=steelblue];
+  n27 -> n28 [color=steelblue];
+  n28 -> n29 [color=steelblue];
+  n29 -> n30 [color=steelblue];
+  n30 -> n31 [color=steelblue];
+  n31 -> n12 [color=steelblue];
+  n31 -> n18 [color=steelblue];
+  n32 -> n24 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n33 -> n25 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n33 -> n30 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n34 -> n28 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n4 -> n12 [color=steelblue];
+  n5 -> n17 [color=steelblue];
+  n6 -> n4 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n7 -> n5 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+}

@@ -1,0 +1,98 @@
+digraph {
+  rankdir=LR;
+  compound=true;
+  node [fontname="monospace"];
+
+  subgraph cluster_n0 {
+    label="__root__\n(root)";
+    style=rounded;
+    n0 [style=invis];
+    n1 [label="external.Public"];
+
+    subgraph cluster_n2 {
+      label="annotated_export_imports.annotated\n(module)";
+      style=rounded;
+      n2 [style=invis];
+      n3 [label="Public"];
+      n4 [label="['Public']" shape=box];
+      n5 [label="__all__"];
+      n6 [label="Public" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n7 [label="__all__" shape=box style="rounded,filled" fillcolor=lightyellow];
+    }
+
+
+    subgraph cluster_n8 {
+      label="annotated_export_imports.control\n(module)";
+      style=rounded;
+      n8 [style=invis];
+      n9 [label="Public"];
+      n10 [label="['Public']" shape=box];
+      n11 [label="__all__"];
+      n12 [label="Public" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n13 [label="__all__" shape=box style="rounded,filled" fillcolor=lightyellow];
+    }
+
+
+    subgraph cluster_n14 {
+      label="annotated_export_imports.entry\n(module)";
+      style=rounded;
+      n14 [style=invis];
+      n15 [label="Public"];
+      n16 [label="['Public', 'main']" shape=box];
+      n17 [label="__all__"];
+      n18 [label="Public" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n19 [label="__all__" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n20 [label="main" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+      subgraph cluster_n21 {
+        label="main\n(function)";
+        style=rounded;
+        n21 [style=invis];
+        n22 [label="value"];
+        n23 [label="return value"];
+        n24 [label="value" shape=box style="rounded,filled" fillcolor=lightyellow];
+      }
+
+    }
+
+
+    subgraph cluster_n25 {
+      label="annotated_export_imports.rebound\n(module)";
+      style=rounded;
+      n25 [style=invis];
+      n26 [label="Public"];
+      n27 [label="['Public']" shape=box];
+      n28 [label="__all__"];
+      n29 [label="Public" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n30 [label="__all__" shape=box style="rounded,filled" fillcolor=lightyellow];
+    }
+
+
+    subgraph cluster_n31 {
+      label="annotated_export_imports.unused\n(module)";
+      style=rounded;
+      n31 [style=invis];
+    }
+
+  }
+
+  n1 -> n15 [color=steelblue];
+  n1 -> n26 [color=steelblue];
+  n1 -> n3 [color=steelblue];
+  n1 -> n9 [color=steelblue];
+  n10 -> n11 [color=steelblue];
+  n12 -> n9 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n13 -> n11 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n16 -> n17 [color=steelblue];
+  n18 -> n15 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n19 -> n17 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n21 -> n20 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n21];
+  n22 -> n23 [color=steelblue];
+  n24 -> n22 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n27 -> n28 [color=steelblue];
+  n29 -> n26 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n30 -> n28 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n4 -> n5 [color=steelblue];
+  n6 -> n3 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n7 -> n5 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+}

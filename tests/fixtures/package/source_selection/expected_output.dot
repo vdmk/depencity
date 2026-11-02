@@ -1,0 +1,22 @@
+digraph {
+  rankdir=LR;
+  compound=true;
+  node [fontname="monospace"];
+
+  subgraph cluster_n0 {
+    label="__root__\n(root)";
+    style=rounded;
+    n0 [style=invis];
+
+    subgraph cluster_n1 {
+      label="source_selection.entry\n(module)";
+      style=rounded;
+      n1 [style=invis];
+      n2 [label="value"];
+      n3 [label="value" shape=box style="rounded,filled" fillcolor=lightyellow];
+    }
+
+  }
+
+  n3 -> n2 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+}

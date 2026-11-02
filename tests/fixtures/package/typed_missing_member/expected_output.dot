@@ -1,0 +1,53 @@
+digraph {
+  rankdir=LR;
+  compound=true;
+  node [fontname="monospace"];
+
+  subgraph cluster_n0 {
+    label="__root__\n(root)";
+    style=rounded;
+    n0 [style=invis];
+
+    subgraph cluster_n1 {
+      label="typed_missing_member.entry\n(module)";
+      style=rounded;
+      n1 [style=invis];
+      n2 [label="main" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+      subgraph cluster_n3 {
+        label="main\n(function)";
+        style=rounded;
+        n3 [style=invis];
+        n4 [label="value"];
+        n5 [label="value.missing"];
+        n6 [label="value.missing()" shape=box style=filled fillcolor=lightcyan];
+        n7 [label="return value.missing()"];
+        n8 [label="value" shape=box style="rounded,filled" fillcolor=lightyellow];
+      }
+
+    }
+
+
+    subgraph cluster_n9 {
+      label="typed_missing_member.worker\n(module)";
+      style=rounded;
+      n9 [style=invis];
+      n10 [label="Worker" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+      subgraph cluster_n11 {
+        label="Worker\n(class)";
+        style=rounded;
+        n11 [style=invis];
+      }
+
+    }
+
+  }
+
+  n11 -> n10 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n11];
+  n3 -> n2 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n3];
+  n4 -> n5 [color=steelblue];
+  n5 -> n6 [color=steelblue];
+  n6 -> n7 [color=steelblue];
+  n8 -> n4 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+}

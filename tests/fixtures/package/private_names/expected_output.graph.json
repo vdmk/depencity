@@ -1,0 +1,2331 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.private_names.method.A#0",
+      "target": "private_names.entry.A#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.private_names.method.A.__run#2",
+      "target": "private_names.entry.main.__call_obj.__run_4__#6"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.private_names.parameter.A#1",
+      "target": "private_names.entry.ParameterReader#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.private_names.parameter.A.run#3",
+      "target": "private_names.entry.main.__call_reader.run_8__#10"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.attribute.A",
+      "target": "private_names.attribute.__binding_A__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.attribute.A.run",
+      "target": "private_names.attribute.A.__binding_run__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.attribute.A.run.__binding_obj__#5",
+      "target": "private_names.attribute.A.run.obj#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.attribute.A.run.__binding_self__#4",
+      "target": "private_names.attribute.A.run.self#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.attribute.A.run.__ref_0__#2",
+      "target": "private_names.attribute.A.run.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "private_names.attribute.A.run.obj#1",
+      "target": "private_names.attribute.A.run.__ref_0__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.binding.A",
+      "target": "private_names.binding.__binding_A__#6"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.binding.A.__binding_value__#1",
+      "target": "private_names.binding.A.value#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.binding.__binding__A__token__#5",
+      "target": "private_names.binding._A__token#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.binding.__binding___token__#4",
+      "target": "private_names.binding.__token#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "private_names.binding.__token#0",
+      "target": "private_names.binding.A.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "private_names.binding.right#3",
+      "target": "private_names.binding._A__token#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "private_names.binding.wrong#2",
+      "target": "private_names.binding.__token#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "private_names.entry.A#0",
+      "target": "private_names.entry.main.__call_A_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "private_names.entry.ParameterReader#1",
+      "target": "private_names.entry.main.__call_ParameterReader_1__#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.entry.__binding_A__#2",
+      "target": "private_names.entry.A#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.entry.__binding_ParameterReader__#3",
+      "target": "private_names.entry.ParameterReader#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.entry.main",
+      "target": "private_names.entry.__binding_main__#4"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.entry.main.__binding_obj__#14",
+      "target": "private_names.entry.main.obj#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.entry.main.__binding_reader__#15",
+      "target": "private_names.entry.main.reader#4"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.entry.main.__binding_value__#13",
+      "target": "private_names.entry.main.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.entry.main.__call_A_0__#1",
+      "target": "private_names.entry.main.obj#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.entry.main.__call_ParameterReader_1__#3",
+      "target": "private_names.entry.main.reader#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.entry.main.__call_obj._A__run_6__#8",
+      "target": "private_names.entry.main.__container_2__#11"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.entry.main.__call_obj.__run_4__#6",
+      "target": "private_names.entry.main.__container_2__#11"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.entry.main.__call_reader.run_8__#10",
+      "target": "private_names.entry.main.__container_2__#11"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.entry.main.__container_2__#11",
+      "target": "private_names.entry.main.__return_0__#12"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.entry.main.__ref_3__#5",
+      "target": "private_names.entry.main.__call_obj.__run_4__#6"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.entry.main.__ref_5__#7",
+      "target": "private_names.entry.main.__call_obj._A__run_6__#8"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.entry.main.__ref_7__#9",
+      "target": "private_names.entry.main.__call_reader.run_8__#10"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "private_names.entry.main.obj#2",
+      "target": "private_names.entry.main.__ref_3__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "private_names.entry.main.obj#2",
+      "target": "private_names.entry.main.__ref_5__#7"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "private_names.entry.main.reader#4",
+      "target": "private_names.entry.main.__ref_7__#9"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "private_names.entry.main.value#0",
+      "target": "private_names.entry.main.__call_reader.run_8__#10"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.from_module.A",
+      "target": "private_names.from_module.__binding_A__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.global.A",
+      "target": "private_names.global.__binding_A__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.global.A.run",
+      "target": "private_names.global.A.__binding_run__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.global.A.run.__binding_self__#3",
+      "target": "private_names.global.A.run.self#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "private_names.global.A.run.__value#2",
+      "target": "private_names.global.A.run.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.import.A",
+      "target": "private_names.import.__binding_A__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.method.A",
+      "target": "__root__.private_names.method.A#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.method.A",
+      "target": "private_names.method.__binding_A__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "private_names.method.A",
+      "target": "private_names.method.__call_A_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.method.A.__run",
+      "target": "__root__.private_names.method.A.__run#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.method.A.__run",
+      "target": "private_names.method.A.__binding___run__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.method.A.__run.__binding_self__#3",
+      "target": "private_names.method.A.__run.self#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.method.A.__run.__return_0__#1",
+      "target": "private_names.entry.main.__call_obj.__run_4__#6"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "private_names.method.A.__run.payload#2",
+      "target": "private_names.method.A.__run.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.method.__binding_obj__#4",
+      "target": "private_names.method.obj#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.method.__call_A_0__#0",
+      "target": "private_names.method.obj#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.method.__ref_1__#2",
+      "target": "private_names.method.__call_obj._A__run_2__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "private_names.method.obj#1",
+      "target": "private_names.method.__ref_1__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.nested.A",
+      "target": "private_names.nested.__binding_A__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.nested.A.B",
+      "target": "private_names.nested.A.__binding_B__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.nested.A.B.__binding_value__#2",
+      "target": "private_names.nested.A.B.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "private_names.nested.A.B.__token#1",
+      "target": "private_names.nested.A.B.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.parameter.A",
+      "target": "__root__.private_names.parameter.A#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.parameter.A",
+      "target": "private_names.parameter.__binding_A__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.parameter.A.run",
+      "target": "__root__.private_names.parameter.A.run#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.parameter.A.run",
+      "target": "private_names.parameter.A.__binding_run__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.parameter.A.run.__binding___value__#4",
+      "target": "private_names.parameter.A.run.__value#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.parameter.A.run.__binding_self__#3",
+      "target": "private_names.parameter.A.run.self#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.parameter.A.run.__return_0__#2",
+      "target": "private_names.entry.main.__call_reader.run_8__#10"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "private_names.parameter.A.run.__value#1",
+      "target": "private_names.parameter.A.run.__return_0__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.type_parameter.A",
+      "target": "private_names.type_parameter.__binding_A__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "private_names.type_parameter.A.__binding___T__#1",
+      "target": "private_names.type_parameter.A.__T#0"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [
+        "private_names.method.A"
+      ],
+      "display_name": "private_names.method.A",
+      "id": "__root__.private_names.method.A#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "private_names.method.A",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "private_names.parameter.A"
+      ],
+      "display_name": "private_names.parameter.A",
+      "id": "__root__.private_names.parameter.A#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "private_names.parameter.A",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "private_names.method.A.__run"
+      ],
+      "display_name": "private_names.method.A.__run",
+      "id": "__root__.private_names.method.A.__run#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "private_names.method.A.__run",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "private_names.parameter.A.run"
+      ],
+      "display_name": "private_names.parameter.A.run",
+      "id": "__root__.private_names.parameter.A.run#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "private_names.parameter.A.run",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "A",
+      "id": "private_names.attribute.__binding_A__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_A__",
+      "scope": "private_names.attribute"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "run",
+      "id": "private_names.attribute.A.__binding_run__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_run__",
+      "scope": "private_names.attribute.A"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "self",
+      "id": "private_names.attribute.A.run.self#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "self",
+      "scope": "private_names.attribute.A.run"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "obj",
+      "id": "private_names.attribute.A.run.obj#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "obj",
+      "scope": "private_names.attribute.A.run"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "private_names.attribute.A.run.obj#1"
+      ],
+      "display_name": "obj.__value",
+      "id": "private_names.attribute.A.run.__ref_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_0__",
+      "scope": "private_names.attribute.A.run"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "private_names.attribute.A.run.__ref_0__#2"
+      ],
+      "display_name": "return obj.__value",
+      "id": "private_names.attribute.A.run.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "private_names.attribute.A.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "self",
+      "id": "private_names.attribute.A.run.__binding_self__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_self__",
+      "scope": "private_names.attribute.A.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "obj",
+      "id": "private_names.attribute.A.run.__binding_obj__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_obj__",
+      "scope": "private_names.attribute.A.run"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "private_names.binding.wrong#2"
+      ],
+      "display_name": "__token",
+      "id": "private_names.binding.__token#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "__token",
+      "scope": "private_names.binding"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "private_names.binding.right#3"
+      ],
+      "display_name": "_A__token",
+      "id": "private_names.binding._A__token#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "_A__token",
+      "scope": "private_names.binding"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "wrong",
+      "id": "private_names.binding.wrong#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "wrong",
+      "scope": "private_names.binding"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "right",
+      "id": "private_names.binding.right#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "right",
+      "scope": "private_names.binding"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "__token",
+      "id": "private_names.binding.__binding___token__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding___token__",
+      "scope": "private_names.binding"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "_A__token",
+      "id": "private_names.binding.__binding__A__token__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding__A__token__",
+      "scope": "private_names.binding"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "A",
+      "id": "private_names.binding.__binding_A__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_A__",
+      "scope": "private_names.binding"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "private_names.binding.__token#0"
+      ],
+      "display_name": "value",
+      "id": "private_names.binding.A.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "private_names.binding.A"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "private_names.binding.A.__binding_value__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "private_names.binding.A"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.private_names.method.A#0"
+      ],
+      "display_name": "A",
+      "id": "private_names.entry.A#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "A",
+      "scope": "private_names.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.private_names.parameter.A#1"
+      ],
+      "display_name": "ParameterReader",
+      "id": "private_names.entry.ParameterReader#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "ParameterReader",
+      "scope": "private_names.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "A",
+      "id": "private_names.entry.__binding_A__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_A__",
+      "scope": "private_names.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "ParameterReader",
+      "id": "private_names.entry.__binding_ParameterReader__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_ParameterReader__",
+      "scope": "private_names.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "private_names.entry.__binding_main__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "private_names.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "private_names.entry.main.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "private_names.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "private_names.entry.A#0"
+      ],
+      "display_name": "A()",
+      "id": "private_names.entry.main.__call_A_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_A_0__",
+      "scope": "private_names.entry.main"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "private_names.entry.main.__call_A_0__#1"
+      ],
+      "display_name": "obj",
+      "id": "private_names.entry.main.obj#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "obj",
+      "scope": "private_names.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "private_names.entry.ParameterReader#1"
+      ],
+      "display_name": "ParameterReader()",
+      "id": "private_names.entry.main.__call_ParameterReader_1__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_ParameterReader_1__",
+      "scope": "private_names.entry.main"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "private_names.entry.main.__call_ParameterReader_1__#3"
+      ],
+      "display_name": "reader",
+      "id": "private_names.entry.main.reader#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "reader",
+      "scope": "private_names.entry.main"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "private_names.entry.main.obj#2"
+      ],
+      "display_name": "obj.__run",
+      "id": "private_names.entry.main.__ref_3__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_3__",
+      "scope": "private_names.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "__root__.private_names.method.A.__run#2",
+        "private_names.entry.main.__ref_3__#5",
+        "private_names.method.A.__run.__return_0__#1"
+      ],
+      "display_name": "obj.__run()",
+      "id": "private_names.entry.main.__call_obj.__run_4__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_obj.__run_4__",
+      "scope": "private_names.entry.main"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "private_names.entry.main.obj#2"
+      ],
+      "display_name": "obj._A__run",
+      "id": "private_names.entry.main.__ref_5__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_5__",
+      "scope": "private_names.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "private_names.entry.main.__ref_5__#7"
+      ],
+      "display_name": "obj._A__run()",
+      "id": "private_names.entry.main.__call_obj._A__run_6__#8",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_obj._A__run_6__",
+      "scope": "private_names.entry.main"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "private_names.entry.main.reader#4"
+      ],
+      "display_name": "reader.run",
+      "id": "private_names.entry.main.__ref_7__#9",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_7__",
+      "scope": "private_names.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "__root__.private_names.parameter.A.run#3",
+        "private_names.entry.main.__ref_7__#9",
+        "private_names.entry.main.value#0",
+        "private_names.parameter.A.run.__return_0__#2"
+      ],
+      "display_name": "reader.run()",
+      "id": "private_names.entry.main.__call_reader.run_8__#10",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_reader.run_8__",
+      "scope": "private_names.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "private_names.entry.main.__call_obj._A__run_6__#8",
+        "private_names.entry.main.__call_obj.__run_4__#6",
+        "private_names.entry.main.__call_reader.run_8__#10"
+      ],
+      "display_name": "(obj.__run(), obj._A__run(), reader.run(value))",
+      "id": "private_names.entry.main.__container_2__#11",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__container_2__",
+      "operation_type": "container",
+      "scope": "private_names.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "private_names.entry.main.__container_2__#11"
+      ],
+      "display_name": "return (obj.__run(), obj._A__run(), reader.run(value))",
+      "id": "private_names.entry.main.__return_0__#12",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "private_names.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "private_names.entry.main.__binding_value__#13",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "private_names.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "obj",
+      "id": "private_names.entry.main.__binding_obj__#14",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_obj__",
+      "scope": "private_names.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "reader",
+      "id": "private_names.entry.main.__binding_reader__#15",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_reader__",
+      "scope": "private_names.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "A",
+      "id": "private_names.from_module.__binding_A__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_A__",
+      "scope": "private_names.from_module"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "A",
+      "id": "private_names.global.__binding_A__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_A__",
+      "scope": "private_names.global"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "run",
+      "id": "private_names.global.A.__binding_run__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_run__",
+      "scope": "private_names.global.A"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "self",
+      "id": "private_names.global.A.run.self#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "self",
+      "scope": "private_names.global.A.run"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "private_names.global.A.run.__value#2"
+      ],
+      "display_name": "return __value",
+      "id": "private_names.global.A.run.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "private_names.global.A.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "__value",
+      "id": "private_names.global.A.run.__value#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "__value",
+      "scope": "private_names.global.A.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "self",
+      "id": "private_names.global.A.run.__binding_self__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_self__",
+      "scope": "private_names.global.A.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "A",
+      "id": "private_names.import.__binding_A__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_A__",
+      "scope": "private_names.import"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "private_names.method.A"
+      ],
+      "display_name": "A()",
+      "id": "private_names.method.__call_A_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_A_0__",
+      "scope": "private_names.method"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "private_names.method.__call_A_0__#0"
+      ],
+      "display_name": "obj",
+      "id": "private_names.method.obj#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "obj",
+      "scope": "private_names.method"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "private_names.method.obj#1"
+      ],
+      "display_name": "obj._A__run",
+      "id": "private_names.method.__ref_1__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_1__",
+      "scope": "private_names.method"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "private_names.method.__ref_1__#2"
+      ],
+      "display_name": "obj._A__run()",
+      "id": "private_names.method.__call_obj._A__run_2__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_obj._A__run_2__",
+      "scope": "private_names.method"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "obj",
+      "id": "private_names.method.__binding_obj__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_obj__",
+      "scope": "private_names.method"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "A",
+      "id": "private_names.method.__binding_A__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_A__",
+      "scope": "private_names.method"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "__run",
+      "id": "private_names.method.A.__binding___run__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding___run__",
+      "scope": "private_names.method.A"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "self",
+      "id": "private_names.method.A.__run.self#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "self",
+      "scope": "private_names.method.A.__run"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "private_names.method.A.__run.payload#2"
+      ],
+      "display_name": "return payload",
+      "id": "private_names.method.A.__run.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "private_names.method.A.__run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "payload",
+      "id": "private_names.method.A.__run.payload#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "payload",
+      "scope": "private_names.method.A.__run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "self",
+      "id": "private_names.method.A.__run.__binding_self__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_self__",
+      "scope": "private_names.method.A.__run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "A",
+      "id": "private_names.nested.__binding_A__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_A__",
+      "scope": "private_names.nested"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "B",
+      "id": "private_names.nested.A.__binding_B__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_B__",
+      "scope": "private_names.nested.A"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "private_names.nested.A.B.__token#1"
+      ],
+      "display_name": "value",
+      "id": "private_names.nested.A.B.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "private_names.nested.A.B"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "__token",
+      "id": "private_names.nested.A.B.__token#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "__token",
+      "scope": "private_names.nested.A.B"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "private_names.nested.A.B.__binding_value__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "private_names.nested.A.B"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "A",
+      "id": "private_names.parameter.__binding_A__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_A__",
+      "scope": "private_names.parameter"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "run",
+      "id": "private_names.parameter.A.__binding_run__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_run__",
+      "scope": "private_names.parameter.A"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "self",
+      "id": "private_names.parameter.A.run.self#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "self",
+      "scope": "private_names.parameter.A.run"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "__value",
+      "id": "private_names.parameter.A.run.__value#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "__value",
+      "scope": "private_names.parameter.A.run"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "private_names.parameter.A.run.__value#1"
+      ],
+      "display_name": "return __value",
+      "id": "private_names.parameter.A.run.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "private_names.parameter.A.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "self",
+      "id": "private_names.parameter.A.run.__binding_self__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_self__",
+      "scope": "private_names.parameter.A.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "__value",
+      "id": "private_names.parameter.A.run.__binding___value__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding___value__",
+      "scope": "private_names.parameter.A.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "A",
+      "id": "private_names.type_parameter.__binding_A__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_A__",
+      "scope": "private_names.type_parameter"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "__T",
+      "id": "private_names.type_parameter.A.__T#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "__T",
+      "scope": "private_names.type_parameter.A"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "__T",
+      "id": "private_names.type_parameter.A.__binding___T__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding___T__",
+      "scope": "private_names.type_parameter.A"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "private_names.attribute",
+        "private_names.binding",
+        "private_names.entry",
+        "private_names.from_module",
+        "private_names.global",
+        "private_names.import",
+        "private_names.method",
+        "private_names.nested",
+        "private_names.parameter",
+        "private_names.type_parameter"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.private_names.method.A#0",
+        "__root__.private_names.parameter.A#1",
+        "__root__.private_names.method.A.__run#2",
+        "__root__.private_names.parameter.A.run#3"
+      ],
+      "parent": null
+    },
+    {
+      "children": [
+        "private_names.attribute.A"
+      ],
+      "id": "private_names.attribute",
+      "kind": "module",
+      "name": "private_names.attribute",
+      "nodes": [
+        "private_names.attribute.__binding_A__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "private_names.attribute.A.run"
+      ],
+      "id": "private_names.attribute.A",
+      "kind": "class",
+      "name": "A",
+      "nodes": [
+        "private_names.attribute.A.__binding_run__#0"
+      ],
+      "parent": "private_names.attribute"
+    },
+    {
+      "children": [],
+      "id": "private_names.attribute.A.run",
+      "kind": "function",
+      "name": "run",
+      "nodes": [
+        "private_names.attribute.A.run.self#0",
+        "private_names.attribute.A.run.obj#1",
+        "private_names.attribute.A.run.__ref_0__#2",
+        "private_names.attribute.A.run.__return_0__#3",
+        "private_names.attribute.A.run.__binding_self__#4",
+        "private_names.attribute.A.run.__binding_obj__#5"
+      ],
+      "parent": "private_names.attribute.A"
+    },
+    {
+      "children": [
+        "private_names.binding.A"
+      ],
+      "id": "private_names.binding",
+      "kind": "module",
+      "name": "private_names.binding",
+      "nodes": [
+        "private_names.binding.__token#0",
+        "private_names.binding._A__token#1",
+        "private_names.binding.wrong#2",
+        "private_names.binding.right#3",
+        "private_names.binding.__binding___token__#4",
+        "private_names.binding.__binding__A__token__#5",
+        "private_names.binding.__binding_A__#6"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "private_names.binding.A",
+      "kind": "class",
+      "name": "A",
+      "nodes": [
+        "private_names.binding.A.value#0",
+        "private_names.binding.A.__binding_value__#1"
+      ],
+      "parent": "private_names.binding"
+    },
+    {
+      "children": [
+        "private_names.entry.main"
+      ],
+      "id": "private_names.entry",
+      "kind": "module",
+      "name": "private_names.entry",
+      "nodes": [
+        "private_names.entry.A#0",
+        "private_names.entry.ParameterReader#1",
+        "private_names.entry.__binding_A__#2",
+        "private_names.entry.__binding_ParameterReader__#3",
+        "private_names.entry.__binding_main__#4"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "private_names.entry.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "private_names.entry.main.value#0",
+        "private_names.entry.main.__call_A_0__#1",
+        "private_names.entry.main.obj#2",
+        "private_names.entry.main.__call_ParameterReader_1__#3",
+        "private_names.entry.main.reader#4",
+        "private_names.entry.main.__ref_3__#5",
+        "private_names.entry.main.__call_obj.__run_4__#6",
+        "private_names.entry.main.__ref_5__#7",
+        "private_names.entry.main.__call_obj._A__run_6__#8",
+        "private_names.entry.main.__ref_7__#9",
+        "private_names.entry.main.__call_reader.run_8__#10",
+        "private_names.entry.main.__container_2__#11",
+        "private_names.entry.main.__return_0__#12",
+        "private_names.entry.main.__binding_value__#13",
+        "private_names.entry.main.__binding_obj__#14",
+        "private_names.entry.main.__binding_reader__#15"
+      ],
+      "parent": "private_names.entry"
+    },
+    {
+      "children": [
+        "private_names.from_module.A"
+      ],
+      "id": "private_names.from_module",
+      "kind": "module",
+      "name": "private_names.from_module",
+      "nodes": [
+        "private_names.from_module.__binding_A__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "private_names.from_module.A",
+      "kind": "class",
+      "name": "A",
+      "nodes": [],
+      "parent": "private_names.from_module"
+    },
+    {
+      "children": [
+        "private_names.global.A"
+      ],
+      "id": "private_names.global",
+      "kind": "module",
+      "name": "private_names.global",
+      "nodes": [
+        "private_names.global.__binding_A__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "private_names.global.A.run"
+      ],
+      "id": "private_names.global.A",
+      "kind": "class",
+      "name": "A",
+      "nodes": [
+        "private_names.global.A.__binding_run__#0"
+      ],
+      "parent": "private_names.global"
+    },
+    {
+      "children": [],
+      "id": "private_names.global.A.run",
+      "kind": "function",
+      "name": "run",
+      "nodes": [
+        "private_names.global.A.run.self#0",
+        "private_names.global.A.run.__return_0__#1",
+        "private_names.global.A.run.__value#2",
+        "private_names.global.A.run.__binding_self__#3"
+      ],
+      "parent": "private_names.global.A"
+    },
+    {
+      "children": [
+        "private_names.import.A"
+      ],
+      "id": "private_names.import",
+      "kind": "module",
+      "name": "private_names.import",
+      "nodes": [
+        "private_names.import.__binding_A__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "private_names.import.A",
+      "kind": "class",
+      "name": "A",
+      "nodes": [],
+      "parent": "private_names.import"
+    },
+    {
+      "children": [
+        "private_names.method.A"
+      ],
+      "id": "private_names.method",
+      "kind": "module",
+      "name": "private_names.method",
+      "nodes": [
+        "private_names.method.__call_A_0__#0",
+        "private_names.method.obj#1",
+        "private_names.method.__ref_1__#2",
+        "private_names.method.__call_obj._A__run_2__#3",
+        "private_names.method.__binding_obj__#4",
+        "private_names.method.__binding_A__#5"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "private_names.method.A.__run"
+      ],
+      "id": "private_names.method.A",
+      "kind": "class",
+      "name": "A",
+      "nodes": [
+        "private_names.method.A.__binding___run__#0"
+      ],
+      "parent": "private_names.method"
+    },
+    {
+      "children": [],
+      "id": "private_names.method.A.__run",
+      "kind": "function",
+      "name": "__run",
+      "nodes": [
+        "private_names.method.A.__run.self#0",
+        "private_names.method.A.__run.__return_0__#1",
+        "private_names.method.A.__run.payload#2",
+        "private_names.method.A.__run.__binding_self__#3"
+      ],
+      "parent": "private_names.method.A"
+    },
+    {
+      "children": [
+        "private_names.nested.A"
+      ],
+      "id": "private_names.nested",
+      "kind": "module",
+      "name": "private_names.nested",
+      "nodes": [
+        "private_names.nested.__binding_A__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "private_names.nested.A.B"
+      ],
+      "id": "private_names.nested.A",
+      "kind": "class",
+      "name": "A",
+      "nodes": [
+        "private_names.nested.A.__binding_B__#0"
+      ],
+      "parent": "private_names.nested"
+    },
+    {
+      "children": [],
+      "id": "private_names.nested.A.B",
+      "kind": "class",
+      "name": "B",
+      "nodes": [
+        "private_names.nested.A.B.value#0",
+        "private_names.nested.A.B.__token#1",
+        "private_names.nested.A.B.__binding_value__#2"
+      ],
+      "parent": "private_names.nested.A"
+    },
+    {
+      "children": [
+        "private_names.parameter.A"
+      ],
+      "id": "private_names.parameter",
+      "kind": "module",
+      "name": "private_names.parameter",
+      "nodes": [
+        "private_names.parameter.__binding_A__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "private_names.parameter.A.run"
+      ],
+      "id": "private_names.parameter.A",
+      "kind": "class",
+      "name": "A",
+      "nodes": [
+        "private_names.parameter.A.__binding_run__#0"
+      ],
+      "parent": "private_names.parameter"
+    },
+    {
+      "children": [],
+      "id": "private_names.parameter.A.run",
+      "kind": "function",
+      "name": "run",
+      "nodes": [
+        "private_names.parameter.A.run.self#0",
+        "private_names.parameter.A.run.__value#1",
+        "private_names.parameter.A.run.__return_0__#2",
+        "private_names.parameter.A.run.__binding_self__#3",
+        "private_names.parameter.A.run.__binding___value__#4"
+      ],
+      "parent": "private_names.parameter.A"
+    },
+    {
+      "children": [
+        "private_names.type_parameter.A"
+      ],
+      "id": "private_names.type_parameter",
+      "kind": "module",
+      "name": "private_names.type_parameter",
+      "nodes": [
+        "private_names.type_parameter.__binding_A__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "private_names.type_parameter.A",
+      "kind": "class",
+      "name": "A",
+      "nodes": [
+        "private_names.type_parameter.A.__T#0",
+        "private_names.type_parameter.A.__binding___T__#1"
+      ],
+      "parent": "private_names.type_parameter"
+    }
+  ],
+  "version": "0.1.0"
+}

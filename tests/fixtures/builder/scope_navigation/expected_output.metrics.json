@@ -1,0 +1,79 @@
+{
+  "scope_counts": {
+    "function": 4,
+    "module": 1,
+    "root": 1,
+    "total": 6
+  },
+  "scopes": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "id": "outer.inner",
+                  "kind": "function",
+                  "own_profile": {
+                    "call.occurrences.total.count": 0
+                  },
+                  "profile": {
+                    "call.occurrences.total.count": 0
+                  }
+                }
+              ],
+              "id": "outer",
+              "kind": "function",
+              "own_profile": {
+                "call.occurrences.total.count": 1
+              },
+              "profile": {
+                "call.occurrences.total.count": 1
+              }
+            },
+            {
+              "children": [
+                {
+                  "id": "enclosing_reassignment.read",
+                  "kind": "function",
+                  "own_profile": {
+                    "call.occurrences.total.count": 0
+                  },
+                  "profile": {
+                    "call.occurrences.total.count": 0
+                  }
+                }
+              ],
+              "id": "enclosing_reassignment",
+              "kind": "function",
+              "own_profile": {
+                "call.occurrences.total.count": 2
+              },
+              "profile": {
+                "call.occurrences.total.count": 2
+              }
+            }
+          ],
+          "id": "__module__",
+          "kind": "module",
+          "own_profile": {
+            "call.occurrences.total.count": 0
+          },
+          "profile": {
+            "call.occurrences.total.count": 3
+          }
+        }
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "own_profile": {
+        "call.occurrences.total.count": 0
+      },
+      "profile": {
+        "call.occurrences.total.count": 3
+      }
+    }
+  ],
+  "version": "0.1.0"
+}

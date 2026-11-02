@@ -1,0 +1,2093 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.conditional_reexport_chain.a.work#5",
+      "target": "conditional_reexport_chain.facade.work#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.conditional_reexport_chain.b.work#6",
+      "target": "conditional_reexport_chain.facade.work#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.conditional_reexport_chain.facade.mixed#2",
+      "target": "conditional_reexport_chain.entry.mixed#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.conditional_reexport_chain.facade.work#3",
+      "target": "conditional_reexport_chain.entry.work#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.conditional_reexport_chain.other.work#1",
+      "target": "conditional_reexport_chain.b.work#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.conditional_reexport_chain.worker.Base#4",
+      "target": "conditional_reexport_chain.entry.Base#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.conditional_reexport_chain.worker.work#0",
+      "target": "conditional_reexport_chain.a.work#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.conditional_reexport_chain.worker.work#0",
+      "target": "conditional_reexport_chain.facade.mixed#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.a.__binding_work__#1",
+      "target": "conditional_reexport_chain.a.work#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.a.work#0",
+      "target": "__root__.conditional_reexport_chain.a.work#5"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.b.__binding_work__#1",
+      "target": "conditional_reexport_chain.b.work#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.b.work#0",
+      "target": "__root__.conditional_reexport_chain.b.work#6"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "conditional_reexport_chain.entry.Base#2",
+      "target": "conditional_reexport_chain.entry.GuardedChild#4"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "declaration",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.entry.GuardedChild",
+      "target": "conditional_reexport_chain.entry.GuardedChild#4"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.entry.GuardedChild",
+      "target": "conditional_reexport_chain.entry.__binding_GuardedChild__#9"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "conditional_reexport_chain.entry.GuardedChild#4",
+      "target": "conditional_reexport_chain.entry.guarded_constructor.__call_GuardedChild_5__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.entry.GuardedChild.__binding___init____#1",
+      "target": "conditional_reexport_chain.entry.GuardedChild.__init__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.entry.GuardedChild.__init__",
+      "target": "conditional_reexport_chain.entry.GuardedChild.__binding___init____#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "declaration",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.entry.GuardedChild.__init__",
+      "target": "conditional_reexport_chain.entry.GuardedChild.__init__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.entry.GuardedChild.__init__#0",
+      "target": "conditional_reexport_chain.entry.guarded_constructor.__call_GuardedChild_5__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.entry.GuardedChild.__init__.__binding_self__#4",
+      "target": "conditional_reexport_chain.entry.GuardedChild.__init__.self#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.entry.GuardedChild.__init__.__return_0__#2",
+      "target": "conditional_reexport_chain.entry.guarded_constructor.__call_GuardedChild_5__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "conditional_reexport_chain.entry.GuardedChild.__init__.child_value#3",
+      "target": "conditional_reexport_chain.entry.GuardedChild.__init__.__ref_4__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "conditional_reexport_chain.entry.GuardedChild.__init__.self#0",
+      "target": "conditional_reexport_chain.entry.GuardedChild.__init__.__ref_4__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.entry.__binding_Base__#8",
+      "target": "conditional_reexport_chain.entry.Base#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.entry.__binding_GuardedChild__#9",
+      "target": "conditional_reexport_chain.entry.GuardedChild#4"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.entry.__binding_mixed__#6",
+      "target": "conditional_reexport_chain.entry.mixed#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.entry.__binding_work__#7",
+      "target": "conditional_reexport_chain.entry.work#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.entry.__cond_3__#3",
+      "target": "conditional_reexport_chain.entry.GuardedChild#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.entry.__cond_3__#3",
+      "target": "conditional_reexport_chain.entry.GuardedChild.__init__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "conditional_reexport_chain.entry.enabled#5",
+      "target": "conditional_reexport_chain.entry.__cond_3__#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.entry.guarded_constructor",
+      "target": "conditional_reexport_chain.entry.__binding_guarded_constructor__#11"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.entry.guarded_constructor.__call_GuardedChild_5__#0",
+      "target": "conditional_reexport_chain.entry.guarded_constructor.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.entry.main",
+      "target": "conditional_reexport_chain.entry.__binding_main__#10"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.entry.main.__call_mixed_2__#1",
+      "target": "conditional_reexport_chain.entry.main.__container_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.entry.main.__call_work_1__#0",
+      "target": "conditional_reexport_chain.entry.main.__container_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.entry.main.__container_0__#2",
+      "target": "conditional_reexport_chain.entry.main.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "conditional_reexport_chain.entry.mixed#0",
+      "target": "conditional_reexport_chain.entry.main.__call_mixed_2__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "conditional_reexport_chain.entry.work#1",
+      "target": "conditional_reexport_chain.entry.main.__call_work_1__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.facade.__binding_mixed__#8",
+      "target": "conditional_reexport_chain.facade.mixed#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.facade.__binding_mixed__#8",
+      "target": "conditional_reexport_chain.facade.mixed#5"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.facade.__binding_work__#7",
+      "target": "conditional_reexport_chain.facade.work#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.facade.__binding_work__#7",
+      "target": "conditional_reexport_chain.facade.work#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.facade.__cond_0__#0",
+      "target": "conditional_reexport_chain.facade.work#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.facade.__cond_0__#0",
+      "target": "conditional_reexport_chain.facade.work#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.facade.__cond_1__#4",
+      "target": "conditional_reexport_chain.facade.mixed#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "conditional_reexport_chain.facade.flag#6",
+      "target": "conditional_reexport_chain.facade.__cond_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "conditional_reexport_chain.facade.flag#6",
+      "target": "conditional_reexport_chain.facade.__cond_1__#4"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "declaration",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.facade.mixed",
+      "target": "__root__.conditional_reexport_chain.facade.mixed#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.facade.mixed",
+      "target": "conditional_reexport_chain.facade.__binding_mixed__#8"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "declaration",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.facade.mixed",
+      "target": "conditional_reexport_chain.facade.mixed#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.facade.mixed#3",
+      "target": "__root__.conditional_reexport_chain.facade.mixed#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.facade.mixed#5",
+      "target": "__root__.conditional_reexport_chain.facade.mixed#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.facade.mixed.__return_0__#0",
+      "target": "conditional_reexport_chain.entry.main.__call_mixed_2__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "conditional_reexport_chain.facade.mixed.local_value#1",
+      "target": "conditional_reexport_chain.facade.mixed.__return_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.facade.work#1",
+      "target": "__root__.conditional_reexport_chain.facade.work#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.facade.work#2",
+      "target": "__root__.conditional_reexport_chain.facade.work#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "declaration",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.other.work",
+      "target": "__root__.conditional_reexport_chain.b.work#6"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "declaration",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.other.work",
+      "target": "__root__.conditional_reexport_chain.facade.work#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.other.work",
+      "target": "__root__.conditional_reexport_chain.other.work#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.other.work",
+      "target": "conditional_reexport_chain.other.__binding_work__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.other.work.__return_0__#0",
+      "target": "conditional_reexport_chain.entry.main.__call_work_1__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.worker.Base",
+      "target": "__root__.conditional_reexport_chain.worker.Base#4"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.worker.Base",
+      "target": "conditional_reexport_chain.worker.__binding_Base__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.worker.Base.__init__",
+      "target": "conditional_reexport_chain.worker.Base.__binding___init____#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.worker.Base.__init__.__binding_self__#4",
+      "target": "conditional_reexport_chain.worker.Base.__init__.self#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "conditional_reexport_chain.worker.Base.__init__.base_value#3",
+      "target": "conditional_reexport_chain.worker.Base.__init__.__ref_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "conditional_reexport_chain.worker.Base.__init__.self#0",
+      "target": "conditional_reexport_chain.worker.Base.__init__.__ref_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.worker.unused",
+      "target": "conditional_reexport_chain.worker.__binding_unused__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "declaration",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.worker.work",
+      "target": "__root__.conditional_reexport_chain.a.work#5"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "declaration",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.worker.work",
+      "target": "__root__.conditional_reexport_chain.facade.mixed#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "declaration",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.worker.work",
+      "target": "__root__.conditional_reexport_chain.facade.work#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.worker.work",
+      "target": "__root__.conditional_reexport_chain.worker.work#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.worker.work",
+      "target": "conditional_reexport_chain.worker.__binding_work__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.worker.work.__return_0__#0",
+      "target": "conditional_reexport_chain.entry.main.__call_mixed_2__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_reexport_chain.worker.work.__return_0__#0",
+      "target": "conditional_reexport_chain.entry.main.__call_work_1__#0"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [
+        "conditional_reexport_chain.worker.work"
+      ],
+      "display_name": "conditional_reexport_chain.worker.work",
+      "id": "__root__.conditional_reexport_chain.worker.work#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "conditional_reexport_chain.worker.work",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "conditional_reexport_chain.other.work"
+      ],
+      "display_name": "conditional_reexport_chain.other.work",
+      "id": "__root__.conditional_reexport_chain.other.work#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "conditional_reexport_chain.other.work",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "conditional_reexport_chain.facade.mixed#3",
+        "conditional_reexport_chain.facade.mixed#5"
+      ],
+      "display_name": "conditional_reexport_chain.facade.mixed",
+      "id": "__root__.conditional_reexport_chain.facade.mixed#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "conditional_reexport_chain.facade.mixed",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "conditional_reexport_chain.facade.work#1",
+        "conditional_reexport_chain.facade.work#2"
+      ],
+      "display_name": "conditional_reexport_chain.facade.work",
+      "id": "__root__.conditional_reexport_chain.facade.work#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "conditional_reexport_chain.facade.work",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "conditional_reexport_chain.worker.Base"
+      ],
+      "display_name": "conditional_reexport_chain.worker.Base",
+      "id": "__root__.conditional_reexport_chain.worker.Base#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "conditional_reexport_chain.worker.Base",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "conditional_reexport_chain.a.work#0"
+      ],
+      "display_name": "conditional_reexport_chain.a.work",
+      "id": "__root__.conditional_reexport_chain.a.work#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "conditional_reexport_chain.a.work",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "conditional_reexport_chain.b.work#0"
+      ],
+      "display_name": "conditional_reexport_chain.b.work",
+      "id": "__root__.conditional_reexport_chain.b.work#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "conditional_reexport_chain.b.work",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.conditional_reexport_chain.worker.work#0"
+      ],
+      "display_name": "work",
+      "id": "conditional_reexport_chain.a.work#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "work",
+      "scope": "conditional_reexport_chain.a"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "work",
+      "id": "conditional_reexport_chain.a.__binding_work__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_work__",
+      "scope": "conditional_reexport_chain.a"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.conditional_reexport_chain.other.work#1"
+      ],
+      "display_name": "work",
+      "id": "conditional_reexport_chain.b.work#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "work",
+      "scope": "conditional_reexport_chain.b"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "work",
+      "id": "conditional_reexport_chain.b.__binding_work__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_work__",
+      "scope": "conditional_reexport_chain.b"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.conditional_reexport_chain.facade.mixed#2"
+      ],
+      "display_name": "mixed",
+      "id": "conditional_reexport_chain.entry.mixed#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "mixed",
+      "scope": "conditional_reexport_chain.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.conditional_reexport_chain.facade.work#3"
+      ],
+      "display_name": "work",
+      "id": "conditional_reexport_chain.entry.work#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "work",
+      "scope": "conditional_reexport_chain.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.conditional_reexport_chain.worker.Base#4"
+      ],
+      "display_name": "Base",
+      "id": "conditional_reexport_chain.entry.Base#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Base",
+      "scope": "conditional_reexport_chain.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "conditional_reexport_chain.entry.enabled#5"
+      ],
+      "display_name": "if enabled",
+      "id": "conditional_reexport_chain.entry.__cond_3__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "condition",
+      "name": "__cond_3__",
+      "scope": "conditional_reexport_chain.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "conditional_reexport_chain.entry.Base#2",
+        "conditional_reexport_chain.entry.__cond_3__#3"
+      ],
+      "display_name": "GuardedChild",
+      "id": "conditional_reexport_chain.entry.GuardedChild#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "GuardedChild",
+      "scope": "conditional_reexport_chain.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "enabled",
+      "id": "conditional_reexport_chain.entry.enabled#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "enabled",
+      "scope": "conditional_reexport_chain.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "mixed",
+      "id": "conditional_reexport_chain.entry.__binding_mixed__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_mixed__",
+      "scope": "conditional_reexport_chain.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "work",
+      "id": "conditional_reexport_chain.entry.__binding_work__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_work__",
+      "scope": "conditional_reexport_chain.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Base",
+      "id": "conditional_reexport_chain.entry.__binding_Base__#8",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Base__",
+      "scope": "conditional_reexport_chain.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "GuardedChild",
+      "id": "conditional_reexport_chain.entry.__binding_GuardedChild__#9",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_GuardedChild__",
+      "scope": "conditional_reexport_chain.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "conditional_reexport_chain.entry.__binding_main__#10",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "conditional_reexport_chain.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "guarded_constructor",
+      "id": "conditional_reexport_chain.entry.__binding_guarded_constructor__#11",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_guarded_constructor__",
+      "scope": "conditional_reexport_chain.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "conditional_reexport_chain.entry.work#1",
+        "conditional_reexport_chain.other.work.__return_0__#0",
+        "conditional_reexport_chain.worker.work.__return_0__#0"
+      ],
+      "display_name": "work()",
+      "id": "conditional_reexport_chain.entry.main.__call_work_1__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_work_1__",
+      "scope": "conditional_reexport_chain.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "conditional_reexport_chain.entry.mixed#0",
+        "conditional_reexport_chain.facade.mixed.__return_0__#0",
+        "conditional_reexport_chain.worker.work.__return_0__#0"
+      ],
+      "display_name": "mixed()",
+      "id": "conditional_reexport_chain.entry.main.__call_mixed_2__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_mixed_2__",
+      "scope": "conditional_reexport_chain.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "conditional_reexport_chain.entry.main.__call_mixed_2__#1",
+        "conditional_reexport_chain.entry.main.__call_work_1__#0"
+      ],
+      "display_name": "(work(), mixed())",
+      "id": "conditional_reexport_chain.entry.main.__container_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__container_0__",
+      "operation_type": "container",
+      "scope": "conditional_reexport_chain.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "conditional_reexport_chain.entry.main.__container_0__#2"
+      ],
+      "display_name": "return (work(), mixed())",
+      "id": "conditional_reexport_chain.entry.main.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "conditional_reexport_chain.entry.main"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "conditional_reexport_chain.entry.__cond_3__#3"
+      ],
+      "display_name": "__init__",
+      "id": "conditional_reexport_chain.entry.GuardedChild.__init__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "__init__",
+      "scope": "conditional_reexport_chain.entry.GuardedChild"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "__init__",
+      "id": "conditional_reexport_chain.entry.GuardedChild.__binding___init____#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding___init____",
+      "scope": "conditional_reexport_chain.entry.GuardedChild"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "self",
+      "id": "conditional_reexport_chain.entry.GuardedChild.__init__.self#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "self",
+      "scope": "conditional_reexport_chain.entry.GuardedChild.__init__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "conditional_reexport_chain.entry.GuardedChild.__init__.child_value#3",
+        "conditional_reexport_chain.entry.GuardedChild.__init__.self#0"
+      ],
+      "display_name": "self.value",
+      "id": "conditional_reexport_chain.entry.GuardedChild.__init__.__ref_4__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": true,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_4__",
+      "scope": "conditional_reexport_chain.entry.GuardedChild.__init__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return None (implicit)",
+      "id": "conditional_reexport_chain.entry.GuardedChild.__init__.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "conditional_reexport_chain.entry.GuardedChild.__init__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "child_value",
+      "id": "conditional_reexport_chain.entry.GuardedChild.__init__.child_value#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "child_value",
+      "scope": "conditional_reexport_chain.entry.GuardedChild.__init__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "self",
+      "id": "conditional_reexport_chain.entry.GuardedChild.__init__.__binding_self__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_self__",
+      "scope": "conditional_reexport_chain.entry.GuardedChild.__init__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "conditional_reexport_chain.entry.GuardedChild#4",
+        "conditional_reexport_chain.entry.GuardedChild.__init__#0",
+        "conditional_reexport_chain.entry.GuardedChild.__init__.__return_0__#2"
+      ],
+      "display_name": "GuardedChild()",
+      "id": "conditional_reexport_chain.entry.guarded_constructor.__call_GuardedChild_5__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_GuardedChild_5__",
+      "scope": "conditional_reexport_chain.entry.guarded_constructor"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "conditional_reexport_chain.entry.guarded_constructor.__call_GuardedChild_5__#0"
+      ],
+      "display_name": "return GuardedChild()",
+      "id": "conditional_reexport_chain.entry.guarded_constructor.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "conditional_reexport_chain.entry.guarded_constructor"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "conditional_reexport_chain.facade.flag#6"
+      ],
+      "display_name": "if flag",
+      "id": "conditional_reexport_chain.facade.__cond_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "condition",
+      "name": "__cond_0__",
+      "scope": "conditional_reexport_chain.facade"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.conditional_reexport_chain.a.work#5",
+        "conditional_reexport_chain.facade.__cond_0__#0"
+      ],
+      "display_name": "work v1",
+      "id": "conditional_reexport_chain.facade.work#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "work",
+      "scope": "conditional_reexport_chain.facade"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.conditional_reexport_chain.b.work#6",
+        "conditional_reexport_chain.facade.__cond_0__#0"
+      ],
+      "display_name": "work v2",
+      "id": "conditional_reexport_chain.facade.work#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "work",
+      "scope": "conditional_reexport_chain.facade"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.conditional_reexport_chain.worker.work#0"
+      ],
+      "display_name": "mixed v1",
+      "id": "conditional_reexport_chain.facade.mixed#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "mixed",
+      "scope": "conditional_reexport_chain.facade"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "conditional_reexport_chain.facade.flag#6"
+      ],
+      "display_name": "if flag",
+      "id": "conditional_reexport_chain.facade.__cond_1__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "condition",
+      "name": "__cond_1__",
+      "scope": "conditional_reexport_chain.facade"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "conditional_reexport_chain.facade.__cond_1__#4"
+      ],
+      "display_name": "mixed v2",
+      "id": "conditional_reexport_chain.facade.mixed#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "mixed",
+      "scope": "conditional_reexport_chain.facade"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "flag",
+      "id": "conditional_reexport_chain.facade.flag#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "flag",
+      "scope": "conditional_reexport_chain.facade"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "work",
+      "id": "conditional_reexport_chain.facade.__binding_work__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_work__",
+      "scope": "conditional_reexport_chain.facade"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "mixed",
+      "id": "conditional_reexport_chain.facade.__binding_mixed__#8",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_mixed__",
+      "scope": "conditional_reexport_chain.facade"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "conditional_reexport_chain.facade.mixed.local_value#1"
+      ],
+      "display_name": "return local_value",
+      "id": "conditional_reexport_chain.facade.mixed.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "conditional_reexport_chain.facade.mixed"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "local_value",
+      "id": "conditional_reexport_chain.facade.mixed.local_value#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "local_value",
+      "scope": "conditional_reexport_chain.facade.mixed"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "work",
+      "id": "conditional_reexport_chain.other.__binding_work__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_work__",
+      "scope": "conditional_reexport_chain.other"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return 2",
+      "id": "conditional_reexport_chain.other.work.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "conditional_reexport_chain.other.work"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "work",
+      "id": "conditional_reexport_chain.worker.__binding_work__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_work__",
+      "scope": "conditional_reexport_chain.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "unused",
+      "id": "conditional_reexport_chain.worker.__binding_unused__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_unused__",
+      "scope": "conditional_reexport_chain.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Base",
+      "id": "conditional_reexport_chain.worker.__binding_Base__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Base__",
+      "scope": "conditional_reexport_chain.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return 1",
+      "id": "conditional_reexport_chain.worker.work.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "conditional_reexport_chain.worker.work"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return 0",
+      "id": "conditional_reexport_chain.worker.unused.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "conditional_reexport_chain.worker.unused"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "__init__",
+      "id": "conditional_reexport_chain.worker.Base.__binding___init____#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding___init____",
+      "scope": "conditional_reexport_chain.worker.Base"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "self",
+      "id": "conditional_reexport_chain.worker.Base.__init__.self#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "self",
+      "scope": "conditional_reexport_chain.worker.Base.__init__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "conditional_reexport_chain.worker.Base.__init__.base_value#3",
+        "conditional_reexport_chain.worker.Base.__init__.self#0"
+      ],
+      "display_name": "self.value",
+      "id": "conditional_reexport_chain.worker.Base.__init__.__ref_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": true,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_0__",
+      "scope": "conditional_reexport_chain.worker.Base.__init__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return None (implicit)",
+      "id": "conditional_reexport_chain.worker.Base.__init__.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "conditional_reexport_chain.worker.Base.__init__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "base_value",
+      "id": "conditional_reexport_chain.worker.Base.__init__.base_value#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "base_value",
+      "scope": "conditional_reexport_chain.worker.Base.__init__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "self",
+      "id": "conditional_reexport_chain.worker.Base.__init__.__binding_self__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_self__",
+      "scope": "conditional_reexport_chain.worker.Base.__init__"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "conditional_reexport_chain.a",
+        "conditional_reexport_chain.b",
+        "conditional_reexport_chain.entry",
+        "conditional_reexport_chain.facade",
+        "conditional_reexport_chain.other",
+        "conditional_reexport_chain.worker"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.conditional_reexport_chain.worker.work#0",
+        "__root__.conditional_reexport_chain.other.work#1",
+        "__root__.conditional_reexport_chain.facade.mixed#2",
+        "__root__.conditional_reexport_chain.facade.work#3",
+        "__root__.conditional_reexport_chain.worker.Base#4",
+        "__root__.conditional_reexport_chain.a.work#5",
+        "__root__.conditional_reexport_chain.b.work#6"
+      ],
+      "parent": null
+    },
+    {
+      "children": [],
+      "id": "conditional_reexport_chain.a",
+      "kind": "module",
+      "name": "conditional_reexport_chain.a",
+      "nodes": [
+        "conditional_reexport_chain.a.work#0",
+        "conditional_reexport_chain.a.__binding_work__#1"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "conditional_reexport_chain.b",
+      "kind": "module",
+      "name": "conditional_reexport_chain.b",
+      "nodes": [
+        "conditional_reexport_chain.b.work#0",
+        "conditional_reexport_chain.b.__binding_work__#1"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "conditional_reexport_chain.entry.main",
+        "conditional_reexport_chain.entry.GuardedChild",
+        "conditional_reexport_chain.entry.guarded_constructor"
+      ],
+      "id": "conditional_reexport_chain.entry",
+      "kind": "module",
+      "name": "conditional_reexport_chain.entry",
+      "nodes": [
+        "conditional_reexport_chain.entry.mixed#0",
+        "conditional_reexport_chain.entry.work#1",
+        "conditional_reexport_chain.entry.Base#2",
+        "conditional_reexport_chain.entry.__cond_3__#3",
+        "conditional_reexport_chain.entry.GuardedChild#4",
+        "conditional_reexport_chain.entry.enabled#5",
+        "conditional_reexport_chain.entry.__binding_mixed__#6",
+        "conditional_reexport_chain.entry.__binding_work__#7",
+        "conditional_reexport_chain.entry.__binding_Base__#8",
+        "conditional_reexport_chain.entry.__binding_GuardedChild__#9",
+        "conditional_reexport_chain.entry.__binding_main__#10",
+        "conditional_reexport_chain.entry.__binding_guarded_constructor__#11"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "conditional_reexport_chain.entry.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "conditional_reexport_chain.entry.main.__call_work_1__#0",
+        "conditional_reexport_chain.entry.main.__call_mixed_2__#1",
+        "conditional_reexport_chain.entry.main.__container_0__#2",
+        "conditional_reexport_chain.entry.main.__return_0__#3"
+      ],
+      "parent": "conditional_reexport_chain.entry"
+    },
+    {
+      "children": [
+        "conditional_reexport_chain.entry.GuardedChild.__init__"
+      ],
+      "id": "conditional_reexport_chain.entry.GuardedChild",
+      "kind": "class",
+      "name": "GuardedChild",
+      "nodes": [
+        "conditional_reexport_chain.entry.GuardedChild.__init__#0",
+        "conditional_reexport_chain.entry.GuardedChild.__binding___init____#1"
+      ],
+      "parent": "conditional_reexport_chain.entry"
+    },
+    {
+      "children": [],
+      "id": "conditional_reexport_chain.entry.GuardedChild.__init__",
+      "kind": "function",
+      "name": "__init__",
+      "nodes": [
+        "conditional_reexport_chain.entry.GuardedChild.__init__.self#0",
+        "conditional_reexport_chain.entry.GuardedChild.__init__.__ref_4__#1",
+        "conditional_reexport_chain.entry.GuardedChild.__init__.__return_0__#2",
+        "conditional_reexport_chain.entry.GuardedChild.__init__.child_value#3",
+        "conditional_reexport_chain.entry.GuardedChild.__init__.__binding_self__#4"
+      ],
+      "parent": "conditional_reexport_chain.entry.GuardedChild"
+    },
+    {
+      "children": [],
+      "id": "conditional_reexport_chain.entry.guarded_constructor",
+      "kind": "function",
+      "name": "guarded_constructor",
+      "nodes": [
+        "conditional_reexport_chain.entry.guarded_constructor.__call_GuardedChild_5__#0",
+        "conditional_reexport_chain.entry.guarded_constructor.__return_0__#1"
+      ],
+      "parent": "conditional_reexport_chain.entry"
+    },
+    {
+      "children": [
+        "conditional_reexport_chain.facade.mixed"
+      ],
+      "id": "conditional_reexport_chain.facade",
+      "kind": "module",
+      "name": "conditional_reexport_chain.facade",
+      "nodes": [
+        "conditional_reexport_chain.facade.__cond_0__#0",
+        "conditional_reexport_chain.facade.work#1",
+        "conditional_reexport_chain.facade.work#2",
+        "conditional_reexport_chain.facade.mixed#3",
+        "conditional_reexport_chain.facade.__cond_1__#4",
+        "conditional_reexport_chain.facade.mixed#5",
+        "conditional_reexport_chain.facade.flag#6",
+        "conditional_reexport_chain.facade.__binding_work__#7",
+        "conditional_reexport_chain.facade.__binding_mixed__#8"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "conditional_reexport_chain.facade.mixed",
+      "kind": "function",
+      "name": "mixed",
+      "nodes": [
+        "conditional_reexport_chain.facade.mixed.__return_0__#0",
+        "conditional_reexport_chain.facade.mixed.local_value#1"
+      ],
+      "parent": "conditional_reexport_chain.facade"
+    },
+    {
+      "children": [
+        "conditional_reexport_chain.other.work"
+      ],
+      "id": "conditional_reexport_chain.other",
+      "kind": "module",
+      "name": "conditional_reexport_chain.other",
+      "nodes": [
+        "conditional_reexport_chain.other.__binding_work__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "conditional_reexport_chain.other.work",
+      "kind": "function",
+      "name": "work",
+      "nodes": [
+        "conditional_reexport_chain.other.work.__return_0__#0"
+      ],
+      "parent": "conditional_reexport_chain.other"
+    },
+    {
+      "children": [
+        "conditional_reexport_chain.worker.work",
+        "conditional_reexport_chain.worker.unused",
+        "conditional_reexport_chain.worker.Base"
+      ],
+      "id": "conditional_reexport_chain.worker",
+      "kind": "module",
+      "name": "conditional_reexport_chain.worker",
+      "nodes": [
+        "conditional_reexport_chain.worker.__binding_work__#0",
+        "conditional_reexport_chain.worker.__binding_unused__#1",
+        "conditional_reexport_chain.worker.__binding_Base__#2"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "conditional_reexport_chain.worker.work",
+      "kind": "function",
+      "name": "work",
+      "nodes": [
+        "conditional_reexport_chain.worker.work.__return_0__#0"
+      ],
+      "parent": "conditional_reexport_chain.worker"
+    },
+    {
+      "children": [],
+      "id": "conditional_reexport_chain.worker.unused",
+      "kind": "function",
+      "name": "unused",
+      "nodes": [
+        "conditional_reexport_chain.worker.unused.__return_0__#0"
+      ],
+      "parent": "conditional_reexport_chain.worker"
+    },
+    {
+      "children": [
+        "conditional_reexport_chain.worker.Base.__init__"
+      ],
+      "id": "conditional_reexport_chain.worker.Base",
+      "kind": "class",
+      "name": "Base",
+      "nodes": [
+        "conditional_reexport_chain.worker.Base.__binding___init____#0"
+      ],
+      "parent": "conditional_reexport_chain.worker"
+    },
+    {
+      "children": [],
+      "id": "conditional_reexport_chain.worker.Base.__init__",
+      "kind": "function",
+      "name": "__init__",
+      "nodes": [
+        "conditional_reexport_chain.worker.Base.__init__.self#0",
+        "conditional_reexport_chain.worker.Base.__init__.__ref_0__#1",
+        "conditional_reexport_chain.worker.Base.__init__.__return_0__#2",
+        "conditional_reexport_chain.worker.Base.__init__.base_value#3",
+        "conditional_reexport_chain.worker.Base.__init__.__binding_self__#4"
+      ],
+      "parent": "conditional_reexport_chain.worker.Base"
+    }
+  ],
+  "version": "0.1.0"
+}

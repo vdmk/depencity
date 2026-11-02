@@ -1,0 +1,44 @@
+digraph {
+  rankdir=LR;
+  compound=true;
+  node [fontname="monospace"];
+
+  subgraph cluster_n0 {
+    label="__root__\n(root)";
+    style=rounded;
+    n0 [style=invis];
+
+    subgraph cluster_n1 {
+      label="__module__\n(module)";
+      style=rounded;
+      n1 [style=invis];
+      n2 [label="C" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n3 [label="main" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+      subgraph cluster_n4 {
+        label="C\n(class)";
+        style=rounded;
+        n4 [style=invis];
+      }
+
+
+      subgraph cluster_n5 {
+        label="main\n(function)";
+        style=rounded;
+        n5 [style=invis];
+        n6 [label="value"];
+        n7 [label="value[0]"];
+        n8 [label="return value[0]"];
+        n9 [label="value" shape=box style="rounded,filled" fillcolor=lightyellow];
+      }
+
+    }
+
+  }
+
+  n4 -> n2 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n4];
+  n5 -> n3 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n5];
+  n6 -> n7 [color=steelblue];
+  n7 -> n8 [color=steelblue];
+  n9 -> n6 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+}

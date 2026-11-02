@@ -1,0 +1,250 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.outside.transform#0",
+      "target": "external_calls.entry.transform#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "external_calls.entry.__binding_transform__#1",
+      "target": "external_calls.entry.transform#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "external_calls.entry.main",
+      "target": "external_calls.entry.__binding_main__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "external_calls.entry.main.__binding_value__#3",
+      "target": "external_calls.entry.main.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "external_calls.entry.main.__call_transform_0__#1",
+      "target": "external_calls.entry.main.__return_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "external_calls.entry.main.value#0",
+      "target": "external_calls.entry.main.__call_transform_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "external_calls.entry.transform#0",
+      "target": "external_calls.entry.main.__call_transform_0__#1"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "outside.transform",
+      "id": "__root__.outside.transform#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "outside.transform",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.outside.transform#0"
+      ],
+      "display_name": "transform",
+      "id": "external_calls.entry.transform#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "transform",
+      "scope": "external_calls.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "transform",
+      "id": "external_calls.entry.__binding_transform__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_transform__",
+      "scope": "external_calls.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "external_calls.entry.__binding_main__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "external_calls.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "external_calls.entry.main.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "external_calls.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "external_calls.entry.main.value#0",
+        "external_calls.entry.transform#0"
+      ],
+      "display_name": "transform()",
+      "id": "external_calls.entry.main.__call_transform_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_transform_0__",
+      "scope": "external_calls.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "external_calls.entry.main.__call_transform_0__#1"
+      ],
+      "display_name": "return transform(value)",
+      "id": "external_calls.entry.main.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "external_calls.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "external_calls.entry.main.__binding_value__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "external_calls.entry.main"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "external_calls.entry"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.outside.transform#0"
+      ],
+      "parent": null
+    },
+    {
+      "children": [
+        "external_calls.entry.main"
+      ],
+      "id": "external_calls.entry",
+      "kind": "module",
+      "name": "external_calls.entry",
+      "nodes": [
+        "external_calls.entry.transform#0",
+        "external_calls.entry.__binding_transform__#1",
+        "external_calls.entry.__binding_main__#2"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "external_calls.entry.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "external_calls.entry.main.value#0",
+        "external_calls.entry.main.__call_transform_0__#1",
+        "external_calls.entry.main.__return_0__#2",
+        "external_calls.entry.main.__binding_value__#3"
+      ],
+      "parent": "external_calls.entry"
+    }
+  ],
+  "version": "0.1.0"
+}

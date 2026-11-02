@@ -1,0 +1,80 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "depencity"
+dynamic = ["version"]
+description = "Measure data-dependency complexity in Python programs"
+authors = [{ name = "Dmitry Vedmedenko" }]
+keywords = ["static-analysis", "dependency-graph", "code-complexity", "refactoring", "mcp"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Software Development :: Quality Assurance",
+]
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.14"
+dependencies = ["click>=8.0", "mcp>=2.3,<3"]
+
+[project.urls]
+Source = "https://github.com/vdmk/depencity"
+Documentation = "https://github.com/vdmk/depencity/blob/v0.1.0/README.md"
+Issues = "https://github.com/vdmk/depencity/issues"
+Changelog = "https://github.com/vdmk/depencity/blob/main/CHANGELOG.md"
+
+[dependency-groups]
+dev = [
+    "bandit>=1.9.4",
+    "markdown-it-py>=4.2.0",
+    "mdit-py-plugins>=0.6.1",
+    "mypy>=2.4.1",
+    "pip-audit>=2.10.1",
+    "pytest>=8.0",
+    "pytest-cov>=6.0",
+    "pytest-xdist>=3.6",
+    "ruff>=0.16.9",
+]
+
+[project.scripts]
+depencity = "depencity.cli:main"
+depencity-mcp = "depencity.mcp:main"
+
+[tool.hatch.version]
+path = "src/depencity/_version.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/depencity"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+norecursedirs = ["fixtures"]
+addopts = ["--import-mode=importlib"]
+
+[tool.tox]
+env_list = ["py314"]
+
+[tool.tox.env_run_base]
+package = "wheel"
+deps = ["pytest>=8.0", "pytest-xdist>=3.6"]
+change_dir = "{env_tmp_dir}"
+commands = [["pytest", "-q", "-n", "2", "{tox_root}/tests"]]
+
+[tool.ruff]
+extend-exclude = ["tests/fixtures"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+
+[tool.mypy]
+python_version = "3.14"
+files = ["src/depencity"]
+check_untyped_defs = true
+
+[tool.bandit]
+# Assertions document internal analyzer invariants, not security checks.
+skips = ["B101"]

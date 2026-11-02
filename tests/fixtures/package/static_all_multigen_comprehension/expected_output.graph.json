@@ -1,0 +1,1080 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.static_all_multigen_comprehension.worker.public_value#0",
+      "target": "static_all_multigen_comprehension.entry.public_value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "static_all_multigen_comprehension.entry..worker.*#2",
+      "target": "static_all_multigen_comprehension.entry.__star_import_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.entry.__binding_public_value__#3",
+      "target": "static_all_multigen_comprehension.entry.public_value#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.entry.main",
+      "target": "static_all_multigen_comprehension.entry.__binding_main__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.entry.main.__call_public_value_1__#0",
+      "target": "static_all_multigen_comprehension.entry.main.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "static_all_multigen_comprehension.entry.public_value#0",
+      "target": "static_all_multigen_comprehension.entry.main.__call_public_value_1__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "static_all_multigen_comprehension.worker.__all__#1",
+      "target": "static_all_multigen_comprehension.worker.__comp_3__.__cond_8__#6"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__binding___all____#7",
+      "target": "static_all_multigen_comprehension.worker.__all__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__binding_combined__#10",
+      "target": "static_all_multigen_comprehension.worker.combined#6"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__binding_first__#8",
+      "target": "static_all_multigen_comprehension.worker.first#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__binding_second__#9",
+      "target": "static_all_multigen_comprehension.worker.second#5"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__comp_3__.__binding_left__#8",
+      "target": "static_all_multigen_comprehension.worker.__comp_3__.left#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__comp_3__.__binding_right__#9",
+      "target": "static_all_multigen_comprehension.worker.__comp_3__.right#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__comp_3__.__cond_4__#0",
+      "target": "static_all_multigen_comprehension.worker.__comp_3__.__cond_6__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__comp_3__.__cond_4__#0",
+      "target": "static_all_multigen_comprehension.worker.__comp_3__.__cond_8__#6"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__comp_3__.__cond_4__#0",
+      "target": "static_all_multigen_comprehension.worker.__comp_3__.__op_5__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__comp_3__.__cond_4__#0",
+      "target": "static_all_multigen_comprehension.worker.__comp_3__.__op_7__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__comp_3__.__cond_4__#0",
+      "target": "static_all_multigen_comprehension.worker.__comp_3__.__return_0__#7"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__comp_3__.__cond_4__#0",
+      "target": "static_all_multigen_comprehension.worker.__comp_3__.left#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__comp_3__.__cond_4__#0",
+      "target": "static_all_multigen_comprehension.worker.__comp_3__.right#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__comp_3__.__cond_6__#3",
+      "target": "static_all_multigen_comprehension.worker.__comp_3__.__cond_8__#6"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__comp_3__.__cond_6__#3",
+      "target": "static_all_multigen_comprehension.worker.__comp_3__.__op_7__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__comp_3__.__cond_6__#3",
+      "target": "static_all_multigen_comprehension.worker.__comp_3__.__return_0__#7"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__comp_3__.__cond_6__#3",
+      "target": "static_all_multigen_comprehension.worker.__comp_3__.right#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__comp_3__.__cond_8__#6",
+      "target": "static_all_multigen_comprehension.worker.__comp_3__.__return_0__#7"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__comp_3__.__op_5__#1",
+      "target": "static_all_multigen_comprehension.worker.__comp_3__.left#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__comp_3__.__op_7__#4",
+      "target": "static_all_multigen_comprehension.worker.__comp_3__.right#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__comp_3__.__return_0__#7",
+      "target": "static_all_multigen_comprehension.worker.combined#6"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "static_all_multigen_comprehension.worker.__comp_3__.left#2",
+      "target": "static_all_multigen_comprehension.worker.__comp_3__.__return_0__#7"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__container_0__#0",
+      "target": "static_all_multigen_comprehension.worker.__all__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__container_1__#2",
+      "target": "static_all_multigen_comprehension.worker.first#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.__container_2__#4",
+      "target": "static_all_multigen_comprehension.worker.second#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "static_all_multigen_comprehension.worker.combined#6",
+      "target": "static_all_multigen_comprehension.worker.public_value.__return_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "static_all_multigen_comprehension.worker.first#3",
+      "target": "static_all_multigen_comprehension.worker.__comp_3__.__cond_4__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "static_all_multigen_comprehension.worker.first#3",
+      "target": "static_all_multigen_comprehension.worker.__comp_3__.__op_5__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.public_value",
+      "target": "__root__.static_all_multigen_comprehension.worker.public_value#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.public_value",
+      "target": "static_all_multigen_comprehension.worker.__binding_public_value__#11"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_multigen_comprehension.worker.public_value.__return_0__#0",
+      "target": "static_all_multigen_comprehension.entry.main.__call_public_value_1__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "static_all_multigen_comprehension.worker.second#5",
+      "target": "static_all_multigen_comprehension.worker.__comp_3__.__cond_6__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "static_all_multigen_comprehension.worker.second#5",
+      "target": "static_all_multigen_comprehension.worker.__comp_3__.__op_7__#4"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [
+        "static_all_multigen_comprehension.worker.public_value"
+      ],
+      "display_name": "static_all_multigen_comprehension.worker.public_value",
+      "id": "__root__.static_all_multigen_comprehension.worker.public_value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "static_all_multigen_comprehension.worker.public_value",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.static_all_multigen_comprehension.worker.public_value#0"
+      ],
+      "display_name": "public_value",
+      "id": "static_all_multigen_comprehension.entry.public_value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "public_value",
+      "scope": "static_all_multigen_comprehension.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "static_all_multigen_comprehension.entry..worker.*#2"
+      ],
+      "display_name": "from .worker import *",
+      "id": "static_all_multigen_comprehension.entry.__star_import_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__star_import_0__",
+      "scope": "static_all_multigen_comprehension.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": ".worker.*",
+      "id": "static_all_multigen_comprehension.entry..worker.*#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": ".worker.*",
+      "scope": "static_all_multigen_comprehension.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "public_value",
+      "id": "static_all_multigen_comprehension.entry.__binding_public_value__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_public_value__",
+      "scope": "static_all_multigen_comprehension.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "static_all_multigen_comprehension.entry.__binding_main__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "static_all_multigen_comprehension.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "static_all_multigen_comprehension.entry.public_value#0",
+        "static_all_multigen_comprehension.worker.public_value.__return_0__#0"
+      ],
+      "display_name": "public_value()",
+      "id": "static_all_multigen_comprehension.entry.main.__call_public_value_1__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_public_value_1__",
+      "scope": "static_all_multigen_comprehension.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "static_all_multigen_comprehension.entry.main.__call_public_value_1__#0"
+      ],
+      "display_name": "return public_value()",
+      "id": "static_all_multigen_comprehension.entry.main.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "static_all_multigen_comprehension.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "['public_value']",
+      "id": "static_all_multigen_comprehension.worker.__container_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__container_0__",
+      "operation_type": "container",
+      "scope": "static_all_multigen_comprehension.worker"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "static_all_multigen_comprehension.worker.__container_0__#0"
+      ],
+      "display_name": "__all__",
+      "id": "static_all_multigen_comprehension.worker.__all__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "__all__",
+      "scope": "static_all_multigen_comprehension.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "[1]",
+      "id": "static_all_multigen_comprehension.worker.__container_1__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__container_1__",
+      "operation_type": "container",
+      "scope": "static_all_multigen_comprehension.worker"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "static_all_multigen_comprehension.worker.__container_1__#2"
+      ],
+      "display_name": "first",
+      "id": "static_all_multigen_comprehension.worker.first#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "first",
+      "scope": "static_all_multigen_comprehension.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "[2]",
+      "id": "static_all_multigen_comprehension.worker.__container_2__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__container_2__",
+      "operation_type": "container",
+      "scope": "static_all_multigen_comprehension.worker"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "static_all_multigen_comprehension.worker.__container_2__#4"
+      ],
+      "display_name": "second",
+      "id": "static_all_multigen_comprehension.worker.second#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "second",
+      "scope": "static_all_multigen_comprehension.worker"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "static_all_multigen_comprehension.worker.__comp_3__.__return_0__#7"
+      ],
+      "display_name": "combined",
+      "id": "static_all_multigen_comprehension.worker.combined#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "combined",
+      "scope": "static_all_multigen_comprehension.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "__all__",
+      "id": "static_all_multigen_comprehension.worker.__binding___all____#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding___all____",
+      "scope": "static_all_multigen_comprehension.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "first",
+      "id": "static_all_multigen_comprehension.worker.__binding_first__#8",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_first__",
+      "scope": "static_all_multigen_comprehension.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "second",
+      "id": "static_all_multigen_comprehension.worker.__binding_second__#9",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_second__",
+      "scope": "static_all_multigen_comprehension.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "combined",
+      "id": "static_all_multigen_comprehension.worker.__binding_combined__#10",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_combined__",
+      "scope": "static_all_multigen_comprehension.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "public_value",
+      "id": "static_all_multigen_comprehension.worker.__binding_public_value__#11",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_public_value__",
+      "scope": "static_all_multigen_comprehension.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "static_all_multigen_comprehension.worker.first#3"
+      ],
+      "display_name": "for left in first",
+      "id": "static_all_multigen_comprehension.worker.__comp_3__.__cond_4__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "condition",
+      "name": "__cond_4__",
+      "scope": "static_all_multigen_comprehension.worker.__comp_3__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "static_all_multigen_comprehension.worker.__comp_3__.__cond_4__#0",
+        "static_all_multigen_comprehension.worker.first#3"
+      ],
+      "display_name": "left in first",
+      "id": "static_all_multigen_comprehension.worker.__comp_3__.__op_5__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__op_5__",
+      "operation_type": "extract",
+      "scope": "static_all_multigen_comprehension.worker.__comp_3__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "static_all_multigen_comprehension.worker.__comp_3__.__cond_4__#0",
+        "static_all_multigen_comprehension.worker.__comp_3__.__op_5__#1"
+      ],
+      "display_name": "left",
+      "id": "static_all_multigen_comprehension.worker.__comp_3__.left#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "left",
+      "scope": "static_all_multigen_comprehension.worker.__comp_3__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "static_all_multigen_comprehension.worker.__comp_3__.__cond_4__#0",
+        "static_all_multigen_comprehension.worker.second#5"
+      ],
+      "display_name": "for right in second",
+      "id": "static_all_multigen_comprehension.worker.__comp_3__.__cond_6__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "condition",
+      "name": "__cond_6__",
+      "scope": "static_all_multigen_comprehension.worker.__comp_3__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "static_all_multigen_comprehension.worker.__comp_3__.__cond_4__#0",
+        "static_all_multigen_comprehension.worker.__comp_3__.__cond_6__#3",
+        "static_all_multigen_comprehension.worker.second#5"
+      ],
+      "display_name": "right in second",
+      "id": "static_all_multigen_comprehension.worker.__comp_3__.__op_7__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__op_7__",
+      "operation_type": "extract",
+      "scope": "static_all_multigen_comprehension.worker.__comp_3__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "static_all_multigen_comprehension.worker.__comp_3__.__cond_4__#0",
+        "static_all_multigen_comprehension.worker.__comp_3__.__cond_6__#3",
+        "static_all_multigen_comprehension.worker.__comp_3__.__op_7__#4"
+      ],
+      "display_name": "right",
+      "id": "static_all_multigen_comprehension.worker.__comp_3__.right#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "right",
+      "scope": "static_all_multigen_comprehension.worker.__comp_3__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "static_all_multigen_comprehension.worker.__all__#1",
+        "static_all_multigen_comprehension.worker.__comp_3__.__cond_4__#0",
+        "static_all_multigen_comprehension.worker.__comp_3__.__cond_6__#3"
+      ],
+      "display_name": "if __all__",
+      "id": "static_all_multigen_comprehension.worker.__comp_3__.__cond_8__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "condition",
+      "name": "__cond_8__",
+      "scope": "static_all_multigen_comprehension.worker.__comp_3__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "static_all_multigen_comprehension.worker.__comp_3__.__cond_4__#0",
+        "static_all_multigen_comprehension.worker.__comp_3__.__cond_6__#3",
+        "static_all_multigen_comprehension.worker.__comp_3__.__cond_8__#6",
+        "static_all_multigen_comprehension.worker.__comp_3__.left#2"
+      ],
+      "display_name": "[left for left in first for right in second if __all__]",
+      "id": "static_all_multigen_comprehension.worker.__comp_3__.__return_0__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "comprehension",
+      "name": "__return_0__",
+      "scope": "static_all_multigen_comprehension.worker.__comp_3__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "left",
+      "id": "static_all_multigen_comprehension.worker.__comp_3__.__binding_left__#8",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_left__",
+      "scope": "static_all_multigen_comprehension.worker.__comp_3__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "right",
+      "id": "static_all_multigen_comprehension.worker.__comp_3__.__binding_right__#9",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_right__",
+      "scope": "static_all_multigen_comprehension.worker.__comp_3__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "static_all_multigen_comprehension.worker.combined#6"
+      ],
+      "display_name": "return combined",
+      "id": "static_all_multigen_comprehension.worker.public_value.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "static_all_multigen_comprehension.worker.public_value"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "static_all_multigen_comprehension.entry",
+        "static_all_multigen_comprehension.worker"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.static_all_multigen_comprehension.worker.public_value#0"
+      ],
+      "parent": null
+    },
+    {
+      "children": [
+        "static_all_multigen_comprehension.entry.main"
+      ],
+      "id": "static_all_multigen_comprehension.entry",
+      "kind": "module",
+      "name": "static_all_multigen_comprehension.entry",
+      "nodes": [
+        "static_all_multigen_comprehension.entry.public_value#0",
+        "static_all_multigen_comprehension.entry.__star_import_0__#1",
+        "static_all_multigen_comprehension.entry..worker.*#2",
+        "static_all_multigen_comprehension.entry.__binding_public_value__#3",
+        "static_all_multigen_comprehension.entry.__binding_main__#4"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "static_all_multigen_comprehension.entry.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "static_all_multigen_comprehension.entry.main.__call_public_value_1__#0",
+        "static_all_multigen_comprehension.entry.main.__return_0__#1"
+      ],
+      "parent": "static_all_multigen_comprehension.entry"
+    },
+    {
+      "children": [
+        "static_all_multigen_comprehension.worker.__comp_3__",
+        "static_all_multigen_comprehension.worker.public_value"
+      ],
+      "id": "static_all_multigen_comprehension.worker",
+      "kind": "module",
+      "name": "static_all_multigen_comprehension.worker",
+      "nodes": [
+        "static_all_multigen_comprehension.worker.__container_0__#0",
+        "static_all_multigen_comprehension.worker.__all__#1",
+        "static_all_multigen_comprehension.worker.__container_1__#2",
+        "static_all_multigen_comprehension.worker.first#3",
+        "static_all_multigen_comprehension.worker.__container_2__#4",
+        "static_all_multigen_comprehension.worker.second#5",
+        "static_all_multigen_comprehension.worker.combined#6",
+        "static_all_multigen_comprehension.worker.__binding___all____#7",
+        "static_all_multigen_comprehension.worker.__binding_first__#8",
+        "static_all_multigen_comprehension.worker.__binding_second__#9",
+        "static_all_multigen_comprehension.worker.__binding_combined__#10",
+        "static_all_multigen_comprehension.worker.__binding_public_value__#11"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "static_all_multigen_comprehension.worker.__comp_3__",
+      "kind": "comprehension",
+      "name": "__comp_3__",
+      "nodes": [
+        "static_all_multigen_comprehension.worker.__comp_3__.__cond_4__#0",
+        "static_all_multigen_comprehension.worker.__comp_3__.__op_5__#1",
+        "static_all_multigen_comprehension.worker.__comp_3__.left#2",
+        "static_all_multigen_comprehension.worker.__comp_3__.__cond_6__#3",
+        "static_all_multigen_comprehension.worker.__comp_3__.__op_7__#4",
+        "static_all_multigen_comprehension.worker.__comp_3__.right#5",
+        "static_all_multigen_comprehension.worker.__comp_3__.__cond_8__#6",
+        "static_all_multigen_comprehension.worker.__comp_3__.__return_0__#7",
+        "static_all_multigen_comprehension.worker.__comp_3__.__binding_left__#8",
+        "static_all_multigen_comprehension.worker.__comp_3__.__binding_right__#9"
+      ],
+      "parent": "static_all_multigen_comprehension.worker"
+    },
+    {
+      "children": [],
+      "id": "static_all_multigen_comprehension.worker.public_value",
+      "kind": "function",
+      "name": "public_value",
+      "nodes": [
+        "static_all_multigen_comprehension.worker.public_value.__return_0__#0"
+      ],
+      "parent": "static_all_multigen_comprehension.worker"
+    }
+  ],
+  "version": "0.1.0"
+}

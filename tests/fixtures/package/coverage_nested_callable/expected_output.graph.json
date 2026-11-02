@@ -1,0 +1,613 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.coverage_nested_callable.worker.wrapped#0",
+      "target": "coverage_nested_callable.entry.wrapped#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_nested_callable.entry.__binding_alias__#3",
+      "target": "coverage_nested_callable.entry.alias#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_nested_callable.entry.__binding_wrapped__#2",
+      "target": "coverage_nested_callable.entry.wrapped#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "coverage_nested_callable.entry.alias#1",
+      "target": "coverage_nested_callable.entry.main.__call_alias_0__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_nested_callable.entry.main",
+      "target": "coverage_nested_callable.entry.__binding_main__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_nested_callable.entry.main.__call_alias_0__#0",
+      "target": "coverage_nested_callable.entry.main.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "coverage_nested_callable.entry.wrapped#0",
+      "target": "coverage_nested_callable.entry.alias#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_nested_callable.worker.__binding_wrapped__#1",
+      "target": "coverage_nested_callable.worker.wrapped#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_nested_callable.worker.decorate",
+      "target": "coverage_nested_callable.worker.__binding_decorate__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "coverage_nested_callable.worker.decorate",
+      "target": "coverage_nested_callable.worker.wrapped#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_nested_callable.worker.decorate.__binding_function__#2",
+      "target": "coverage_nested_callable.worker.decorate.function#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "coverage_nested_callable.worker.decorate.function#0",
+      "target": "coverage_nested_callable.worker.decorate.wrapper.__call_function_0__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_nested_callable.worker.decorate.wrapper",
+      "target": "coverage_nested_callable.worker.decorate.__binding_wrapper__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "coverage_nested_callable.worker.decorate.wrapper",
+      "target": "coverage_nested_callable.worker.decorate.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_nested_callable.worker.decorate.wrapper.__call_function_0__#0",
+      "target": "coverage_nested_callable.worker.decorate.wrapper.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "declaration",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_nested_callable.worker.wrapped",
+      "target": "__root__.coverage_nested_callable.worker.wrapped#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_nested_callable.worker.wrapped",
+      "target": "coverage_nested_callable.worker.__binding_wrapped__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "declaration",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_nested_callable.worker.wrapped",
+      "target": "coverage_nested_callable.worker.wrapped#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_nested_callable.worker.wrapped#0",
+      "target": "__root__.coverage_nested_callable.worker.wrapped#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_nested_callable.worker.wrapped.__return_0__#0",
+      "target": "coverage_nested_callable.entry.main.__call_alias_0__#0"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [
+        "coverage_nested_callable.worker.wrapped#0"
+      ],
+      "display_name": "coverage_nested_callable.worker.wrapped",
+      "id": "__root__.coverage_nested_callable.worker.wrapped#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "coverage_nested_callable.worker.wrapped",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.coverage_nested_callable.worker.wrapped#0"
+      ],
+      "display_name": "wrapped",
+      "id": "coverage_nested_callable.entry.wrapped#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "wrapped",
+      "scope": "coverage_nested_callable.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "coverage_nested_callable.entry.wrapped#0"
+      ],
+      "display_name": "alias",
+      "id": "coverage_nested_callable.entry.alias#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "alias",
+      "scope": "coverage_nested_callable.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "wrapped",
+      "id": "coverage_nested_callable.entry.__binding_wrapped__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_wrapped__",
+      "scope": "coverage_nested_callable.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "alias",
+      "id": "coverage_nested_callable.entry.__binding_alias__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_alias__",
+      "scope": "coverage_nested_callable.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "coverage_nested_callable.entry.__binding_main__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "coverage_nested_callable.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "coverage_nested_callable.entry.alias#1",
+        "coverage_nested_callable.worker.wrapped.__return_0__#0"
+      ],
+      "display_name": "alias()",
+      "id": "coverage_nested_callable.entry.main.__call_alias_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_alias_0__",
+      "scope": "coverage_nested_callable.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "coverage_nested_callable.entry.main.__call_alias_0__#0"
+      ],
+      "display_name": "return alias()",
+      "id": "coverage_nested_callable.entry.main.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "coverage_nested_callable.entry.main"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "coverage_nested_callable.worker.decorate"
+      ],
+      "display_name": "wrapped",
+      "id": "coverage_nested_callable.worker.wrapped#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "wrapped",
+      "scope": "coverage_nested_callable.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "wrapped",
+      "id": "coverage_nested_callable.worker.__binding_wrapped__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_wrapped__",
+      "scope": "coverage_nested_callable.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "decorate",
+      "id": "coverage_nested_callable.worker.__binding_decorate__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_decorate__",
+      "scope": "coverage_nested_callable.worker"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "function",
+      "id": "coverage_nested_callable.worker.decorate.function#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "function",
+      "scope": "coverage_nested_callable.worker.decorate"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "coverage_nested_callable.worker.decorate.wrapper"
+      ],
+      "display_name": "return wrapper",
+      "id": "coverage_nested_callable.worker.decorate.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "coverage_nested_callable.worker.decorate"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "function",
+      "id": "coverage_nested_callable.worker.decorate.__binding_function__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_function__",
+      "scope": "coverage_nested_callable.worker.decorate"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "wrapper",
+      "id": "coverage_nested_callable.worker.decorate.__binding_wrapper__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_wrapper__",
+      "scope": "coverage_nested_callable.worker.decorate"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "coverage_nested_callable.worker.decorate.function#0"
+      ],
+      "display_name": "function()",
+      "id": "coverage_nested_callable.worker.decorate.wrapper.__call_function_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_function_0__",
+      "scope": "coverage_nested_callable.worker.decorate.wrapper"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "coverage_nested_callable.worker.decorate.wrapper.__call_function_0__#0"
+      ],
+      "display_name": "return function()",
+      "id": "coverage_nested_callable.worker.decorate.wrapper.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "coverage_nested_callable.worker.decorate.wrapper"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return 1",
+      "id": "coverage_nested_callable.worker.wrapped.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "coverage_nested_callable.worker.wrapped"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "coverage_nested_callable.entry",
+        "coverage_nested_callable.worker"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.coverage_nested_callable.worker.wrapped#0"
+      ],
+      "parent": null
+    },
+    {
+      "children": [
+        "coverage_nested_callable.entry.main"
+      ],
+      "id": "coverage_nested_callable.entry",
+      "kind": "module",
+      "name": "coverage_nested_callable.entry",
+      "nodes": [
+        "coverage_nested_callable.entry.wrapped#0",
+        "coverage_nested_callable.entry.alias#1",
+        "coverage_nested_callable.entry.__binding_wrapped__#2",
+        "coverage_nested_callable.entry.__binding_alias__#3",
+        "coverage_nested_callable.entry.__binding_main__#4"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "coverage_nested_callable.entry.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "coverage_nested_callable.entry.main.__call_alias_0__#0",
+        "coverage_nested_callable.entry.main.__return_0__#1"
+      ],
+      "parent": "coverage_nested_callable.entry"
+    },
+    {
+      "children": [
+        "coverage_nested_callable.worker.decorate",
+        "coverage_nested_callable.worker.wrapped"
+      ],
+      "id": "coverage_nested_callable.worker",
+      "kind": "module",
+      "name": "coverage_nested_callable.worker",
+      "nodes": [
+        "coverage_nested_callable.worker.wrapped#0",
+        "coverage_nested_callable.worker.__binding_wrapped__#1",
+        "coverage_nested_callable.worker.__binding_decorate__#2"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "coverage_nested_callable.worker.decorate.wrapper"
+      ],
+      "id": "coverage_nested_callable.worker.decorate",
+      "kind": "function",
+      "name": "decorate",
+      "nodes": [
+        "coverage_nested_callable.worker.decorate.function#0",
+        "coverage_nested_callable.worker.decorate.__return_0__#1",
+        "coverage_nested_callable.worker.decorate.__binding_function__#2",
+        "coverage_nested_callable.worker.decorate.__binding_wrapper__#3"
+      ],
+      "parent": "coverage_nested_callable.worker"
+    },
+    {
+      "children": [],
+      "id": "coverage_nested_callable.worker.decorate.wrapper",
+      "kind": "function",
+      "name": "wrapper",
+      "nodes": [
+        "coverage_nested_callable.worker.decorate.wrapper.__call_function_0__#0",
+        "coverage_nested_callable.worker.decorate.wrapper.__return_0__#1"
+      ],
+      "parent": "coverage_nested_callable.worker.decorate"
+    },
+    {
+      "children": [],
+      "id": "coverage_nested_callable.worker.wrapped",
+      "kind": "function",
+      "name": "wrapped",
+      "nodes": [
+        "coverage_nested_callable.worker.wrapped.__return_0__#0"
+      ],
+      "parent": "coverage_nested_callable.worker"
+    }
+  ],
+  "version": "0.1.0"
+}

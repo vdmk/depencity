@@ -1,0 +1,90 @@
+digraph {
+  rankdir=LR;
+  compound=true;
+  node [fontname="monospace"];
+
+  subgraph cluster_n0 {
+    label="__root__\n(root)";
+    style=rounded;
+    n0 [style=invis];
+
+    subgraph cluster_n1 {
+      label="__module__\n(module)";
+      style=rounded;
+      n1 [style=invis];
+      n2 [label="consume" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n3 [label="read_attribute" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n4 [label="call_unknown_member" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n5 [label="call_unknown_member_with_keyword" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+      subgraph cluster_n6 {
+        label="consume\n(function)";
+        style=rounded;
+        n6 [style=invis];
+        n7 [label="value"];
+        n8 [label="return value"];
+        n9 [label="value" shape=box style="rounded,filled" fillcolor=lightyellow];
+      }
+
+
+      subgraph cluster_n10 {
+        label="read_attribute\n(function)";
+        style=rounded;
+        n10 [style=invis];
+        n11 [label="obj"];
+        n12 [label="obj.value"];
+        n13 [label="consume()" shape=box style=filled fillcolor=lightcyan];
+        n14 [label="return consume(obj.value)"];
+        n15 [label="obj" shape=box style="rounded,filled" fillcolor=lightyellow];
+      }
+
+
+      subgraph cluster_n16 {
+        label="call_unknown_member\n(function)";
+        style=rounded;
+        n16 [style=invis];
+        n17 [label="obj"];
+        n18 [label="obj.consume"];
+        n19 [label="obj.consume()" shape=box style=filled fillcolor=lightcyan];
+        n20 [label="return obj.consume(consume)"];
+        n21 [label="obj" shape=box style="rounded,filled" fillcolor=lightyellow];
+      }
+
+
+      subgraph cluster_n22 {
+        label="call_unknown_member_with_keyword\n(function)";
+        style=rounded;
+        n22 [style=invis];
+        n23 [label="obj"];
+        n24 [label="obj.consume"];
+        n25 [label="obj.consume()" shape=box style=filled fillcolor=lightcyan];
+        n26 [label="return obj.consume(value=consume)"];
+        n27 [label="obj" shape=box style="rounded,filled" fillcolor=lightyellow];
+      }
+
+    }
+
+  }
+
+  n10 -> n3 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n10];
+  n11 -> n12 [color=steelblue];
+  n12 -> n13 [color=steelblue];
+  n13 -> n14 [color=steelblue];
+  n15 -> n11 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n16 -> n4 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n16];
+  n17 -> n18 [color=steelblue];
+  n18 -> n19 [color=steelblue];
+  n19 -> n20 [color=steelblue];
+  n21 -> n17 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n22 -> n5 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n22];
+  n23 -> n24 [color=steelblue];
+  n24 -> n25 [color=steelblue];
+  n25 -> n26 [color=steelblue];
+  n27 -> n23 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n6 -> n19 [color=steelblue, ltail=cluster_n6];
+  n6 -> n2 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n6];
+  n6 -> n25 [color=steelblue, ltail=cluster_n6];
+  n7 -> n8 [color=steelblue];
+  n8 -> n13 [color=steelblue];
+  n9 -> n7 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+}

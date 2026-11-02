@@ -1,0 +1,54 @@
+digraph {
+  rankdir=LR;
+  compound=true;
+  node [fontname="monospace"];
+
+  subgraph cluster_n0 {
+    label="__root__\n(root)";
+    style=rounded;
+    n0 [style=invis];
+    n1 [label="missing_imported_scope.worker.missing"];
+
+    subgraph cluster_n2 {
+      label="missing_imported_scope.entry\n(module)";
+      style=rounded;
+      n2 [style=invis];
+      n3 [label="missing"];
+      n4 [label="missing" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n5 [label="main" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+      subgraph cluster_n6 {
+        label="main\n(function)";
+        style=rounded;
+        n6 [style=invis];
+        n7 [label="missing()" shape=box style=filled fillcolor=lightcyan];
+        n8 [label="return missing()"];
+      }
+
+    }
+
+
+    subgraph cluster_n9 {
+      label="missing_imported_scope.worker\n(module)";
+      style=rounded;
+      n9 [style=invis];
+      n10 [label="present" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+      subgraph cluster_n11 {
+        label="present\n(function)";
+        style=rounded;
+        n11 [style=invis];
+        n12 [label="return 1"];
+      }
+
+    }
+
+  }
+
+  n1 -> n3 [color=steelblue];
+  n11 -> n10 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n11];
+  n3 -> n7 [color=steelblue];
+  n4 -> n3 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n6 -> n5 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n6];
+  n7 -> n8 [color=steelblue];
+}

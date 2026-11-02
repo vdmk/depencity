@@ -1,0 +1,357 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.single_alias_fallback.worker#0",
+      "target": "single_alias_fallback.entry.worker#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "single_alias_fallback.entry.__binding_worker__#1",
+      "target": "single_alias_fallback.entry.worker#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "single_alias_fallback.entry.main",
+      "target": "single_alias_fallback.entry.__binding_main__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "single_alias_fallback.entry.main.__call_unknown_0__#0",
+      "target": "single_alias_fallback.entry.main.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "single_alias_fallback.entry.main.unknown#2",
+      "target": "single_alias_fallback.entry.main.__call_unknown_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "single_alias_fallback.entry.worker#0",
+      "target": "single_alias_fallback.entry.main.__call_unknown_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "single_alias_fallback.worker",
+      "target": "__root__.single_alias_fallback.worker#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "single_alias_fallback.worker.unknown",
+      "target": "single_alias_fallback.worker.__binding_unknown__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "single_alias_fallback.worker.unknown.__binding_value__#2",
+      "target": "single_alias_fallback.worker.unknown.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "single_alias_fallback.worker.unknown.value#0",
+      "target": "single_alias_fallback.worker.unknown.__return_0__#1"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [
+        "single_alias_fallback.worker"
+      ],
+      "display_name": "single_alias_fallback.worker",
+      "id": "__root__.single_alias_fallback.worker#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "single_alias_fallback.worker",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.single_alias_fallback.worker#0"
+      ],
+      "display_name": "worker",
+      "id": "single_alias_fallback.entry.worker#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "worker",
+      "scope": "single_alias_fallback.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "worker",
+      "id": "single_alias_fallback.entry.__binding_worker__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_worker__",
+      "scope": "single_alias_fallback.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "single_alias_fallback.entry.__binding_main__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "single_alias_fallback.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "single_alias_fallback.entry.main.unknown#2",
+        "single_alias_fallback.entry.worker#0"
+      ],
+      "display_name": "unknown()",
+      "id": "single_alias_fallback.entry.main.__call_unknown_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_unknown_0__",
+      "scope": "single_alias_fallback.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "single_alias_fallback.entry.main.__call_unknown_0__#0"
+      ],
+      "display_name": "return unknown(worker)",
+      "id": "single_alias_fallback.entry.main.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "single_alias_fallback.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "unknown",
+      "id": "single_alias_fallback.entry.main.unknown#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "unknown",
+      "scope": "single_alias_fallback.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "unknown",
+      "id": "single_alias_fallback.worker.__binding_unknown__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_unknown__",
+      "scope": "single_alias_fallback.worker"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "single_alias_fallback.worker.unknown.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "single_alias_fallback.worker.unknown"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "single_alias_fallback.worker.unknown.value#0"
+      ],
+      "display_name": "return value",
+      "id": "single_alias_fallback.worker.unknown.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "single_alias_fallback.worker.unknown"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "single_alias_fallback.worker.unknown.__binding_value__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "single_alias_fallback.worker.unknown"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "single_alias_fallback.entry",
+        "single_alias_fallback.worker"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.single_alias_fallback.worker#0"
+      ],
+      "parent": null
+    },
+    {
+      "children": [
+        "single_alias_fallback.entry.main"
+      ],
+      "id": "single_alias_fallback.entry",
+      "kind": "module",
+      "name": "single_alias_fallback.entry",
+      "nodes": [
+        "single_alias_fallback.entry.worker#0",
+        "single_alias_fallback.entry.__binding_worker__#1",
+        "single_alias_fallback.entry.__binding_main__#2"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "single_alias_fallback.entry.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "single_alias_fallback.entry.main.__call_unknown_0__#0",
+        "single_alias_fallback.entry.main.__return_0__#1",
+        "single_alias_fallback.entry.main.unknown#2"
+      ],
+      "parent": "single_alias_fallback.entry"
+    },
+    {
+      "children": [
+        "single_alias_fallback.worker.unknown"
+      ],
+      "id": "single_alias_fallback.worker",
+      "kind": "module",
+      "name": "single_alias_fallback.worker",
+      "nodes": [
+        "single_alias_fallback.worker.__binding_unknown__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "single_alias_fallback.worker.unknown",
+      "kind": "function",
+      "name": "unknown",
+      "nodes": [
+        "single_alias_fallback.worker.unknown.value#0",
+        "single_alias_fallback.worker.unknown.__return_0__#1",
+        "single_alias_fallback.worker.unknown.__binding_value__#2"
+      ],
+      "parent": "single_alias_fallback.worker"
+    }
+  ],
+  "version": "0.1.0"
+}

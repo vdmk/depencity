@@ -1,0 +1,1533 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.class_global_with_deletion.worker.DeletesDecoratorAlias#0",
+      "target": "class_global_with_deletion.entry.DeletesDecoratorAlias#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.class_global_with_deletion.worker.DeletesKeywordAlias#1",
+      "target": "class_global_with_deletion.entry.DeletesKeywordAlias#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.class_global_with_deletion.worker.Publisher#2",
+      "target": "class_global_with_deletion.entry.Publisher#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.class_global_with_deletion.worker.decorator_alias#3",
+      "target": "class_global_with_deletion.entry.decorator_alias#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.class_global_with_deletion.worker.keyword_alias#4",
+      "target": "class_global_with_deletion.entry.keyword_alias#4"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "builtins.__binding_type__#1",
+      "target": "builtins.type#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "builtins.type#0",
+      "target": "class_global_with_deletion.worker.keyword_alias#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "class_global_with_deletion.entry.DeletesDecoratorAlias#0",
+      "target": "class_global_with_deletion.entry.main.__call_DeletesDecoratorAlias_2__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "class_global_with_deletion.entry.DeletesKeywordAlias#1",
+      "target": "class_global_with_deletion.entry.main.__call_DeletesKeywordAlias_3__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "class_global_with_deletion.entry.Publisher#2",
+      "target": "class_global_with_deletion.entry.main.__call_Publisher_1__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.entry.__binding_DeletesDecoratorAlias__#5",
+      "target": "class_global_with_deletion.entry.DeletesDecoratorAlias#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.entry.__binding_DeletesKeywordAlias__#6",
+      "target": "class_global_with_deletion.entry.DeletesKeywordAlias#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.entry.__binding_Publisher__#7",
+      "target": "class_global_with_deletion.entry.Publisher#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.entry.__binding_decorator_alias__#8",
+      "target": "class_global_with_deletion.entry.decorator_alias#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.entry.__binding_keyword_alias__#9",
+      "target": "class_global_with_deletion.entry.keyword_alias#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "class_global_with_deletion.entry.decorator_alias#3",
+      "target": "class_global_with_deletion.entry.read_deleted_header_aliases.__container_4__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "class_global_with_deletion.entry.keyword_alias#4",
+      "target": "class_global_with_deletion.entry.read_deleted_header_aliases.__container_4__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.entry.main",
+      "target": "class_global_with_deletion.entry.__binding_main__#10"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.entry.main.__call_DeletesDecoratorAlias_2__#1",
+      "target": "class_global_with_deletion.entry.main.__container_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.entry.main.__call_DeletesKeywordAlias_3__#2",
+      "target": "class_global_with_deletion.entry.main.__container_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.entry.main.__call_Publisher_1__#0",
+      "target": "class_global_with_deletion.entry.main.__container_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.entry.main.__container_0__#3",
+      "target": "class_global_with_deletion.entry.main.__return_0__#4"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.entry.read_deleted_header_aliases",
+      "target": "class_global_with_deletion.entry.__binding_read_deleted_header_aliases__#11"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.entry.read_deleted_header_aliases.__container_4__#0",
+      "target": "class_global_with_deletion.entry.read_deleted_header_aliases.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "declaration",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.DeletesDecoratorAlias",
+      "target": "__root__.class_global_with_deletion.worker.DeletesDecoratorAlias#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "declaration",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.DeletesDecoratorAlias",
+      "target": "class_global_with_deletion.worker.DeletesDecoratorAlias#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.DeletesDecoratorAlias",
+      "target": "class_global_with_deletion.worker.__binding_DeletesDecoratorAlias__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.DeletesDecoratorAlias#1",
+      "target": "__root__.class_global_with_deletion.worker.DeletesDecoratorAlias#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "declaration",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.DeletesKeywordAlias",
+      "target": "__root__.class_global_with_deletion.worker.DeletesKeywordAlias#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "declaration",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.DeletesKeywordAlias",
+      "target": "class_global_with_deletion.worker.DeletesKeywordAlias#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.DeletesKeywordAlias",
+      "target": "class_global_with_deletion.worker.__binding_DeletesKeywordAlias__#7"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.DeletesKeywordAlias#3",
+      "target": "__root__.class_global_with_deletion.worker.DeletesKeywordAlias#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.Publisher",
+      "target": "__root__.class_global_with_deletion.worker.Publisher#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.Publisher",
+      "target": "class_global_with_deletion.worker.__binding_Publisher__#9"
+    },
+    {
+      "access": "write",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.Publisher.__write_public_value_0__#0",
+      "target": "class_global_with_deletion.worker.Publisher.__delete_public_value_2__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "class_global_with_deletion.worker.Publisher.manager#3",
+      "target": "class_global_with_deletion.worker.Publisher.__with_1__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.__binding_DeletesDecoratorAlias__#5",
+      "target": "class_global_with_deletion.worker.DeletesDecoratorAlias#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.__binding_DeletesKeywordAlias__#7",
+      "target": "class_global_with_deletion.worker.DeletesKeywordAlias#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.__binding_decorator_alias__#4",
+      "target": "class_global_with_deletion.worker.DeletesDecoratorAlias.__delete_decorator_alias_3__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.__binding_decorator_alias__#4",
+      "target": "class_global_with_deletion.worker.decorator_alias#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.__binding_keyword_alias__#6",
+      "target": "class_global_with_deletion.worker.DeletesKeywordAlias.__delete_keyword_alias_4__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.__binding_keyword_alias__#6",
+      "target": "class_global_with_deletion.worker.keyword_alias#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.__binding_public_value__#8",
+      "target": "class_global_with_deletion.worker.Publisher.__delete_public_value_2__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.__binding_public_value__#8",
+      "target": "class_global_with_deletion.worker.Publisher.__write_public_value_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.decorator_alias#0",
+      "target": "__root__.class_global_with_deletion.worker.decorator_alias#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "class_global_with_deletion.worker.decorator_alias#0",
+      "target": "class_global_with_deletion.worker.DeletesDecoratorAlias#1"
+    },
+    {
+      "access": "write",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.decorator_alias#0",
+      "target": "class_global_with_deletion.worker.DeletesDecoratorAlias.__delete_decorator_alias_3__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "declaration",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.keep",
+      "target": "__root__.class_global_with_deletion.worker.decorator_alias#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.keep",
+      "target": "class_global_with_deletion.worker.__binding_keep__#10"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "class_global_with_deletion.worker.keep",
+      "target": "class_global_with_deletion.worker.decorator_alias#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.keep.__binding_cls__#2",
+      "target": "class_global_with_deletion.worker.keep.cls#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "class_global_with_deletion.worker.keep.cls#0",
+      "target": "class_global_with_deletion.worker.keep.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.keyword_alias#2",
+      "target": "__root__.class_global_with_deletion.worker.keyword_alias#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "class_global_with_deletion.worker.keyword_alias#2",
+      "target": "class_global_with_deletion.worker.DeletesKeywordAlias#3"
+    },
+    {
+      "access": "write",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "class_global_with_deletion.worker.keyword_alias#2",
+      "target": "class_global_with_deletion.worker.DeletesKeywordAlias.__delete_keyword_alias_4__#0"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [
+        "class_global_with_deletion.worker.DeletesDecoratorAlias#1"
+      ],
+      "display_name": "class_global_with_deletion.worker.DeletesDecoratorAlias",
+      "id": "__root__.class_global_with_deletion.worker.DeletesDecoratorAlias#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "class_global_with_deletion.worker.DeletesDecoratorAlias",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "class_global_with_deletion.worker.DeletesKeywordAlias#3"
+      ],
+      "display_name": "class_global_with_deletion.worker.DeletesKeywordAlias",
+      "id": "__root__.class_global_with_deletion.worker.DeletesKeywordAlias#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "class_global_with_deletion.worker.DeletesKeywordAlias",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "class_global_with_deletion.worker.Publisher"
+      ],
+      "display_name": "class_global_with_deletion.worker.Publisher",
+      "id": "__root__.class_global_with_deletion.worker.Publisher#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "class_global_with_deletion.worker.Publisher",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "class_global_with_deletion.worker.decorator_alias#0"
+      ],
+      "display_name": "class_global_with_deletion.worker.decorator_alias",
+      "id": "__root__.class_global_with_deletion.worker.decorator_alias#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "class_global_with_deletion.worker.decorator_alias",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "class_global_with_deletion.worker.keyword_alias#2"
+      ],
+      "display_name": "class_global_with_deletion.worker.keyword_alias",
+      "id": "__root__.class_global_with_deletion.worker.keyword_alias#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "class_global_with_deletion.worker.keyword_alias",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.class_global_with_deletion.worker.DeletesDecoratorAlias#0"
+      ],
+      "display_name": "DeletesDecoratorAlias",
+      "id": "class_global_with_deletion.entry.DeletesDecoratorAlias#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "DeletesDecoratorAlias",
+      "scope": "class_global_with_deletion.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.class_global_with_deletion.worker.DeletesKeywordAlias#1"
+      ],
+      "display_name": "DeletesKeywordAlias",
+      "id": "class_global_with_deletion.entry.DeletesKeywordAlias#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "DeletesKeywordAlias",
+      "scope": "class_global_with_deletion.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.class_global_with_deletion.worker.Publisher#2"
+      ],
+      "display_name": "Publisher",
+      "id": "class_global_with_deletion.entry.Publisher#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Publisher",
+      "scope": "class_global_with_deletion.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.class_global_with_deletion.worker.decorator_alias#3"
+      ],
+      "display_name": "decorator_alias",
+      "id": "class_global_with_deletion.entry.decorator_alias#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "decorator_alias",
+      "scope": "class_global_with_deletion.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.class_global_with_deletion.worker.keyword_alias#4"
+      ],
+      "display_name": "keyword_alias",
+      "id": "class_global_with_deletion.entry.keyword_alias#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "keyword_alias",
+      "scope": "class_global_with_deletion.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "DeletesDecoratorAlias",
+      "id": "class_global_with_deletion.entry.__binding_DeletesDecoratorAlias__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_DeletesDecoratorAlias__",
+      "scope": "class_global_with_deletion.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "DeletesKeywordAlias",
+      "id": "class_global_with_deletion.entry.__binding_DeletesKeywordAlias__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_DeletesKeywordAlias__",
+      "scope": "class_global_with_deletion.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Publisher",
+      "id": "class_global_with_deletion.entry.__binding_Publisher__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Publisher__",
+      "scope": "class_global_with_deletion.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "decorator_alias",
+      "id": "class_global_with_deletion.entry.__binding_decorator_alias__#8",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_decorator_alias__",
+      "scope": "class_global_with_deletion.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "keyword_alias",
+      "id": "class_global_with_deletion.entry.__binding_keyword_alias__#9",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_keyword_alias__",
+      "scope": "class_global_with_deletion.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "class_global_with_deletion.entry.__binding_main__#10",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "class_global_with_deletion.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "read_deleted_header_aliases",
+      "id": "class_global_with_deletion.entry.__binding_read_deleted_header_aliases__#11",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_read_deleted_header_aliases__",
+      "scope": "class_global_with_deletion.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "class_global_with_deletion.entry.Publisher#2"
+      ],
+      "display_name": "Publisher()",
+      "id": "class_global_with_deletion.entry.main.__call_Publisher_1__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_Publisher_1__",
+      "scope": "class_global_with_deletion.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "class_global_with_deletion.entry.DeletesDecoratorAlias#0"
+      ],
+      "display_name": "DeletesDecoratorAlias()",
+      "id": "class_global_with_deletion.entry.main.__call_DeletesDecoratorAlias_2__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_DeletesDecoratorAlias_2__",
+      "scope": "class_global_with_deletion.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "class_global_with_deletion.entry.DeletesKeywordAlias#1"
+      ],
+      "display_name": "DeletesKeywordAlias()",
+      "id": "class_global_with_deletion.entry.main.__call_DeletesKeywordAlias_3__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_DeletesKeywordAlias_3__",
+      "scope": "class_global_with_deletion.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "class_global_with_deletion.entry.main.__call_DeletesDecoratorAlias_2__#1",
+        "class_global_with_deletion.entry.main.__call_DeletesKeywordAlias_3__#2",
+        "class_global_with_deletion.entry.main.__call_Publisher_1__#0"
+      ],
+      "display_name": "(Publisher(), DeletesDecoratorAlias(), DeletesKeywordAlias())",
+      "id": "class_global_with_deletion.entry.main.__container_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__container_0__",
+      "operation_type": "container",
+      "scope": "class_global_with_deletion.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "class_global_with_deletion.entry.main.__container_0__#3"
+      ],
+      "display_name": "return (Publisher(), DeletesDecoratorAlias(), DeletesKeywordAlias())",
+      "id": "class_global_with_deletion.entry.main.__return_0__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "class_global_with_deletion.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "class_global_with_deletion.entry.decorator_alias#3",
+        "class_global_with_deletion.entry.keyword_alias#4"
+      ],
+      "display_name": "(decorator_alias, keyword_alias)",
+      "id": "class_global_with_deletion.entry.read_deleted_header_aliases.__container_4__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__container_4__",
+      "operation_type": "container",
+      "scope": "class_global_with_deletion.entry.read_deleted_header_aliases"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "class_global_with_deletion.entry.read_deleted_header_aliases.__container_4__#0"
+      ],
+      "display_name": "return (decorator_alias, keyword_alias)",
+      "id": "class_global_with_deletion.entry.read_deleted_header_aliases.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "class_global_with_deletion.entry.read_deleted_header_aliases"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "class_global_with_deletion.worker.keep"
+      ],
+      "display_name": "decorator_alias",
+      "id": "class_global_with_deletion.worker.decorator_alias#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "decorator_alias",
+      "scope": "class_global_with_deletion.worker"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "class_global_with_deletion.worker.decorator_alias#0"
+      ],
+      "display_name": "DeletesDecoratorAlias",
+      "id": "class_global_with_deletion.worker.DeletesDecoratorAlias#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "DeletesDecoratorAlias",
+      "scope": "class_global_with_deletion.worker"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "builtins.type#0"
+      ],
+      "display_name": "keyword_alias",
+      "id": "class_global_with_deletion.worker.keyword_alias#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "keyword_alias",
+      "scope": "class_global_with_deletion.worker"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "class_global_with_deletion.worker.keyword_alias#2"
+      ],
+      "display_name": "DeletesKeywordAlias",
+      "id": "class_global_with_deletion.worker.DeletesKeywordAlias#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "DeletesKeywordAlias",
+      "scope": "class_global_with_deletion.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "decorator_alias",
+      "id": "class_global_with_deletion.worker.__binding_decorator_alias__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_decorator_alias__",
+      "scope": "class_global_with_deletion.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "DeletesDecoratorAlias",
+      "id": "class_global_with_deletion.worker.__binding_DeletesDecoratorAlias__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_DeletesDecoratorAlias__",
+      "scope": "class_global_with_deletion.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "keyword_alias",
+      "id": "class_global_with_deletion.worker.__binding_keyword_alias__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_keyword_alias__",
+      "scope": "class_global_with_deletion.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "DeletesKeywordAlias",
+      "id": "class_global_with_deletion.worker.__binding_DeletesKeywordAlias__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_DeletesKeywordAlias__",
+      "scope": "class_global_with_deletion.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "public_value",
+      "id": "class_global_with_deletion.worker.__binding_public_value__#8",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_public_value__",
+      "scope": "class_global_with_deletion.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Publisher",
+      "id": "class_global_with_deletion.worker.__binding_Publisher__#9",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Publisher__",
+      "scope": "class_global_with_deletion.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "keep",
+      "id": "class_global_with_deletion.worker.__binding_keep__#10",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_keep__",
+      "scope": "class_global_with_deletion.worker"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "public_value v1",
+      "id": "class_global_with_deletion.worker.Publisher.__write_public_value_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": true,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "__write_public_value_0__",
+      "scope": "class_global_with_deletion.worker.Publisher"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "class_global_with_deletion.worker.Publisher.manager#3"
+      ],
+      "display_name": "__with_1__",
+      "id": "class_global_with_deletion.worker.Publisher.__with_1__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__with_1__",
+      "scope": "class_global_with_deletion.worker.Publisher"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "class_global_with_deletion.worker.Publisher.__write_public_value_0__#0"
+      ],
+      "display_name": "del public_value",
+      "id": "class_global_with_deletion.worker.Publisher.__delete_public_value_2__#2",
+      "is_class_attribute": false,
+      "is_global_write": true,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__delete_public_value_2__",
+      "operation_type": "mutation",
+      "scope": "class_global_with_deletion.worker.Publisher"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "manager",
+      "id": "class_global_with_deletion.worker.Publisher.manager#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "manager",
+      "scope": "class_global_with_deletion.worker.Publisher"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "cls",
+      "id": "class_global_with_deletion.worker.keep.cls#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "cls",
+      "scope": "class_global_with_deletion.worker.keep"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "class_global_with_deletion.worker.keep.cls#0"
+      ],
+      "display_name": "return cls",
+      "id": "class_global_with_deletion.worker.keep.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "class_global_with_deletion.worker.keep"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "cls",
+      "id": "class_global_with_deletion.worker.keep.__binding_cls__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_cls__",
+      "scope": "class_global_with_deletion.worker.keep"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "class_global_with_deletion.worker.decorator_alias#0"
+      ],
+      "display_name": "del decorator_alias",
+      "id": "class_global_with_deletion.worker.DeletesDecoratorAlias.__delete_decorator_alias_3__#0",
+      "is_class_attribute": false,
+      "is_global_write": true,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__delete_decorator_alias_3__",
+      "operation_type": "mutation",
+      "scope": "class_global_with_deletion.worker.DeletesDecoratorAlias"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "class_global_with_deletion.worker.keyword_alias#2"
+      ],
+      "display_name": "del keyword_alias",
+      "id": "class_global_with_deletion.worker.DeletesKeywordAlias.__delete_keyword_alias_4__#0",
+      "is_class_attribute": false,
+      "is_global_write": true,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__delete_keyword_alias_4__",
+      "operation_type": "mutation",
+      "scope": "class_global_with_deletion.worker.DeletesKeywordAlias"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "type",
+      "id": "builtins.type#0",
+      "is_builtin": true,
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "type",
+      "scope": "builtins"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "type",
+      "id": "builtins.__binding_type__#1",
+      "is_builtin": true,
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_type__",
+      "scope": "builtins"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "class_global_with_deletion.entry",
+        "class_global_with_deletion.worker",
+        "builtins"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.class_global_with_deletion.worker.DeletesDecoratorAlias#0",
+        "__root__.class_global_with_deletion.worker.DeletesKeywordAlias#1",
+        "__root__.class_global_with_deletion.worker.Publisher#2",
+        "__root__.class_global_with_deletion.worker.decorator_alias#3",
+        "__root__.class_global_with_deletion.worker.keyword_alias#4"
+      ],
+      "parent": null
+    },
+    {
+      "children": [
+        "class_global_with_deletion.entry.main",
+        "class_global_with_deletion.entry.read_deleted_header_aliases"
+      ],
+      "id": "class_global_with_deletion.entry",
+      "kind": "module",
+      "name": "class_global_with_deletion.entry",
+      "nodes": [
+        "class_global_with_deletion.entry.DeletesDecoratorAlias#0",
+        "class_global_with_deletion.entry.DeletesKeywordAlias#1",
+        "class_global_with_deletion.entry.Publisher#2",
+        "class_global_with_deletion.entry.decorator_alias#3",
+        "class_global_with_deletion.entry.keyword_alias#4",
+        "class_global_with_deletion.entry.__binding_DeletesDecoratorAlias__#5",
+        "class_global_with_deletion.entry.__binding_DeletesKeywordAlias__#6",
+        "class_global_with_deletion.entry.__binding_Publisher__#7",
+        "class_global_with_deletion.entry.__binding_decorator_alias__#8",
+        "class_global_with_deletion.entry.__binding_keyword_alias__#9",
+        "class_global_with_deletion.entry.__binding_main__#10",
+        "class_global_with_deletion.entry.__binding_read_deleted_header_aliases__#11"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "class_global_with_deletion.entry.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "class_global_with_deletion.entry.main.__call_Publisher_1__#0",
+        "class_global_with_deletion.entry.main.__call_DeletesDecoratorAlias_2__#1",
+        "class_global_with_deletion.entry.main.__call_DeletesKeywordAlias_3__#2",
+        "class_global_with_deletion.entry.main.__container_0__#3",
+        "class_global_with_deletion.entry.main.__return_0__#4"
+      ],
+      "parent": "class_global_with_deletion.entry"
+    },
+    {
+      "children": [],
+      "id": "class_global_with_deletion.entry.read_deleted_header_aliases",
+      "kind": "function",
+      "name": "read_deleted_header_aliases",
+      "nodes": [
+        "class_global_with_deletion.entry.read_deleted_header_aliases.__container_4__#0",
+        "class_global_with_deletion.entry.read_deleted_header_aliases.__return_0__#1"
+      ],
+      "parent": "class_global_with_deletion.entry"
+    },
+    {
+      "children": [
+        "class_global_with_deletion.worker.Publisher",
+        "class_global_with_deletion.worker.keep",
+        "class_global_with_deletion.worker.DeletesDecoratorAlias",
+        "class_global_with_deletion.worker.DeletesKeywordAlias"
+      ],
+      "id": "class_global_with_deletion.worker",
+      "kind": "module",
+      "name": "class_global_with_deletion.worker",
+      "nodes": [
+        "class_global_with_deletion.worker.decorator_alias#0",
+        "class_global_with_deletion.worker.DeletesDecoratorAlias#1",
+        "class_global_with_deletion.worker.keyword_alias#2",
+        "class_global_with_deletion.worker.DeletesKeywordAlias#3",
+        "class_global_with_deletion.worker.__binding_decorator_alias__#4",
+        "class_global_with_deletion.worker.__binding_DeletesDecoratorAlias__#5",
+        "class_global_with_deletion.worker.__binding_keyword_alias__#6",
+        "class_global_with_deletion.worker.__binding_DeletesKeywordAlias__#7",
+        "class_global_with_deletion.worker.__binding_public_value__#8",
+        "class_global_with_deletion.worker.__binding_Publisher__#9",
+        "class_global_with_deletion.worker.__binding_keep__#10"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "class_global_with_deletion.worker.Publisher",
+      "kind": "class",
+      "name": "Publisher",
+      "nodes": [
+        "class_global_with_deletion.worker.Publisher.__write_public_value_0__#0",
+        "class_global_with_deletion.worker.Publisher.__with_1__#1",
+        "class_global_with_deletion.worker.Publisher.__delete_public_value_2__#2",
+        "class_global_with_deletion.worker.Publisher.manager#3"
+      ],
+      "parent": "class_global_with_deletion.worker"
+    },
+    {
+      "children": [],
+      "id": "class_global_with_deletion.worker.keep",
+      "kind": "function",
+      "name": "keep",
+      "nodes": [
+        "class_global_with_deletion.worker.keep.cls#0",
+        "class_global_with_deletion.worker.keep.__return_0__#1",
+        "class_global_with_deletion.worker.keep.__binding_cls__#2"
+      ],
+      "parent": "class_global_with_deletion.worker"
+    },
+    {
+      "children": [],
+      "id": "class_global_with_deletion.worker.DeletesDecoratorAlias",
+      "kind": "class",
+      "name": "DeletesDecoratorAlias",
+      "nodes": [
+        "class_global_with_deletion.worker.DeletesDecoratorAlias.__delete_decorator_alias_3__#0"
+      ],
+      "parent": "class_global_with_deletion.worker"
+    },
+    {
+      "children": [],
+      "id": "class_global_with_deletion.worker.DeletesKeywordAlias",
+      "kind": "class",
+      "name": "DeletesKeywordAlias",
+      "nodes": [
+        "class_global_with_deletion.worker.DeletesKeywordAlias.__delete_keyword_alias_4__#0"
+      ],
+      "parent": "class_global_with_deletion.worker"
+    },
+    {
+      "children": [],
+      "id": "builtins",
+      "kind": "builtins",
+      "name": "builtins",
+      "nodes": [
+        "builtins.type#0",
+        "builtins.__binding_type__#1"
+      ],
+      "parent": "__root__"
+    }
+  ],
+  "version": "0.1.0"
+}

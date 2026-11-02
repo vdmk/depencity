@@ -1,0 +1,1671 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.import_occurrence_mapping.other#4",
+      "target": "import_occurrence_mapping.entry.provider#6"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.import_occurrence_mapping.other.work#2",
+      "target": "import_occurrence_mapping.entry.__ref_6__#7"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.import_occurrence_mapping.other.work#2",
+      "target": "import_occurrence_mapping.entry.work#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.import_occurrence_mapping.worker#3",
+      "target": "import_occurrence_mapping.entry.provider#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.import_occurrence_mapping.worker.extra#1",
+      "target": "import_occurrence_mapping.entry.alias_extra#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.import_occurrence_mapping.worker.work#0",
+      "target": "import_occurrence_mapping.control.work#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.import_occurrence_mapping.worker.work#0",
+      "target": "import_occurrence_mapping.entry.CapturedProvider.__ref_5__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.import_occurrence_mapping.worker.work#0",
+      "target": "import_occurrence_mapping.entry.nested.local_work#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.import_occurrence_mapping.worker.work#0",
+      "target": "import_occurrence_mapping.entry.work#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.control.__binding_work__#1",
+      "target": "import_occurrence_mapping.control.work#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.control.main",
+      "target": "import_occurrence_mapping.control.__binding_main__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.control.main.__call_work_0__#0",
+      "target": "import_occurrence_mapping.control.main.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "import_occurrence_mapping.control.work#0",
+      "target": "import_occurrence_mapping.control.main.__call_work_0__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.entry.CapturedProvider",
+      "target": "import_occurrence_mapping.entry.__binding_CapturedProvider__#18"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.entry.CapturedProvider.__binding_action__#2",
+      "target": "import_occurrence_mapping.entry.CapturedProvider.action#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.entry.CapturedProvider.__ref_5__#0",
+      "target": "import_occurrence_mapping.entry.CapturedProvider.action#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.entry.__binding_alias_extra__#10",
+      "target": "import_occurrence_mapping.entry.alias_extra#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.entry.__binding_latest_action__#13",
+      "target": "import_occurrence_mapping.entry.latest_action#8"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.entry.__binding_provider__#12",
+      "target": "import_occurrence_mapping.entry.provider#5"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.entry.__binding_provider__#12",
+      "target": "import_occurrence_mapping.entry.provider#6"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.entry.__binding_work__#9",
+      "target": "import_occurrence_mapping.entry.work#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.entry.__binding_work__#9",
+      "target": "import_occurrence_mapping.entry.work#4"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.entry.__binding_worker_result__#11",
+      "target": "import_occurrence_mapping.entry.worker_result#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.entry.__call_work_0__#2",
+      "target": "import_occurrence_mapping.entry.worker_result#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.entry.__ref_6__#7",
+      "target": "import_occurrence_mapping.entry.latest_action#8"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.entry.alias",
+      "target": "import_occurrence_mapping.entry.__binding_alias__#16"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.entry.alias.__call_alias_extra_3__#0",
+      "target": "import_occurrence_mapping.entry.alias.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "import_occurrence_mapping.entry.alias_extra#1",
+      "target": "import_occurrence_mapping.entry.alias.__call_alias_extra_3__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.entry.first",
+      "target": "import_occurrence_mapping.entry.__binding_first__#14"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.entry.first.__call_work_1__#0",
+      "target": "import_occurrence_mapping.entry.first.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.entry.nested",
+      "target": "import_occurrence_mapping.entry.__binding_nested__#17"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.entry.nested.__binding_local_work__#2",
+      "target": "import_occurrence_mapping.entry.nested.local_work#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.entry.nested.child",
+      "target": "import_occurrence_mapping.entry.nested.__binding_child__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "import_occurrence_mapping.entry.nested.child",
+      "target": "import_occurrence_mapping.entry.nested.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.entry.nested.child.__call_local_work_4__#0",
+      "target": "import_occurrence_mapping.entry.nested.child.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "import_occurrence_mapping.entry.nested.local_work#0",
+      "target": "import_occurrence_mapping.entry.nested.child.__call_local_work_4__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "import_occurrence_mapping.entry.provider#5",
+      "target": "import_occurrence_mapping.entry.CapturedProvider.__ref_5__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "import_occurrence_mapping.entry.provider#6",
+      "target": "import_occurrence_mapping.entry.__ref_6__#7"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.entry.second",
+      "target": "import_occurrence_mapping.entry.__binding_second__#15"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.entry.second.__call_work_2__#0",
+      "target": "import_occurrence_mapping.entry.second.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "import_occurrence_mapping.entry.work#0",
+      "target": "import_occurrence_mapping.entry.__call_work_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "import_occurrence_mapping.entry.work#4",
+      "target": "import_occurrence_mapping.entry.first.__call_work_1__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "import_occurrence_mapping.entry.work#4",
+      "target": "import_occurrence_mapping.entry.second.__call_work_2__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.other",
+      "target": "__root__.import_occurrence_mapping.other#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.other.work",
+      "target": "__root__.import_occurrence_mapping.other.work#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.other.work",
+      "target": "import_occurrence_mapping.other.__binding_work__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.other.work.__return_0__#0",
+      "target": "import_occurrence_mapping.entry.first.__call_work_1__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.other.work.__return_0__#0",
+      "target": "import_occurrence_mapping.entry.second.__call_work_2__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.worker",
+      "target": "__root__.import_occurrence_mapping.worker#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.worker.extra",
+      "target": "__root__.import_occurrence_mapping.worker.extra#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.worker.extra",
+      "target": "import_occurrence_mapping.worker.__binding_extra__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.worker.extra.__return_0__#0",
+      "target": "import_occurrence_mapping.entry.alias.__call_alias_extra_3__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.worker.work",
+      "target": "__root__.import_occurrence_mapping.worker.work#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.worker.work",
+      "target": "import_occurrence_mapping.worker.__binding_work__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.worker.work.__return_0__#0",
+      "target": "import_occurrence_mapping.control.main.__call_work_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.worker.work.__return_0__#0",
+      "target": "import_occurrence_mapping.entry.__call_work_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "import_occurrence_mapping.worker.work.__return_0__#0",
+      "target": "import_occurrence_mapping.entry.nested.child.__call_local_work_4__#0"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [
+        "import_occurrence_mapping.worker.work"
+      ],
+      "display_name": "import_occurrence_mapping.worker.work",
+      "id": "__root__.import_occurrence_mapping.worker.work#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "import_occurrence_mapping.worker.work",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "import_occurrence_mapping.worker.extra"
+      ],
+      "display_name": "import_occurrence_mapping.worker.extra",
+      "id": "__root__.import_occurrence_mapping.worker.extra#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "import_occurrence_mapping.worker.extra",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "import_occurrence_mapping.other.work"
+      ],
+      "display_name": "import_occurrence_mapping.other.work",
+      "id": "__root__.import_occurrence_mapping.other.work#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "import_occurrence_mapping.other.work",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "import_occurrence_mapping.worker"
+      ],
+      "display_name": "import_occurrence_mapping.worker",
+      "id": "__root__.import_occurrence_mapping.worker#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "import_occurrence_mapping.worker",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "import_occurrence_mapping.other"
+      ],
+      "display_name": "import_occurrence_mapping.other",
+      "id": "__root__.import_occurrence_mapping.other#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "import_occurrence_mapping.other",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.import_occurrence_mapping.worker.work#0"
+      ],
+      "display_name": "work",
+      "id": "import_occurrence_mapping.control.work#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "work",
+      "scope": "import_occurrence_mapping.control"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "work",
+      "id": "import_occurrence_mapping.control.__binding_work__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_work__",
+      "scope": "import_occurrence_mapping.control"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "import_occurrence_mapping.control.__binding_main__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "import_occurrence_mapping.control"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "import_occurrence_mapping.control.work#0",
+        "import_occurrence_mapping.worker.work.__return_0__#0"
+      ],
+      "display_name": "work()",
+      "id": "import_occurrence_mapping.control.main.__call_work_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_work_0__",
+      "scope": "import_occurrence_mapping.control.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "import_occurrence_mapping.control.main.__call_work_0__#0"
+      ],
+      "display_name": "return work()",
+      "id": "import_occurrence_mapping.control.main.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "import_occurrence_mapping.control.main"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.import_occurrence_mapping.worker.work#0"
+      ],
+      "display_name": "work v1",
+      "id": "import_occurrence_mapping.entry.work#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "work",
+      "scope": "import_occurrence_mapping.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.import_occurrence_mapping.worker.extra#1"
+      ],
+      "display_name": "alias_extra",
+      "id": "import_occurrence_mapping.entry.alias_extra#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "alias_extra",
+      "scope": "import_occurrence_mapping.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "import_occurrence_mapping.entry.work#0",
+        "import_occurrence_mapping.worker.work.__return_0__#0"
+      ],
+      "display_name": "work()",
+      "id": "import_occurrence_mapping.entry.__call_work_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_work_0__",
+      "scope": "import_occurrence_mapping.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "import_occurrence_mapping.entry.__call_work_0__#2"
+      ],
+      "display_name": "worker_result",
+      "id": "import_occurrence_mapping.entry.worker_result#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "worker_result",
+      "scope": "import_occurrence_mapping.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.import_occurrence_mapping.other.work#2"
+      ],
+      "display_name": "work v2",
+      "id": "import_occurrence_mapping.entry.work#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "work",
+      "scope": "import_occurrence_mapping.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.import_occurrence_mapping.worker#3"
+      ],
+      "display_name": "provider v1",
+      "id": "import_occurrence_mapping.entry.provider#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "provider",
+      "scope": "import_occurrence_mapping.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.import_occurrence_mapping.other#4"
+      ],
+      "display_name": "provider v2",
+      "id": "import_occurrence_mapping.entry.provider#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "provider",
+      "scope": "import_occurrence_mapping.entry"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "__root__.import_occurrence_mapping.other.work#2",
+        "import_occurrence_mapping.entry.provider#6"
+      ],
+      "display_name": "provider.work",
+      "id": "import_occurrence_mapping.entry.__ref_6__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_6__",
+      "scope": "import_occurrence_mapping.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "import_occurrence_mapping.entry.__ref_6__#7"
+      ],
+      "display_name": "latest_action",
+      "id": "import_occurrence_mapping.entry.latest_action#8",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "latest_action",
+      "scope": "import_occurrence_mapping.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "work",
+      "id": "import_occurrence_mapping.entry.__binding_work__#9",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_work__",
+      "scope": "import_occurrence_mapping.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "alias_extra",
+      "id": "import_occurrence_mapping.entry.__binding_alias_extra__#10",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_alias_extra__",
+      "scope": "import_occurrence_mapping.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "worker_result",
+      "id": "import_occurrence_mapping.entry.__binding_worker_result__#11",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_worker_result__",
+      "scope": "import_occurrence_mapping.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "provider",
+      "id": "import_occurrence_mapping.entry.__binding_provider__#12",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_provider__",
+      "scope": "import_occurrence_mapping.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "latest_action",
+      "id": "import_occurrence_mapping.entry.__binding_latest_action__#13",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_latest_action__",
+      "scope": "import_occurrence_mapping.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "first",
+      "id": "import_occurrence_mapping.entry.__binding_first__#14",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_first__",
+      "scope": "import_occurrence_mapping.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "second",
+      "id": "import_occurrence_mapping.entry.__binding_second__#15",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_second__",
+      "scope": "import_occurrence_mapping.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "alias",
+      "id": "import_occurrence_mapping.entry.__binding_alias__#16",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_alias__",
+      "scope": "import_occurrence_mapping.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "nested",
+      "id": "import_occurrence_mapping.entry.__binding_nested__#17",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_nested__",
+      "scope": "import_occurrence_mapping.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "CapturedProvider",
+      "id": "import_occurrence_mapping.entry.__binding_CapturedProvider__#18",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_CapturedProvider__",
+      "scope": "import_occurrence_mapping.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "import_occurrence_mapping.entry.work#4",
+        "import_occurrence_mapping.other.work.__return_0__#0"
+      ],
+      "display_name": "work()",
+      "id": "import_occurrence_mapping.entry.first.__call_work_1__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_work_1__",
+      "scope": "import_occurrence_mapping.entry.first"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "import_occurrence_mapping.entry.first.__call_work_1__#0"
+      ],
+      "display_name": "return work()",
+      "id": "import_occurrence_mapping.entry.first.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "import_occurrence_mapping.entry.first"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "import_occurrence_mapping.entry.work#4",
+        "import_occurrence_mapping.other.work.__return_0__#0"
+      ],
+      "display_name": "work()",
+      "id": "import_occurrence_mapping.entry.second.__call_work_2__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_work_2__",
+      "scope": "import_occurrence_mapping.entry.second"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "import_occurrence_mapping.entry.second.__call_work_2__#0"
+      ],
+      "display_name": "return work()",
+      "id": "import_occurrence_mapping.entry.second.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "import_occurrence_mapping.entry.second"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "import_occurrence_mapping.entry.alias_extra#1",
+        "import_occurrence_mapping.worker.extra.__return_0__#0"
+      ],
+      "display_name": "alias_extra()",
+      "id": "import_occurrence_mapping.entry.alias.__call_alias_extra_3__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_alias_extra_3__",
+      "scope": "import_occurrence_mapping.entry.alias"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "import_occurrence_mapping.entry.alias.__call_alias_extra_3__#0"
+      ],
+      "display_name": "return alias_extra()",
+      "id": "import_occurrence_mapping.entry.alias.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "import_occurrence_mapping.entry.alias"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.import_occurrence_mapping.worker.work#0"
+      ],
+      "display_name": "local_work",
+      "id": "import_occurrence_mapping.entry.nested.local_work#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "local_work",
+      "scope": "import_occurrence_mapping.entry.nested"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "import_occurrence_mapping.entry.nested.child"
+      ],
+      "display_name": "return child",
+      "id": "import_occurrence_mapping.entry.nested.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "import_occurrence_mapping.entry.nested"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "local_work",
+      "id": "import_occurrence_mapping.entry.nested.__binding_local_work__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_local_work__",
+      "scope": "import_occurrence_mapping.entry.nested"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "child",
+      "id": "import_occurrence_mapping.entry.nested.__binding_child__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_child__",
+      "scope": "import_occurrence_mapping.entry.nested"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "import_occurrence_mapping.entry.nested.local_work#0",
+        "import_occurrence_mapping.worker.work.__return_0__#0"
+      ],
+      "display_name": "local_work()",
+      "id": "import_occurrence_mapping.entry.nested.child.__call_local_work_4__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_local_work_4__",
+      "scope": "import_occurrence_mapping.entry.nested.child"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "import_occurrence_mapping.entry.nested.child.__call_local_work_4__#0"
+      ],
+      "display_name": "return local_work()",
+      "id": "import_occurrence_mapping.entry.nested.child.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "import_occurrence_mapping.entry.nested.child"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "__root__.import_occurrence_mapping.worker.work#0",
+        "import_occurrence_mapping.entry.provider#5"
+      ],
+      "display_name": "provider.work",
+      "id": "import_occurrence_mapping.entry.CapturedProvider.__ref_5__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_5__",
+      "scope": "import_occurrence_mapping.entry.CapturedProvider"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "import_occurrence_mapping.entry.CapturedProvider.__ref_5__#0"
+      ],
+      "display_name": "action",
+      "id": "import_occurrence_mapping.entry.CapturedProvider.action#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "action",
+      "scope": "import_occurrence_mapping.entry.CapturedProvider"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "action",
+      "id": "import_occurrence_mapping.entry.CapturedProvider.__binding_action__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_action__",
+      "scope": "import_occurrence_mapping.entry.CapturedProvider"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "work",
+      "id": "import_occurrence_mapping.other.__binding_work__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_work__",
+      "scope": "import_occurrence_mapping.other"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return 3",
+      "id": "import_occurrence_mapping.other.work.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "import_occurrence_mapping.other.work"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "work",
+      "id": "import_occurrence_mapping.worker.__binding_work__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_work__",
+      "scope": "import_occurrence_mapping.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "extra",
+      "id": "import_occurrence_mapping.worker.__binding_extra__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_extra__",
+      "scope": "import_occurrence_mapping.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return 1",
+      "id": "import_occurrence_mapping.worker.work.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "import_occurrence_mapping.worker.work"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return 2",
+      "id": "import_occurrence_mapping.worker.extra.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "import_occurrence_mapping.worker.extra"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "import_occurrence_mapping.control",
+        "import_occurrence_mapping.entry",
+        "import_occurrence_mapping.other",
+        "import_occurrence_mapping.worker"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.import_occurrence_mapping.worker.work#0",
+        "__root__.import_occurrence_mapping.worker.extra#1",
+        "__root__.import_occurrence_mapping.other.work#2",
+        "__root__.import_occurrence_mapping.worker#3",
+        "__root__.import_occurrence_mapping.other#4"
+      ],
+      "parent": null
+    },
+    {
+      "children": [
+        "import_occurrence_mapping.control.main"
+      ],
+      "id": "import_occurrence_mapping.control",
+      "kind": "module",
+      "name": "import_occurrence_mapping.control",
+      "nodes": [
+        "import_occurrence_mapping.control.work#0",
+        "import_occurrence_mapping.control.__binding_work__#1",
+        "import_occurrence_mapping.control.__binding_main__#2"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "import_occurrence_mapping.control.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "import_occurrence_mapping.control.main.__call_work_0__#0",
+        "import_occurrence_mapping.control.main.__return_0__#1"
+      ],
+      "parent": "import_occurrence_mapping.control"
+    },
+    {
+      "children": [
+        "import_occurrence_mapping.entry.first",
+        "import_occurrence_mapping.entry.second",
+        "import_occurrence_mapping.entry.alias",
+        "import_occurrence_mapping.entry.nested",
+        "import_occurrence_mapping.entry.CapturedProvider"
+      ],
+      "id": "import_occurrence_mapping.entry",
+      "kind": "module",
+      "name": "import_occurrence_mapping.entry",
+      "nodes": [
+        "import_occurrence_mapping.entry.work#0",
+        "import_occurrence_mapping.entry.alias_extra#1",
+        "import_occurrence_mapping.entry.__call_work_0__#2",
+        "import_occurrence_mapping.entry.worker_result#3",
+        "import_occurrence_mapping.entry.work#4",
+        "import_occurrence_mapping.entry.provider#5",
+        "import_occurrence_mapping.entry.provider#6",
+        "import_occurrence_mapping.entry.__ref_6__#7",
+        "import_occurrence_mapping.entry.latest_action#8",
+        "import_occurrence_mapping.entry.__binding_work__#9",
+        "import_occurrence_mapping.entry.__binding_alias_extra__#10",
+        "import_occurrence_mapping.entry.__binding_worker_result__#11",
+        "import_occurrence_mapping.entry.__binding_provider__#12",
+        "import_occurrence_mapping.entry.__binding_latest_action__#13",
+        "import_occurrence_mapping.entry.__binding_first__#14",
+        "import_occurrence_mapping.entry.__binding_second__#15",
+        "import_occurrence_mapping.entry.__binding_alias__#16",
+        "import_occurrence_mapping.entry.__binding_nested__#17",
+        "import_occurrence_mapping.entry.__binding_CapturedProvider__#18"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "import_occurrence_mapping.entry.first",
+      "kind": "function",
+      "name": "first",
+      "nodes": [
+        "import_occurrence_mapping.entry.first.__call_work_1__#0",
+        "import_occurrence_mapping.entry.first.__return_0__#1"
+      ],
+      "parent": "import_occurrence_mapping.entry"
+    },
+    {
+      "children": [],
+      "id": "import_occurrence_mapping.entry.second",
+      "kind": "function",
+      "name": "second",
+      "nodes": [
+        "import_occurrence_mapping.entry.second.__call_work_2__#0",
+        "import_occurrence_mapping.entry.second.__return_0__#1"
+      ],
+      "parent": "import_occurrence_mapping.entry"
+    },
+    {
+      "children": [],
+      "id": "import_occurrence_mapping.entry.alias",
+      "kind": "function",
+      "name": "alias",
+      "nodes": [
+        "import_occurrence_mapping.entry.alias.__call_alias_extra_3__#0",
+        "import_occurrence_mapping.entry.alias.__return_0__#1"
+      ],
+      "parent": "import_occurrence_mapping.entry"
+    },
+    {
+      "children": [
+        "import_occurrence_mapping.entry.nested.child"
+      ],
+      "id": "import_occurrence_mapping.entry.nested",
+      "kind": "function",
+      "name": "nested",
+      "nodes": [
+        "import_occurrence_mapping.entry.nested.local_work#0",
+        "import_occurrence_mapping.entry.nested.__return_0__#1",
+        "import_occurrence_mapping.entry.nested.__binding_local_work__#2",
+        "import_occurrence_mapping.entry.nested.__binding_child__#3"
+      ],
+      "parent": "import_occurrence_mapping.entry"
+    },
+    {
+      "children": [],
+      "id": "import_occurrence_mapping.entry.nested.child",
+      "kind": "function",
+      "name": "child",
+      "nodes": [
+        "import_occurrence_mapping.entry.nested.child.__call_local_work_4__#0",
+        "import_occurrence_mapping.entry.nested.child.__return_0__#1"
+      ],
+      "parent": "import_occurrence_mapping.entry.nested"
+    },
+    {
+      "children": [],
+      "id": "import_occurrence_mapping.entry.CapturedProvider",
+      "kind": "class",
+      "name": "CapturedProvider",
+      "nodes": [
+        "import_occurrence_mapping.entry.CapturedProvider.__ref_5__#0",
+        "import_occurrence_mapping.entry.CapturedProvider.action#1",
+        "import_occurrence_mapping.entry.CapturedProvider.__binding_action__#2"
+      ],
+      "parent": "import_occurrence_mapping.entry"
+    },
+    {
+      "children": [
+        "import_occurrence_mapping.other.work"
+      ],
+      "id": "import_occurrence_mapping.other",
+      "kind": "module",
+      "name": "import_occurrence_mapping.other",
+      "nodes": [
+        "import_occurrence_mapping.other.__binding_work__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "import_occurrence_mapping.other.work",
+      "kind": "function",
+      "name": "work",
+      "nodes": [
+        "import_occurrence_mapping.other.work.__return_0__#0"
+      ],
+      "parent": "import_occurrence_mapping.other"
+    },
+    {
+      "children": [
+        "import_occurrence_mapping.worker.work",
+        "import_occurrence_mapping.worker.extra"
+      ],
+      "id": "import_occurrence_mapping.worker",
+      "kind": "module",
+      "name": "import_occurrence_mapping.worker",
+      "nodes": [
+        "import_occurrence_mapping.worker.__binding_work__#0",
+        "import_occurrence_mapping.worker.__binding_extra__#1"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "import_occurrence_mapping.worker.work",
+      "kind": "function",
+      "name": "work",
+      "nodes": [
+        "import_occurrence_mapping.worker.work.__return_0__#0"
+      ],
+      "parent": "import_occurrence_mapping.worker"
+    },
+    {
+      "children": [],
+      "id": "import_occurrence_mapping.worker.extra",
+      "kind": "function",
+      "name": "extra",
+      "nodes": [
+        "import_occurrence_mapping.worker.extra.__return_0__#0"
+      ],
+      "parent": "import_occurrence_mapping.worker"
+    }
+  ],
+  "version": "0.1.0"
+}

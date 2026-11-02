@@ -1,0 +1,43 @@
+digraph {
+  rankdir=LR;
+  compound=true;
+  node [fontname="monospace"];
+
+  subgraph cluster_n0 {
+    label="__root__\n(root)";
+    style=rounded;
+    n0 [style=invis];
+
+    subgraph cluster_n1 {
+      label="__module__\n(module)";
+      style=rounded;
+      n1 [style=invis];
+      n2 [label="main" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+      subgraph cluster_n3 {
+        label="main\n(function)";
+        style=rounded;
+        n3 [style=invis];
+        n4 [label="value"];
+        n5 [label="value == '\"quoted\"'" shape=box];
+        n6 [label="if value == '\"quoted\"'" shape=diamond];
+        n7 [label="return '\"'"];
+        n8 [label="[value, 'C:\\\\new\\\\report', '\\\\N', 'line\\nbreak']" shape=box];
+        n9 [label="return [value, 'C:\\\\new\\\\report', '\\\\N', 'line\\nbreak']"];
+        n10 [label="value" shape=box style="rounded,filled" fillcolor=lightyellow];
+      }
+
+    }
+
+  }
+
+  n10 -> n4 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n3 -> n2 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n3];
+  n4 -> n5 [color=steelblue];
+  n4 -> n8 [color=steelblue];
+  n5 -> n6 [color=steelblue];
+  n6 -> n7 [color=steelblue];
+  n6 -> n8 [color=steelblue];
+  n6 -> n9 [color=steelblue];
+  n8 -> n9 [color=steelblue];
+}

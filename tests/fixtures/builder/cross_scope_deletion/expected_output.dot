@@ -1,0 +1,484 @@
+digraph {
+  rankdir=LR;
+  compound=true;
+  node [fontname="monospace"];
+
+  subgraph cluster_n0 {
+    label="__root__\n(root)";
+    style=rounded;
+    n0 [style=invis];
+
+    subgraph cluster_n1 {
+      label="__module__\n(module)";
+      style=rounded;
+      n1 [style=invis];
+      n2 [label="del helper" shape=box];
+      n3 [label="before_read"];
+      n4 [label="versioned()" shape=box style=filled fillcolor=lightcyan];
+      n5 [label="before_call"];
+      n6 [label="del versioned" shape=box];
+      n7 [label="after_read"];
+      n8 [label="versioned()" shape=box style=filled fillcolor=lightcyan];
+      n9 [label="after_call"];
+      n10 [label="rebound_read"];
+      n11 [label="versioned()" shape=box style=filled fillcolor=lightcyan];
+      n12 [label="rebound_call"];
+      n13 [label="conditional_after_delete"];
+      n14 [label="global_value"];
+      n15 [label="global_after_delete"];
+      n16 [label="versioned"];
+      n17 [label="helper" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n18 [label="versioned" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n19 [label="before_read" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n20 [label="before_call" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n21 [label="after_read" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n22 [label="after_call" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n23 [label="rebound_read" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n24 [label="rebound_call" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n25 [label="conditional_after_delete" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n26 [label="global_value" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n27 [label="global_after_delete" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n28 [label="conditional_helper" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n29 [label="main" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n30 [label="outer" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n31 [label="conditional" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n32 [label="delete_global" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n33 [label="delete_global_from_nested_scope" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n34 [label="outer_nonlocal" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n35 [label="Receiver" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n36 [label="mutate" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n37 [label="outer_distant" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n38 [label="delete_global_twice" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n39 [label="outer_repeated" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+      subgraph cluster_n40 {
+        label="helper\n(function)";
+        style=rounded;
+        n40 [style=invis];
+        n41 [label="return 1"];
+      }
+
+
+      subgraph cluster_n42 {
+        label="main\n(function)";
+        style=rounded;
+        n42 [style=invis];
+        n43 [label="helper()" shape=box style=filled fillcolor=lightcyan];
+        n44 [label="return helper()"];
+        n45 [label="helper"];
+      }
+
+
+      subgraph cluster_n46 {
+        label="versioned\n(function)";
+        style=rounded;
+        n46 [style=invis];
+        n47 [label="return 2"];
+      }
+
+
+      subgraph cluster_n48 {
+        label="versioned\n(function)";
+        style=rounded;
+        n48 [style=invis];
+        n49 [label="return 3"];
+      }
+
+
+      subgraph cluster_n50 {
+        label="outer\n(function)";
+        style=rounded;
+        n50 [style=invis];
+        n51 [label="del nested_helper" shape=box];
+        n52 [label="inner()" shape=box style=filled fillcolor=lightcyan];
+        n53 [label="return inner()"];
+        n54 [label="nested_helper" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n55 [label="inner" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+        subgraph cluster_n56 {
+          label="nested_helper\n(function)";
+          style=rounded;
+          n56 [style=invis];
+          n57 [label="return 4"];
+        }
+
+
+        subgraph cluster_n58 {
+          label="inner\n(function)";
+          style=rounded;
+          n58 [style=invis];
+          n59 [label="nested_helper()" shape=box style=filled fillcolor=lightcyan];
+          n60 [label="return nested_helper()"];
+          n61 [label="nested_helper"];
+        }
+
+      }
+
+
+      subgraph cluster_n62 {
+        label="conditional_helper\n(function)";
+        style=rounded;
+        n62 [style=invis];
+        n63 [label="return 5"];
+      }
+
+
+      subgraph cluster_n64 {
+        label="conditional\n(function)";
+        style=rounded;
+        n64 [style=invis];
+        n65 [label="flag"];
+        n66 [label="if flag" shape=diamond];
+        n67 [label="del conditional_helper" shape=box];
+        n68 [label="conditional_helper()" shape=box style=filled fillcolor=lightcyan];
+        n69 [label="return conditional_helper()"];
+        n70 [label="flag" shape=box style="rounded,filled" fillcolor=lightyellow];
+      }
+
+
+      subgraph cluster_n71 {
+        label="delete_global\n(function)";
+        style=rounded;
+        n71 [style=invis];
+        n72 [label="flag"];
+        n73 [label="if flag" shape=diamond];
+        n74 [label="del global_value" shape=box];
+        n75 [label="return None (implicit)"];
+        n76 [label="flag" shape=box style="rounded,filled" fillcolor=lightyellow];
+      }
+
+
+      subgraph cluster_n77 {
+        label="delete_global_from_nested_scope\n(function)";
+        style=rounded;
+        n77 [style=invis];
+        n78 [label="delete()" shape=box style=filled fillcolor=lightcyan];
+        n79 [label="return None (implicit)"];
+        n80 [label="delete" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+        subgraph cluster_n81 {
+          label="delete\n(function)";
+          style=rounded;
+          n81 [style=invis];
+          n82 [label="del global_value" shape=box];
+          n83 [label="return None (implicit)"];
+        }
+
+      }
+
+
+      subgraph cluster_n84 {
+        label="outer_nonlocal\n(function)";
+        style=rounded;
+        n84 [style=invis];
+        n85 [label="flag"];
+        n86 [label="value"];
+        n87 [label="if flag" shape=diamond];
+        n88 [label="delete_value()" shape=box style=filled fillcolor=lightcyan];
+        n89 [label="return value"];
+        n90 [label="flag" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n91 [label="value" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n92 [label="delete_value" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+        subgraph cluster_n93 {
+          label="delete_value\n(function)";
+          style=rounded;
+          n93 [style=invis];
+          n94 [label="del value" shape=box];
+          n95 [label="return None (implicit)"];
+        }
+
+      }
+
+
+      subgraph cluster_n96 {
+        label="Receiver\n(class)";
+        style=rounded;
+        n96 [style=invis];
+        n97 [label="method" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n98 [label="__delitem__" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+        subgraph cluster_n99 {
+          label="method\n(function)";
+          style=rounded;
+          n99 [style=invis];
+          n100 [label="self"];
+          n101 [label="return 6"];
+          n102 [label="self" shape=box style="rounded,filled" fillcolor=lightyellow];
+        }
+
+
+        subgraph cluster_n103 {
+          label="__delitem__\n(function)";
+          style=rounded;
+          n103 [style=invis];
+          n104 [label="self"];
+          n105 [label="index"];
+          n106 [label="return None"];
+          n107 [label="self" shape=box style="rounded,filled" fillcolor=lightyellow];
+          n108 [label="index" shape=box style="rounded,filled" fillcolor=lightyellow];
+        }
+
+      }
+
+
+      subgraph cluster_n109 {
+        label="mutate\n(function)";
+        style=rounded;
+        n109 [style=invis];
+        n110 [label="value"];
+        n111 [label="items"];
+        n112 [label="value.field"];
+        n113 [label="value.method"];
+        n114 [label="value.method()" shape=box style=filled fillcolor=lightcyan];
+        n115 [label="attribute_call"];
+        n116 [label="items[0]"];
+        n117 [label="items.method"];
+        n118 [label="items.method()" shape=box style=filled fillcolor=lightcyan];
+        n119 [label="subscript_call"];
+        n120 [label="(attribute_call, subscript_call)" shape=box];
+        n121 [label="return (attribute_call, subscript_call)"];
+        n122 [label="value" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n123 [label="items" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n124 [label="attribute_call" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n125 [label="subscript_call" shape=box style="rounded,filled" fillcolor=lightyellow];
+      }
+
+
+      subgraph cluster_n126 {
+        label="outer_distant\n(function)";
+        style=rounded;
+        n126 [style=invis];
+        n127 [label="original"];
+        n128 [label="flag"];
+        n129 [label="value"];
+        n130 [label="middle()" shape=box style=filled fillcolor=lightcyan];
+        n131 [label="read()" shape=box style=filled fillcolor=lightcyan];
+        n132 [label="return read()"];
+        n133 [label="original" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n134 [label="flag" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n135 [label="value" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n136 [label="middle" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n137 [label="read" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+        subgraph cluster_n138 {
+          label="middle\n(function)";
+          style=rounded;
+          n138 [style=invis];
+          n139 [label="clear()" shape=box style=filled fillcolor=lightcyan];
+          n140 [label="return clear()"];
+          n141 [label="clear" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+          subgraph cluster_n142 {
+            label="clear\n(function)";
+            style=rounded;
+            n142 [style=invis];
+            n143 [label="if flag" shape=diamond];
+            n144 [label="del value" shape=box];
+            n145 [label="return None (implicit)"];
+          }
+
+        }
+
+
+        subgraph cluster_n146 {
+          label="read\n(function)";
+          style=rounded;
+          n146 [style=invis];
+          n147 [label="return value"];
+        }
+
+      }
+
+
+      subgraph cluster_n148 {
+        label="delete_global_twice\n(function)";
+        style=rounded;
+        n148 [style=invis];
+        n149 [label="replacement"];
+        n150 [label="del global_value" shape=box];
+        n151 [label="global_value v2"];
+        n152 [label="del global_value" shape=box];
+        n153 [label="return None (implicit)"];
+        n154 [label="replacement" shape=box style="rounded,filled" fillcolor=lightyellow];
+      }
+
+
+      subgraph cluster_n155 {
+        label="outer_repeated\n(function)";
+        style=rounded;
+        n155 [style=invis];
+        n156 [label="value"];
+        n157 [label="replacement"];
+        n158 [label="clear()" shape=box style=filled fillcolor=lightcyan];
+        n159 [label="read()" shape=box style=filled fillcolor=lightcyan];
+        n160 [label="return read()"];
+        n161 [label="value" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n162 [label="replacement" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n163 [label="clear" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n164 [label="read" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+        subgraph cluster_n165 {
+          label="clear\n(function)";
+          style=rounded;
+          n165 [style=invis];
+          n166 [label="del value" shape=box];
+          n167 [label="value v2"];
+          n168 [label="del value" shape=box];
+          n169 [label="return None (implicit)"];
+        }
+
+
+        subgraph cluster_n170 {
+          label="read\n(function)";
+          style=rounded;
+          n170 [style=invis];
+          n171 [label="return value"];
+        }
+
+      }
+
+    }
+
+  }
+
+  n101 -> n114 [color=steelblue];
+  n101 -> n118 [color=steelblue];
+  n102 -> n100 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n103 -> n98 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n103];
+  n107 -> n104 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n108 -> n105 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n109 -> n36 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n109];
+  n11 -> n12 [color=steelblue];
+  n110 -> n112 [color=steelblue];
+  n110 -> n113 [color=steelblue];
+  n111 -> n116 [color=steelblue];
+  n111 -> n117 [color=steelblue];
+  n113 -> n114 [color=steelblue];
+  n114 -> n115 [color=steelblue];
+  n115 -> n120 [color=steelblue];
+  n117 -> n118 [color=steelblue];
+  n118 -> n119 [color=steelblue];
+  n119 -> n120 [color=steelblue];
+  n120 -> n121 [color=steelblue];
+  n122 -> n110 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n123 -> n111 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n124 -> n115 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n125 -> n119 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n126 -> n37 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n126];
+  n127 -> n129 [color=steelblue];
+  n128 -> n143 [color=steelblue];
+  n129 -> n144 [color=steelblue];
+  n129 -> n147 [color=steelblue];
+  n131 -> n132 [color=steelblue];
+  n133 -> n127 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n134 -> n128 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n135 -> n129 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n135 -> n144 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n138 -> n136 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n138];
+  n139 -> n140 [color=steelblue];
+  n14 -> n15 [color=steelblue];
+  n14 -> n150 [color=steelblue];
+  n14 -> n74 [color=steelblue];
+  n14 -> n82 [color=steelblue];
+  n140 -> n130 [color=steelblue];
+  n142 -> n141 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n142];
+  n143 -> n144 [color=steelblue];
+  n145 -> n139 [color=steelblue];
+  n146 -> n137 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n146];
+  n147 -> n131 [color=steelblue];
+  n148 -> n38 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n148];
+  n149 -> n151 [color=steelblue];
+  n151 -> n152 [color=steelblue];
+  n154 -> n149 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n155 -> n39 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n155];
+  n156 -> n166 [color=steelblue];
+  n156 -> n171 [color=steelblue];
+  n157 -> n167 [color=steelblue];
+  n159 -> n160 [color=steelblue];
+  n16 -> n7 [color=steelblue];
+  n16 -> n8 [color=steelblue];
+  n161 -> n156 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n161 -> n166 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n161 -> n167 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n161 -> n168 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n162 -> n157 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n165 -> n163 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n165];
+  n167 -> n168 [color=steelblue];
+  n169 -> n158 [color=steelblue];
+  n17 -> n2 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n170 -> n164 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n170];
+  n171 -> n159 [color=steelblue];
+  n18 -> n6 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n19 -> n3 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n2 -> n43 [color=steelblue];
+  n20 -> n5 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n21 -> n7 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n22 -> n9 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n23 -> n10 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n24 -> n12 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n25 -> n13 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n26 -> n14 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n26 -> n150 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n26 -> n151 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n26 -> n152 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n26 -> n74 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n26 -> n82 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n27 -> n15 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n28 -> n67 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n4 -> n5 [color=steelblue];
+  n40 -> n17 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n40];
+  n40 -> n2 [color=steelblue, ltail=cluster_n40];
+  n42 -> n29 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n42];
+  n43 -> n44 [color=steelblue];
+  n45 -> n43 [color=steelblue];
+  n46 -> n18 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n46];
+  n46 -> n3 [color=steelblue, ltail=cluster_n46];
+  n46 -> n6 [color=steelblue, ltail=cluster_n46];
+  n47 -> n4 [color=steelblue];
+  n48 -> n10 [color=steelblue, ltail=cluster_n48];
+  n48 -> n18 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n48];
+  n49 -> n11 [color=steelblue];
+  n50 -> n30 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n50];
+  n51 -> n59 [color=steelblue];
+  n52 -> n53 [color=steelblue];
+  n54 -> n51 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n56 -> n51 [color=steelblue, ltail=cluster_n56];
+  n56 -> n54 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n56];
+  n58 -> n55 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n58];
+  n59 -> n60 [color=steelblue];
+  n6 -> n7 [color=steelblue];
+  n6 -> n8 [color=steelblue];
+  n60 -> n52 [color=steelblue];
+  n61 -> n59 [color=steelblue];
+  n62 -> n13 [color=steelblue, ltail=cluster_n62];
+  n62 -> n28 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n62];
+  n62 -> n67 [color=steelblue, ltail=cluster_n62];
+  n63 -> n68 [color=steelblue];
+  n64 -> n31 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n64];
+  n65 -> n66 [color=steelblue];
+  n66 -> n67 [color=steelblue];
+  n67 -> n68 [color=steelblue];
+  n68 -> n69 [color=steelblue];
+  n70 -> n65 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n71 -> n32 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n71];
+  n72 -> n73 [color=steelblue];
+  n73 -> n74 [color=steelblue];
+  n76 -> n72 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n77 -> n33 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n77];
+  n8 -> n9 [color=steelblue];
+  n81 -> n80 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n81];
+  n83 -> n78 [color=steelblue];
+  n84 -> n34 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n84];
+  n85 -> n87 [color=steelblue];
+  n86 -> n89 [color=steelblue];
+  n86 -> n94 [color=steelblue];
+  n87 -> n88 [color=steelblue];
+  n90 -> n85 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n91 -> n86 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n91 -> n94 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n93 -> n92 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n93];
+  n95 -> n88 [color=steelblue];
+  n96 -> n35 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n96];
+  n99 -> n97 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n99];
+}

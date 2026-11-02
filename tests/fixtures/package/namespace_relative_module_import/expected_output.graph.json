@@ -1,0 +1,580 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.namespace_relative_module_import.absent#1",
+      "target": "namespace_relative_module_import.entry.absent#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.namespace_relative_module_import.absent.work#3",
+      "target": "namespace_relative_module_import.entry.missing_submodule.__call_absent.work_3__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.namespace_relative_module_import.worker#0",
+      "target": "namespace_relative_module_import.entry.worker_alias#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.namespace_relative_module_import.worker.work#2",
+      "target": "namespace_relative_module_import.entry.main.__call_worker_alias.work_1__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "namespace_relative_module_import.entry.__binding_absent__#3",
+      "target": "namespace_relative_module_import.entry.absent#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "namespace_relative_module_import.entry.__binding_worker_alias__#2",
+      "target": "namespace_relative_module_import.entry.worker_alias#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "namespace_relative_module_import.entry.absent#1",
+      "target": "namespace_relative_module_import.entry.missing_submodule.__ref_2__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "namespace_relative_module_import.entry.main",
+      "target": "namespace_relative_module_import.entry.__binding_main__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "namespace_relative_module_import.entry.main.__call_worker_alias.work_1__#1",
+      "target": "namespace_relative_module_import.entry.main.__return_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "namespace_relative_module_import.entry.main.__ref_0__#0",
+      "target": "namespace_relative_module_import.entry.main.__call_worker_alias.work_1__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "namespace_relative_module_import.entry.missing_submodule",
+      "target": "namespace_relative_module_import.entry.__binding_missing_submodule__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "namespace_relative_module_import.entry.missing_submodule.__call_absent.work_3__#1",
+      "target": "namespace_relative_module_import.entry.missing_submodule.__return_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "namespace_relative_module_import.entry.missing_submodule.__ref_2__#0",
+      "target": "namespace_relative_module_import.entry.missing_submodule.__call_absent.work_3__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "namespace_relative_module_import.entry.worker_alias#0",
+      "target": "namespace_relative_module_import.entry.main.__ref_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "namespace_relative_module_import.worker",
+      "target": "__root__.namespace_relative_module_import.worker#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "namespace_relative_module_import.worker.work",
+      "target": "__root__.namespace_relative_module_import.worker.work#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "namespace_relative_module_import.worker.work",
+      "target": "namespace_relative_module_import.worker.__binding_work__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "namespace_relative_module_import.worker.work.__return_0__#0",
+      "target": "namespace_relative_module_import.entry.main.__call_worker_alias.work_1__#1"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [
+        "namespace_relative_module_import.worker"
+      ],
+      "display_name": "namespace_relative_module_import.worker",
+      "id": "__root__.namespace_relative_module_import.worker#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "namespace_relative_module_import.worker",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "namespace_relative_module_import.absent",
+      "id": "__root__.namespace_relative_module_import.absent#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "namespace_relative_module_import.absent",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "namespace_relative_module_import.worker.work"
+      ],
+      "display_name": "namespace_relative_module_import.worker.work",
+      "id": "__root__.namespace_relative_module_import.worker.work#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "namespace_relative_module_import.worker.work",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "namespace_relative_module_import.absent.work",
+      "id": "__root__.namespace_relative_module_import.absent.work#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "namespace_relative_module_import.absent.work",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.namespace_relative_module_import.worker#0"
+      ],
+      "display_name": "worker_alias",
+      "id": "namespace_relative_module_import.entry.worker_alias#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "worker_alias",
+      "scope": "namespace_relative_module_import.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.namespace_relative_module_import.absent#1"
+      ],
+      "display_name": "absent",
+      "id": "namespace_relative_module_import.entry.absent#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "absent",
+      "scope": "namespace_relative_module_import.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "worker_alias",
+      "id": "namespace_relative_module_import.entry.__binding_worker_alias__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_worker_alias__",
+      "scope": "namespace_relative_module_import.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "absent",
+      "id": "namespace_relative_module_import.entry.__binding_absent__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_absent__",
+      "scope": "namespace_relative_module_import.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "namespace_relative_module_import.entry.__binding_main__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "namespace_relative_module_import.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "missing_submodule",
+      "id": "namespace_relative_module_import.entry.__binding_missing_submodule__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_missing_submodule__",
+      "scope": "namespace_relative_module_import.entry"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "namespace_relative_module_import.entry.worker_alias#0"
+      ],
+      "display_name": "worker_alias.work",
+      "id": "namespace_relative_module_import.entry.main.__ref_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_0__",
+      "scope": "namespace_relative_module_import.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "__root__.namespace_relative_module_import.worker.work#2",
+        "namespace_relative_module_import.entry.main.__ref_0__#0",
+        "namespace_relative_module_import.worker.work.__return_0__#0"
+      ],
+      "display_name": "worker_alias.work()",
+      "id": "namespace_relative_module_import.entry.main.__call_worker_alias.work_1__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_worker_alias.work_1__",
+      "scope": "namespace_relative_module_import.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "namespace_relative_module_import.entry.main.__call_worker_alias.work_1__#1"
+      ],
+      "display_name": "return worker_alias.work()",
+      "id": "namespace_relative_module_import.entry.main.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "namespace_relative_module_import.entry.main"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "namespace_relative_module_import.entry.absent#1"
+      ],
+      "display_name": "absent.work",
+      "id": "namespace_relative_module_import.entry.missing_submodule.__ref_2__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_2__",
+      "scope": "namespace_relative_module_import.entry.missing_submodule"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "__root__.namespace_relative_module_import.absent.work#3",
+        "namespace_relative_module_import.entry.missing_submodule.__ref_2__#0"
+      ],
+      "display_name": "absent.work()",
+      "id": "namespace_relative_module_import.entry.missing_submodule.__call_absent.work_3__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_absent.work_3__",
+      "scope": "namespace_relative_module_import.entry.missing_submodule"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "namespace_relative_module_import.entry.missing_submodule.__call_absent.work_3__#1"
+      ],
+      "display_name": "return absent.work()",
+      "id": "namespace_relative_module_import.entry.missing_submodule.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "namespace_relative_module_import.entry.missing_submodule"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "work",
+      "id": "namespace_relative_module_import.worker.__binding_work__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_work__",
+      "scope": "namespace_relative_module_import.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return 1",
+      "id": "namespace_relative_module_import.worker.work.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "namespace_relative_module_import.worker.work"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "namespace_relative_module_import.entry",
+        "namespace_relative_module_import.worker"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.namespace_relative_module_import.worker#0",
+        "__root__.namespace_relative_module_import.absent#1",
+        "__root__.namespace_relative_module_import.worker.work#2",
+        "__root__.namespace_relative_module_import.absent.work#3"
+      ],
+      "parent": null
+    },
+    {
+      "children": [
+        "namespace_relative_module_import.entry.main",
+        "namespace_relative_module_import.entry.missing_submodule"
+      ],
+      "id": "namespace_relative_module_import.entry",
+      "kind": "module",
+      "name": "namespace_relative_module_import.entry",
+      "nodes": [
+        "namespace_relative_module_import.entry.worker_alias#0",
+        "namespace_relative_module_import.entry.absent#1",
+        "namespace_relative_module_import.entry.__binding_worker_alias__#2",
+        "namespace_relative_module_import.entry.__binding_absent__#3",
+        "namespace_relative_module_import.entry.__binding_main__#4",
+        "namespace_relative_module_import.entry.__binding_missing_submodule__#5"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "namespace_relative_module_import.entry.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "namespace_relative_module_import.entry.main.__ref_0__#0",
+        "namespace_relative_module_import.entry.main.__call_worker_alias.work_1__#1",
+        "namespace_relative_module_import.entry.main.__return_0__#2"
+      ],
+      "parent": "namespace_relative_module_import.entry"
+    },
+    {
+      "children": [],
+      "id": "namespace_relative_module_import.entry.missing_submodule",
+      "kind": "function",
+      "name": "missing_submodule",
+      "nodes": [
+        "namespace_relative_module_import.entry.missing_submodule.__ref_2__#0",
+        "namespace_relative_module_import.entry.missing_submodule.__call_absent.work_3__#1",
+        "namespace_relative_module_import.entry.missing_submodule.__return_0__#2"
+      ],
+      "parent": "namespace_relative_module_import.entry"
+    },
+    {
+      "children": [
+        "namespace_relative_module_import.worker.work"
+      ],
+      "id": "namespace_relative_module_import.worker",
+      "kind": "module",
+      "name": "namespace_relative_module_import.worker",
+      "nodes": [
+        "namespace_relative_module_import.worker.__binding_work__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "namespace_relative_module_import.worker.work",
+      "kind": "function",
+      "name": "work",
+      "nodes": [
+        "namespace_relative_module_import.worker.work.__return_0__#0"
+      ],
+      "parent": "namespace_relative_module_import.worker"
+    }
+  ],
+  "version": "0.1.0"
+}

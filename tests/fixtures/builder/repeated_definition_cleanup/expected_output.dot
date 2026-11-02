@@ -1,0 +1,68 @@
+digraph {
+  rankdir=LR;
+  compound=true;
+  node [fontname="monospace"];
+
+  subgraph cluster_n0 {
+    label="__root__\n(root)";
+    style=rounded;
+    n0 [style=invis];
+
+    subgraph cluster_n1 {
+      label="__module__\n(module)";
+      style=rounded;
+      n1 [style=invis];
+      n3 [label="target" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n4 [label="decorate" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n5 [label="main" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+      subgraph cluster_n6 {
+        label="decorate\n(function)";
+        style=rounded;
+        n6 [style=invis];
+        n7 [label="function"];
+        n8 [label="return function"];
+        n9 [label="function" shape=box style="rounded,filled" fillcolor=lightyellow];
+      }
+
+
+      subgraph cluster_n10 {
+        label="target\n(function)";
+        style=rounded;
+        n10 [style=invis];
+        n11 [label="return None (implicit)"];
+      }
+
+
+      subgraph cluster_n12 {
+        label="target\n(function)";
+        style=rounded;
+        n12 [style=invis];
+        n13 [label="return None (implicit)"];
+      }
+
+
+      subgraph cluster_n14 {
+        label="main\n(function)";
+        style=rounded;
+        n14 [style=invis];
+        n15 [label="target()" shape=box style=filled fillcolor=lightcyan];
+        n16 [label="return target()"];
+      }
+
+    }
+
+  }
+
+  n10 -> n3 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n10];
+  n12 -> n15 [color=steelblue, ltail=cluster_n12];
+  n12 -> n3 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n12];
+  n13 -> n15 [color=steelblue];
+  n14 -> n5 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n14];
+  n15 -> n16 [color=steelblue];
+  n3 -> n12 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n6 -> n12 [color=steelblue, ltail=cluster_n6];
+  n6 -> n4 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n6];
+  n7 -> n8 [color=steelblue];
+  n9 -> n7 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+}

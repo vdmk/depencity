@@ -1,0 +1,43 @@
+digraph {
+  rankdir=LR;
+  compound=true;
+  node [fontname="monospace"];
+
+  subgraph cluster_n0 {
+    label="__root__\n(root)";
+    style=rounded;
+    n0 [style=invis];
+
+    subgraph cluster_n1 {
+      label="__module__\n(module)";
+      style=rounded;
+      n1 [style=invis];
+      n2 [label="main" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+      subgraph cluster_n3 {
+        label="main\n(function)";
+        style=rounded;
+        n3 [style=invis];
+        n4 [label="first v1"];
+        n5 [label="second v1"];
+        n6 [label="del first" shape=box];
+        n7 [label="del second" shape=box];
+        n8 [label="return missing"];
+        n9 [label="missing"];
+        n10 [label="first" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n11 [label="second" shape=box style="rounded,filled" fillcolor=lightyellow];
+      }
+
+    }
+
+  }
+
+  n10 -> n4 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n10 -> n6 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n11 -> n5 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n11 -> n7 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n3 -> n2 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n3];
+  n4 -> n6 [color=steelblue];
+  n5 -> n7 [color=steelblue];
+  n9 -> n8 [color=steelblue];
+}

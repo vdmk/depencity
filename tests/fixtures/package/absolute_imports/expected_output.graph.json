@@ -1,0 +1,427 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.absolute_imports.worker.transform#0",
+      "target": "absolute_imports.entry.transform#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "absolute_imports.entry.__binding_transform__#1",
+      "target": "absolute_imports.entry.transform#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "absolute_imports.entry.main",
+      "target": "absolute_imports.entry.__binding_main__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "absolute_imports.entry.main.__binding_value__#3",
+      "target": "absolute_imports.entry.main.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "absolute_imports.entry.main.__call_transform_0__#1",
+      "target": "absolute_imports.entry.main.__return_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "absolute_imports.entry.main.value#0",
+      "target": "absolute_imports.entry.main.__call_transform_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "absolute_imports.entry.transform#0",
+      "target": "absolute_imports.entry.main.__call_transform_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "absolute_imports.worker.transform",
+      "target": "__root__.absolute_imports.worker.transform#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "absolute_imports.worker.transform",
+      "target": "absolute_imports.worker.__binding_transform__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "absolute_imports.worker.transform.__binding_value__#3",
+      "target": "absolute_imports.worker.transform.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "absolute_imports.worker.transform.__op_0__#1",
+      "target": "absolute_imports.worker.transform.__return_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "absolute_imports.worker.transform.__return_0__#2",
+      "target": "absolute_imports.entry.main.__call_transform_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "absolute_imports.worker.transform.value#0",
+      "target": "absolute_imports.worker.transform.__op_0__#1"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [
+        "absolute_imports.worker.transform"
+      ],
+      "display_name": "absolute_imports.worker.transform",
+      "id": "__root__.absolute_imports.worker.transform#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "absolute_imports.worker.transform",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.absolute_imports.worker.transform#0"
+      ],
+      "display_name": "transform",
+      "id": "absolute_imports.entry.transform#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "transform",
+      "scope": "absolute_imports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "transform",
+      "id": "absolute_imports.entry.__binding_transform__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_transform__",
+      "scope": "absolute_imports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "absolute_imports.entry.__binding_main__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "absolute_imports.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "absolute_imports.entry.main.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "absolute_imports.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "absolute_imports.entry.main.value#0",
+        "absolute_imports.entry.transform#0",
+        "absolute_imports.worker.transform.__return_0__#2"
+      ],
+      "display_name": "transform()",
+      "id": "absolute_imports.entry.main.__call_transform_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_transform_0__",
+      "scope": "absolute_imports.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "absolute_imports.entry.main.__call_transform_0__#1"
+      ],
+      "display_name": "return transform(value)",
+      "id": "absolute_imports.entry.main.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "absolute_imports.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "absolute_imports.entry.main.__binding_value__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "absolute_imports.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "transform",
+      "id": "absolute_imports.worker.__binding_transform__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_transform__",
+      "scope": "absolute_imports.worker"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "absolute_imports.worker.transform.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "absolute_imports.worker.transform"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "absolute_imports.worker.transform.value#0"
+      ],
+      "display_name": "value + 1",
+      "id": "absolute_imports.worker.transform.__op_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__op_0__",
+      "operation_type": "transform",
+      "scope": "absolute_imports.worker.transform"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "absolute_imports.worker.transform.__op_0__#1"
+      ],
+      "display_name": "return value + 1",
+      "id": "absolute_imports.worker.transform.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "absolute_imports.worker.transform"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "absolute_imports.worker.transform.__binding_value__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "absolute_imports.worker.transform"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "absolute_imports.entry",
+        "absolute_imports.worker"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.absolute_imports.worker.transform#0"
+      ],
+      "parent": null
+    },
+    {
+      "children": [
+        "absolute_imports.entry.main"
+      ],
+      "id": "absolute_imports.entry",
+      "kind": "module",
+      "name": "absolute_imports.entry",
+      "nodes": [
+        "absolute_imports.entry.transform#0",
+        "absolute_imports.entry.__binding_transform__#1",
+        "absolute_imports.entry.__binding_main__#2"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "absolute_imports.entry.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "absolute_imports.entry.main.value#0",
+        "absolute_imports.entry.main.__call_transform_0__#1",
+        "absolute_imports.entry.main.__return_0__#2",
+        "absolute_imports.entry.main.__binding_value__#3"
+      ],
+      "parent": "absolute_imports.entry"
+    },
+    {
+      "children": [
+        "absolute_imports.worker.transform"
+      ],
+      "id": "absolute_imports.worker",
+      "kind": "module",
+      "name": "absolute_imports.worker",
+      "nodes": [
+        "absolute_imports.worker.__binding_transform__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "absolute_imports.worker.transform",
+      "kind": "function",
+      "name": "transform",
+      "nodes": [
+        "absolute_imports.worker.transform.value#0",
+        "absolute_imports.worker.transform.__op_0__#1",
+        "absolute_imports.worker.transform.__return_0__#2",
+        "absolute_imports.worker.transform.__binding_value__#3"
+      ],
+      "parent": "absolute_imports.worker"
+    }
+  ],
+  "version": "0.1.0"
+}

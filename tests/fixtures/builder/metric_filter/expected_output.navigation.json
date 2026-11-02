@@ -1,0 +1,35 @@
+{
+  "scope_counts": {
+    "function": 2,
+    "module": 1,
+    "total": 3
+  },
+  "scopes": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "id": "outer.inner",
+              "kind": "function",
+              "profile": {
+                "graph.paths.expressions.count": 1
+              }
+            }
+          ],
+          "id": "outer",
+          "kind": "function",
+          "profile": {
+            "graph.paths.expressions.count": 1
+          }
+        }
+      ],
+      "id": "__module__",
+      "kind": "module",
+      "profile": {
+        "graph.paths.expressions.count": 1
+      }
+    }
+  ],
+  "version": "0.1.0"
+}

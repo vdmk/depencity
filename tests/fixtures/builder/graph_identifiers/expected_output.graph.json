@@ -1,0 +1,684 @@
+{
+  "edges": [
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "a",
+      "target": "__module__.__binding_a__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "a.__call_b_2__#0",
+      "target": "a.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 1,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": true,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "a.__return_0__#1",
+      "target": "main.__call_a_4__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "a.b",
+      "target": "a.__binding_b__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 1,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": true,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "a.b.__return_0__#0",
+      "target": "a.__call_b_2__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "a_b",
+      "target": "__module__.__binding_a_b__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 1,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": true,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "a_b.__return_0__#0",
+      "target": "main.__call_a_b_3__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "main",
+      "target": "__module__.__binding_main__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "main.__call_a_4__#1",
+      "target": "main.__op_5__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "main.__call_a_b_3__#0",
+      "target": "main.__op_5__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "main.__op_5__#2",
+      "target": "main.__return_0__#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "synthetic_collision",
+      "target": "__module__.__binding_synthetic_collision__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "synthetic_collision.__binding___op_0____#6",
+      "target": "synthetic_collision.__op_0__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "synthetic_collision.__binding_a__#7",
+      "target": "synthetic_collision.a#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "synthetic_collision.__binding_b__#8",
+      "target": "synthetic_collision.b#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "synthetic_collision.__binding_result__#9",
+      "target": "synthetic_collision.result#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "synthetic_collision.__op_0__#0",
+      "target": "synthetic_collision.__return_0__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "synthetic_collision.__op_1__#3",
+      "target": "synthetic_collision.result#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "synthetic_collision.a#1",
+      "target": "synthetic_collision.__op_1__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "synthetic_collision.b#2",
+      "target": "synthetic_collision.__op_1__#3"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "synthetic_collision",
+      "id": "__module__.__binding_synthetic_collision__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_synthetic_collision__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "a_b",
+      "id": "__module__.__binding_a_b__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_a_b__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "a",
+      "id": "__module__.__binding_a__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_a__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "__module__.__binding_main__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "__module__"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "__op_0__",
+      "id": "synthetic_collision.__op_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "__op_0__",
+      "scope": "synthetic_collision"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "a",
+      "id": "synthetic_collision.a#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "a",
+      "scope": "synthetic_collision"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "b",
+      "id": "synthetic_collision.b#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "b",
+      "scope": "synthetic_collision"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "synthetic_collision.a#1",
+        "synthetic_collision.b#2"
+      ],
+      "display_name": "a + b",
+      "id": "synthetic_collision.__op_1__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__op_1__",
+      "operation_type": "transform",
+      "scope": "synthetic_collision"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "synthetic_collision.__op_1__#3"
+      ],
+      "display_name": "result",
+      "id": "synthetic_collision.result#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "result",
+      "scope": "synthetic_collision"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "synthetic_collision.__op_0__#0"
+      ],
+      "display_name": "return __op_0__",
+      "id": "synthetic_collision.__return_0__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "synthetic_collision"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "__op_0__",
+      "id": "synthetic_collision.__binding___op_0____#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding___op_0____",
+      "scope": "synthetic_collision"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "a",
+      "id": "synthetic_collision.__binding_a__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_a__",
+      "scope": "synthetic_collision"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "b",
+      "id": "synthetic_collision.__binding_b__#8",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_b__",
+      "scope": "synthetic_collision"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "result",
+      "id": "synthetic_collision.__binding_result__#9",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_result__",
+      "scope": "synthetic_collision"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return 1",
+      "id": "a_b.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "a_b"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "a.b.__return_0__#0"
+      ],
+      "display_name": "b()",
+      "id": "a.__call_b_2__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_b_2__",
+      "scope": "a"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "a.__call_b_2__#0"
+      ],
+      "display_name": "return b()",
+      "id": "a.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "a"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "b",
+      "id": "a.__binding_b__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_b__",
+      "scope": "a"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return 2",
+      "id": "a.b.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "a.b"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "a_b.__return_0__#0"
+      ],
+      "display_name": "a_b()",
+      "id": "main.__call_a_b_3__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_a_b_3__",
+      "scope": "main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "a.__return_0__#1"
+      ],
+      "display_name": "a()",
+      "id": "main.__call_a_4__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_a_4__",
+      "scope": "main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "main.__call_a_4__#1",
+        "main.__call_a_b_3__#0"
+      ],
+      "display_name": "a_b() + a()",
+      "id": "main.__op_5__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__op_5__",
+      "operation_type": "transform",
+      "scope": "main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "main.__op_5__#2"
+      ],
+      "display_name": "return a_b() + a()",
+      "id": "main.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "main"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "__module__"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [],
+      "parent": null
+    },
+    {
+      "children": [
+        "synthetic_collision",
+        "a_b",
+        "a",
+        "main"
+      ],
+      "id": "__module__",
+      "kind": "module",
+      "name": "__module__",
+      "nodes": [
+        "__module__.__binding_synthetic_collision__#0",
+        "__module__.__binding_a_b__#1",
+        "__module__.__binding_a__#2",
+        "__module__.__binding_main__#3"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "synthetic_collision",
+      "kind": "function",
+      "name": "synthetic_collision",
+      "nodes": [
+        "synthetic_collision.__op_0__#0",
+        "synthetic_collision.a#1",
+        "synthetic_collision.b#2",
+        "synthetic_collision.__op_1__#3",
+        "synthetic_collision.result#4",
+        "synthetic_collision.__return_0__#5",
+        "synthetic_collision.__binding___op_0____#6",
+        "synthetic_collision.__binding_a__#7",
+        "synthetic_collision.__binding_b__#8",
+        "synthetic_collision.__binding_result__#9"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "a_b",
+      "kind": "function",
+      "name": "a_b",
+      "nodes": [
+        "a_b.__return_0__#0"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [
+        "a.b"
+      ],
+      "id": "a",
+      "kind": "function",
+      "name": "a",
+      "nodes": [
+        "a.__call_b_2__#0",
+        "a.__return_0__#1",
+        "a.__binding_b__#2"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "a.b",
+      "kind": "function",
+      "name": "b",
+      "nodes": [
+        "a.b.__return_0__#0"
+      ],
+      "parent": "a"
+    },
+    {
+      "children": [],
+      "id": "main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "main.__call_a_b_3__#0",
+        "main.__call_a_4__#1",
+        "main.__op_5__#2",
+        "main.__return_0__#3"
+      ],
+      "parent": "__module__"
+    }
+  ],
+  "version": "0.1.0"
+}

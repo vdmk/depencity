@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "ignored_sources.entry.__binding_value__#1",
+      "target": "ignored_sources.entry.value#0"
+    }
+  ],
+  "nodes": [
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "ignored_sources.entry.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "ignored_sources.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "ignored_sources.entry.__binding_value__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "ignored_sources.entry"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "ignored_sources.entry"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [],
+      "parent": null
+    },
+    {
+      "children": [],
+      "id": "ignored_sources.entry",
+      "kind": "module",
+      "name": "ignored_sources.entry",
+      "nodes": [
+        "ignored_sources.entry.value#0",
+        "ignored_sources.entry.__binding_value__#1"
+      ],
+      "parent": "__root__"
+    }
+  ],
+  "version": "0.1.0"
+}

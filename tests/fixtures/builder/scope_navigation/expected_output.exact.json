@@ -1,0 +1,55 @@
+{
+  "scope_counts": {
+    "function": 2,
+    "total": 2
+  },
+  "scopes": [
+    {
+      "id": "outer",
+      "kind": "function",
+      "profile": {
+        "attribute.class.read.count": 0,
+        "attribute.class.write.count": 0,
+        "attribute.external.read.count": 0,
+        "attribute.external.write.count": 0,
+        "attribute.total.read.count": 0,
+        "attribute.total.write.count": 0,
+        "call.dependencies.external.count": 0,
+        "call.dependencies.external.distinct_count": 0,
+        "call.dependencies.resolved_targets.count": 1,
+        "call.occurrences.resolved.count": 1,
+        "call.occurrences.total.count": 1,
+        "call.occurrences.unresolved.count": 0,
+        "construction.container_creation.count": 0,
+        "graph.cyclic_components.count": 0,
+        "graph.paths.data.count_sum": 3,
+        "graph.paths.data.length.distribution": {
+          "0": 1,
+          "1": 1,
+          "3": 1
+        },
+        "graph.paths.data.length.max": 3,
+        "graph.paths.data.length.mean": 1.3333333333333333,
+        "graph.paths.data.length.p95": 3,
+        "graph.paths.expressions.count": 1,
+        "graph.paths.expressions.length.max": 3,
+        "graph.version_merges.count": 0,
+        "subscript.read.count": 0,
+        "subscript.write.count": 0,
+        "variable.builtin.read.count": 0,
+        "variable.enclosing.read.count": 1,
+        "variable.enclosing.write.count": 0,
+        "variable.local.read.count": 1,
+        "variable.local.write.count": 1,
+        "variable.module.read.count": 0,
+        "variable.module.write.count": 0,
+        "variable.other_scope.read.count": 0,
+        "variable.total.read.count": 2,
+        "variable.total.read.distinct_count": 2,
+        "variable.total.write.count": 1,
+        "variable.unresolved.read.count": 0
+      }
+    }
+  ],
+  "version": "0.1.0"
+}

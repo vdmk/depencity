@@ -1,0 +1,50 @@
+{
+  "scope_counts": {
+    "function": 3,
+    "module": 1,
+    "total": 4
+  },
+  "scopes": [
+    {
+      "children": [
+        {
+          "id": "f",
+          "kind": "function",
+          "profile": {
+            "call.occurrences.total.count": 2,
+            "graph.paths.data.count_sum": 3,
+            "graph.paths.data.length.max": 2,
+            "graph.paths.data.length.p95": 2,
+            "graph.paths.expressions.count": 9
+          }
+        }
+      ],
+      "id": "__module__",
+      "kind": "module",
+      "profile": {
+        "graph.paths.expressions.count": 4
+      }
+    },
+    {
+      "id": "expression-heavy",
+      "kind": "function",
+      "profile": {
+        "graph.paths.data.count_sum": 1,
+        "graph.paths.data.length.max": 1,
+        "graph.paths.data.length.p95": 1,
+        "graph.paths.expressions.count": 1000
+      }
+    },
+    {
+      "id": "data-heavy",
+      "kind": "function",
+      "profile": {
+        "graph.paths.data.count_sum": 10,
+        "graph.paths.data.length.max": 1,
+        "graph.paths.data.length.p95": 1,
+        "graph.paths.expressions.count": 2
+      }
+    }
+  ],
+  "version": "0.1.0"
+}

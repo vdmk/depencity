@@ -1,0 +1,611 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.generator_calls.worker.values#0",
+      "target": "generator_calls.entry.values#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "generator_calls.entry.__binding_values__#1",
+      "target": "generator_calls.entry.values#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "generator_calls.entry.main",
+      "target": "generator_calls.entry.__binding_main__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "generator_calls.entry.main.__binding_source__#3",
+      "target": "generator_calls.entry.main.source#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "generator_calls.entry.main.__call_values_0__#1",
+      "target": "generator_calls.entry.main.__return_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "generator_calls.entry.main.source#0",
+      "target": "generator_calls.entry.main.__call_values_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "generator_calls.entry.values#0",
+      "target": "generator_calls.entry.main.__call_values_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "generator_calls.worker.values",
+      "target": "__root__.generator_calls.worker.values#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "generator_calls.worker.values",
+      "target": "generator_calls.worker.__binding_values__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "generator_calls.worker.values.__binding_source__#7",
+      "target": "generator_calls.worker.values.source#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "generator_calls.worker.values.__binding_value__#8",
+      "target": "generator_calls.worker.values.value#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "generator_calls.worker.values.__cond_0__#1",
+      "target": "generator_calls.worker.values.__op_1__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "generator_calls.worker.values.__cond_0__#1",
+      "target": "generator_calls.worker.values.__yield_2__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "generator_calls.worker.values.__cond_0__#1",
+      "target": "generator_calls.worker.values.__yield_result_3__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "generator_calls.worker.values.__cond_0__#1",
+      "target": "generator_calls.worker.values.value#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "generator_calls.worker.values.__op_1__#2",
+      "target": "generator_calls.worker.values.value#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "generator_calls.worker.values.__return_0__#6",
+      "target": "generator_calls.entry.main.__call_values_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "generator_calls.worker.values.__yield_2__#4",
+      "target": "generator_calls.entry.main.__call_values_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "generator_calls.worker.values.source#0",
+      "target": "generator_calls.worker.values.__cond_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "generator_calls.worker.values.source#0",
+      "target": "generator_calls.worker.values.__op_1__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "generator_calls.worker.values.value#3",
+      "target": "generator_calls.worker.values.__yield_2__#4"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [
+        "generator_calls.worker.values"
+      ],
+      "display_name": "generator_calls.worker.values",
+      "id": "__root__.generator_calls.worker.values#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "generator_calls.worker.values",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.generator_calls.worker.values#0"
+      ],
+      "display_name": "values",
+      "id": "generator_calls.entry.values#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "values",
+      "scope": "generator_calls.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "values",
+      "id": "generator_calls.entry.__binding_values__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_values__",
+      "scope": "generator_calls.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "generator_calls.entry.__binding_main__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "generator_calls.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "source",
+      "id": "generator_calls.entry.main.source#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "source",
+      "scope": "generator_calls.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "generator_calls.entry.main.source#0",
+        "generator_calls.entry.values#0",
+        "generator_calls.worker.values.__return_0__#6",
+        "generator_calls.worker.values.__yield_2__#4"
+      ],
+      "display_name": "values()",
+      "id": "generator_calls.entry.main.__call_values_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_values_0__",
+      "scope": "generator_calls.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "generator_calls.entry.main.__call_values_0__#1"
+      ],
+      "display_name": "return values(source)",
+      "id": "generator_calls.entry.main.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "generator_calls.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "source",
+      "id": "generator_calls.entry.main.__binding_source__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_source__",
+      "scope": "generator_calls.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "values",
+      "id": "generator_calls.worker.__binding_values__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_values__",
+      "scope": "generator_calls.worker"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "source",
+      "id": "generator_calls.worker.values.source#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "source",
+      "scope": "generator_calls.worker.values"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "generator_calls.worker.values.source#0"
+      ],
+      "display_name": "for value in source",
+      "id": "generator_calls.worker.values.__cond_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "condition",
+      "name": "__cond_0__",
+      "scope": "generator_calls.worker.values"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "generator_calls.worker.values.__cond_0__#1",
+        "generator_calls.worker.values.source#0"
+      ],
+      "display_name": "value in source",
+      "id": "generator_calls.worker.values.__op_1__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__op_1__",
+      "operation_type": "extract",
+      "scope": "generator_calls.worker.values"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "generator_calls.worker.values.__cond_0__#1",
+        "generator_calls.worker.values.__op_1__#2"
+      ],
+      "display_name": "value",
+      "id": "generator_calls.worker.values.value#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "generator_calls.worker.values"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "generator_calls.worker.values.__cond_0__#1",
+        "generator_calls.worker.values.value#3"
+      ],
+      "display_name": "yield value",
+      "id": "generator_calls.worker.values.__yield_2__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__yield_2__",
+      "scope": "generator_calls.worker.values"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "generator_calls.worker.values.__cond_0__#1"
+      ],
+      "display_name": "yield (received)",
+      "id": "generator_calls.worker.values.__yield_result_3__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__yield_result_3__",
+      "scope": "generator_calls.worker.values"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return None (implicit)",
+      "id": "generator_calls.worker.values.__return_0__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "generator_calls.worker.values"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "source",
+      "id": "generator_calls.worker.values.__binding_source__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_source__",
+      "scope": "generator_calls.worker.values"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "generator_calls.worker.values.__binding_value__#8",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "generator_calls.worker.values"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "generator_calls.entry",
+        "generator_calls.worker"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.generator_calls.worker.values#0"
+      ],
+      "parent": null
+    },
+    {
+      "children": [
+        "generator_calls.entry.main"
+      ],
+      "id": "generator_calls.entry",
+      "kind": "module",
+      "name": "generator_calls.entry",
+      "nodes": [
+        "generator_calls.entry.values#0",
+        "generator_calls.entry.__binding_values__#1",
+        "generator_calls.entry.__binding_main__#2"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "generator_calls.entry.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "generator_calls.entry.main.source#0",
+        "generator_calls.entry.main.__call_values_0__#1",
+        "generator_calls.entry.main.__return_0__#2",
+        "generator_calls.entry.main.__binding_source__#3"
+      ],
+      "parent": "generator_calls.entry"
+    },
+    {
+      "children": [
+        "generator_calls.worker.values"
+      ],
+      "id": "generator_calls.worker",
+      "kind": "module",
+      "name": "generator_calls.worker",
+      "nodes": [
+        "generator_calls.worker.__binding_values__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "generator_calls.worker.values",
+      "kind": "function",
+      "name": "values",
+      "nodes": [
+        "generator_calls.worker.values.source#0",
+        "generator_calls.worker.values.__cond_0__#1",
+        "generator_calls.worker.values.__op_1__#2",
+        "generator_calls.worker.values.value#3",
+        "generator_calls.worker.values.__yield_2__#4",
+        "generator_calls.worker.values.__yield_result_3__#5",
+        "generator_calls.worker.values.__return_0__#6",
+        "generator_calls.worker.values.__binding_source__#7",
+        "generator_calls.worker.values.__binding_value__#8"
+      ],
+      "parent": "generator_calls.worker"
+    }
+  ],
+  "version": "0.1.0"
+}

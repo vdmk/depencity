@@ -1,0 +1,344 @@
+{
+  "edges": [
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "consume",
+      "target": "__module__.__binding_consume__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "consume.__binding_factory__#6",
+      "target": "consume.factory#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "consume.__binding_values__#7",
+      "target": "consume.values#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "consume.__call_values[0].run_2__#4",
+      "target": "consume.__return_0__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "consume.__ref_0__#2",
+      "target": "consume.__ref_1__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "consume.__ref_1__#3",
+      "target": "consume.__call_values[0].run_2__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "consume.values#1",
+      "target": "consume.__ref_0__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "read_constant_member",
+      "target": "__module__.__binding_read_constant_member__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "read_constant_member.__ref_3__#0",
+      "target": "read_constant_member.__return_0__#1"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "consume",
+      "id": "__module__.__binding_consume__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_consume__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "read_constant_member",
+      "id": "__module__.__binding_read_constant_member__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_read_constant_member__",
+      "scope": "__module__"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "factory",
+      "id": "consume.factory#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "factory",
+      "scope": "consume"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "values",
+      "id": "consume.values#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "values",
+      "scope": "consume"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "consume.values#1"
+      ],
+      "display_name": "values[0]",
+      "id": "consume.__ref_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "subscript",
+      "name": "__ref_0__",
+      "scope": "consume"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "consume.__ref_0__#2"
+      ],
+      "display_name": "values[0].run",
+      "id": "consume.__ref_1__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_1__",
+      "scope": "consume"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "consume.__ref_1__#3"
+      ],
+      "display_name": "values[0].run()",
+      "id": "consume.__call_values[0].run_2__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_values[0].run_2__",
+      "scope": "consume"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "consume.__call_values[0].run_2__#4"
+      ],
+      "display_name": "return values[0].run()",
+      "id": "consume.__return_0__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "consume"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "factory",
+      "id": "consume.__binding_factory__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_factory__",
+      "scope": "consume"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "values",
+      "id": "consume.__binding_values__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_values__",
+      "scope": "consume"
+    },
+    {
+      "access": "read",
+      "dependencies": [],
+      "display_name": "1 .real",
+      "id": "read_constant_member.__ref_3__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_3__",
+      "scope": "read_constant_member"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "read_constant_member.__ref_3__#0"
+      ],
+      "display_name": "return 1 .real",
+      "id": "read_constant_member.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "read_constant_member"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "__module__"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [],
+      "parent": null
+    },
+    {
+      "children": [
+        "consume",
+        "read_constant_member"
+      ],
+      "id": "__module__",
+      "kind": "module",
+      "name": "__module__",
+      "nodes": [
+        "__module__.__binding_consume__#0",
+        "__module__.__binding_read_constant_member__#1"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "consume",
+      "kind": "function",
+      "name": "consume",
+      "nodes": [
+        "consume.factory#0",
+        "consume.values#1",
+        "consume.__ref_0__#2",
+        "consume.__ref_1__#3",
+        "consume.__call_values[0].run_2__#4",
+        "consume.__return_0__#5",
+        "consume.__binding_factory__#6",
+        "consume.__binding_values__#7"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "read_constant_member",
+      "kind": "function",
+      "name": "read_constant_member",
+      "nodes": [
+        "read_constant_member.__ref_3__#0",
+        "read_constant_member.__return_0__#1"
+      ],
+      "parent": "__module__"
+    }
+  ],
+  "version": "0.1.0"
+}

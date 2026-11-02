@@ -1,0 +1,574 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.ambiguous_alias_fallback.first#0",
+      "target": "ambiguous_alias_fallback.entry.first#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.ambiguous_alias_fallback.second#1",
+      "target": "ambiguous_alias_fallback.entry.second#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "ambiguous_alias_fallback.entry.__binding_first__#2",
+      "target": "ambiguous_alias_fallback.entry.first#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "ambiguous_alias_fallback.entry.__binding_second__#3",
+      "target": "ambiguous_alias_fallback.entry.second#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "ambiguous_alias_fallback.entry.first#0",
+      "target": "ambiguous_alias_fallback.entry.main.__call_unknown_0__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "ambiguous_alias_fallback.entry.main",
+      "target": "ambiguous_alias_fallback.entry.__binding_main__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "ambiguous_alias_fallback.entry.main.__call_unknown_0__#0",
+      "target": "ambiguous_alias_fallback.entry.main.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "ambiguous_alias_fallback.entry.main.unknown#2",
+      "target": "ambiguous_alias_fallback.entry.main.__call_unknown_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "ambiguous_alias_fallback.entry.second#1",
+      "target": "ambiguous_alias_fallback.entry.main.__call_unknown_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "ambiguous_alias_fallback.first",
+      "target": "__root__.ambiguous_alias_fallback.first#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "ambiguous_alias_fallback.first.unknown",
+      "target": "ambiguous_alias_fallback.first.__binding_unknown__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "ambiguous_alias_fallback.first.unknown.__binding_value__#2",
+      "target": "ambiguous_alias_fallback.first.unknown.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "ambiguous_alias_fallback.first.unknown.value#0",
+      "target": "ambiguous_alias_fallback.first.unknown.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "ambiguous_alias_fallback.second",
+      "target": "__root__.ambiguous_alias_fallback.second#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "ambiguous_alias_fallback.second.unknown",
+      "target": "ambiguous_alias_fallback.second.__binding_unknown__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "ambiguous_alias_fallback.second.unknown.__binding_value__#2",
+      "target": "ambiguous_alias_fallback.second.unknown.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "ambiguous_alias_fallback.second.unknown.value#0",
+      "target": "ambiguous_alias_fallback.second.unknown.__return_0__#1"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [
+        "ambiguous_alias_fallback.first"
+      ],
+      "display_name": "ambiguous_alias_fallback.first",
+      "id": "__root__.ambiguous_alias_fallback.first#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "ambiguous_alias_fallback.first",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "ambiguous_alias_fallback.second"
+      ],
+      "display_name": "ambiguous_alias_fallback.second",
+      "id": "__root__.ambiguous_alias_fallback.second#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "ambiguous_alias_fallback.second",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.ambiguous_alias_fallback.first#0"
+      ],
+      "display_name": "first",
+      "id": "ambiguous_alias_fallback.entry.first#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "first",
+      "scope": "ambiguous_alias_fallback.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.ambiguous_alias_fallback.second#1"
+      ],
+      "display_name": "second",
+      "id": "ambiguous_alias_fallback.entry.second#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "second",
+      "scope": "ambiguous_alias_fallback.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "first",
+      "id": "ambiguous_alias_fallback.entry.__binding_first__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_first__",
+      "scope": "ambiguous_alias_fallback.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "second",
+      "id": "ambiguous_alias_fallback.entry.__binding_second__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_second__",
+      "scope": "ambiguous_alias_fallback.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "ambiguous_alias_fallback.entry.__binding_main__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "ambiguous_alias_fallback.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "ambiguous_alias_fallback.entry.first#0",
+        "ambiguous_alias_fallback.entry.main.unknown#2",
+        "ambiguous_alias_fallback.entry.second#1"
+      ],
+      "display_name": "unknown()",
+      "id": "ambiguous_alias_fallback.entry.main.__call_unknown_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_unknown_0__",
+      "scope": "ambiguous_alias_fallback.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "ambiguous_alias_fallback.entry.main.__call_unknown_0__#0"
+      ],
+      "display_name": "return unknown(first, second)",
+      "id": "ambiguous_alias_fallback.entry.main.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "ambiguous_alias_fallback.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "unknown",
+      "id": "ambiguous_alias_fallback.entry.main.unknown#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "unknown",
+      "scope": "ambiguous_alias_fallback.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "unknown",
+      "id": "ambiguous_alias_fallback.first.__binding_unknown__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_unknown__",
+      "scope": "ambiguous_alias_fallback.first"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "ambiguous_alias_fallback.first.unknown.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "ambiguous_alias_fallback.first.unknown"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "ambiguous_alias_fallback.first.unknown.value#0"
+      ],
+      "display_name": "return value",
+      "id": "ambiguous_alias_fallback.first.unknown.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "ambiguous_alias_fallback.first.unknown"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "ambiguous_alias_fallback.first.unknown.__binding_value__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "ambiguous_alias_fallback.first.unknown"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "unknown",
+      "id": "ambiguous_alias_fallback.second.__binding_unknown__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_unknown__",
+      "scope": "ambiguous_alias_fallback.second"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "ambiguous_alias_fallback.second.unknown.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "ambiguous_alias_fallback.second.unknown"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "ambiguous_alias_fallback.second.unknown.value#0"
+      ],
+      "display_name": "return value",
+      "id": "ambiguous_alias_fallback.second.unknown.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "ambiguous_alias_fallback.second.unknown"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "ambiguous_alias_fallback.second.unknown.__binding_value__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "ambiguous_alias_fallback.second.unknown"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "ambiguous_alias_fallback.entry",
+        "ambiguous_alias_fallback.first",
+        "ambiguous_alias_fallback.second"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.ambiguous_alias_fallback.first#0",
+        "__root__.ambiguous_alias_fallback.second#1"
+      ],
+      "parent": null
+    },
+    {
+      "children": [
+        "ambiguous_alias_fallback.entry.main"
+      ],
+      "id": "ambiguous_alias_fallback.entry",
+      "kind": "module",
+      "name": "ambiguous_alias_fallback.entry",
+      "nodes": [
+        "ambiguous_alias_fallback.entry.first#0",
+        "ambiguous_alias_fallback.entry.second#1",
+        "ambiguous_alias_fallback.entry.__binding_first__#2",
+        "ambiguous_alias_fallback.entry.__binding_second__#3",
+        "ambiguous_alias_fallback.entry.__binding_main__#4"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "ambiguous_alias_fallback.entry.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "ambiguous_alias_fallback.entry.main.__call_unknown_0__#0",
+        "ambiguous_alias_fallback.entry.main.__return_0__#1",
+        "ambiguous_alias_fallback.entry.main.unknown#2"
+      ],
+      "parent": "ambiguous_alias_fallback.entry"
+    },
+    {
+      "children": [
+        "ambiguous_alias_fallback.first.unknown"
+      ],
+      "id": "ambiguous_alias_fallback.first",
+      "kind": "module",
+      "name": "ambiguous_alias_fallback.first",
+      "nodes": [
+        "ambiguous_alias_fallback.first.__binding_unknown__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "ambiguous_alias_fallback.first.unknown",
+      "kind": "function",
+      "name": "unknown",
+      "nodes": [
+        "ambiguous_alias_fallback.first.unknown.value#0",
+        "ambiguous_alias_fallback.first.unknown.__return_0__#1",
+        "ambiguous_alias_fallback.first.unknown.__binding_value__#2"
+      ],
+      "parent": "ambiguous_alias_fallback.first"
+    },
+    {
+      "children": [
+        "ambiguous_alias_fallback.second.unknown"
+      ],
+      "id": "ambiguous_alias_fallback.second",
+      "kind": "module",
+      "name": "ambiguous_alias_fallback.second",
+      "nodes": [
+        "ambiguous_alias_fallback.second.__binding_unknown__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "ambiguous_alias_fallback.second.unknown",
+      "kind": "function",
+      "name": "unknown",
+      "nodes": [
+        "ambiguous_alias_fallback.second.unknown.value#0",
+        "ambiguous_alias_fallback.second.unknown.__return_0__#1",
+        "ambiguous_alias_fallback.second.unknown.__binding_value__#2"
+      ],
+      "parent": "ambiguous_alias_fallback.second"
+    }
+  ],
+  "version": "0.1.0"
+}

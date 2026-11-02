@@ -1,0 +1,469 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.conditional_class_value_export.worker.Item#0",
+      "target": "conditional_class_value_export.entry.Item#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "conditional_class_value_export.entry.Item#0",
+      "target": "conditional_class_value_export.entry.__call_Item_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_class_value_export.entry.__binding_Item__#3",
+      "target": "conditional_class_value_export.entry.Item#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_class_value_export.entry.__binding_result__#4",
+      "target": "conditional_class_value_export.entry.result#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_class_value_export.entry.__call_Item_0__#1",
+      "target": "conditional_class_value_export.entry.result#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_class_value_export.worker.Item",
+      "target": "__root__.conditional_class_value_export.worker.Item#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_class_value_export.worker.Item",
+      "target": "conditional_class_value_export.worker.__binding_Item__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_class_value_export.worker.Item#1",
+      "target": "__root__.conditional_class_value_export.worker.Item#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_class_value_export.worker.Item.run",
+      "target": "conditional_class_value_export.worker.Item.__binding_run__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_class_value_export.worker.Item.run.__binding_self__#2",
+      "target": "conditional_class_value_export.worker.Item.run.self#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_class_value_export.worker.__binding_Item__#4",
+      "target": "conditional_class_value_export.worker.Item#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "conditional_class_value_export.worker.__cond_0__#0",
+      "target": "conditional_class_value_export.worker.Item#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "conditional_class_value_export.worker.enabled#2",
+      "target": "conditional_class_value_export.worker.__cond_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "conditional_class_value_export.worker.replacement#3",
+      "target": "conditional_class_value_export.worker.Item#1"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [
+        "conditional_class_value_export.worker.Item",
+        "conditional_class_value_export.worker.Item#1"
+      ],
+      "display_name": "conditional_class_value_export.worker.Item",
+      "id": "__root__.conditional_class_value_export.worker.Item#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "conditional_class_value_export.worker.Item",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.conditional_class_value_export.worker.Item#0"
+      ],
+      "display_name": "Item",
+      "id": "conditional_class_value_export.entry.Item#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Item",
+      "scope": "conditional_class_value_export.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "conditional_class_value_export.entry.Item#0"
+      ],
+      "display_name": "Item()",
+      "id": "conditional_class_value_export.entry.__call_Item_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_Item_0__",
+      "scope": "conditional_class_value_export.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "conditional_class_value_export.entry.__call_Item_0__#1"
+      ],
+      "display_name": "result",
+      "id": "conditional_class_value_export.entry.result#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "result",
+      "scope": "conditional_class_value_export.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Item",
+      "id": "conditional_class_value_export.entry.__binding_Item__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Item__",
+      "scope": "conditional_class_value_export.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "result",
+      "id": "conditional_class_value_export.entry.__binding_result__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_result__",
+      "scope": "conditional_class_value_export.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "conditional_class_value_export.worker.enabled#2"
+      ],
+      "display_name": "if enabled",
+      "id": "conditional_class_value_export.worker.__cond_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "condition",
+      "name": "__cond_0__",
+      "scope": "conditional_class_value_export.worker"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "conditional_class_value_export.worker.__cond_0__#0",
+        "conditional_class_value_export.worker.replacement#3"
+      ],
+      "display_name": "Item",
+      "id": "conditional_class_value_export.worker.Item#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Item",
+      "scope": "conditional_class_value_export.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "enabled",
+      "id": "conditional_class_value_export.worker.enabled#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "enabled",
+      "scope": "conditional_class_value_export.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "replacement",
+      "id": "conditional_class_value_export.worker.replacement#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "replacement",
+      "scope": "conditional_class_value_export.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Item",
+      "id": "conditional_class_value_export.worker.__binding_Item__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Item__",
+      "scope": "conditional_class_value_export.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "run",
+      "id": "conditional_class_value_export.worker.Item.__binding_run__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_run__",
+      "scope": "conditional_class_value_export.worker.Item"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "self",
+      "id": "conditional_class_value_export.worker.Item.run.self#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "self",
+      "scope": "conditional_class_value_export.worker.Item.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return None",
+      "id": "conditional_class_value_export.worker.Item.run.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "conditional_class_value_export.worker.Item.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "self",
+      "id": "conditional_class_value_export.worker.Item.run.__binding_self__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_self__",
+      "scope": "conditional_class_value_export.worker.Item.run"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "conditional_class_value_export.entry",
+        "conditional_class_value_export.worker"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.conditional_class_value_export.worker.Item#0"
+      ],
+      "parent": null
+    },
+    {
+      "children": [],
+      "id": "conditional_class_value_export.entry",
+      "kind": "module",
+      "name": "conditional_class_value_export.entry",
+      "nodes": [
+        "conditional_class_value_export.entry.Item#0",
+        "conditional_class_value_export.entry.__call_Item_0__#1",
+        "conditional_class_value_export.entry.result#2",
+        "conditional_class_value_export.entry.__binding_Item__#3",
+        "conditional_class_value_export.entry.__binding_result__#4"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "conditional_class_value_export.worker.Item"
+      ],
+      "id": "conditional_class_value_export.worker",
+      "kind": "module",
+      "name": "conditional_class_value_export.worker",
+      "nodes": [
+        "conditional_class_value_export.worker.__cond_0__#0",
+        "conditional_class_value_export.worker.Item#1",
+        "conditional_class_value_export.worker.enabled#2",
+        "conditional_class_value_export.worker.replacement#3",
+        "conditional_class_value_export.worker.__binding_Item__#4"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "conditional_class_value_export.worker.Item.run"
+      ],
+      "id": "conditional_class_value_export.worker.Item",
+      "kind": "class",
+      "name": "Item",
+      "nodes": [
+        "conditional_class_value_export.worker.Item.__binding_run__#0"
+      ],
+      "parent": "conditional_class_value_export.worker"
+    },
+    {
+      "children": [],
+      "id": "conditional_class_value_export.worker.Item.run",
+      "kind": "function",
+      "name": "run",
+      "nodes": [
+        "conditional_class_value_export.worker.Item.run.self#0",
+        "conditional_class_value_export.worker.Item.run.__return_0__#1",
+        "conditional_class_value_export.worker.Item.run.__binding_self__#2"
+      ],
+      "parent": "conditional_class_value_export.worker.Item"
+    }
+  ],
+  "version": "0.1.0"
+}

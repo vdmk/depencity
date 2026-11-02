@@ -1,0 +1,58 @@
+digraph {
+  rankdir=LR;
+  compound=true;
+  node [fontname="monospace"];
+
+  subgraph cluster_n0 {
+    label="__root__\n(root)";
+    style=rounded;
+    n0 [style=invis];
+
+    subgraph cluster_n1 {
+      label="__module__\n(module)";
+      style=rounded;
+      n1 [style=invis];
+      n2 [label="callable_value"];
+      n3 [label="f"];
+      n4 [label="ordinary_value"];
+      n5 [label="f" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n6 [label="callable_value" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n7 [label="ordinary_value" shape=box style="rounded,filled" fillcolor=lightyellow];
+      n8 [label="main" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+      subgraph cluster_n9 {
+        label="f\n(function)";
+        style=rounded;
+        n9 [style=invis];
+        n10 [label="return 1"];
+      }
+
+
+      subgraph cluster_n11 {
+        label="main\n(function)";
+        style=rounded;
+        n11 [style=invis];
+        n12 [label="consume()" shape=box style=filled fillcolor=lightcyan];
+        n13 [label="value"];
+        n14 [label="return value"];
+        n15 [label="consume"];
+        n16 [label="value"];
+        n17 [label="value" shape=box style="rounded,filled" fillcolor=lightyellow];
+      }
+
+    }
+
+  }
+
+  n11 -> n8 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n11];
+  n13 -> n14 [color=steelblue];
+  n15 -> n12 [color=steelblue];
+  n16 -> n12 [color=steelblue];
+  n17 -> n13 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n3 -> n4 [color=steelblue];
+  n5 -> n3 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n6 -> n2 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n7 -> n4 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n9 -> n2 [color=steelblue, ltail=cluster_n9];
+  n9 -> n5 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n9];
+}

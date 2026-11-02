@@ -1,0 +1,4378 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.assignment_facade#13",
+      "target": "module_value_reexports.entry.assigned_namespace_reexport.assignment_facade#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.assignment_facade.Alias#10",
+      "target": "module_value_reexports.entry.Assigned#7"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.assignment_facade.Alias#10",
+      "target": "module_value_reexports.entry.assigned_namespace_reexport.__ref_14__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.assignment_facade.Alias.provide#15",
+      "target": "module_value_reexports.entry.assigned_namespace_reexport.__call_assignment_facade.Alias.provide_16__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.bridge.Forward#11",
+      "target": "module_value_reexports.entry.Bridged#8"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.choice.Alias#12",
+      "target": "module_value_reexports.entry.Choice#9"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.cycle_a.Alias#4",
+      "target": "module_value_reexports.cycle_b.Alias#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.cycle_a.Alias#4",
+      "target": "module_value_reexports.entry.Cyclic#10"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.cycle_b.Alias#3",
+      "target": "module_value_reexports.cycle_a.Alias#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.import_facade#5",
+      "target": "module_value_reexports.entry.import_facade#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.import_facade#5",
+      "target": "module_value_reexports.entry.saved_module_attribute.import_facade#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.import_facade.Alias#1",
+      "target": "module_value_reexports.bridge.Alias#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.import_facade.Alias#1",
+      "target": "module_value_reexports.entry.Imported#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.import_facade.Alias#1",
+      "target": "module_value_reexports.entry.qualified.__ref_5__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.import_facade.Alias#1",
+      "target": "module_value_reexports.entry.saved_module_attribute.__ref_17__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.import_facade.OtherAlias#9",
+      "target": "module_value_reexports.entry.OtherAlias#6"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.other#2",
+      "target": "module_value_reexports.choice.Alias#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.other#2",
+      "target": "module_value_reexports.import_facade.OtherAlias#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.other#2",
+      "target": "module_value_reexports.redirect.worker#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.other.value#17",
+      "target": "module_value_reexports.entry.imported_redirect.__ref_11__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.other.value#17",
+      "target": "module_value_reexports.entry.other_source.__ref_3__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.other.value#17",
+      "target": "module_value_reexports.entry.redirected.__ref_10__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.payload.provide#14",
+      "target": "module_value_reexports.worker.provide#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.redirect#7",
+      "target": "module_value_reexports.entry.redirect#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.redirect.worker#8",
+      "target": "module_value_reexports.entry.Redirected#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.shadow#6",
+      "target": "module_value_reexports.entry.shadow#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.worker#0",
+      "target": "module_value_reexports.assignment_facade.worker#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.worker#0",
+      "target": "module_value_reexports.choice.Alias#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.worker#0",
+      "target": "module_value_reexports.entry.worker#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.worker#0",
+      "target": "module_value_reexports.import_facade.Alias#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.worker.provide#18",
+      "target": "module_value_reexports.entry.assigned_namespace_reexport.__ref_15__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.worker.value#16",
+      "target": "module_value_reexports.entry.assigned.__ref_2__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.worker.value#16",
+      "target": "module_value_reexports.entry.bridged.__ref_4__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.worker.value#16",
+      "target": "module_value_reexports.entry.direct.__ref_1__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.worker.value#16",
+      "target": "module_value_reexports.entry.main.__ref_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.module_value_reexports.worker.value#16",
+      "target": "module_value_reexports.entry.qualified.__ref_6__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.assignment_facade",
+      "target": "__root__.module_value_reexports.assignment_facade#13"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.assignment_facade.Alias#1",
+      "target": "__root__.module_value_reexports.assignment_facade.Alias#10"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.assignment_facade.__binding_Alias__#3",
+      "target": "module_value_reexports.assignment_facade.Alias#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.assignment_facade.__binding_worker__#2",
+      "target": "module_value_reexports.assignment_facade.worker#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.assignment_facade.worker#0",
+      "target": "module_value_reexports.assignment_facade.Alias#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.bridge.Alias#0",
+      "target": "module_value_reexports.bridge.Forward#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.bridge.Forward#1",
+      "target": "__root__.module_value_reexports.bridge.Forward#11"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.bridge.__binding_Alias__#2",
+      "target": "module_value_reexports.bridge.Alias#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.bridge.__binding_Forward__#3",
+      "target": "module_value_reexports.bridge.Forward#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.choice.Alias#1",
+      "target": "__root__.module_value_reexports.choice.Alias#12"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.choice.Alias#2",
+      "target": "__root__.module_value_reexports.choice.Alias#12"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.choice.__binding_Alias__#4",
+      "target": "module_value_reexports.choice.Alias#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.choice.__binding_Alias__#4",
+      "target": "module_value_reexports.choice.Alias#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.choice.__cond_0__#0",
+      "target": "module_value_reexports.choice.Alias#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.choice.__cond_0__#0",
+      "target": "module_value_reexports.choice.Alias#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.choice.flag#3",
+      "target": "module_value_reexports.choice.__cond_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.cycle_a.Alias#0",
+      "target": "__root__.module_value_reexports.cycle_a.Alias#4"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.cycle_a.__binding_Alias__#1",
+      "target": "module_value_reexports.cycle_a.Alias#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.cycle_b.Alias#0",
+      "target": "__root__.module_value_reexports.cycle_b.Alias#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.cycle_b.__binding_Alias__#1",
+      "target": "module_value_reexports.cycle_b.Alias#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.entry.Assigned#7",
+      "target": "module_value_reexports.entry.assigned.__ref_2__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.entry.Bridged#8",
+      "target": "module_value_reexports.entry.bridged.__ref_4__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.entry.Choice#9",
+      "target": "module_value_reexports.entry.conditional.__ref_12__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.entry.Cyclic#10",
+      "target": "module_value_reexports.entry.cyclic.__ref_13__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.entry.Imported#5",
+      "target": "module_value_reexports.entry.main.__ref_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.entry.OtherAlias#6",
+      "target": "module_value_reexports.entry.other_source.__ref_3__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.entry.Redirected#4",
+      "target": "module_value_reexports.entry.imported_redirect.__ref_11__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.__binding_Assigned__#18",
+      "target": "module_value_reexports.entry.Assigned#7"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.__binding_Bridged__#19",
+      "target": "module_value_reexports.entry.Bridged#8"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.__binding_Choice__#20",
+      "target": "module_value_reexports.entry.Choice#9"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.__binding_Cyclic__#21",
+      "target": "module_value_reexports.entry.Cyclic#10"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.__binding_Imported__#16",
+      "target": "module_value_reexports.entry.Imported#5"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.__binding_OtherAlias__#17",
+      "target": "module_value_reexports.entry.OtherAlias#6"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.__binding_Redirected__#15",
+      "target": "module_value_reexports.entry.Redirected#4"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.__binding_import_facade__#12",
+      "target": "module_value_reexports.entry.import_facade#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.__binding_redirect__#14",
+      "target": "module_value_reexports.entry.redirect#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.__binding_shadow__#13",
+      "target": "module_value_reexports.entry.shadow#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.__binding_worker__#11",
+      "target": "module_value_reexports.entry.worker#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.assigned",
+      "target": "module_value_reexports.entry.__binding_assigned__#24"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.assigned.__ref_2__#0",
+      "target": "module_value_reexports.entry.assigned.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.assigned_namespace_reexport",
+      "target": "module_value_reexports.entry.__binding_assigned_namespace_reexport__#33"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.assigned_namespace_reexport.__binding_assignment_facade__#5",
+      "target": "module_value_reexports.entry.assigned_namespace_reexport.assignment_facade#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.assigned_namespace_reexport.__call_assignment_facade.Alias.provide_16__#3",
+      "target": "module_value_reexports.entry.assigned_namespace_reexport.__return_0__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.assigned_namespace_reexport.__ref_14__#1",
+      "target": "module_value_reexports.entry.assigned_namespace_reexport.__ref_15__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.assigned_namespace_reexport.__ref_15__#2",
+      "target": "module_value_reexports.entry.assigned_namespace_reexport.__call_assignment_facade.Alias.provide_16__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.entry.assigned_namespace_reexport.assignment_facade#0",
+      "target": "module_value_reexports.entry.assigned_namespace_reexport.__ref_14__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.bridged",
+      "target": "module_value_reexports.entry.__binding_bridged__#26"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.bridged.__ref_4__#0",
+      "target": "module_value_reexports.entry.bridged.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.conditional",
+      "target": "module_value_reexports.entry.__binding_conditional__#31"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.conditional.__ref_12__#0",
+      "target": "module_value_reexports.entry.conditional.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.cyclic",
+      "target": "module_value_reexports.entry.__binding_cyclic__#32"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.cyclic.__ref_13__#0",
+      "target": "module_value_reexports.entry.cyclic.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.direct",
+      "target": "module_value_reexports.entry.__binding_direct__#23"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.entry.direct.Alias#0",
+      "target": "module_value_reexports.entry.direct.__ref_1__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.direct.__binding_Alias__#3",
+      "target": "module_value_reexports.entry.direct.Alias#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.direct.__ref_1__#1",
+      "target": "module_value_reexports.entry.direct.__return_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.entry.import_facade#1",
+      "target": "module_value_reexports.entry.qualified.__ref_5__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.imported_redirect",
+      "target": "module_value_reexports.entry.__binding_imported_redirect__#30"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.imported_redirect.__ref_11__#0",
+      "target": "module_value_reexports.entry.imported_redirect.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.main",
+      "target": "module_value_reexports.entry.__binding_main__#22"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.main.__ref_0__#0",
+      "target": "module_value_reexports.entry.main.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.other_source",
+      "target": "module_value_reexports.entry.__binding_other_source__#25"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.other_source.__ref_3__#0",
+      "target": "module_value_reexports.entry.other_source.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.qualified",
+      "target": "module_value_reexports.entry.__binding_qualified__#27"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.qualified.__ref_5__#0",
+      "target": "module_value_reexports.entry.qualified.__ref_6__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.qualified.__ref_6__#1",
+      "target": "module_value_reexports.entry.qualified.__return_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.entry.redirect#3",
+      "target": "module_value_reexports.entry.redirected.__ref_9__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.redirected",
+      "target": "module_value_reexports.entry.__binding_redirected__#29"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.redirected.__ref_10__#1",
+      "target": "module_value_reexports.entry.redirected.__return_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.redirected.__ref_9__#0",
+      "target": "module_value_reexports.entry.redirected.__ref_10__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.saved_module_attribute",
+      "target": "module_value_reexports.entry.__binding_saved_module_attribute__#34"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.saved_module_attribute.__binding_alias__#6",
+      "target": "module_value_reexports.entry.saved_module_attribute.alias#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.saved_module_attribute.__binding_import_facade__#5",
+      "target": "module_value_reexports.entry.saved_module_attribute.import_facade#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.saved_module_attribute.__ref_17__#1",
+      "target": "module_value_reexports.entry.saved_module_attribute.alias#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.saved_module_attribute.__ref_18__#3",
+      "target": "module_value_reexports.entry.saved_module_attribute.__return_0__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.entry.saved_module_attribute.alias#2",
+      "target": "module_value_reexports.entry.saved_module_attribute.__ref_18__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.entry.saved_module_attribute.import_facade#0",
+      "target": "module_value_reexports.entry.saved_module_attribute.__ref_17__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.entry.shadow#2",
+      "target": "module_value_reexports.entry.shadowed.__ref_7__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.shadowed",
+      "target": "module_value_reexports.entry.__binding_shadowed__#28"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.shadowed.__ref_7__#0",
+      "target": "module_value_reexports.entry.shadowed.__ref_8__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.entry.shadowed.__ref_8__#1",
+      "target": "module_value_reexports.entry.shadowed.__return_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.entry.worker#0",
+      "target": "module_value_reexports.entry.direct.Alias#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.import_facade",
+      "target": "__root__.module_value_reexports.import_facade#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.import_facade.Alias#0",
+      "target": "__root__.module_value_reexports.import_facade.Alias#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.import_facade.OtherAlias#1",
+      "target": "__root__.module_value_reexports.import_facade.OtherAlias#9"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.import_facade.__binding_Alias__#2",
+      "target": "module_value_reexports.import_facade.Alias#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.import_facade.__binding_OtherAlias__#3",
+      "target": "module_value_reexports.import_facade.OtherAlias#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.other",
+      "target": "__root__.module_value_reexports.other#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.other.__binding_value__#2",
+      "target": "module_value_reexports.other.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.other.other_payload#1",
+      "target": "module_value_reexports.other.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.other.value#0",
+      "target": "__root__.module_value_reexports.other.value#17"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.payload.provide",
+      "target": "__root__.module_value_reexports.assignment_facade.Alias.provide#15"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.payload.provide",
+      "target": "__root__.module_value_reexports.payload.provide#14"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "declaration",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.payload.provide",
+      "target": "__root__.module_value_reexports.worker.provide#18"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.payload.provide",
+      "target": "module_value_reexports.payload.__binding_provide__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.payload.provide.__return_0__#0",
+      "target": "module_value_reexports.entry.assigned_namespace_reexport.__call_assignment_facade.Alias.provide_16__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.payload.provide.shared_payload#1",
+      "target": "module_value_reexports.payload.provide.__return_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.redirect",
+      "target": "__root__.module_value_reexports.redirect#7"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.redirect.__binding_worker__#1",
+      "target": "module_value_reexports.redirect.worker#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.redirect.worker#0",
+      "target": "__root__.module_value_reexports.redirect.worker#8"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.redirect.worker#0",
+      "target": "module_value_reexports.entry.redirected.__ref_9__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.redirect.worker.__binding_value__#2",
+      "target": "module_value_reexports.redirect.worker.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.redirect.worker.redirect_hidden_payload#1",
+      "target": "module_value_reexports.redirect.worker.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.shadow",
+      "target": "__root__.module_value_reexports.shadow#6"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.shadow.__binding_worker__#2",
+      "target": "module_value_reexports.shadow.worker#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.shadow.shadow_member#1",
+      "target": "module_value_reexports.shadow.worker#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.shadow.worker#0",
+      "target": "module_value_reexports.entry.shadowed.__ref_7__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.shadow.worker.__binding_value__#2",
+      "target": "module_value_reexports.shadow.worker.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.shadow.worker.hidden_payload#1",
+      "target": "module_value_reexports.shadow.worker.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.worker",
+      "target": "__root__.module_value_reexports.worker#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.worker.__binding_provide__#4",
+      "target": "module_value_reexports.worker.provide#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.worker.__binding_value__#3",
+      "target": "module_value_reexports.worker.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_value_reexports.worker.payload#2",
+      "target": "module_value_reexports.worker.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.worker.provide#1",
+      "target": "__root__.module_value_reexports.worker.provide#18"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_value_reexports.worker.value#0",
+      "target": "__root__.module_value_reexports.worker.value#16"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.worker"
+      ],
+      "display_name": "module_value_reexports.worker",
+      "id": "__root__.module_value_reexports.worker#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "module_value_reexports.worker",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.import_facade.Alias#0"
+      ],
+      "display_name": "module_value_reexports.import_facade.Alias",
+      "id": "__root__.module_value_reexports.import_facade.Alias#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "module_value_reexports.import_facade.Alias",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.other"
+      ],
+      "display_name": "module_value_reexports.other",
+      "id": "__root__.module_value_reexports.other#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "module_value_reexports.other",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.cycle_b.Alias#0"
+      ],
+      "display_name": "module_value_reexports.cycle_b.Alias",
+      "id": "__root__.module_value_reexports.cycle_b.Alias#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "module_value_reexports.cycle_b.Alias",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.cycle_a.Alias#0"
+      ],
+      "display_name": "module_value_reexports.cycle_a.Alias",
+      "id": "__root__.module_value_reexports.cycle_a.Alias#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "module_value_reexports.cycle_a.Alias",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.import_facade"
+      ],
+      "display_name": "module_value_reexports.import_facade",
+      "id": "__root__.module_value_reexports.import_facade#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "module_value_reexports.import_facade",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.shadow"
+      ],
+      "display_name": "module_value_reexports.shadow",
+      "id": "__root__.module_value_reexports.shadow#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "module_value_reexports.shadow",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.redirect"
+      ],
+      "display_name": "module_value_reexports.redirect",
+      "id": "__root__.module_value_reexports.redirect#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "module_value_reexports.redirect",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.redirect.worker#0"
+      ],
+      "display_name": "module_value_reexports.redirect.worker",
+      "id": "__root__.module_value_reexports.redirect.worker#8",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "module_value_reexports.redirect.worker",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.import_facade.OtherAlias#1"
+      ],
+      "display_name": "module_value_reexports.import_facade.OtherAlias",
+      "id": "__root__.module_value_reexports.import_facade.OtherAlias#9",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "module_value_reexports.import_facade.OtherAlias",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.assignment_facade.Alias#1"
+      ],
+      "display_name": "module_value_reexports.assignment_facade.Alias",
+      "id": "__root__.module_value_reexports.assignment_facade.Alias#10",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "module_value_reexports.assignment_facade.Alias",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.bridge.Forward#1"
+      ],
+      "display_name": "module_value_reexports.bridge.Forward",
+      "id": "__root__.module_value_reexports.bridge.Forward#11",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "module_value_reexports.bridge.Forward",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.choice.Alias#1",
+        "module_value_reexports.choice.Alias#2"
+      ],
+      "display_name": "module_value_reexports.choice.Alias",
+      "id": "__root__.module_value_reexports.choice.Alias#12",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "module_value_reexports.choice.Alias",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.assignment_facade"
+      ],
+      "display_name": "module_value_reexports.assignment_facade",
+      "id": "__root__.module_value_reexports.assignment_facade#13",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "module_value_reexports.assignment_facade",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.payload.provide"
+      ],
+      "display_name": "module_value_reexports.payload.provide",
+      "id": "__root__.module_value_reexports.payload.provide#14",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "module_value_reexports.payload.provide",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.payload.provide"
+      ],
+      "display_name": "module_value_reexports.assignment_facade.Alias.provide",
+      "id": "__root__.module_value_reexports.assignment_facade.Alias.provide#15",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "module_value_reexports.assignment_facade.Alias.provide",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.worker.value#0"
+      ],
+      "display_name": "module_value_reexports.worker.value",
+      "id": "__root__.module_value_reexports.worker.value#16",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "module_value_reexports.worker.value",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.other.value#0"
+      ],
+      "display_name": "module_value_reexports.other.value",
+      "id": "__root__.module_value_reexports.other.value#17",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "module_value_reexports.other.value",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.worker.provide#1"
+      ],
+      "display_name": "module_value_reexports.worker.provide",
+      "id": "__root__.module_value_reexports.worker.provide#18",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "module_value_reexports.worker.provide",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.module_value_reexports.worker#0"
+      ],
+      "display_name": "worker",
+      "id": "module_value_reexports.assignment_facade.worker#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "worker",
+      "scope": "module_value_reexports.assignment_facade"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "module_value_reexports.assignment_facade.worker#0"
+      ],
+      "display_name": "Alias",
+      "id": "module_value_reexports.assignment_facade.Alias#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Alias",
+      "scope": "module_value_reexports.assignment_facade"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "worker",
+      "id": "module_value_reexports.assignment_facade.__binding_worker__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_worker__",
+      "scope": "module_value_reexports.assignment_facade"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Alias",
+      "id": "module_value_reexports.assignment_facade.__binding_Alias__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Alias__",
+      "scope": "module_value_reexports.assignment_facade"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.module_value_reexports.import_facade.Alias#1"
+      ],
+      "display_name": "Alias",
+      "id": "module_value_reexports.bridge.Alias#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Alias",
+      "scope": "module_value_reexports.bridge"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "module_value_reexports.bridge.Alias#0"
+      ],
+      "display_name": "Forward",
+      "id": "module_value_reexports.bridge.Forward#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Forward",
+      "scope": "module_value_reexports.bridge"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Alias",
+      "id": "module_value_reexports.bridge.__binding_Alias__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Alias__",
+      "scope": "module_value_reexports.bridge"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Forward",
+      "id": "module_value_reexports.bridge.__binding_Forward__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Forward__",
+      "scope": "module_value_reexports.bridge"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.choice.flag#3"
+      ],
+      "display_name": "if flag",
+      "id": "module_value_reexports.choice.__cond_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "condition",
+      "name": "__cond_0__",
+      "scope": "module_value_reexports.choice"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.module_value_reexports.worker#0",
+        "module_value_reexports.choice.__cond_0__#0"
+      ],
+      "display_name": "Alias v1",
+      "id": "module_value_reexports.choice.Alias#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Alias",
+      "scope": "module_value_reexports.choice"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.module_value_reexports.other#2",
+        "module_value_reexports.choice.__cond_0__#0"
+      ],
+      "display_name": "Alias v2",
+      "id": "module_value_reexports.choice.Alias#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Alias",
+      "scope": "module_value_reexports.choice"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "flag",
+      "id": "module_value_reexports.choice.flag#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "flag",
+      "scope": "module_value_reexports.choice"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Alias",
+      "id": "module_value_reexports.choice.__binding_Alias__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Alias__",
+      "scope": "module_value_reexports.choice"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.module_value_reexports.cycle_b.Alias#3"
+      ],
+      "display_name": "Alias",
+      "id": "module_value_reexports.cycle_a.Alias#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Alias",
+      "scope": "module_value_reexports.cycle_a"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Alias",
+      "id": "module_value_reexports.cycle_a.__binding_Alias__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Alias__",
+      "scope": "module_value_reexports.cycle_a"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.module_value_reexports.cycle_a.Alias#4"
+      ],
+      "display_name": "Alias",
+      "id": "module_value_reexports.cycle_b.Alias#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Alias",
+      "scope": "module_value_reexports.cycle_b"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Alias",
+      "id": "module_value_reexports.cycle_b.__binding_Alias__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Alias__",
+      "scope": "module_value_reexports.cycle_b"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.module_value_reexports.worker#0"
+      ],
+      "display_name": "worker",
+      "id": "module_value_reexports.entry.worker#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "worker",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.module_value_reexports.import_facade#5"
+      ],
+      "display_name": "import_facade",
+      "id": "module_value_reexports.entry.import_facade#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "import_facade",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.module_value_reexports.shadow#6"
+      ],
+      "display_name": "shadow",
+      "id": "module_value_reexports.entry.shadow#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "shadow",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.module_value_reexports.redirect#7"
+      ],
+      "display_name": "redirect",
+      "id": "module_value_reexports.entry.redirect#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "redirect",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.module_value_reexports.redirect.worker#8"
+      ],
+      "display_name": "Redirected",
+      "id": "module_value_reexports.entry.Redirected#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Redirected",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.module_value_reexports.import_facade.Alias#1"
+      ],
+      "display_name": "Imported",
+      "id": "module_value_reexports.entry.Imported#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Imported",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.module_value_reexports.import_facade.OtherAlias#9"
+      ],
+      "display_name": "OtherAlias",
+      "id": "module_value_reexports.entry.OtherAlias#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "OtherAlias",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.module_value_reexports.assignment_facade.Alias#10"
+      ],
+      "display_name": "Assigned",
+      "id": "module_value_reexports.entry.Assigned#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Assigned",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.module_value_reexports.bridge.Forward#11"
+      ],
+      "display_name": "Bridged",
+      "id": "module_value_reexports.entry.Bridged#8",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Bridged",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.module_value_reexports.choice.Alias#12"
+      ],
+      "display_name": "Choice",
+      "id": "module_value_reexports.entry.Choice#9",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Choice",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.module_value_reexports.cycle_a.Alias#4"
+      ],
+      "display_name": "Cyclic",
+      "id": "module_value_reexports.entry.Cyclic#10",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Cyclic",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "worker",
+      "id": "module_value_reexports.entry.__binding_worker__#11",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_worker__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "import_facade",
+      "id": "module_value_reexports.entry.__binding_import_facade__#12",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_import_facade__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "shadow",
+      "id": "module_value_reexports.entry.__binding_shadow__#13",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_shadow__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "redirect",
+      "id": "module_value_reexports.entry.__binding_redirect__#14",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_redirect__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Redirected",
+      "id": "module_value_reexports.entry.__binding_Redirected__#15",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Redirected__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Imported",
+      "id": "module_value_reexports.entry.__binding_Imported__#16",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Imported__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "OtherAlias",
+      "id": "module_value_reexports.entry.__binding_OtherAlias__#17",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_OtherAlias__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Assigned",
+      "id": "module_value_reexports.entry.__binding_Assigned__#18",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Assigned__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Bridged",
+      "id": "module_value_reexports.entry.__binding_Bridged__#19",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Bridged__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Choice",
+      "id": "module_value_reexports.entry.__binding_Choice__#20",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Choice__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Cyclic",
+      "id": "module_value_reexports.entry.__binding_Cyclic__#21",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Cyclic__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "module_value_reexports.entry.__binding_main__#22",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "direct",
+      "id": "module_value_reexports.entry.__binding_direct__#23",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_direct__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "assigned",
+      "id": "module_value_reexports.entry.__binding_assigned__#24",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_assigned__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "other_source",
+      "id": "module_value_reexports.entry.__binding_other_source__#25",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_other_source__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "bridged",
+      "id": "module_value_reexports.entry.__binding_bridged__#26",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_bridged__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "qualified",
+      "id": "module_value_reexports.entry.__binding_qualified__#27",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_qualified__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "shadowed",
+      "id": "module_value_reexports.entry.__binding_shadowed__#28",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_shadowed__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "redirected",
+      "id": "module_value_reexports.entry.__binding_redirected__#29",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_redirected__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "imported_redirect",
+      "id": "module_value_reexports.entry.__binding_imported_redirect__#30",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_imported_redirect__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "conditional",
+      "id": "module_value_reexports.entry.__binding_conditional__#31",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_conditional__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "cyclic",
+      "id": "module_value_reexports.entry.__binding_cyclic__#32",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_cyclic__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "assigned_namespace_reexport",
+      "id": "module_value_reexports.entry.__binding_assigned_namespace_reexport__#33",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_assigned_namespace_reexport__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "saved_module_attribute",
+      "id": "module_value_reexports.entry.__binding_saved_module_attribute__#34",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_saved_module_attribute__",
+      "scope": "module_value_reexports.entry"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "__root__.module_value_reexports.worker.value#16",
+        "module_value_reexports.entry.Imported#5"
+      ],
+      "display_name": "Imported.value",
+      "id": "module_value_reexports.entry.main.__ref_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_0__",
+      "scope": "module_value_reexports.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.entry.main.__ref_0__#0"
+      ],
+      "display_name": "return Imported.value",
+      "id": "module_value_reexports.entry.main.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "module_value_reexports.entry.main"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "module_value_reexports.entry.worker#0"
+      ],
+      "display_name": "Alias",
+      "id": "module_value_reexports.entry.direct.Alias#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Alias",
+      "scope": "module_value_reexports.entry.direct"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "__root__.module_value_reexports.worker.value#16",
+        "module_value_reexports.entry.direct.Alias#0"
+      ],
+      "display_name": "Alias.value",
+      "id": "module_value_reexports.entry.direct.__ref_1__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_1__",
+      "scope": "module_value_reexports.entry.direct"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.entry.direct.__ref_1__#1"
+      ],
+      "display_name": "return Alias.value",
+      "id": "module_value_reexports.entry.direct.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "module_value_reexports.entry.direct"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Alias",
+      "id": "module_value_reexports.entry.direct.__binding_Alias__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Alias__",
+      "scope": "module_value_reexports.entry.direct"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "__root__.module_value_reexports.worker.value#16",
+        "module_value_reexports.entry.Assigned#7"
+      ],
+      "display_name": "Assigned.value",
+      "id": "module_value_reexports.entry.assigned.__ref_2__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_2__",
+      "scope": "module_value_reexports.entry.assigned"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.entry.assigned.__ref_2__#0"
+      ],
+      "display_name": "return Assigned.value",
+      "id": "module_value_reexports.entry.assigned.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "module_value_reexports.entry.assigned"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "__root__.module_value_reexports.other.value#17",
+        "module_value_reexports.entry.OtherAlias#6"
+      ],
+      "display_name": "OtherAlias.value",
+      "id": "module_value_reexports.entry.other_source.__ref_3__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_3__",
+      "scope": "module_value_reexports.entry.other_source"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.entry.other_source.__ref_3__#0"
+      ],
+      "display_name": "return OtherAlias.value",
+      "id": "module_value_reexports.entry.other_source.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "module_value_reexports.entry.other_source"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "__root__.module_value_reexports.worker.value#16",
+        "module_value_reexports.entry.Bridged#8"
+      ],
+      "display_name": "Bridged.value",
+      "id": "module_value_reexports.entry.bridged.__ref_4__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_4__",
+      "scope": "module_value_reexports.entry.bridged"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.entry.bridged.__ref_4__#0"
+      ],
+      "display_name": "return Bridged.value",
+      "id": "module_value_reexports.entry.bridged.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "module_value_reexports.entry.bridged"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "__root__.module_value_reexports.import_facade.Alias#1",
+        "module_value_reexports.entry.import_facade#1"
+      ],
+      "display_name": "import_facade.Alias",
+      "id": "module_value_reexports.entry.qualified.__ref_5__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_5__",
+      "scope": "module_value_reexports.entry.qualified"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "__root__.module_value_reexports.worker.value#16",
+        "module_value_reexports.entry.qualified.__ref_5__#0"
+      ],
+      "display_name": "import_facade.Alias.value",
+      "id": "module_value_reexports.entry.qualified.__ref_6__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_6__",
+      "scope": "module_value_reexports.entry.qualified"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.entry.qualified.__ref_6__#1"
+      ],
+      "display_name": "return import_facade.Alias.value",
+      "id": "module_value_reexports.entry.qualified.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "module_value_reexports.entry.qualified"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "module_value_reexports.entry.shadow#2",
+        "module_value_reexports.shadow.worker#0"
+      ],
+      "display_name": "shadow.worker",
+      "id": "module_value_reexports.entry.shadowed.__ref_7__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_7__",
+      "scope": "module_value_reexports.entry.shadowed"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "module_value_reexports.entry.shadowed.__ref_7__#0"
+      ],
+      "display_name": "shadow.worker.value",
+      "id": "module_value_reexports.entry.shadowed.__ref_8__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_8__",
+      "scope": "module_value_reexports.entry.shadowed"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.entry.shadowed.__ref_8__#1"
+      ],
+      "display_name": "return shadow.worker.value",
+      "id": "module_value_reexports.entry.shadowed.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "module_value_reexports.entry.shadowed"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "module_value_reexports.entry.redirect#3",
+        "module_value_reexports.redirect.worker#0"
+      ],
+      "display_name": "redirect.worker",
+      "id": "module_value_reexports.entry.redirected.__ref_9__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_9__",
+      "scope": "module_value_reexports.entry.redirected"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "__root__.module_value_reexports.other.value#17",
+        "module_value_reexports.entry.redirected.__ref_9__#0"
+      ],
+      "display_name": "redirect.worker.value",
+      "id": "module_value_reexports.entry.redirected.__ref_10__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_10__",
+      "scope": "module_value_reexports.entry.redirected"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.entry.redirected.__ref_10__#1"
+      ],
+      "display_name": "return redirect.worker.value",
+      "id": "module_value_reexports.entry.redirected.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "module_value_reexports.entry.redirected"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "__root__.module_value_reexports.other.value#17",
+        "module_value_reexports.entry.Redirected#4"
+      ],
+      "display_name": "Redirected.value",
+      "id": "module_value_reexports.entry.imported_redirect.__ref_11__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_11__",
+      "scope": "module_value_reexports.entry.imported_redirect"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.entry.imported_redirect.__ref_11__#0"
+      ],
+      "display_name": "return Redirected.value",
+      "id": "module_value_reexports.entry.imported_redirect.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "module_value_reexports.entry.imported_redirect"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "module_value_reexports.entry.Choice#9"
+      ],
+      "display_name": "Choice.value",
+      "id": "module_value_reexports.entry.conditional.__ref_12__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_12__",
+      "scope": "module_value_reexports.entry.conditional"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.entry.conditional.__ref_12__#0"
+      ],
+      "display_name": "return Choice.value",
+      "id": "module_value_reexports.entry.conditional.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "module_value_reexports.entry.conditional"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "module_value_reexports.entry.Cyclic#10"
+      ],
+      "display_name": "Cyclic.value",
+      "id": "module_value_reexports.entry.cyclic.__ref_13__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_13__",
+      "scope": "module_value_reexports.entry.cyclic"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.entry.cyclic.__ref_13__#0"
+      ],
+      "display_name": "return Cyclic.value",
+      "id": "module_value_reexports.entry.cyclic.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "module_value_reexports.entry.cyclic"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.module_value_reexports.assignment_facade#13"
+      ],
+      "display_name": "assignment_facade",
+      "id": "module_value_reexports.entry.assigned_namespace_reexport.assignment_facade#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "assignment_facade",
+      "scope": "module_value_reexports.entry.assigned_namespace_reexport"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "__root__.module_value_reexports.assignment_facade.Alias#10",
+        "module_value_reexports.entry.assigned_namespace_reexport.assignment_facade#0"
+      ],
+      "display_name": "assignment_facade.Alias",
+      "id": "module_value_reexports.entry.assigned_namespace_reexport.__ref_14__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_14__",
+      "scope": "module_value_reexports.entry.assigned_namespace_reexport"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "__root__.module_value_reexports.worker.provide#18",
+        "module_value_reexports.entry.assigned_namespace_reexport.__ref_14__#1"
+      ],
+      "display_name": "assignment_facade.Alias.provide",
+      "id": "module_value_reexports.entry.assigned_namespace_reexport.__ref_15__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_15__",
+      "scope": "module_value_reexports.entry.assigned_namespace_reexport"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "__root__.module_value_reexports.assignment_facade.Alias.provide#15",
+        "module_value_reexports.entry.assigned_namespace_reexport.__ref_15__#2",
+        "module_value_reexports.payload.provide.__return_0__#0"
+      ],
+      "display_name": "assignment_facade.Alias.provide()",
+      "id": "module_value_reexports.entry.assigned_namespace_reexport.__call_assignment_facade.Alias.provide_16__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_assignment_facade.Alias.provide_16__",
+      "scope": "module_value_reexports.entry.assigned_namespace_reexport"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.entry.assigned_namespace_reexport.__call_assignment_facade.Alias.provide_16__#3"
+      ],
+      "display_name": "return assignment_facade.Alias.provide()",
+      "id": "module_value_reexports.entry.assigned_namespace_reexport.__return_0__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "module_value_reexports.entry.assigned_namespace_reexport"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "assignment_facade",
+      "id": "module_value_reexports.entry.assigned_namespace_reexport.__binding_assignment_facade__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_assignment_facade__",
+      "scope": "module_value_reexports.entry.assigned_namespace_reexport"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.module_value_reexports.import_facade#5"
+      ],
+      "display_name": "import_facade",
+      "id": "module_value_reexports.entry.saved_module_attribute.import_facade#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "import_facade",
+      "scope": "module_value_reexports.entry.saved_module_attribute"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "__root__.module_value_reexports.import_facade.Alias#1",
+        "module_value_reexports.entry.saved_module_attribute.import_facade#0"
+      ],
+      "display_name": "import_facade.Alias",
+      "id": "module_value_reexports.entry.saved_module_attribute.__ref_17__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_17__",
+      "scope": "module_value_reexports.entry.saved_module_attribute"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "module_value_reexports.entry.saved_module_attribute.__ref_17__#1"
+      ],
+      "display_name": "alias",
+      "id": "module_value_reexports.entry.saved_module_attribute.alias#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "alias",
+      "scope": "module_value_reexports.entry.saved_module_attribute"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "module_value_reexports.entry.saved_module_attribute.alias#2"
+      ],
+      "display_name": "alias.value",
+      "id": "module_value_reexports.entry.saved_module_attribute.__ref_18__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_18__",
+      "scope": "module_value_reexports.entry.saved_module_attribute"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.entry.saved_module_attribute.__ref_18__#3"
+      ],
+      "display_name": "return alias.value",
+      "id": "module_value_reexports.entry.saved_module_attribute.__return_0__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "module_value_reexports.entry.saved_module_attribute"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "import_facade",
+      "id": "module_value_reexports.entry.saved_module_attribute.__binding_import_facade__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_import_facade__",
+      "scope": "module_value_reexports.entry.saved_module_attribute"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "alias",
+      "id": "module_value_reexports.entry.saved_module_attribute.__binding_alias__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_alias__",
+      "scope": "module_value_reexports.entry.saved_module_attribute"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.module_value_reexports.worker#0"
+      ],
+      "display_name": "Alias",
+      "id": "module_value_reexports.import_facade.Alias#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Alias",
+      "scope": "module_value_reexports.import_facade"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.module_value_reexports.other#2"
+      ],
+      "display_name": "OtherAlias",
+      "id": "module_value_reexports.import_facade.OtherAlias#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "OtherAlias",
+      "scope": "module_value_reexports.import_facade"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Alias",
+      "id": "module_value_reexports.import_facade.__binding_Alias__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Alias__",
+      "scope": "module_value_reexports.import_facade"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "OtherAlias",
+      "id": "module_value_reexports.import_facade.__binding_OtherAlias__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_OtherAlias__",
+      "scope": "module_value_reexports.import_facade"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "module_value_reexports.other.other_payload#1"
+      ],
+      "display_name": "value",
+      "id": "module_value_reexports.other.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "module_value_reexports.other"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "other_payload",
+      "id": "module_value_reexports.other.other_payload#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "other_payload",
+      "scope": "module_value_reexports.other"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "module_value_reexports.other.__binding_value__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "module_value_reexports.other"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "provide",
+      "id": "module_value_reexports.payload.__binding_provide__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_provide__",
+      "scope": "module_value_reexports.payload"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_value_reexports.payload.provide.shared_payload#1"
+      ],
+      "display_name": "return shared_payload",
+      "id": "module_value_reexports.payload.provide.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "module_value_reexports.payload.provide"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "shared_payload",
+      "id": "module_value_reexports.payload.provide.shared_payload#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "shared_payload",
+      "scope": "module_value_reexports.payload.provide"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.module_value_reexports.other#2"
+      ],
+      "display_name": "worker",
+      "id": "module_value_reexports.redirect.worker#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "worker",
+      "scope": "module_value_reexports.redirect"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "worker",
+      "id": "module_value_reexports.redirect.__binding_worker__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_worker__",
+      "scope": "module_value_reexports.redirect"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "module_value_reexports.redirect.worker.redirect_hidden_payload#1"
+      ],
+      "display_name": "value",
+      "id": "module_value_reexports.redirect.worker.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "module_value_reexports.redirect.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "redirect_hidden_payload",
+      "id": "module_value_reexports.redirect.worker.redirect_hidden_payload#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "redirect_hidden_payload",
+      "scope": "module_value_reexports.redirect.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "module_value_reexports.redirect.worker.__binding_value__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "module_value_reexports.redirect.worker"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "module_value_reexports.shadow.shadow_member#1"
+      ],
+      "display_name": "worker",
+      "id": "module_value_reexports.shadow.worker#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "worker",
+      "scope": "module_value_reexports.shadow"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "shadow_member",
+      "id": "module_value_reexports.shadow.shadow_member#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "shadow_member",
+      "scope": "module_value_reexports.shadow"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "worker",
+      "id": "module_value_reexports.shadow.__binding_worker__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_worker__",
+      "scope": "module_value_reexports.shadow"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "module_value_reexports.shadow.worker.hidden_payload#1"
+      ],
+      "display_name": "value",
+      "id": "module_value_reexports.shadow.worker.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "module_value_reexports.shadow.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "hidden_payload",
+      "id": "module_value_reexports.shadow.worker.hidden_payload#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "hidden_payload",
+      "scope": "module_value_reexports.shadow.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "module_value_reexports.shadow.worker.__binding_value__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "module_value_reexports.shadow.worker"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "module_value_reexports.worker.payload#2"
+      ],
+      "display_name": "value",
+      "id": "module_value_reexports.worker.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "module_value_reexports.worker"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.module_value_reexports.payload.provide#14"
+      ],
+      "display_name": "provide",
+      "id": "module_value_reexports.worker.provide#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "provide",
+      "scope": "module_value_reexports.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "payload",
+      "id": "module_value_reexports.worker.payload#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "payload",
+      "scope": "module_value_reexports.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "module_value_reexports.worker.__binding_value__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "module_value_reexports.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "provide",
+      "id": "module_value_reexports.worker.__binding_provide__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_provide__",
+      "scope": "module_value_reexports.worker"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "module_value_reexports.assignment_facade",
+        "module_value_reexports.bridge",
+        "module_value_reexports.choice",
+        "module_value_reexports.cycle_a",
+        "module_value_reexports.cycle_b",
+        "module_value_reexports.entry",
+        "module_value_reexports.import_facade",
+        "module_value_reexports.other",
+        "module_value_reexports.payload",
+        "module_value_reexports.redirect",
+        "module_value_reexports.redirect.worker",
+        "module_value_reexports.shadow",
+        "module_value_reexports.shadow.worker",
+        "module_value_reexports.worker"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.module_value_reexports.worker#0",
+        "__root__.module_value_reexports.import_facade.Alias#1",
+        "__root__.module_value_reexports.other#2",
+        "__root__.module_value_reexports.cycle_b.Alias#3",
+        "__root__.module_value_reexports.cycle_a.Alias#4",
+        "__root__.module_value_reexports.import_facade#5",
+        "__root__.module_value_reexports.shadow#6",
+        "__root__.module_value_reexports.redirect#7",
+        "__root__.module_value_reexports.redirect.worker#8",
+        "__root__.module_value_reexports.import_facade.OtherAlias#9",
+        "__root__.module_value_reexports.assignment_facade.Alias#10",
+        "__root__.module_value_reexports.bridge.Forward#11",
+        "__root__.module_value_reexports.choice.Alias#12",
+        "__root__.module_value_reexports.assignment_facade#13",
+        "__root__.module_value_reexports.payload.provide#14",
+        "__root__.module_value_reexports.assignment_facade.Alias.provide#15",
+        "__root__.module_value_reexports.worker.value#16",
+        "__root__.module_value_reexports.other.value#17",
+        "__root__.module_value_reexports.worker.provide#18"
+      ],
+      "parent": null
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.assignment_facade",
+      "kind": "module",
+      "name": "module_value_reexports.assignment_facade",
+      "nodes": [
+        "module_value_reexports.assignment_facade.worker#0",
+        "module_value_reexports.assignment_facade.Alias#1",
+        "module_value_reexports.assignment_facade.__binding_worker__#2",
+        "module_value_reexports.assignment_facade.__binding_Alias__#3"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.bridge",
+      "kind": "module",
+      "name": "module_value_reexports.bridge",
+      "nodes": [
+        "module_value_reexports.bridge.Alias#0",
+        "module_value_reexports.bridge.Forward#1",
+        "module_value_reexports.bridge.__binding_Alias__#2",
+        "module_value_reexports.bridge.__binding_Forward__#3"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.choice",
+      "kind": "module",
+      "name": "module_value_reexports.choice",
+      "nodes": [
+        "module_value_reexports.choice.__cond_0__#0",
+        "module_value_reexports.choice.Alias#1",
+        "module_value_reexports.choice.Alias#2",
+        "module_value_reexports.choice.flag#3",
+        "module_value_reexports.choice.__binding_Alias__#4"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.cycle_a",
+      "kind": "module",
+      "name": "module_value_reexports.cycle_a",
+      "nodes": [
+        "module_value_reexports.cycle_a.Alias#0",
+        "module_value_reexports.cycle_a.__binding_Alias__#1"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.cycle_b",
+      "kind": "module",
+      "name": "module_value_reexports.cycle_b",
+      "nodes": [
+        "module_value_reexports.cycle_b.Alias#0",
+        "module_value_reexports.cycle_b.__binding_Alias__#1"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "module_value_reexports.entry.main",
+        "module_value_reexports.entry.direct",
+        "module_value_reexports.entry.assigned",
+        "module_value_reexports.entry.other_source",
+        "module_value_reexports.entry.bridged",
+        "module_value_reexports.entry.qualified",
+        "module_value_reexports.entry.shadowed",
+        "module_value_reexports.entry.redirected",
+        "module_value_reexports.entry.imported_redirect",
+        "module_value_reexports.entry.conditional",
+        "module_value_reexports.entry.cyclic",
+        "module_value_reexports.entry.assigned_namespace_reexport",
+        "module_value_reexports.entry.saved_module_attribute"
+      ],
+      "id": "module_value_reexports.entry",
+      "kind": "module",
+      "name": "module_value_reexports.entry",
+      "nodes": [
+        "module_value_reexports.entry.worker#0",
+        "module_value_reexports.entry.import_facade#1",
+        "module_value_reexports.entry.shadow#2",
+        "module_value_reexports.entry.redirect#3",
+        "module_value_reexports.entry.Redirected#4",
+        "module_value_reexports.entry.Imported#5",
+        "module_value_reexports.entry.OtherAlias#6",
+        "module_value_reexports.entry.Assigned#7",
+        "module_value_reexports.entry.Bridged#8",
+        "module_value_reexports.entry.Choice#9",
+        "module_value_reexports.entry.Cyclic#10",
+        "module_value_reexports.entry.__binding_worker__#11",
+        "module_value_reexports.entry.__binding_import_facade__#12",
+        "module_value_reexports.entry.__binding_shadow__#13",
+        "module_value_reexports.entry.__binding_redirect__#14",
+        "module_value_reexports.entry.__binding_Redirected__#15",
+        "module_value_reexports.entry.__binding_Imported__#16",
+        "module_value_reexports.entry.__binding_OtherAlias__#17",
+        "module_value_reexports.entry.__binding_Assigned__#18",
+        "module_value_reexports.entry.__binding_Bridged__#19",
+        "module_value_reexports.entry.__binding_Choice__#20",
+        "module_value_reexports.entry.__binding_Cyclic__#21",
+        "module_value_reexports.entry.__binding_main__#22",
+        "module_value_reexports.entry.__binding_direct__#23",
+        "module_value_reexports.entry.__binding_assigned__#24",
+        "module_value_reexports.entry.__binding_other_source__#25",
+        "module_value_reexports.entry.__binding_bridged__#26",
+        "module_value_reexports.entry.__binding_qualified__#27",
+        "module_value_reexports.entry.__binding_shadowed__#28",
+        "module_value_reexports.entry.__binding_redirected__#29",
+        "module_value_reexports.entry.__binding_imported_redirect__#30",
+        "module_value_reexports.entry.__binding_conditional__#31",
+        "module_value_reexports.entry.__binding_cyclic__#32",
+        "module_value_reexports.entry.__binding_assigned_namespace_reexport__#33",
+        "module_value_reexports.entry.__binding_saved_module_attribute__#34"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.entry.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "module_value_reexports.entry.main.__ref_0__#0",
+        "module_value_reexports.entry.main.__return_0__#1"
+      ],
+      "parent": "module_value_reexports.entry"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.entry.direct",
+      "kind": "function",
+      "name": "direct",
+      "nodes": [
+        "module_value_reexports.entry.direct.Alias#0",
+        "module_value_reexports.entry.direct.__ref_1__#1",
+        "module_value_reexports.entry.direct.__return_0__#2",
+        "module_value_reexports.entry.direct.__binding_Alias__#3"
+      ],
+      "parent": "module_value_reexports.entry"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.entry.assigned",
+      "kind": "function",
+      "name": "assigned",
+      "nodes": [
+        "module_value_reexports.entry.assigned.__ref_2__#0",
+        "module_value_reexports.entry.assigned.__return_0__#1"
+      ],
+      "parent": "module_value_reexports.entry"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.entry.other_source",
+      "kind": "function",
+      "name": "other_source",
+      "nodes": [
+        "module_value_reexports.entry.other_source.__ref_3__#0",
+        "module_value_reexports.entry.other_source.__return_0__#1"
+      ],
+      "parent": "module_value_reexports.entry"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.entry.bridged",
+      "kind": "function",
+      "name": "bridged",
+      "nodes": [
+        "module_value_reexports.entry.bridged.__ref_4__#0",
+        "module_value_reexports.entry.bridged.__return_0__#1"
+      ],
+      "parent": "module_value_reexports.entry"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.entry.qualified",
+      "kind": "function",
+      "name": "qualified",
+      "nodes": [
+        "module_value_reexports.entry.qualified.__ref_5__#0",
+        "module_value_reexports.entry.qualified.__ref_6__#1",
+        "module_value_reexports.entry.qualified.__return_0__#2"
+      ],
+      "parent": "module_value_reexports.entry"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.entry.shadowed",
+      "kind": "function",
+      "name": "shadowed",
+      "nodes": [
+        "module_value_reexports.entry.shadowed.__ref_7__#0",
+        "module_value_reexports.entry.shadowed.__ref_8__#1",
+        "module_value_reexports.entry.shadowed.__return_0__#2"
+      ],
+      "parent": "module_value_reexports.entry"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.entry.redirected",
+      "kind": "function",
+      "name": "redirected",
+      "nodes": [
+        "module_value_reexports.entry.redirected.__ref_9__#0",
+        "module_value_reexports.entry.redirected.__ref_10__#1",
+        "module_value_reexports.entry.redirected.__return_0__#2"
+      ],
+      "parent": "module_value_reexports.entry"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.entry.imported_redirect",
+      "kind": "function",
+      "name": "imported_redirect",
+      "nodes": [
+        "module_value_reexports.entry.imported_redirect.__ref_11__#0",
+        "module_value_reexports.entry.imported_redirect.__return_0__#1"
+      ],
+      "parent": "module_value_reexports.entry"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.entry.conditional",
+      "kind": "function",
+      "name": "conditional",
+      "nodes": [
+        "module_value_reexports.entry.conditional.__ref_12__#0",
+        "module_value_reexports.entry.conditional.__return_0__#1"
+      ],
+      "parent": "module_value_reexports.entry"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.entry.cyclic",
+      "kind": "function",
+      "name": "cyclic",
+      "nodes": [
+        "module_value_reexports.entry.cyclic.__ref_13__#0",
+        "module_value_reexports.entry.cyclic.__return_0__#1"
+      ],
+      "parent": "module_value_reexports.entry"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.entry.assigned_namespace_reexport",
+      "kind": "function",
+      "name": "assigned_namespace_reexport",
+      "nodes": [
+        "module_value_reexports.entry.assigned_namespace_reexport.assignment_facade#0",
+        "module_value_reexports.entry.assigned_namespace_reexport.__ref_14__#1",
+        "module_value_reexports.entry.assigned_namespace_reexport.__ref_15__#2",
+        "module_value_reexports.entry.assigned_namespace_reexport.__call_assignment_facade.Alias.provide_16__#3",
+        "module_value_reexports.entry.assigned_namespace_reexport.__return_0__#4",
+        "module_value_reexports.entry.assigned_namespace_reexport.__binding_assignment_facade__#5"
+      ],
+      "parent": "module_value_reexports.entry"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.entry.saved_module_attribute",
+      "kind": "function",
+      "name": "saved_module_attribute",
+      "nodes": [
+        "module_value_reexports.entry.saved_module_attribute.import_facade#0",
+        "module_value_reexports.entry.saved_module_attribute.__ref_17__#1",
+        "module_value_reexports.entry.saved_module_attribute.alias#2",
+        "module_value_reexports.entry.saved_module_attribute.__ref_18__#3",
+        "module_value_reexports.entry.saved_module_attribute.__return_0__#4",
+        "module_value_reexports.entry.saved_module_attribute.__binding_import_facade__#5",
+        "module_value_reexports.entry.saved_module_attribute.__binding_alias__#6"
+      ],
+      "parent": "module_value_reexports.entry"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.import_facade",
+      "kind": "module",
+      "name": "module_value_reexports.import_facade",
+      "nodes": [
+        "module_value_reexports.import_facade.Alias#0",
+        "module_value_reexports.import_facade.OtherAlias#1",
+        "module_value_reexports.import_facade.__binding_Alias__#2",
+        "module_value_reexports.import_facade.__binding_OtherAlias__#3"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.other",
+      "kind": "module",
+      "name": "module_value_reexports.other",
+      "nodes": [
+        "module_value_reexports.other.value#0",
+        "module_value_reexports.other.other_payload#1",
+        "module_value_reexports.other.__binding_value__#2"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "module_value_reexports.payload.provide"
+      ],
+      "id": "module_value_reexports.payload",
+      "kind": "module",
+      "name": "module_value_reexports.payload",
+      "nodes": [
+        "module_value_reexports.payload.__binding_provide__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.payload.provide",
+      "kind": "function",
+      "name": "provide",
+      "nodes": [
+        "module_value_reexports.payload.provide.__return_0__#0",
+        "module_value_reexports.payload.provide.shared_payload#1"
+      ],
+      "parent": "module_value_reexports.payload"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.redirect",
+      "kind": "module",
+      "name": "module_value_reexports.redirect",
+      "nodes": [
+        "module_value_reexports.redirect.worker#0",
+        "module_value_reexports.redirect.__binding_worker__#1"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.redirect.worker",
+      "kind": "module",
+      "name": "module_value_reexports.redirect.worker",
+      "nodes": [
+        "module_value_reexports.redirect.worker.value#0",
+        "module_value_reexports.redirect.worker.redirect_hidden_payload#1",
+        "module_value_reexports.redirect.worker.__binding_value__#2"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.shadow",
+      "kind": "module",
+      "name": "module_value_reexports.shadow",
+      "nodes": [
+        "module_value_reexports.shadow.worker#0",
+        "module_value_reexports.shadow.shadow_member#1",
+        "module_value_reexports.shadow.__binding_worker__#2"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.shadow.worker",
+      "kind": "module",
+      "name": "module_value_reexports.shadow.worker",
+      "nodes": [
+        "module_value_reexports.shadow.worker.value#0",
+        "module_value_reexports.shadow.worker.hidden_payload#1",
+        "module_value_reexports.shadow.worker.__binding_value__#2"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "module_value_reexports.worker",
+      "kind": "module",
+      "name": "module_value_reexports.worker",
+      "nodes": [
+        "module_value_reexports.worker.value#0",
+        "module_value_reexports.worker.provide#1",
+        "module_value_reexports.worker.payload#2",
+        "module_value_reexports.worker.__binding_value__#3",
+        "module_value_reexports.worker.__binding_provide__#4"
+      ],
+      "parent": "__root__"
+    }
+  ],
+  "version": "0.1.0"
+}

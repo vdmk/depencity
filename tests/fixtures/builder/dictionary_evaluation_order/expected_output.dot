@@ -1,0 +1,118 @@
+digraph {
+  rankdir=LR;
+  compound=true;
+  node [fontname="monospace"];
+
+  subgraph cluster_n0 {
+    label="__root__\n(root)";
+    style=rounded;
+    n0 [style=invis];
+
+    subgraph cluster_n1 {
+      label="__module__\n(module)";
+      style=rounded;
+      n1 [style=invis];
+      n2 [label="main" shape=box style="rounded,filled" fillcolor=lightyellow];
+
+      subgraph cluster_n3 {
+        label="main\n(function)";
+        style=rounded;
+        n3 [style=invis];
+        n4 [label="x v1"];
+        n5 [label="replacement"];
+        n6 [label="mapping v1"];
+        n7 [label="x v2"];
+        n8 [label="{'first': (x := replacement), x: 0}" shape=box];
+        n9 [label="value_then_rebind"];
+        n10 [label="x v3"];
+        n11 [label="{'first': x, 'second': (x := replacement)}" shape=box];
+        n12 [label="read_then_rebind"];
+        n13 [label="x v4"];
+        n14 [label="{(x := replacement): x}" shape=box];
+        n15 [label="walrus_key"];
+        n16 [label="x v5"];
+        n17 [label="x v6"];
+        n18 [label="{'first': (x := replacement), 'second': x, 'third': (x := replacement), 'fourth': x}" shape=box];
+        n19 [label="multiple_entries"];
+        n20 [label="merge()" shape=box style=filled fillcolor=lightcyan];
+        n21 [label="mapping v2"];
+        n22 [label="mapping['key']"];
+        n23 [label="{**(mapping := merge(x)), mapping['key']: 0}" shape=box];
+        n24 [label="unpack_then_read"];
+        n25 [label="mapping['key']"];
+        n26 [label="merge()" shape=box style=filled fillcolor=lightcyan];
+        n27 [label="mapping v3"];
+        n28 [label="{mapping['key']: 0, **(mapping := merge(x))}" shape=box];
+        n29 [label="read_then_unpack"];
+        n30 [label="(value_then_rebind, read_then_rebind, walrus_key, multiple_entries, unpack_then_read, read_then_unpack)" shape=box];
+        n31 [label="return (value_then_rebind, read_then_rebind, walrus_key, multiple_entries, unpack_then_read, read_then_unpack)"];
+        n32 [label="merge"];
+        n33 [label="x" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n34 [label="replacement" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n35 [label="mapping" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n36 [label="value_then_rebind" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n37 [label="read_then_rebind" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n38 [label="walrus_key" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n39 [label="multiple_entries" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n40 [label="unpack_then_read" shape=box style="rounded,filled" fillcolor=lightyellow];
+        n41 [label="read_then_unpack" shape=box style="rounded,filled" fillcolor=lightyellow];
+      }
+
+    }
+
+  }
+
+  n10 -> n11 [color=steelblue];
+  n11 -> n12 [color=steelblue];
+  n12 -> n30 [color=steelblue];
+  n13 -> n14 [color=steelblue];
+  n14 -> n15 [color=steelblue];
+  n15 -> n30 [color=steelblue];
+  n16 -> n18 [color=steelblue];
+  n17 -> n18 [color=steelblue];
+  n17 -> n20 [color=steelblue];
+  n17 -> n26 [color=steelblue];
+  n18 -> n19 [color=steelblue];
+  n19 -> n30 [color=steelblue];
+  n20 -> n21 [color=steelblue];
+  n21 -> n22 [color=steelblue];
+  n21 -> n23 [color=steelblue];
+  n21 -> n25 [color=steelblue];
+  n22 -> n23 [color=steelblue];
+  n23 -> n24 [color=steelblue];
+  n24 -> n30 [color=steelblue];
+  n25 -> n28 [color=steelblue];
+  n26 -> n27 [color=steelblue];
+  n27 -> n28 [color=steelblue];
+  n28 -> n29 [color=steelblue];
+  n29 -> n30 [color=steelblue];
+  n3 -> n2 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false, ltail=cluster_n3];
+  n30 -> n31 [color=steelblue];
+  n32 -> n20 [color=steelblue];
+  n32 -> n26 [color=steelblue];
+  n33 -> n10 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n33 -> n13 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n33 -> n16 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n33 -> n17 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n33 -> n4 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n33 -> n7 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n34 -> n5 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n35 -> n21 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n35 -> n27 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n35 -> n6 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n36 -> n9 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n37 -> n12 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n38 -> n15 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n39 -> n19 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n40 -> n24 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n41 -> n29 [color=gray35 penwidth=2 style=dotted arrowhead=none constraint=false];
+  n5 -> n10 [color=steelblue];
+  n5 -> n13 [color=steelblue];
+  n5 -> n16 [color=steelblue];
+  n5 -> n17 [color=steelblue];
+  n5 -> n7 [color=steelblue];
+  n7 -> n11 [color=steelblue];
+  n7 -> n8 [color=steelblue];
+  n8 -> n9 [color=steelblue];
+  n9 -> n30 [color=steelblue];
+}

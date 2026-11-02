@@ -1,0 +1,472 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.static_all_unrelated_match_capture.worker.public_value#0",
+      "target": "static_all_unrelated_match_capture.entry.public_value#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_unrelated_match_capture.entry.__binding_public_value__#1",
+      "target": "static_all_unrelated_match_capture.entry.public_value#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_unrelated_match_capture.entry.main",
+      "target": "static_all_unrelated_match_capture.entry.__binding_main__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_unrelated_match_capture.entry.main.__call_public_value_0__#0",
+      "target": "static_all_unrelated_match_capture.entry.main.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "static_all_unrelated_match_capture.entry.public_value#0",
+      "target": "static_all_unrelated_match_capture.entry.main.__call_public_value_0__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_unrelated_match_capture.worker.__binding___all____#5",
+      "target": "static_all_unrelated_match_capture.worker.__all__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_unrelated_match_capture.worker.__binding_captured__#6",
+      "target": "static_all_unrelated_match_capture.worker.captured#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_unrelated_match_capture.worker.__cond_2__#3",
+      "target": "static_all_unrelated_match_capture.worker.captured#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_unrelated_match_capture.worker.__container_0__#0",
+      "target": "static_all_unrelated_match_capture.worker.__all__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_unrelated_match_capture.worker.__container_1__#2",
+      "target": "static_all_unrelated_match_capture.worker.__cond_2__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "static_all_unrelated_match_capture.worker.captured#4",
+      "target": "static_all_unrelated_match_capture.worker.public_value.__return_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_unrelated_match_capture.worker.public_value",
+      "target": "__root__.static_all_unrelated_match_capture.worker.public_value#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_unrelated_match_capture.worker.public_value",
+      "target": "static_all_unrelated_match_capture.worker.__binding_public_value__#7"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "static_all_unrelated_match_capture.worker.public_value.__return_0__#0",
+      "target": "static_all_unrelated_match_capture.entry.main.__call_public_value_0__#0"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [
+        "static_all_unrelated_match_capture.worker.public_value"
+      ],
+      "display_name": "static_all_unrelated_match_capture.worker.public_value",
+      "id": "__root__.static_all_unrelated_match_capture.worker.public_value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "static_all_unrelated_match_capture.worker.public_value",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.static_all_unrelated_match_capture.worker.public_value#0"
+      ],
+      "display_name": "public_value",
+      "id": "static_all_unrelated_match_capture.entry.public_value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "public_value",
+      "scope": "static_all_unrelated_match_capture.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "public_value",
+      "id": "static_all_unrelated_match_capture.entry.__binding_public_value__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_public_value__",
+      "scope": "static_all_unrelated_match_capture.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "static_all_unrelated_match_capture.entry.__binding_main__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "static_all_unrelated_match_capture.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "static_all_unrelated_match_capture.entry.public_value#0",
+        "static_all_unrelated_match_capture.worker.public_value.__return_0__#0"
+      ],
+      "display_name": "public_value()",
+      "id": "static_all_unrelated_match_capture.entry.main.__call_public_value_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_public_value_0__",
+      "scope": "static_all_unrelated_match_capture.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "static_all_unrelated_match_capture.entry.main.__call_public_value_0__#0"
+      ],
+      "display_name": "return public_value()",
+      "id": "static_all_unrelated_match_capture.entry.main.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "static_all_unrelated_match_capture.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "['public_value']",
+      "id": "static_all_unrelated_match_capture.worker.__container_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__container_0__",
+      "operation_type": "container",
+      "scope": "static_all_unrelated_match_capture.worker"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "static_all_unrelated_match_capture.worker.__container_0__#0"
+      ],
+      "display_name": "__all__",
+      "id": "static_all_unrelated_match_capture.worker.__all__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "__all__",
+      "scope": "static_all_unrelated_match_capture.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "{'value': 1}",
+      "id": "static_all_unrelated_match_capture.worker.__container_1__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__container_1__",
+      "operation_type": "container",
+      "scope": "static_all_unrelated_match_capture.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "static_all_unrelated_match_capture.worker.__container_1__#2"
+      ],
+      "display_name": "__cond_2__",
+      "id": "static_all_unrelated_match_capture.worker.__cond_2__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "condition",
+      "name": "__cond_2__",
+      "scope": "static_all_unrelated_match_capture.worker"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "static_all_unrelated_match_capture.worker.__cond_2__#3"
+      ],
+      "display_name": "captured",
+      "id": "static_all_unrelated_match_capture.worker.captured#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "captured",
+      "scope": "static_all_unrelated_match_capture.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "__all__",
+      "id": "static_all_unrelated_match_capture.worker.__binding___all____#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding___all____",
+      "scope": "static_all_unrelated_match_capture.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "captured",
+      "id": "static_all_unrelated_match_capture.worker.__binding_captured__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_captured__",
+      "scope": "static_all_unrelated_match_capture.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "public_value",
+      "id": "static_all_unrelated_match_capture.worker.__binding_public_value__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_public_value__",
+      "scope": "static_all_unrelated_match_capture.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "static_all_unrelated_match_capture.worker.captured#4"
+      ],
+      "display_name": "return captured",
+      "id": "static_all_unrelated_match_capture.worker.public_value.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "static_all_unrelated_match_capture.worker.public_value"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "static_all_unrelated_match_capture.entry",
+        "static_all_unrelated_match_capture.worker"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.static_all_unrelated_match_capture.worker.public_value#0"
+      ],
+      "parent": null
+    },
+    {
+      "children": [
+        "static_all_unrelated_match_capture.entry.main"
+      ],
+      "id": "static_all_unrelated_match_capture.entry",
+      "kind": "module",
+      "name": "static_all_unrelated_match_capture.entry",
+      "nodes": [
+        "static_all_unrelated_match_capture.entry.public_value#0",
+        "static_all_unrelated_match_capture.entry.__binding_public_value__#1",
+        "static_all_unrelated_match_capture.entry.__binding_main__#2"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "static_all_unrelated_match_capture.entry.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "static_all_unrelated_match_capture.entry.main.__call_public_value_0__#0",
+        "static_all_unrelated_match_capture.entry.main.__return_0__#1"
+      ],
+      "parent": "static_all_unrelated_match_capture.entry"
+    },
+    {
+      "children": [
+        "static_all_unrelated_match_capture.worker.public_value"
+      ],
+      "id": "static_all_unrelated_match_capture.worker",
+      "kind": "module",
+      "name": "static_all_unrelated_match_capture.worker",
+      "nodes": [
+        "static_all_unrelated_match_capture.worker.__container_0__#0",
+        "static_all_unrelated_match_capture.worker.__all__#1",
+        "static_all_unrelated_match_capture.worker.__container_1__#2",
+        "static_all_unrelated_match_capture.worker.__cond_2__#3",
+        "static_all_unrelated_match_capture.worker.captured#4",
+        "static_all_unrelated_match_capture.worker.__binding___all____#5",
+        "static_all_unrelated_match_capture.worker.__binding_captured__#6",
+        "static_all_unrelated_match_capture.worker.__binding_public_value__#7"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "static_all_unrelated_match_capture.worker.public_value",
+      "kind": "function",
+      "name": "public_value",
+      "nodes": [
+        "static_all_unrelated_match_capture.worker.public_value.__return_0__#0"
+      ],
+      "parent": "static_all_unrelated_match_capture.worker"
+    }
+  ],
+  "version": "0.1.0"
+}

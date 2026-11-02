@@ -1,0 +1,1091 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "Base",
+      "target": "__module__.Child#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Base",
+      "target": "__module__.__binding_Base__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Base.choose",
+      "target": "Base.__binding_choose__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Base.choose.__binding_self__#3",
+      "target": "Base.choose.self#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Base.choose.__return_0__#1",
+      "target": "Base.dispatch.__call_self.choose_1__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "Base.choose.base_payload#2",
+      "target": "Base.choose.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Base.dispatch",
+      "target": "Base.__binding_dispatch__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Base.dispatch.__binding_self__#4",
+      "target": "Base.dispatch.self#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Base.dispatch.__call_self.choose_1__#2",
+      "target": "Base.dispatch.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Base.dispatch.__ref_0__#1",
+      "target": "Base.dispatch.__call_self.choose_1__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Base.dispatch.__return_0__#3",
+      "target": "inherited_dispatch.__call_Child().dispatch_6__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "Base.dispatch.self#0",
+      "target": "Base.dispatch.__ref_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Base.run",
+      "target": "Base.__binding_run__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Base.run.__binding_self__#3",
+      "target": "Base.run.self#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Base.run.__binding_value__#4",
+      "target": "Base.run.value#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Base.run.__return_0__#2",
+      "target": "invoke.__call_Child.run_3__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "Base.run.value#1",
+      "target": "Base.run.__return_0__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "declaration",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Child",
+      "target": "__module__.Child#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Child",
+      "target": "__module__.__binding_Child__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Child.choose",
+      "target": "Child.__binding_choose__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Child.choose.__binding_self__#3",
+      "target": "Child.choose.self#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "Child.choose.child_payload#2",
+      "target": "Child.choose.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "__module__.Child#0",
+      "target": "inherited_dispatch.__call_Child_4__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "__module__.Child#0",
+      "target": "invoke.__ref_2__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__module__.__binding_Child__#1",
+      "target": "__module__.Child#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "inherited_dispatch",
+      "target": "__module__.__binding_inherited_dispatch__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "inherited_dispatch.__call_Child().dispatch_6__#2",
+      "target": "inherited_dispatch.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "inherited_dispatch.__call_Child_4__#0",
+      "target": "inherited_dispatch.__ref_5__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "inherited_dispatch.__ref_5__#1",
+      "target": "inherited_dispatch.__call_Child().dispatch_6__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "invoke",
+      "target": "__module__.__binding_invoke__#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "invoke.__binding_value__#4",
+      "target": "invoke.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "invoke.__call_Child.run_3__#2",
+      "target": "invoke.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "invoke.__ref_2__#1",
+      "target": "invoke.__call_Child.run_3__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "invoke.value#0",
+      "target": "invoke.__call_Child.run_3__#2"
+    }
+  ],
+  "nodes": [
+    {
+      "access": "write",
+      "dependencies": [
+        "Base"
+      ],
+      "display_name": "Child",
+      "id": "__module__.Child#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Child",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Child",
+      "id": "__module__.__binding_Child__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Child__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Base",
+      "id": "__module__.__binding_Base__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Base__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "invoke",
+      "id": "__module__.__binding_invoke__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_invoke__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "inherited_dispatch",
+      "id": "__module__.__binding_inherited_dispatch__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_inherited_dispatch__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "run",
+      "id": "Base.__binding_run__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_run__",
+      "scope": "Base"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "dispatch",
+      "id": "Base.__binding_dispatch__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_dispatch__",
+      "scope": "Base"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "choose",
+      "id": "Base.__binding_choose__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_choose__",
+      "scope": "Base"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "self",
+      "id": "Base.run.self#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "self",
+      "scope": "Base.run"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "Base.run.value#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "Base.run"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "Base.run.value#1"
+      ],
+      "display_name": "return value",
+      "id": "Base.run.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "Base.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "self",
+      "id": "Base.run.__binding_self__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_self__",
+      "scope": "Base.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "Base.run.__binding_value__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "Base.run"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "self",
+      "id": "Base.dispatch.self#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "self",
+      "scope": "Base.dispatch"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "Base.dispatch.self#0"
+      ],
+      "display_name": "self.choose",
+      "id": "Base.dispatch.__ref_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": true,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_0__",
+      "scope": "Base.dispatch"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "Base.choose.__return_0__#1",
+        "Base.dispatch.__ref_0__#1"
+      ],
+      "display_name": "self.choose()",
+      "id": "Base.dispatch.__call_self.choose_1__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_self.choose_1__",
+      "scope": "Base.dispatch"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "Base.dispatch.__call_self.choose_1__#2"
+      ],
+      "display_name": "return self.choose()",
+      "id": "Base.dispatch.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "Base.dispatch"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "self",
+      "id": "Base.dispatch.__binding_self__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_self__",
+      "scope": "Base.dispatch"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "self",
+      "id": "Base.choose.self#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "self",
+      "scope": "Base.choose"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "Base.choose.base_payload#2"
+      ],
+      "display_name": "return base_payload",
+      "id": "Base.choose.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "Base.choose"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "base_payload",
+      "id": "Base.choose.base_payload#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "base_payload",
+      "scope": "Base.choose"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "self",
+      "id": "Base.choose.__binding_self__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_self__",
+      "scope": "Base.choose"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "choose",
+      "id": "Child.__binding_choose__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_choose__",
+      "scope": "Child"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "self",
+      "id": "Child.choose.self#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "self",
+      "scope": "Child.choose"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "Child.choose.child_payload#2"
+      ],
+      "display_name": "return child_payload",
+      "id": "Child.choose.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "Child.choose"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "child_payload",
+      "id": "Child.choose.child_payload#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "child_payload",
+      "scope": "Child.choose"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "self",
+      "id": "Child.choose.__binding_self__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_self__",
+      "scope": "Child.choose"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "invoke.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "invoke"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "__module__.Child#0"
+      ],
+      "display_name": "Child.run",
+      "id": "invoke.__ref_2__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_2__",
+      "scope": "invoke"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "Base.run.__return_0__#2",
+        "invoke.__ref_2__#1",
+        "invoke.value#0"
+      ],
+      "display_name": "Child.run()",
+      "id": "invoke.__call_Child.run_3__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_Child.run_3__",
+      "scope": "invoke"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "invoke.__call_Child.run_3__#2"
+      ],
+      "display_name": "return Child.run(value)",
+      "id": "invoke.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "invoke"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "invoke.__binding_value__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "invoke"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "__module__.Child#0"
+      ],
+      "display_name": "Child()",
+      "id": "inherited_dispatch.__call_Child_4__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_Child_4__",
+      "scope": "inherited_dispatch"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "inherited_dispatch.__call_Child_4__#0"
+      ],
+      "display_name": "Child().dispatch",
+      "id": "inherited_dispatch.__ref_5__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_5__",
+      "scope": "inherited_dispatch"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "Base.dispatch.__return_0__#3",
+        "inherited_dispatch.__ref_5__#1"
+      ],
+      "display_name": "Child().dispatch()",
+      "id": "inherited_dispatch.__call_Child().dispatch_6__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_Child().dispatch_6__",
+      "scope": "inherited_dispatch"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "inherited_dispatch.__call_Child().dispatch_6__#2"
+      ],
+      "display_name": "return Child().dispatch()",
+      "id": "inherited_dispatch.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "inherited_dispatch"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "__module__"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [],
+      "parent": null
+    },
+    {
+      "children": [
+        "Base",
+        "Child",
+        "invoke",
+        "inherited_dispatch"
+      ],
+      "id": "__module__",
+      "kind": "module",
+      "name": "__module__",
+      "nodes": [
+        "__module__.Child#0",
+        "__module__.__binding_Child__#1",
+        "__module__.__binding_Base__#2",
+        "__module__.__binding_invoke__#3",
+        "__module__.__binding_inherited_dispatch__#4"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "Base.run",
+        "Base.dispatch",
+        "Base.choose"
+      ],
+      "id": "Base",
+      "kind": "class",
+      "name": "Base",
+      "nodes": [
+        "Base.__binding_run__#0",
+        "Base.__binding_dispatch__#1",
+        "Base.__binding_choose__#2"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "Base.run",
+      "kind": "function",
+      "name": "run",
+      "nodes": [
+        "Base.run.self#0",
+        "Base.run.value#1",
+        "Base.run.__return_0__#2",
+        "Base.run.__binding_self__#3",
+        "Base.run.__binding_value__#4"
+      ],
+      "parent": "Base"
+    },
+    {
+      "children": [],
+      "id": "Base.dispatch",
+      "kind": "function",
+      "name": "dispatch",
+      "nodes": [
+        "Base.dispatch.self#0",
+        "Base.dispatch.__ref_0__#1",
+        "Base.dispatch.__call_self.choose_1__#2",
+        "Base.dispatch.__return_0__#3",
+        "Base.dispatch.__binding_self__#4"
+      ],
+      "parent": "Base"
+    },
+    {
+      "children": [],
+      "id": "Base.choose",
+      "kind": "function",
+      "name": "choose",
+      "nodes": [
+        "Base.choose.self#0",
+        "Base.choose.__return_0__#1",
+        "Base.choose.base_payload#2",
+        "Base.choose.__binding_self__#3"
+      ],
+      "parent": "Base"
+    },
+    {
+      "children": [
+        "Child.choose"
+      ],
+      "id": "Child",
+      "kind": "class",
+      "name": "Child",
+      "nodes": [
+        "Child.__binding_choose__#0"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "Child.choose",
+      "kind": "function",
+      "name": "choose",
+      "nodes": [
+        "Child.choose.self#0",
+        "Child.choose.__return_0__#1",
+        "Child.choose.child_payload#2",
+        "Child.choose.__binding_self__#3"
+      ],
+      "parent": "Child"
+    },
+    {
+      "children": [],
+      "id": "invoke",
+      "kind": "function",
+      "name": "invoke",
+      "nodes": [
+        "invoke.value#0",
+        "invoke.__ref_2__#1",
+        "invoke.__call_Child.run_3__#2",
+        "invoke.__return_0__#3",
+        "invoke.__binding_value__#4"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "inherited_dispatch",
+      "kind": "function",
+      "name": "inherited_dispatch",
+      "nodes": [
+        "inherited_dispatch.__call_Child_4__#0",
+        "inherited_dispatch.__ref_5__#1",
+        "inherited_dispatch.__call_Child().dispatch_6__#2",
+        "inherited_dispatch.__return_0__#3"
+      ],
+      "parent": "__module__"
+    }
+  ],
+  "version": "0.1.0"
+}

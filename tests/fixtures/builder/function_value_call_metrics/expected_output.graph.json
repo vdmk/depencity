@@ -1,0 +1,836 @@
+{
+  "edges": [
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "builtin_alias_call",
+      "target": "__module__.__binding_builtin_alias_call__#4"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "builtin_alias_call.__binding_callback__#4",
+      "target": "builtin_alias_call.callback#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "builtin_alias_call.__call_callback_3__#2",
+      "target": "builtin_alias_call.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "builtin_alias_call.__container_2__#1",
+      "target": "builtin_alias_call.__call_callback_3__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "builtin_alias_call.callback#0",
+      "target": "builtin_alias_call.__call_callback_3__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "builtins.__binding_len__#1",
+      "target": "builtins.len#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "builtins.len#0",
+      "target": "builtin_alias_call.callback#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "builtins.len#0",
+      "target": "returned_callable_is_unknown.__call_make_4__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "direct_call",
+      "target": "__module__.__binding_direct_call__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "direct_call.__call_helper_1__#0",
+      "target": "direct_call.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "helper",
+      "target": "__module__.__binding_helper__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "helper",
+      "target": "returned_value.__return_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "helper",
+      "target": "unknown_call.__call_external_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 1,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": true,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "helper.__return_0__#0",
+      "target": "direct_call.__call_helper_1__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "returned_callable_is_unknown",
+      "target": "__module__.__binding_returned_callable_is_unknown__#5"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "returned_callable_is_unknown.__binding_callback__#6",
+      "target": "returned_callable_is_unknown.callback#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "returned_callable_is_unknown.__call_callback_6__#3",
+      "target": "returned_callable_is_unknown.__return_0__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "returned_callable_is_unknown.__call_make_4__#0",
+      "target": "returned_callable_is_unknown.callback#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "returned_callable_is_unknown.__container_5__#2",
+      "target": "returned_callable_is_unknown.__call_callback_6__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "returned_callable_is_unknown.callback#1",
+      "target": "returned_callable_is_unknown.__call_callback_6__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "returned_callable_is_unknown.make#5",
+      "target": "returned_callable_is_unknown.__call_make_4__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "returned_value",
+      "target": "__module__.__binding_returned_value__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unknown_call",
+      "target": "__module__.__binding_unknown_call__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unknown_call.__call_external_0__#0",
+      "target": "unknown_call.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "unknown_call.external#2",
+      "target": "unknown_call.__call_external_0__#0"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "helper",
+      "id": "__module__.__binding_helper__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_helper__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "unknown_call",
+      "id": "__module__.__binding_unknown_call__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_unknown_call__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "returned_value",
+      "id": "__module__.__binding_returned_value__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_returned_value__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "direct_call",
+      "id": "__module__.__binding_direct_call__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_direct_call__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "builtin_alias_call",
+      "id": "__module__.__binding_builtin_alias_call__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_builtin_alias_call__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "returned_callable_is_unknown",
+      "id": "__module__.__binding_returned_callable_is_unknown__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_returned_callable_is_unknown__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return 1",
+      "id": "helper.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "helper"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "helper",
+        "unknown_call.external#2"
+      ],
+      "display_name": "external()",
+      "id": "unknown_call.__call_external_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_external_0__",
+      "scope": "unknown_call"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "unknown_call.__call_external_0__#0"
+      ],
+      "display_name": "return external(helper)",
+      "id": "unknown_call.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "unknown_call"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "external",
+      "id": "unknown_call.external#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "external",
+      "scope": "unknown_call"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "helper"
+      ],
+      "display_name": "return helper",
+      "id": "returned_value.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "returned_value"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "helper.__return_0__#0"
+      ],
+      "display_name": "helper()",
+      "id": "direct_call.__call_helper_1__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_helper_1__",
+      "scope": "direct_call"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "direct_call.__call_helper_1__#0"
+      ],
+      "display_name": "return helper()",
+      "id": "direct_call.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "direct_call"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "builtins.len#0"
+      ],
+      "display_name": "callback",
+      "id": "builtin_alias_call.callback#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "callback",
+      "scope": "builtin_alias_call"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "[]",
+      "id": "builtin_alias_call.__container_2__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__container_2__",
+      "operation_type": "container",
+      "scope": "builtin_alias_call"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "builtin_alias_call.__container_2__#1",
+        "builtin_alias_call.callback#0"
+      ],
+      "display_name": "callback()",
+      "id": "builtin_alias_call.__call_callback_3__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_callback_3__",
+      "scope": "builtin_alias_call"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "builtin_alias_call.__call_callback_3__#2"
+      ],
+      "display_name": "return callback([])",
+      "id": "builtin_alias_call.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "builtin_alias_call"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "callback",
+      "id": "builtin_alias_call.__binding_callback__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_callback__",
+      "scope": "builtin_alias_call"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "builtins.len#0",
+        "returned_callable_is_unknown.make#5"
+      ],
+      "display_name": "make()",
+      "id": "returned_callable_is_unknown.__call_make_4__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_make_4__",
+      "scope": "returned_callable_is_unknown"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "returned_callable_is_unknown.__call_make_4__#0"
+      ],
+      "display_name": "callback",
+      "id": "returned_callable_is_unknown.callback#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "callback",
+      "scope": "returned_callable_is_unknown"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "[]",
+      "id": "returned_callable_is_unknown.__container_5__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__container_5__",
+      "operation_type": "container",
+      "scope": "returned_callable_is_unknown"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "returned_callable_is_unknown.__container_5__#2",
+        "returned_callable_is_unknown.callback#1"
+      ],
+      "display_name": "callback()",
+      "id": "returned_callable_is_unknown.__call_callback_6__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_callback_6__",
+      "scope": "returned_callable_is_unknown"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "returned_callable_is_unknown.__call_callback_6__#3"
+      ],
+      "display_name": "return callback([])",
+      "id": "returned_callable_is_unknown.__return_0__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "returned_callable_is_unknown"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "make",
+      "id": "returned_callable_is_unknown.make#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "make",
+      "scope": "returned_callable_is_unknown"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "callback",
+      "id": "returned_callable_is_unknown.__binding_callback__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_callback__",
+      "scope": "returned_callable_is_unknown"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "len",
+      "id": "builtins.len#0",
+      "is_builtin": true,
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "len",
+      "scope": "builtins"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "len",
+      "id": "builtins.__binding_len__#1",
+      "is_builtin": true,
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_len__",
+      "scope": "builtins"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "__module__",
+        "builtins"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [],
+      "parent": null
+    },
+    {
+      "children": [
+        "helper",
+        "unknown_call",
+        "returned_value",
+        "direct_call",
+        "builtin_alias_call",
+        "returned_callable_is_unknown"
+      ],
+      "id": "__module__",
+      "kind": "module",
+      "name": "__module__",
+      "nodes": [
+        "__module__.__binding_helper__#0",
+        "__module__.__binding_unknown_call__#1",
+        "__module__.__binding_returned_value__#2",
+        "__module__.__binding_direct_call__#3",
+        "__module__.__binding_builtin_alias_call__#4",
+        "__module__.__binding_returned_callable_is_unknown__#5"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "helper",
+      "kind": "function",
+      "name": "helper",
+      "nodes": [
+        "helper.__return_0__#0"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "unknown_call",
+      "kind": "function",
+      "name": "unknown_call",
+      "nodes": [
+        "unknown_call.__call_external_0__#0",
+        "unknown_call.__return_0__#1",
+        "unknown_call.external#2"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "returned_value",
+      "kind": "function",
+      "name": "returned_value",
+      "nodes": [
+        "returned_value.__return_0__#0"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "direct_call",
+      "kind": "function",
+      "name": "direct_call",
+      "nodes": [
+        "direct_call.__call_helper_1__#0",
+        "direct_call.__return_0__#1"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "builtin_alias_call",
+      "kind": "function",
+      "name": "builtin_alias_call",
+      "nodes": [
+        "builtin_alias_call.callback#0",
+        "builtin_alias_call.__container_2__#1",
+        "builtin_alias_call.__call_callback_3__#2",
+        "builtin_alias_call.__return_0__#3",
+        "builtin_alias_call.__binding_callback__#4"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "returned_callable_is_unknown",
+      "kind": "function",
+      "name": "returned_callable_is_unknown",
+      "nodes": [
+        "returned_callable_is_unknown.__call_make_4__#0",
+        "returned_callable_is_unknown.callback#1",
+        "returned_callable_is_unknown.__container_5__#2",
+        "returned_callable_is_unknown.__call_callback_6__#3",
+        "returned_callable_is_unknown.__return_0__#4",
+        "returned_callable_is_unknown.make#5",
+        "returned_callable_is_unknown.__binding_callback__#6"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "builtins",
+      "kind": "builtins",
+      "name": "builtins",
+      "nodes": [
+        "builtins.len#0",
+        "builtins.__binding_len__#1"
+      ],
+      "parent": "__root__"
+    }
+  ],
+  "version": "0.1.0"
+}

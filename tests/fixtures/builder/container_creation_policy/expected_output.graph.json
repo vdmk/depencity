@@ -1,0 +1,1980 @@
+{
+  "edges": [
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "asynchronous_generator",
+      "target": "__module__.__binding_asynchronous_generator__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "asynchronous_generator.__async_iter_13__#1",
+      "target": "asynchronous_generator.__comp_12__.__cond_14__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "asynchronous_generator.__async_iter_13__#1",
+      "target": "asynchronous_generator.__comp_12__.__op_15__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "asynchronous_generator.__binding_items__#3",
+      "target": "asynchronous_generator.items#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "asynchronous_generator.__comp_12__.__binding_item__#4",
+      "target": "asynchronous_generator.__comp_12__.item#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "asynchronous_generator.__comp_12__.__cond_14__#0",
+      "target": "asynchronous_generator.__comp_12__.__op_15__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "asynchronous_generator.__comp_12__.__cond_14__#0",
+      "target": "asynchronous_generator.__comp_12__.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "asynchronous_generator.__comp_12__.__cond_14__#0",
+      "target": "asynchronous_generator.__comp_12__.item#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "asynchronous_generator.__comp_12__.__op_15__#1",
+      "target": "asynchronous_generator.__comp_12__.item#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "asynchronous_generator.__comp_12__.__return_0__#3",
+      "target": "asynchronous_generator.__return_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "asynchronous_generator.__comp_12__.item#2",
+      "target": "asynchronous_generator.__comp_12__.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "asynchronous_generator.items#0",
+      "target": "asynchronous_generator.__async_iter_13__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "builtins.__binding_list__#1",
+      "target": "builtins.list#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "builtins.list#0",
+      "target": "explicit_list_constructor.__call_list_16__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "dict_comprehension",
+      "target": "__module__.__binding_dict_comprehension__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "dict_comprehension.__binding_items__#2",
+      "target": "dict_comprehension.items#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "dict_comprehension.__comp_6__.__binding_item__#4",
+      "target": "dict_comprehension.__comp_6__.item#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "dict_comprehension.__comp_6__.__cond_7__#0",
+      "target": "dict_comprehension.__comp_6__.__op_8__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "dict_comprehension.__comp_6__.__cond_7__#0",
+      "target": "dict_comprehension.__comp_6__.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "dict_comprehension.__comp_6__.__cond_7__#0",
+      "target": "dict_comprehension.__comp_6__.item#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "dict_comprehension.__comp_6__.__op_8__#1",
+      "target": "dict_comprehension.__comp_6__.item#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "dict_comprehension.__comp_6__.__return_0__#3",
+      "target": "dict_comprehension.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 2,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 2,
+      "source": "dict_comprehension.__comp_6__.item#2",
+      "target": "dict_comprehension.__comp_6__.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "dict_comprehension.items#0",
+      "target": "dict_comprehension.__comp_6__.__cond_7__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "dict_comprehension.items#0",
+      "target": "dict_comprehension.__comp_6__.__op_8__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "direct_container_literals",
+      "target": "__module__.__binding_direct_container_literals__#6"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "direct_container_literals.__container_17__#4",
+      "target": "direct_container_literals.__return_0__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "direct_container_literals.__container_18__#0",
+      "target": "direct_container_literals.__container_17__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "direct_container_literals.__container_19__#1",
+      "target": "direct_container_literals.__container_17__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "direct_container_literals.__container_20__#2",
+      "target": "direct_container_literals.__container_17__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "direct_container_literals.__container_21__#3",
+      "target": "direct_container_literals.__container_17__#4"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "explicit_list_constructor",
+      "target": "__module__.__binding_explicit_list_constructor__#5"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "explicit_list_constructor.__binding_items__#3",
+      "target": "explicit_list_constructor.items#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "explicit_list_constructor.__call_list_16__#1",
+      "target": "explicit_list_constructor.__return_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "explicit_list_constructor.items#0",
+      "target": "explicit_list_constructor.__call_list_16__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "list_comprehension",
+      "target": "__module__.__binding_list_comprehension__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "list_comprehension.__binding_items__#2",
+      "target": "list_comprehension.items#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "list_comprehension.__comp_0__.__binding_item__#4",
+      "target": "list_comprehension.__comp_0__.item#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "list_comprehension.__comp_0__.__cond_1__#0",
+      "target": "list_comprehension.__comp_0__.__op_2__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "list_comprehension.__comp_0__.__cond_1__#0",
+      "target": "list_comprehension.__comp_0__.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "list_comprehension.__comp_0__.__cond_1__#0",
+      "target": "list_comprehension.__comp_0__.item#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "list_comprehension.__comp_0__.__op_2__#1",
+      "target": "list_comprehension.__comp_0__.item#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "list_comprehension.__comp_0__.__return_0__#3",
+      "target": "list_comprehension.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "list_comprehension.__comp_0__.item#2",
+      "target": "list_comprehension.__comp_0__.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "list_comprehension.items#0",
+      "target": "list_comprehension.__comp_0__.__cond_1__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "list_comprehension.items#0",
+      "target": "list_comprehension.__comp_0__.__op_2__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "set_comprehension",
+      "target": "__module__.__binding_set_comprehension__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "set_comprehension.__binding_items__#2",
+      "target": "set_comprehension.items#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "set_comprehension.__comp_3__.__binding_item__#4",
+      "target": "set_comprehension.__comp_3__.item#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "set_comprehension.__comp_3__.__cond_4__#0",
+      "target": "set_comprehension.__comp_3__.__op_5__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "set_comprehension.__comp_3__.__cond_4__#0",
+      "target": "set_comprehension.__comp_3__.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "set_comprehension.__comp_3__.__cond_4__#0",
+      "target": "set_comprehension.__comp_3__.item#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "set_comprehension.__comp_3__.__op_5__#1",
+      "target": "set_comprehension.__comp_3__.item#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "set_comprehension.__comp_3__.__return_0__#3",
+      "target": "set_comprehension.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "set_comprehension.__comp_3__.item#2",
+      "target": "set_comprehension.__comp_3__.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "set_comprehension.items#0",
+      "target": "set_comprehension.__comp_3__.__cond_4__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "set_comprehension.items#0",
+      "target": "set_comprehension.__comp_3__.__op_5__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "synchronous_generator",
+      "target": "__module__.__binding_synchronous_generator__#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "synchronous_generator.__binding_items__#2",
+      "target": "synchronous_generator.items#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "synchronous_generator.__comp_9__.__binding_item__#4",
+      "target": "synchronous_generator.__comp_9__.item#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "synchronous_generator.__comp_9__.__cond_10__#0",
+      "target": "synchronous_generator.__comp_9__.__op_11__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "synchronous_generator.__comp_9__.__cond_10__#0",
+      "target": "synchronous_generator.__comp_9__.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "synchronous_generator.__comp_9__.__cond_10__#0",
+      "target": "synchronous_generator.__comp_9__.item#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "synchronous_generator.__comp_9__.__op_11__#1",
+      "target": "synchronous_generator.__comp_9__.item#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "synchronous_generator.__comp_9__.__return_0__#3",
+      "target": "synchronous_generator.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "synchronous_generator.__comp_9__.item#2",
+      "target": "synchronous_generator.__comp_9__.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "synchronous_generator.items#0",
+      "target": "synchronous_generator.__comp_9__.__cond_10__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "synchronous_generator.items#0",
+      "target": "synchronous_generator.__comp_9__.__op_11__#1"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "list_comprehension",
+      "id": "__module__.__binding_list_comprehension__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_list_comprehension__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "set_comprehension",
+      "id": "__module__.__binding_set_comprehension__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_set_comprehension__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "dict_comprehension",
+      "id": "__module__.__binding_dict_comprehension__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_dict_comprehension__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "synchronous_generator",
+      "id": "__module__.__binding_synchronous_generator__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_synchronous_generator__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "asynchronous_generator",
+      "id": "__module__.__binding_asynchronous_generator__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_asynchronous_generator__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "explicit_list_constructor",
+      "id": "__module__.__binding_explicit_list_constructor__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_explicit_list_constructor__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "direct_container_literals",
+      "id": "__module__.__binding_direct_container_literals__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_direct_container_literals__",
+      "scope": "__module__"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "items",
+      "id": "list_comprehension.items#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "items",
+      "scope": "list_comprehension"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "list_comprehension.__comp_0__.__return_0__#3"
+      ],
+      "display_name": "return [item for item in items]",
+      "id": "list_comprehension.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "list_comprehension"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "items",
+      "id": "list_comprehension.__binding_items__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_items__",
+      "scope": "list_comprehension"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "list_comprehension.items#0"
+      ],
+      "display_name": "for item in items",
+      "id": "list_comprehension.__comp_0__.__cond_1__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "condition",
+      "name": "__cond_1__",
+      "scope": "list_comprehension.__comp_0__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "list_comprehension.__comp_0__.__cond_1__#0",
+        "list_comprehension.items#0"
+      ],
+      "display_name": "item in items",
+      "id": "list_comprehension.__comp_0__.__op_2__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__op_2__",
+      "operation_type": "extract",
+      "scope": "list_comprehension.__comp_0__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "list_comprehension.__comp_0__.__cond_1__#0",
+        "list_comprehension.__comp_0__.__op_2__#1"
+      ],
+      "display_name": "item",
+      "id": "list_comprehension.__comp_0__.item#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "item",
+      "scope": "list_comprehension.__comp_0__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "list_comprehension.__comp_0__.__cond_1__#0",
+        "list_comprehension.__comp_0__.item#2"
+      ],
+      "display_name": "[item for item in items]",
+      "id": "list_comprehension.__comp_0__.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "comprehension",
+      "name": "__return_0__",
+      "scope": "list_comprehension.__comp_0__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "item",
+      "id": "list_comprehension.__comp_0__.__binding_item__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_item__",
+      "scope": "list_comprehension.__comp_0__"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "items",
+      "id": "set_comprehension.items#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "items",
+      "scope": "set_comprehension"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "set_comprehension.__comp_3__.__return_0__#3"
+      ],
+      "display_name": "return {item for item in items}",
+      "id": "set_comprehension.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "set_comprehension"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "items",
+      "id": "set_comprehension.__binding_items__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_items__",
+      "scope": "set_comprehension"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "set_comprehension.items#0"
+      ],
+      "display_name": "for item in items",
+      "id": "set_comprehension.__comp_3__.__cond_4__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "condition",
+      "name": "__cond_4__",
+      "scope": "set_comprehension.__comp_3__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "set_comprehension.__comp_3__.__cond_4__#0",
+        "set_comprehension.items#0"
+      ],
+      "display_name": "item in items",
+      "id": "set_comprehension.__comp_3__.__op_5__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__op_5__",
+      "operation_type": "extract",
+      "scope": "set_comprehension.__comp_3__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "set_comprehension.__comp_3__.__cond_4__#0",
+        "set_comprehension.__comp_3__.__op_5__#1"
+      ],
+      "display_name": "item",
+      "id": "set_comprehension.__comp_3__.item#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "item",
+      "scope": "set_comprehension.__comp_3__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "set_comprehension.__comp_3__.__cond_4__#0",
+        "set_comprehension.__comp_3__.item#2"
+      ],
+      "display_name": "{item for item in items}",
+      "id": "set_comprehension.__comp_3__.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "comprehension",
+      "name": "__return_0__",
+      "scope": "set_comprehension.__comp_3__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "item",
+      "id": "set_comprehension.__comp_3__.__binding_item__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_item__",
+      "scope": "set_comprehension.__comp_3__"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "items",
+      "id": "dict_comprehension.items#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "items",
+      "scope": "dict_comprehension"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "dict_comprehension.__comp_6__.__return_0__#3"
+      ],
+      "display_name": "return {item: item for item in items}",
+      "id": "dict_comprehension.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "dict_comprehension"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "items",
+      "id": "dict_comprehension.__binding_items__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_items__",
+      "scope": "dict_comprehension"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "dict_comprehension.items#0"
+      ],
+      "display_name": "for item in items",
+      "id": "dict_comprehension.__comp_6__.__cond_7__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "condition",
+      "name": "__cond_7__",
+      "scope": "dict_comprehension.__comp_6__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "dict_comprehension.__comp_6__.__cond_7__#0",
+        "dict_comprehension.items#0"
+      ],
+      "display_name": "item in items",
+      "id": "dict_comprehension.__comp_6__.__op_8__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__op_8__",
+      "operation_type": "extract",
+      "scope": "dict_comprehension.__comp_6__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "dict_comprehension.__comp_6__.__cond_7__#0",
+        "dict_comprehension.__comp_6__.__op_8__#1"
+      ],
+      "display_name": "item",
+      "id": "dict_comprehension.__comp_6__.item#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "item",
+      "scope": "dict_comprehension.__comp_6__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "dict_comprehension.__comp_6__.__cond_7__#0",
+        "dict_comprehension.__comp_6__.item#2"
+      ],
+      "display_name": "{item: item for item in items}",
+      "id": "dict_comprehension.__comp_6__.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "comprehension",
+      "name": "__return_0__",
+      "scope": "dict_comprehension.__comp_6__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "item",
+      "id": "dict_comprehension.__comp_6__.__binding_item__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_item__",
+      "scope": "dict_comprehension.__comp_6__"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "items",
+      "id": "synchronous_generator.items#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "items",
+      "scope": "synchronous_generator"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "synchronous_generator.__comp_9__.__return_0__#3"
+      ],
+      "display_name": "return (item for item in items)",
+      "id": "synchronous_generator.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "synchronous_generator"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "items",
+      "id": "synchronous_generator.__binding_items__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_items__",
+      "scope": "synchronous_generator"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "synchronous_generator.items#0"
+      ],
+      "display_name": "for item in items",
+      "id": "synchronous_generator.__comp_9__.__cond_10__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "condition",
+      "name": "__cond_10__",
+      "scope": "synchronous_generator.__comp_9__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "synchronous_generator.__comp_9__.__cond_10__#0",
+        "synchronous_generator.items#0"
+      ],
+      "display_name": "item in items",
+      "id": "synchronous_generator.__comp_9__.__op_11__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__op_11__",
+      "operation_type": "extract",
+      "scope": "synchronous_generator.__comp_9__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "synchronous_generator.__comp_9__.__cond_10__#0",
+        "synchronous_generator.__comp_9__.__op_11__#1"
+      ],
+      "display_name": "item",
+      "id": "synchronous_generator.__comp_9__.item#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "item",
+      "scope": "synchronous_generator.__comp_9__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "synchronous_generator.__comp_9__.__cond_10__#0",
+        "synchronous_generator.__comp_9__.item#2"
+      ],
+      "display_name": "(item for item in items)",
+      "id": "synchronous_generator.__comp_9__.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "comprehension",
+      "name": "__return_0__",
+      "scope": "synchronous_generator.__comp_9__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "item",
+      "id": "synchronous_generator.__comp_9__.__binding_item__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_item__",
+      "scope": "synchronous_generator.__comp_9__"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "items",
+      "id": "asynchronous_generator.items#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "items",
+      "scope": "asynchronous_generator"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "asynchronous_generator.items#0"
+      ],
+      "display_name": "async iteration",
+      "id": "asynchronous_generator.__async_iter_13__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__async_iter_13__",
+      "operation_type": "transform",
+      "scope": "asynchronous_generator"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "asynchronous_generator.__comp_12__.__return_0__#3"
+      ],
+      "display_name": "return (item async for item in items)",
+      "id": "asynchronous_generator.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "asynchronous_generator"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "items",
+      "id": "asynchronous_generator.__binding_items__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_items__",
+      "scope": "asynchronous_generator"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "asynchronous_generator.__async_iter_13__#1"
+      ],
+      "display_name": "async for item in items",
+      "id": "asynchronous_generator.__comp_12__.__cond_14__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "condition",
+      "name": "__cond_14__",
+      "scope": "asynchronous_generator.__comp_12__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "asynchronous_generator.__async_iter_13__#1",
+        "asynchronous_generator.__comp_12__.__cond_14__#0"
+      ],
+      "display_name": "item in items",
+      "id": "asynchronous_generator.__comp_12__.__op_15__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__op_15__",
+      "operation_type": "extract",
+      "scope": "asynchronous_generator.__comp_12__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "asynchronous_generator.__comp_12__.__cond_14__#0",
+        "asynchronous_generator.__comp_12__.__op_15__#1"
+      ],
+      "display_name": "item",
+      "id": "asynchronous_generator.__comp_12__.item#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "item",
+      "scope": "asynchronous_generator.__comp_12__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "asynchronous_generator.__comp_12__.__cond_14__#0",
+        "asynchronous_generator.__comp_12__.item#2"
+      ],
+      "display_name": "(item async for item in items)",
+      "id": "asynchronous_generator.__comp_12__.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "comprehension",
+      "name": "__return_0__",
+      "scope": "asynchronous_generator.__comp_12__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "item",
+      "id": "asynchronous_generator.__comp_12__.__binding_item__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_item__",
+      "scope": "asynchronous_generator.__comp_12__"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "items",
+      "id": "explicit_list_constructor.items#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "items",
+      "scope": "explicit_list_constructor"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "builtins.list#0",
+        "explicit_list_constructor.items#0"
+      ],
+      "display_name": "list()",
+      "id": "explicit_list_constructor.__call_list_16__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_list_16__",
+      "scope": "explicit_list_constructor"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "explicit_list_constructor.__call_list_16__#1"
+      ],
+      "display_name": "return list(items)",
+      "id": "explicit_list_constructor.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "explicit_list_constructor"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "items",
+      "id": "explicit_list_constructor.__binding_items__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_items__",
+      "scope": "explicit_list_constructor"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "[1]",
+      "id": "direct_container_literals.__container_18__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__container_18__",
+      "operation_type": "container",
+      "scope": "direct_container_literals"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "{1}",
+      "id": "direct_container_literals.__container_19__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__container_19__",
+      "operation_type": "container",
+      "scope": "direct_container_literals"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "{'item': 1}",
+      "id": "direct_container_literals.__container_20__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__container_20__",
+      "operation_type": "container",
+      "scope": "direct_container_literals"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "(1,)",
+      "id": "direct_container_literals.__container_21__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__container_21__",
+      "operation_type": "container",
+      "scope": "direct_container_literals"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "direct_container_literals.__container_18__#0",
+        "direct_container_literals.__container_19__#1",
+        "direct_container_literals.__container_20__#2",
+        "direct_container_literals.__container_21__#3"
+      ],
+      "display_name": "([1], {1}, {'item': 1}, (1,))",
+      "id": "direct_container_literals.__container_17__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__container_17__",
+      "operation_type": "container",
+      "scope": "direct_container_literals"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "direct_container_literals.__container_17__#4"
+      ],
+      "display_name": "return ([1], {1}, {'item': 1}, (1,))",
+      "id": "direct_container_literals.__return_0__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "direct_container_literals"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "list",
+      "id": "builtins.list#0",
+      "is_builtin": true,
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "list",
+      "scope": "builtins"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "list",
+      "id": "builtins.__binding_list__#1",
+      "is_builtin": true,
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_list__",
+      "scope": "builtins"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "__module__",
+        "builtins"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [],
+      "parent": null
+    },
+    {
+      "children": [
+        "list_comprehension",
+        "set_comprehension",
+        "dict_comprehension",
+        "synchronous_generator",
+        "asynchronous_generator",
+        "explicit_list_constructor",
+        "direct_container_literals"
+      ],
+      "id": "__module__",
+      "kind": "module",
+      "name": "__module__",
+      "nodes": [
+        "__module__.__binding_list_comprehension__#0",
+        "__module__.__binding_set_comprehension__#1",
+        "__module__.__binding_dict_comprehension__#2",
+        "__module__.__binding_synchronous_generator__#3",
+        "__module__.__binding_asynchronous_generator__#4",
+        "__module__.__binding_explicit_list_constructor__#5",
+        "__module__.__binding_direct_container_literals__#6"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "list_comprehension.__comp_0__"
+      ],
+      "id": "list_comprehension",
+      "kind": "function",
+      "name": "list_comprehension",
+      "nodes": [
+        "list_comprehension.items#0",
+        "list_comprehension.__return_0__#1",
+        "list_comprehension.__binding_items__#2"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "list_comprehension.__comp_0__",
+      "kind": "comprehension",
+      "name": "__comp_0__",
+      "nodes": [
+        "list_comprehension.__comp_0__.__cond_1__#0",
+        "list_comprehension.__comp_0__.__op_2__#1",
+        "list_comprehension.__comp_0__.item#2",
+        "list_comprehension.__comp_0__.__return_0__#3",
+        "list_comprehension.__comp_0__.__binding_item__#4"
+      ],
+      "parent": "list_comprehension"
+    },
+    {
+      "children": [
+        "set_comprehension.__comp_3__"
+      ],
+      "id": "set_comprehension",
+      "kind": "function",
+      "name": "set_comprehension",
+      "nodes": [
+        "set_comprehension.items#0",
+        "set_comprehension.__return_0__#1",
+        "set_comprehension.__binding_items__#2"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "set_comprehension.__comp_3__",
+      "kind": "comprehension",
+      "name": "__comp_3__",
+      "nodes": [
+        "set_comprehension.__comp_3__.__cond_4__#0",
+        "set_comprehension.__comp_3__.__op_5__#1",
+        "set_comprehension.__comp_3__.item#2",
+        "set_comprehension.__comp_3__.__return_0__#3",
+        "set_comprehension.__comp_3__.__binding_item__#4"
+      ],
+      "parent": "set_comprehension"
+    },
+    {
+      "children": [
+        "dict_comprehension.__comp_6__"
+      ],
+      "id": "dict_comprehension",
+      "kind": "function",
+      "name": "dict_comprehension",
+      "nodes": [
+        "dict_comprehension.items#0",
+        "dict_comprehension.__return_0__#1",
+        "dict_comprehension.__binding_items__#2"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "dict_comprehension.__comp_6__",
+      "kind": "comprehension",
+      "name": "__comp_6__",
+      "nodes": [
+        "dict_comprehension.__comp_6__.__cond_7__#0",
+        "dict_comprehension.__comp_6__.__op_8__#1",
+        "dict_comprehension.__comp_6__.item#2",
+        "dict_comprehension.__comp_6__.__return_0__#3",
+        "dict_comprehension.__comp_6__.__binding_item__#4"
+      ],
+      "parent": "dict_comprehension"
+    },
+    {
+      "children": [
+        "synchronous_generator.__comp_9__"
+      ],
+      "id": "synchronous_generator",
+      "kind": "function",
+      "name": "synchronous_generator",
+      "nodes": [
+        "synchronous_generator.items#0",
+        "synchronous_generator.__return_0__#1",
+        "synchronous_generator.__binding_items__#2"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "synchronous_generator.__comp_9__",
+      "kind": "comprehension",
+      "name": "__comp_9__",
+      "nodes": [
+        "synchronous_generator.__comp_9__.__cond_10__#0",
+        "synchronous_generator.__comp_9__.__op_11__#1",
+        "synchronous_generator.__comp_9__.item#2",
+        "synchronous_generator.__comp_9__.__return_0__#3",
+        "synchronous_generator.__comp_9__.__binding_item__#4"
+      ],
+      "parent": "synchronous_generator"
+    },
+    {
+      "children": [
+        "asynchronous_generator.__comp_12__"
+      ],
+      "id": "asynchronous_generator",
+      "kind": "function",
+      "name": "asynchronous_generator",
+      "nodes": [
+        "asynchronous_generator.items#0",
+        "asynchronous_generator.__async_iter_13__#1",
+        "asynchronous_generator.__return_0__#2",
+        "asynchronous_generator.__binding_items__#3"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "asynchronous_generator.__comp_12__",
+      "kind": "comprehension",
+      "name": "__comp_12__",
+      "nodes": [
+        "asynchronous_generator.__comp_12__.__cond_14__#0",
+        "asynchronous_generator.__comp_12__.__op_15__#1",
+        "asynchronous_generator.__comp_12__.item#2",
+        "asynchronous_generator.__comp_12__.__return_0__#3",
+        "asynchronous_generator.__comp_12__.__binding_item__#4"
+      ],
+      "parent": "asynchronous_generator"
+    },
+    {
+      "children": [],
+      "id": "explicit_list_constructor",
+      "kind": "function",
+      "name": "explicit_list_constructor",
+      "nodes": [
+        "explicit_list_constructor.items#0",
+        "explicit_list_constructor.__call_list_16__#1",
+        "explicit_list_constructor.__return_0__#2",
+        "explicit_list_constructor.__binding_items__#3"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "direct_container_literals",
+      "kind": "function",
+      "name": "direct_container_literals",
+      "nodes": [
+        "direct_container_literals.__container_18__#0",
+        "direct_container_literals.__container_19__#1",
+        "direct_container_literals.__container_20__#2",
+        "direct_container_literals.__container_21__#3",
+        "direct_container_literals.__container_17__#4",
+        "direct_container_literals.__return_0__#5"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "builtins",
+      "kind": "builtins",
+      "name": "builtins",
+      "nodes": [
+        "builtins.list#0",
+        "builtins.__binding_list__#1"
+      ],
+      "parent": "__root__"
+    }
+  ],
+  "version": "0.1.0"
+}

@@ -1,0 +1,1310 @@
+{
+  "edges": [
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Known",
+      "target": "__module__.__binding_Known__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Known.run",
+      "target": "Known.__binding_run__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Known.run.__binding_self__#3",
+      "target": "Known.run.self#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Known.run.__return_0__#1",
+      "target": "mixed_unpacked_tuple.__call_values[0].run_5__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "Known.run.__return_0__#1",
+      "target": "ordinary_tuple.__call_values[0].run_14__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "Known.run.payload#2",
+      "target": "Known.run.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "mixed_unpacked_tuple",
+      "target": "__module__.__binding_mixed_unpacked_tuple__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "mixed_unpacked_tuple.__binding_Ts__#6",
+      "target": "mixed_unpacked_tuple.Ts#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "mixed_unpacked_tuple.__binding_values__#7",
+      "target": "mixed_unpacked_tuple.values#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "mixed_unpacked_tuple.__call_values[0].run_5__#4",
+      "target": "mixed_unpacked_tuple.__return_0__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "mixed_unpacked_tuple.__ref_3__#2",
+      "target": "mixed_unpacked_tuple.__ref_4__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "mixed_unpacked_tuple.__ref_4__#3",
+      "target": "mixed_unpacked_tuple.__call_values[0].run_5__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "mixed_unpacked_tuple.values#1",
+      "target": "mixed_unpacked_tuple.__ref_3__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "ordinary_tuple",
+      "target": "__module__.__binding_ordinary_tuple__#5"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "ordinary_tuple.__binding_values__#5",
+      "target": "ordinary_tuple.values#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "ordinary_tuple.__call_values[0].run_14__#3",
+      "target": "ordinary_tuple.__return_0__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "ordinary_tuple.__ref_12__#1",
+      "target": "ordinary_tuple.__ref_13__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "ordinary_tuple.__ref_13__#2",
+      "target": "ordinary_tuple.__call_values[0].run_14__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "ordinary_tuple.values#0",
+      "target": "ordinary_tuple.__ref_12__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "sliced_annotation",
+      "target": "__module__.__binding_sliced_annotation__#4"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "sliced_annotation.__binding_values__#5",
+      "target": "sliced_annotation.values#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "sliced_annotation.__call_values[0].run_11__#3",
+      "target": "sliced_annotation.__return_0__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "sliced_annotation.__ref_10__#2",
+      "target": "sliced_annotation.__call_values[0].run_11__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "sliced_annotation.__ref_9__#1",
+      "target": "sliced_annotation.__ref_10__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "sliced_annotation.values#0",
+      "target": "sliced_annotation.__ref_9__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unpacked_list",
+      "target": "__module__.__binding_unpacked_list__#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unpacked_list.__binding_Ts__#6",
+      "target": "unpacked_list.Ts#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unpacked_list.__binding_values__#7",
+      "target": "unpacked_list.values#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unpacked_list.__call_values[0].run_8__#4",
+      "target": "unpacked_list.__return_0__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unpacked_list.__ref_6__#2",
+      "target": "unpacked_list.__ref_7__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unpacked_list.__ref_7__#3",
+      "target": "unpacked_list.__call_values[0].run_8__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "unpacked_list.values#1",
+      "target": "unpacked_list.__ref_6__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unpacked_tuple",
+      "target": "__module__.__binding_unpacked_tuple__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unpacked_tuple.__binding_Ts__#6",
+      "target": "unpacked_tuple.Ts#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unpacked_tuple.__binding_values__#7",
+      "target": "unpacked_tuple.values#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unpacked_tuple.__call_values[0].run_2__#4",
+      "target": "unpacked_tuple.__return_0__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unpacked_tuple.__ref_0__#2",
+      "target": "unpacked_tuple.__ref_1__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unpacked_tuple.__ref_1__#3",
+      "target": "unpacked_tuple.__call_values[0].run_2__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "unpacked_tuple.values#1",
+      "target": "unpacked_tuple.__ref_0__#2"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Known",
+      "id": "__module__.__binding_Known__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Known__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "unpacked_tuple",
+      "id": "__module__.__binding_unpacked_tuple__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_unpacked_tuple__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "mixed_unpacked_tuple",
+      "id": "__module__.__binding_mixed_unpacked_tuple__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_mixed_unpacked_tuple__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "unpacked_list",
+      "id": "__module__.__binding_unpacked_list__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_unpacked_list__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "sliced_annotation",
+      "id": "__module__.__binding_sliced_annotation__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_sliced_annotation__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "ordinary_tuple",
+      "id": "__module__.__binding_ordinary_tuple__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_ordinary_tuple__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "run",
+      "id": "Known.__binding_run__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_run__",
+      "scope": "Known"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "self",
+      "id": "Known.run.self#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "self",
+      "scope": "Known.run"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "Known.run.payload#2"
+      ],
+      "display_name": "return payload",
+      "id": "Known.run.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "Known.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "payload",
+      "id": "Known.run.payload#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "payload",
+      "scope": "Known.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "self",
+      "id": "Known.run.__binding_self__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_self__",
+      "scope": "Known.run"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "Ts",
+      "id": "unpacked_tuple.Ts#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Ts",
+      "scope": "unpacked_tuple"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "values",
+      "id": "unpacked_tuple.values#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "values",
+      "scope": "unpacked_tuple"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "unpacked_tuple.values#1"
+      ],
+      "display_name": "values[0]",
+      "id": "unpacked_tuple.__ref_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "subscript",
+      "name": "__ref_0__",
+      "scope": "unpacked_tuple"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "unpacked_tuple.__ref_0__#2"
+      ],
+      "display_name": "values[0].run",
+      "id": "unpacked_tuple.__ref_1__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_1__",
+      "scope": "unpacked_tuple"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "unpacked_tuple.__ref_1__#3"
+      ],
+      "display_name": "values[0].run()",
+      "id": "unpacked_tuple.__call_values[0].run_2__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_values[0].run_2__",
+      "scope": "unpacked_tuple"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "unpacked_tuple.__call_values[0].run_2__#4"
+      ],
+      "display_name": "return values[0].run()",
+      "id": "unpacked_tuple.__return_0__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "unpacked_tuple"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Ts",
+      "id": "unpacked_tuple.__binding_Ts__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Ts__",
+      "scope": "unpacked_tuple"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "values",
+      "id": "unpacked_tuple.__binding_values__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_values__",
+      "scope": "unpacked_tuple"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "Ts",
+      "id": "mixed_unpacked_tuple.Ts#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Ts",
+      "scope": "mixed_unpacked_tuple"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "values",
+      "id": "mixed_unpacked_tuple.values#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "values",
+      "scope": "mixed_unpacked_tuple"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "mixed_unpacked_tuple.values#1"
+      ],
+      "display_name": "values[0]",
+      "id": "mixed_unpacked_tuple.__ref_3__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "subscript",
+      "name": "__ref_3__",
+      "scope": "mixed_unpacked_tuple"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "mixed_unpacked_tuple.__ref_3__#2"
+      ],
+      "display_name": "values[0].run",
+      "id": "mixed_unpacked_tuple.__ref_4__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_4__",
+      "scope": "mixed_unpacked_tuple"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "Known.run.__return_0__#1",
+        "mixed_unpacked_tuple.__ref_4__#3"
+      ],
+      "display_name": "values[0].run()",
+      "id": "mixed_unpacked_tuple.__call_values[0].run_5__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_values[0].run_5__",
+      "scope": "mixed_unpacked_tuple"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "mixed_unpacked_tuple.__call_values[0].run_5__#4"
+      ],
+      "display_name": "return values[0].run()",
+      "id": "mixed_unpacked_tuple.__return_0__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "mixed_unpacked_tuple"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Ts",
+      "id": "mixed_unpacked_tuple.__binding_Ts__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Ts__",
+      "scope": "mixed_unpacked_tuple"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "values",
+      "id": "mixed_unpacked_tuple.__binding_values__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_values__",
+      "scope": "mixed_unpacked_tuple"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "Ts",
+      "id": "unpacked_list.Ts#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Ts",
+      "scope": "unpacked_list"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "values",
+      "id": "unpacked_list.values#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "values",
+      "scope": "unpacked_list"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "unpacked_list.values#1"
+      ],
+      "display_name": "values[0]",
+      "id": "unpacked_list.__ref_6__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "subscript",
+      "name": "__ref_6__",
+      "scope": "unpacked_list"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "unpacked_list.__ref_6__#2"
+      ],
+      "display_name": "values[0].run",
+      "id": "unpacked_list.__ref_7__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_7__",
+      "scope": "unpacked_list"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "unpacked_list.__ref_7__#3"
+      ],
+      "display_name": "values[0].run()",
+      "id": "unpacked_list.__call_values[0].run_8__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_values[0].run_8__",
+      "scope": "unpacked_list"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "unpacked_list.__call_values[0].run_8__#4"
+      ],
+      "display_name": "return values[0].run()",
+      "id": "unpacked_list.__return_0__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "unpacked_list"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Ts",
+      "id": "unpacked_list.__binding_Ts__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Ts__",
+      "scope": "unpacked_list"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "values",
+      "id": "unpacked_list.__binding_values__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_values__",
+      "scope": "unpacked_list"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "values",
+      "id": "sliced_annotation.values#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "values",
+      "scope": "sliced_annotation"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "sliced_annotation.values#0"
+      ],
+      "display_name": "values[0]",
+      "id": "sliced_annotation.__ref_9__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "subscript",
+      "name": "__ref_9__",
+      "scope": "sliced_annotation"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "sliced_annotation.__ref_9__#1"
+      ],
+      "display_name": "values[0].run",
+      "id": "sliced_annotation.__ref_10__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_10__",
+      "scope": "sliced_annotation"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "sliced_annotation.__ref_10__#2"
+      ],
+      "display_name": "values[0].run()",
+      "id": "sliced_annotation.__call_values[0].run_11__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_values[0].run_11__",
+      "scope": "sliced_annotation"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "sliced_annotation.__call_values[0].run_11__#3"
+      ],
+      "display_name": "return values[0].run()",
+      "id": "sliced_annotation.__return_0__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "sliced_annotation"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "values",
+      "id": "sliced_annotation.__binding_values__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_values__",
+      "scope": "sliced_annotation"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "values",
+      "id": "ordinary_tuple.values#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "values",
+      "scope": "ordinary_tuple"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "ordinary_tuple.values#0"
+      ],
+      "display_name": "values[0]",
+      "id": "ordinary_tuple.__ref_12__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "subscript",
+      "name": "__ref_12__",
+      "scope": "ordinary_tuple"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "ordinary_tuple.__ref_12__#1"
+      ],
+      "display_name": "values[0].run",
+      "id": "ordinary_tuple.__ref_13__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_13__",
+      "scope": "ordinary_tuple"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "Known.run.__return_0__#1",
+        "ordinary_tuple.__ref_13__#2"
+      ],
+      "display_name": "values[0].run()",
+      "id": "ordinary_tuple.__call_values[0].run_14__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_values[0].run_14__",
+      "scope": "ordinary_tuple"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "ordinary_tuple.__call_values[0].run_14__#3"
+      ],
+      "display_name": "return values[0].run()",
+      "id": "ordinary_tuple.__return_0__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "ordinary_tuple"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "values",
+      "id": "ordinary_tuple.__binding_values__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_values__",
+      "scope": "ordinary_tuple"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "__module__"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [],
+      "parent": null
+    },
+    {
+      "children": [
+        "Known",
+        "unpacked_tuple",
+        "mixed_unpacked_tuple",
+        "unpacked_list",
+        "sliced_annotation",
+        "ordinary_tuple"
+      ],
+      "id": "__module__",
+      "kind": "module",
+      "name": "__module__",
+      "nodes": [
+        "__module__.__binding_Known__#0",
+        "__module__.__binding_unpacked_tuple__#1",
+        "__module__.__binding_mixed_unpacked_tuple__#2",
+        "__module__.__binding_unpacked_list__#3",
+        "__module__.__binding_sliced_annotation__#4",
+        "__module__.__binding_ordinary_tuple__#5"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "Known.run"
+      ],
+      "id": "Known",
+      "kind": "class",
+      "name": "Known",
+      "nodes": [
+        "Known.__binding_run__#0"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "Known.run",
+      "kind": "function",
+      "name": "run",
+      "nodes": [
+        "Known.run.self#0",
+        "Known.run.__return_0__#1",
+        "Known.run.payload#2",
+        "Known.run.__binding_self__#3"
+      ],
+      "parent": "Known"
+    },
+    {
+      "children": [],
+      "id": "unpacked_tuple",
+      "kind": "function",
+      "name": "unpacked_tuple",
+      "nodes": [
+        "unpacked_tuple.Ts#0",
+        "unpacked_tuple.values#1",
+        "unpacked_tuple.__ref_0__#2",
+        "unpacked_tuple.__ref_1__#3",
+        "unpacked_tuple.__call_values[0].run_2__#4",
+        "unpacked_tuple.__return_0__#5",
+        "unpacked_tuple.__binding_Ts__#6",
+        "unpacked_tuple.__binding_values__#7"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "mixed_unpacked_tuple",
+      "kind": "function",
+      "name": "mixed_unpacked_tuple",
+      "nodes": [
+        "mixed_unpacked_tuple.Ts#0",
+        "mixed_unpacked_tuple.values#1",
+        "mixed_unpacked_tuple.__ref_3__#2",
+        "mixed_unpacked_tuple.__ref_4__#3",
+        "mixed_unpacked_tuple.__call_values[0].run_5__#4",
+        "mixed_unpacked_tuple.__return_0__#5",
+        "mixed_unpacked_tuple.__binding_Ts__#6",
+        "mixed_unpacked_tuple.__binding_values__#7"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "unpacked_list",
+      "kind": "function",
+      "name": "unpacked_list",
+      "nodes": [
+        "unpacked_list.Ts#0",
+        "unpacked_list.values#1",
+        "unpacked_list.__ref_6__#2",
+        "unpacked_list.__ref_7__#3",
+        "unpacked_list.__call_values[0].run_8__#4",
+        "unpacked_list.__return_0__#5",
+        "unpacked_list.__binding_Ts__#6",
+        "unpacked_list.__binding_values__#7"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "sliced_annotation",
+      "kind": "function",
+      "name": "sliced_annotation",
+      "nodes": [
+        "sliced_annotation.values#0",
+        "sliced_annotation.__ref_9__#1",
+        "sliced_annotation.__ref_10__#2",
+        "sliced_annotation.__call_values[0].run_11__#3",
+        "sliced_annotation.__return_0__#4",
+        "sliced_annotation.__binding_values__#5"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "ordinary_tuple",
+      "kind": "function",
+      "name": "ordinary_tuple",
+      "nodes": [
+        "ordinary_tuple.values#0",
+        "ordinary_tuple.__ref_12__#1",
+        "ordinary_tuple.__ref_13__#2",
+        "ordinary_tuple.__call_values[0].run_14__#3",
+        "ordinary_tuple.__return_0__#4",
+        "ordinary_tuple.__binding_values__#5"
+      ],
+      "parent": "__module__"
+    }
+  ],
+  "version": "0.1.0"
+}

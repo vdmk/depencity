@@ -1,0 +1,2888 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.annotation_export_metadata.annotations.Public#3",
+      "target": "annotation_export_metadata.entry.Public#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.annotation_export_metadata.control.Public#4",
+      "target": "annotation_export_metadata.entry.Public#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.annotation_export_metadata.types.Worker#1",
+      "target": "annotation_export_metadata.control.Worker#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.annotation_export_metadata.types.Worker.run#5",
+      "target": "annotation_export_metadata.entry.resolved_metadata.__call_value.run_3__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.external.Public#0",
+      "target": "annotation_export_metadata.annotations.Public#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.external.Public#0",
+      "target": "annotation_export_metadata.control.Public#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.external.Public#0",
+      "target": "annotation_export_metadata.return_only.Public#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.typing.TYPE_CHECKING#2",
+      "target": "annotation_export_metadata.cycle_a.TYPE_CHECKING#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.typing.TYPE_CHECKING#2",
+      "target": "annotation_export_metadata.cycle_b.TYPE_CHECKING#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.typing.TYPE_CHECKING#2",
+      "target": "annotation_export_metadata.entry.TYPE_CHECKING#4"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.annotations.Container",
+      "target": "annotation_export_metadata.annotations.__binding_Container__#9"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.annotations.Container.__binding_field__#1",
+      "target": "annotation_export_metadata.annotations.Container.field#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.annotations.Public#0",
+      "target": "__root__.annotation_export_metadata.annotations.Public#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.annotations.__binding_Public__#4",
+      "target": "annotation_export_metadata.annotations.Public#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.annotations.__binding___all____#5",
+      "target": "annotation_export_metadata.annotations.__all__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.annotations.__binding_field__#6",
+      "target": "annotation_export_metadata.annotations.field#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.annotations.__container_0__#1",
+      "target": "annotation_export_metadata.annotations.__all__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.annotations.async_helper",
+      "target": "annotation_export_metadata.annotations.__binding_async_helper__#8"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.annotations.async_helper.__binding_local__#4",
+      "target": "annotation_export_metadata.annotations.async_helper.local#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.annotations.async_helper.__binding_value__#3",
+      "target": "annotation_export_metadata.annotations.async_helper.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_export_metadata.annotations.async_helper.local#1",
+      "target": "annotation_export_metadata.annotations.async_helper.__return_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_export_metadata.annotations.async_helper.value#0",
+      "target": "annotation_export_metadata.annotations.async_helper.local#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.annotations.helper",
+      "target": "annotation_export_metadata.annotations.__binding_helper__#7"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.annotations.helper.__binding_value__#2",
+      "target": "annotation_export_metadata.annotations.helper.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_export_metadata.annotations.helper.value#0",
+      "target": "annotation_export_metadata.annotations.helper.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.control.Public#0",
+      "target": "__root__.annotation_export_metadata.control.Public#4"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.control.__binding_Public__#4",
+      "target": "annotation_export_metadata.control.Public#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.control.__binding_Worker__#5",
+      "target": "annotation_export_metadata.control.Worker#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.control.__binding___all____#6",
+      "target": "annotation_export_metadata.control.__all__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.control.__container_0__#2",
+      "target": "annotation_export_metadata.control.__all__#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.control.annotated_export",
+      "target": "annotation_export_metadata.control.__binding_annotated_export__#8"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.control.annotated_export.__binding_value__#2",
+      "target": "annotation_export_metadata.control.annotated_export.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_export_metadata.control.annotated_export.value#0",
+      "target": "annotation_export_metadata.control.annotated_export.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.control.helper",
+      "target": "annotation_export_metadata.control.__binding_helper__#7"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_export_metadata.cycle_a.TYPE_CHECKING#0",
+      "target": "annotation_export_metadata.cycle_a.__cond_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.cycle_a.__binding_TYPE_CHECKING__#2",
+      "target": "annotation_export_metadata.cycle_a.TYPE_CHECKING#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.cycle_a.identity",
+      "target": "annotation_export_metadata.cycle_a.__binding_identity__#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.cycle_a.identity.__binding_value__#2",
+      "target": "annotation_export_metadata.cycle_a.identity.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_export_metadata.cycle_a.identity.value#0",
+      "target": "annotation_export_metadata.cycle_a.identity.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_export_metadata.cycle_b.TYPE_CHECKING#0",
+      "target": "annotation_export_metadata.cycle_b.__cond_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.cycle_b.__binding_TYPE_CHECKING__#2",
+      "target": "annotation_export_metadata.cycle_b.TYPE_CHECKING#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.cycle_b.identity",
+      "target": "annotation_export_metadata.cycle_b.__binding_identity__#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.cycle_b.identity.__binding_value__#2",
+      "target": "annotation_export_metadata.cycle_b.identity.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_export_metadata.cycle_b.identity.value#0",
+      "target": "annotation_export_metadata.cycle_b.identity.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_export_metadata.entry.Public#0",
+      "target": "annotation_export_metadata.entry.from_annotations#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_export_metadata.entry.Public#2",
+      "target": "annotation_export_metadata.entry.from_control#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_export_metadata.entry.TYPE_CHECKING#4",
+      "target": "annotation_export_metadata.entry.__cond_1__#5"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.entry.__binding_Public__#6",
+      "target": "annotation_export_metadata.entry.Public#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.entry.__binding_Public__#6",
+      "target": "annotation_export_metadata.entry.Public#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.entry.__binding_TYPE_CHECKING__#9",
+      "target": "annotation_export_metadata.entry.TYPE_CHECKING#4"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.entry.__binding_from_annotations__#7",
+      "target": "annotation_export_metadata.entry.from_annotations#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.entry.__binding_from_control__#8",
+      "target": "annotation_export_metadata.entry.from_control#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.entry.cyclic_metadata",
+      "target": "annotation_export_metadata.entry.__binding_cyclic_metadata__#12"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.entry.cyclic_metadata.__binding_value__#2",
+      "target": "annotation_export_metadata.entry.cyclic_metadata.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_export_metadata.entry.cyclic_metadata.value#0",
+      "target": "annotation_export_metadata.entry.cyclic_metadata.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_export_metadata.entry.from_annotations#1",
+      "target": "annotation_export_metadata.entry.main.__container_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_export_metadata.entry.from_control#3",
+      "target": "annotation_export_metadata.entry.main.__container_0__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.entry.main",
+      "target": "annotation_export_metadata.entry.__binding_main__#10"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.entry.main.__container_0__#0",
+      "target": "annotation_export_metadata.entry.main.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.entry.metadata_only",
+      "target": "annotation_export_metadata.entry.__binding_metadata_only__#11"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.entry.metadata_only.__binding_value__#2",
+      "target": "annotation_export_metadata.entry.metadata_only.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_export_metadata.entry.metadata_only.value#0",
+      "target": "annotation_export_metadata.entry.metadata_only.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.entry.resolved_metadata",
+      "target": "annotation_export_metadata.entry.__binding_resolved_metadata__#13"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.entry.resolved_metadata.__binding_value__#4",
+      "target": "annotation_export_metadata.entry.resolved_metadata.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.entry.resolved_metadata.__call_value.run_3__#2",
+      "target": "annotation_export_metadata.entry.resolved_metadata.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.entry.resolved_metadata.__ref_2__#1",
+      "target": "annotation_export_metadata.entry.resolved_metadata.__call_value.run_3__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_export_metadata.entry.resolved_metadata.value#0",
+      "target": "annotation_export_metadata.entry.resolved_metadata.__ref_2__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.provider.identity",
+      "target": "annotation_export_metadata.provider.__binding_identity__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.provider.identity.__binding_value__#2",
+      "target": "annotation_export_metadata.provider.identity.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_export_metadata.provider.identity.value#0",
+      "target": "annotation_export_metadata.provider.identity.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.return_only.__binding_Public__#3",
+      "target": "annotation_export_metadata.return_only.Public#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.return_only.__binding___all____#4",
+      "target": "annotation_export_metadata.return_only.__all__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.return_only.__container_0__#1",
+      "target": "annotation_export_metadata.return_only.__all__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.return_only.helper",
+      "target": "annotation_export_metadata.return_only.__binding_helper__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_export_metadata.runtime.__all__#1",
+      "target": "annotation_export_metadata.runtime.__call_configure_1__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.runtime.__binding___all____#4",
+      "target": "annotation_export_metadata.runtime.__all__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.runtime.__container_0__#0",
+      "target": "annotation_export_metadata.runtime.__all__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_export_metadata.runtime.configure#3",
+      "target": "annotation_export_metadata.runtime.__call_configure_1__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.types.Worker",
+      "target": "__root__.annotation_export_metadata.types.Worker#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.types.Worker",
+      "target": "annotation_export_metadata.types.__binding_Worker__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.types.Worker.run",
+      "target": "__root__.annotation_export_metadata.types.Worker.run#5"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.types.Worker.run",
+      "target": "annotation_export_metadata.types.Worker.__binding_run__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.types.Worker.run.__binding_self__#3",
+      "target": "annotation_export_metadata.types.Worker.run.self#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "annotation_export_metadata.types.Worker.run.__return_0__#1",
+      "target": "annotation_export_metadata.entry.resolved_metadata.__call_value.run_3__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "annotation_export_metadata.types.Worker.run.payload#2",
+      "target": "annotation_export_metadata.types.Worker.run.__return_0__#1"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "external.Public",
+      "id": "__root__.external.Public#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "external.Public",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_export_metadata.types.Worker"
+      ],
+      "display_name": "annotation_export_metadata.types.Worker",
+      "id": "__root__.annotation_export_metadata.types.Worker#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "annotation_export_metadata.types.Worker",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "typing.TYPE_CHECKING",
+      "id": "__root__.typing.TYPE_CHECKING#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "typing.TYPE_CHECKING",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_export_metadata.annotations.Public#0"
+      ],
+      "display_name": "annotation_export_metadata.annotations.Public",
+      "id": "__root__.annotation_export_metadata.annotations.Public#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "annotation_export_metadata.annotations.Public",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_export_metadata.control.Public#0"
+      ],
+      "display_name": "annotation_export_metadata.control.Public",
+      "id": "__root__.annotation_export_metadata.control.Public#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "annotation_export_metadata.control.Public",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_export_metadata.types.Worker.run"
+      ],
+      "display_name": "annotation_export_metadata.types.Worker.run",
+      "id": "__root__.annotation_export_metadata.types.Worker.run#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "annotation_export_metadata.types.Worker.run",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.external.Public#0"
+      ],
+      "display_name": "Public",
+      "id": "annotation_export_metadata.annotations.Public#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Public",
+      "scope": "annotation_export_metadata.annotations"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "['Public']",
+      "id": "annotation_export_metadata.annotations.__container_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__container_0__",
+      "operation_type": "container",
+      "scope": "annotation_export_metadata.annotations"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "annotation_export_metadata.annotations.__container_0__#1"
+      ],
+      "display_name": "__all__",
+      "id": "annotation_export_metadata.annotations.__all__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "__all__",
+      "scope": "annotation_export_metadata.annotations"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "field",
+      "id": "annotation_export_metadata.annotations.field#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "field",
+      "scope": "annotation_export_metadata.annotations"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Public",
+      "id": "annotation_export_metadata.annotations.__binding_Public__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Public__",
+      "scope": "annotation_export_metadata.annotations"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "__all__",
+      "id": "annotation_export_metadata.annotations.__binding___all____#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding___all____",
+      "scope": "annotation_export_metadata.annotations"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "field",
+      "id": "annotation_export_metadata.annotations.__binding_field__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_field__",
+      "scope": "annotation_export_metadata.annotations"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "helper",
+      "id": "annotation_export_metadata.annotations.__binding_helper__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_helper__",
+      "scope": "annotation_export_metadata.annotations"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "async_helper",
+      "id": "annotation_export_metadata.annotations.__binding_async_helper__#8",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_async_helper__",
+      "scope": "annotation_export_metadata.annotations"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Container",
+      "id": "annotation_export_metadata.annotations.__binding_Container__#9",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Container__",
+      "scope": "annotation_export_metadata.annotations"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "annotation_export_metadata.annotations.helper.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "annotation_export_metadata.annotations.helper"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_export_metadata.annotations.helper.value#0"
+      ],
+      "display_name": "return value",
+      "id": "annotation_export_metadata.annotations.helper.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "annotation_export_metadata.annotations.helper"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "annotation_export_metadata.annotations.helper.__binding_value__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "annotation_export_metadata.annotations.helper"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "annotation_export_metadata.annotations.async_helper.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "annotation_export_metadata.annotations.async_helper"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "annotation_export_metadata.annotations.async_helper.value#0"
+      ],
+      "display_name": "local",
+      "id": "annotation_export_metadata.annotations.async_helper.local#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "local",
+      "scope": "annotation_export_metadata.annotations.async_helper"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_export_metadata.annotations.async_helper.local#1"
+      ],
+      "display_name": "return local",
+      "id": "annotation_export_metadata.annotations.async_helper.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "annotation_export_metadata.annotations.async_helper"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "annotation_export_metadata.annotations.async_helper.__binding_value__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "annotation_export_metadata.annotations.async_helper"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "local",
+      "id": "annotation_export_metadata.annotations.async_helper.__binding_local__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_local__",
+      "scope": "annotation_export_metadata.annotations.async_helper"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "field",
+      "id": "annotation_export_metadata.annotations.Container.field#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "field",
+      "scope": "annotation_export_metadata.annotations.Container"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "field",
+      "id": "annotation_export_metadata.annotations.Container.__binding_field__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_field__",
+      "scope": "annotation_export_metadata.annotations.Container"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.external.Public#0"
+      ],
+      "display_name": "Public",
+      "id": "annotation_export_metadata.control.Public#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Public",
+      "scope": "annotation_export_metadata.control"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.annotation_export_metadata.types.Worker#1"
+      ],
+      "display_name": "Worker",
+      "id": "annotation_export_metadata.control.Worker#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Worker",
+      "scope": "annotation_export_metadata.control"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "['Public', 'Worker']",
+      "id": "annotation_export_metadata.control.__container_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__container_0__",
+      "operation_type": "container",
+      "scope": "annotation_export_metadata.control"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "annotation_export_metadata.control.__container_0__#2"
+      ],
+      "display_name": "__all__",
+      "id": "annotation_export_metadata.control.__all__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "__all__",
+      "scope": "annotation_export_metadata.control"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Public",
+      "id": "annotation_export_metadata.control.__binding_Public__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Public__",
+      "scope": "annotation_export_metadata.control"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Worker",
+      "id": "annotation_export_metadata.control.__binding_Worker__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Worker__",
+      "scope": "annotation_export_metadata.control"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "__all__",
+      "id": "annotation_export_metadata.control.__binding___all____#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding___all____",
+      "scope": "annotation_export_metadata.control"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "helper",
+      "id": "annotation_export_metadata.control.__binding_helper__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_helper__",
+      "scope": "annotation_export_metadata.control"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "annotated_export",
+      "id": "annotation_export_metadata.control.__binding_annotated_export__#8",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_annotated_export__",
+      "scope": "annotation_export_metadata.control"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return None",
+      "id": "annotation_export_metadata.control.helper.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "annotation_export_metadata.control.helper"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "annotation_export_metadata.control.annotated_export.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "annotation_export_metadata.control.annotated_export"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_export_metadata.control.annotated_export.value#0"
+      ],
+      "display_name": "return value",
+      "id": "annotation_export_metadata.control.annotated_export.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "annotation_export_metadata.control.annotated_export"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "annotation_export_metadata.control.annotated_export.__binding_value__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "annotation_export_metadata.control.annotated_export"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.typing.TYPE_CHECKING#2"
+      ],
+      "display_name": "TYPE_CHECKING",
+      "id": "annotation_export_metadata.cycle_a.TYPE_CHECKING#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "TYPE_CHECKING",
+      "scope": "annotation_export_metadata.cycle_a"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_export_metadata.cycle_a.TYPE_CHECKING#0"
+      ],
+      "display_name": "if TYPE_CHECKING",
+      "id": "annotation_export_metadata.cycle_a.__cond_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "condition",
+      "name": "__cond_0__",
+      "scope": "annotation_export_metadata.cycle_a"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "TYPE_CHECKING",
+      "id": "annotation_export_metadata.cycle_a.__binding_TYPE_CHECKING__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_TYPE_CHECKING__",
+      "scope": "annotation_export_metadata.cycle_a"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "identity",
+      "id": "annotation_export_metadata.cycle_a.__binding_identity__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_identity__",
+      "scope": "annotation_export_metadata.cycle_a"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "annotation_export_metadata.cycle_a.identity.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "annotation_export_metadata.cycle_a.identity"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_export_metadata.cycle_a.identity.value#0"
+      ],
+      "display_name": "return value",
+      "id": "annotation_export_metadata.cycle_a.identity.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "annotation_export_metadata.cycle_a.identity"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "annotation_export_metadata.cycle_a.identity.__binding_value__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "annotation_export_metadata.cycle_a.identity"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.typing.TYPE_CHECKING#2"
+      ],
+      "display_name": "TYPE_CHECKING",
+      "id": "annotation_export_metadata.cycle_b.TYPE_CHECKING#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "TYPE_CHECKING",
+      "scope": "annotation_export_metadata.cycle_b"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_export_metadata.cycle_b.TYPE_CHECKING#0"
+      ],
+      "display_name": "if TYPE_CHECKING",
+      "id": "annotation_export_metadata.cycle_b.__cond_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "condition",
+      "name": "__cond_0__",
+      "scope": "annotation_export_metadata.cycle_b"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "TYPE_CHECKING",
+      "id": "annotation_export_metadata.cycle_b.__binding_TYPE_CHECKING__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_TYPE_CHECKING__",
+      "scope": "annotation_export_metadata.cycle_b"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "identity",
+      "id": "annotation_export_metadata.cycle_b.__binding_identity__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_identity__",
+      "scope": "annotation_export_metadata.cycle_b"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "annotation_export_metadata.cycle_b.identity.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "annotation_export_metadata.cycle_b.identity"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_export_metadata.cycle_b.identity.value#0"
+      ],
+      "display_name": "return value",
+      "id": "annotation_export_metadata.cycle_b.identity.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "annotation_export_metadata.cycle_b.identity"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "annotation_export_metadata.cycle_b.identity.__binding_value__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "annotation_export_metadata.cycle_b.identity"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.annotation_export_metadata.annotations.Public#3"
+      ],
+      "display_name": "Public v1",
+      "id": "annotation_export_metadata.entry.Public#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Public",
+      "scope": "annotation_export_metadata.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "annotation_export_metadata.entry.Public#0"
+      ],
+      "display_name": "from_annotations",
+      "id": "annotation_export_metadata.entry.from_annotations#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "from_annotations",
+      "scope": "annotation_export_metadata.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.annotation_export_metadata.control.Public#4"
+      ],
+      "display_name": "Public v2",
+      "id": "annotation_export_metadata.entry.Public#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Public",
+      "scope": "annotation_export_metadata.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "annotation_export_metadata.entry.Public#2"
+      ],
+      "display_name": "from_control",
+      "id": "annotation_export_metadata.entry.from_control#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "from_control",
+      "scope": "annotation_export_metadata.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.typing.TYPE_CHECKING#2"
+      ],
+      "display_name": "TYPE_CHECKING",
+      "id": "annotation_export_metadata.entry.TYPE_CHECKING#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "TYPE_CHECKING",
+      "scope": "annotation_export_metadata.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_export_metadata.entry.TYPE_CHECKING#4"
+      ],
+      "display_name": "if TYPE_CHECKING",
+      "id": "annotation_export_metadata.entry.__cond_1__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "condition",
+      "name": "__cond_1__",
+      "scope": "annotation_export_metadata.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Public",
+      "id": "annotation_export_metadata.entry.__binding_Public__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Public__",
+      "scope": "annotation_export_metadata.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "from_annotations",
+      "id": "annotation_export_metadata.entry.__binding_from_annotations__#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_from_annotations__",
+      "scope": "annotation_export_metadata.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "from_control",
+      "id": "annotation_export_metadata.entry.__binding_from_control__#8",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_from_control__",
+      "scope": "annotation_export_metadata.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "TYPE_CHECKING",
+      "id": "annotation_export_metadata.entry.__binding_TYPE_CHECKING__#9",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_TYPE_CHECKING__",
+      "scope": "annotation_export_metadata.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "annotation_export_metadata.entry.__binding_main__#10",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "annotation_export_metadata.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "metadata_only",
+      "id": "annotation_export_metadata.entry.__binding_metadata_only__#11",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_metadata_only__",
+      "scope": "annotation_export_metadata.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "cyclic_metadata",
+      "id": "annotation_export_metadata.entry.__binding_cyclic_metadata__#12",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_cyclic_metadata__",
+      "scope": "annotation_export_metadata.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "resolved_metadata",
+      "id": "annotation_export_metadata.entry.__binding_resolved_metadata__#13",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_resolved_metadata__",
+      "scope": "annotation_export_metadata.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_export_metadata.entry.from_annotations#1",
+        "annotation_export_metadata.entry.from_control#3"
+      ],
+      "display_name": "(from_annotations, from_control)",
+      "id": "annotation_export_metadata.entry.main.__container_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__container_0__",
+      "operation_type": "container",
+      "scope": "annotation_export_metadata.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_export_metadata.entry.main.__container_0__#0"
+      ],
+      "display_name": "return (from_annotations, from_control)",
+      "id": "annotation_export_metadata.entry.main.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "annotation_export_metadata.entry.main"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "annotation_export_metadata.entry.metadata_only.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "annotation_export_metadata.entry.metadata_only"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_export_metadata.entry.metadata_only.value#0"
+      ],
+      "display_name": "return value",
+      "id": "annotation_export_metadata.entry.metadata_only.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "annotation_export_metadata.entry.metadata_only"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "annotation_export_metadata.entry.metadata_only.__binding_value__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "annotation_export_metadata.entry.metadata_only"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "annotation_export_metadata.entry.cyclic_metadata.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "annotation_export_metadata.entry.cyclic_metadata"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_export_metadata.entry.cyclic_metadata.value#0"
+      ],
+      "display_name": "return value",
+      "id": "annotation_export_metadata.entry.cyclic_metadata.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "annotation_export_metadata.entry.cyclic_metadata"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "annotation_export_metadata.entry.cyclic_metadata.__binding_value__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "annotation_export_metadata.entry.cyclic_metadata"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "annotation_export_metadata.entry.resolved_metadata.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "annotation_export_metadata.entry.resolved_metadata"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "annotation_export_metadata.entry.resolved_metadata.value#0"
+      ],
+      "display_name": "value.run",
+      "id": "annotation_export_metadata.entry.resolved_metadata.__ref_2__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_2__",
+      "scope": "annotation_export_metadata.entry.resolved_metadata"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "__root__.annotation_export_metadata.types.Worker.run#5",
+        "annotation_export_metadata.entry.resolved_metadata.__ref_2__#1",
+        "annotation_export_metadata.types.Worker.run.__return_0__#1"
+      ],
+      "display_name": "value.run()",
+      "id": "annotation_export_metadata.entry.resolved_metadata.__call_value.run_3__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_value.run_3__",
+      "scope": "annotation_export_metadata.entry.resolved_metadata"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_export_metadata.entry.resolved_metadata.__call_value.run_3__#2"
+      ],
+      "display_name": "return value.run()",
+      "id": "annotation_export_metadata.entry.resolved_metadata.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "annotation_export_metadata.entry.resolved_metadata"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "annotation_export_metadata.entry.resolved_metadata.__binding_value__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "annotation_export_metadata.entry.resolved_metadata"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "identity",
+      "id": "annotation_export_metadata.provider.__binding_identity__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_identity__",
+      "scope": "annotation_export_metadata.provider"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "annotation_export_metadata.provider.identity.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "annotation_export_metadata.provider.identity"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_export_metadata.provider.identity.value#0"
+      ],
+      "display_name": "return value",
+      "id": "annotation_export_metadata.provider.identity.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "annotation_export_metadata.provider.identity"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "annotation_export_metadata.provider.identity.__binding_value__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "annotation_export_metadata.provider.identity"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.external.Public#0"
+      ],
+      "display_name": "Public",
+      "id": "annotation_export_metadata.return_only.Public#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Public",
+      "scope": "annotation_export_metadata.return_only"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "['Public']",
+      "id": "annotation_export_metadata.return_only.__container_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__container_0__",
+      "operation_type": "container",
+      "scope": "annotation_export_metadata.return_only"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "annotation_export_metadata.return_only.__container_0__#1"
+      ],
+      "display_name": "__all__",
+      "id": "annotation_export_metadata.return_only.__all__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "__all__",
+      "scope": "annotation_export_metadata.return_only"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Public",
+      "id": "annotation_export_metadata.return_only.__binding_Public__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Public__",
+      "scope": "annotation_export_metadata.return_only"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "__all__",
+      "id": "annotation_export_metadata.return_only.__binding___all____#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding___all____",
+      "scope": "annotation_export_metadata.return_only"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "helper",
+      "id": "annotation_export_metadata.return_only.__binding_helper__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_helper__",
+      "scope": "annotation_export_metadata.return_only"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return None",
+      "id": "annotation_export_metadata.return_only.helper.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "annotation_export_metadata.return_only.helper"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "['Public']",
+      "id": "annotation_export_metadata.runtime.__container_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__container_0__",
+      "operation_type": "container",
+      "scope": "annotation_export_metadata.runtime"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "annotation_export_metadata.runtime.__container_0__#0"
+      ],
+      "display_name": "__all__",
+      "id": "annotation_export_metadata.runtime.__all__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "__all__",
+      "scope": "annotation_export_metadata.runtime"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_export_metadata.runtime.__all__#1",
+        "annotation_export_metadata.runtime.configure#3"
+      ],
+      "display_name": "configure()",
+      "id": "annotation_export_metadata.runtime.__call_configure_1__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_configure_1__",
+      "scope": "annotation_export_metadata.runtime"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "configure",
+      "id": "annotation_export_metadata.runtime.configure#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "configure",
+      "scope": "annotation_export_metadata.runtime"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "__all__",
+      "id": "annotation_export_metadata.runtime.__binding___all____#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding___all____",
+      "scope": "annotation_export_metadata.runtime"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Worker",
+      "id": "annotation_export_metadata.types.__binding_Worker__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Worker__",
+      "scope": "annotation_export_metadata.types"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "run",
+      "id": "annotation_export_metadata.types.Worker.__binding_run__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_run__",
+      "scope": "annotation_export_metadata.types.Worker"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "self",
+      "id": "annotation_export_metadata.types.Worker.run.self#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "self",
+      "scope": "annotation_export_metadata.types.Worker.run"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "annotation_export_metadata.types.Worker.run.payload#2"
+      ],
+      "display_name": "return payload",
+      "id": "annotation_export_metadata.types.Worker.run.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "annotation_export_metadata.types.Worker.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "payload",
+      "id": "annotation_export_metadata.types.Worker.run.payload#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "payload",
+      "scope": "annotation_export_metadata.types.Worker.run"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "self",
+      "id": "annotation_export_metadata.types.Worker.run.__binding_self__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_self__",
+      "scope": "annotation_export_metadata.types.Worker.run"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "annotation_export_metadata.annotations",
+        "annotation_export_metadata.control",
+        "annotation_export_metadata.cycle_a",
+        "annotation_export_metadata.cycle_b",
+        "annotation_export_metadata.entry",
+        "annotation_export_metadata.provider",
+        "annotation_export_metadata.return_only",
+        "annotation_export_metadata.runtime",
+        "annotation_export_metadata.types"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.external.Public#0",
+        "__root__.annotation_export_metadata.types.Worker#1",
+        "__root__.typing.TYPE_CHECKING#2",
+        "__root__.annotation_export_metadata.annotations.Public#3",
+        "__root__.annotation_export_metadata.control.Public#4",
+        "__root__.annotation_export_metadata.types.Worker.run#5"
+      ],
+      "parent": null
+    },
+    {
+      "children": [
+        "annotation_export_metadata.annotations.helper",
+        "annotation_export_metadata.annotations.async_helper",
+        "annotation_export_metadata.annotations.Container"
+      ],
+      "id": "annotation_export_metadata.annotations",
+      "kind": "module",
+      "name": "annotation_export_metadata.annotations",
+      "nodes": [
+        "annotation_export_metadata.annotations.Public#0",
+        "annotation_export_metadata.annotations.__container_0__#1",
+        "annotation_export_metadata.annotations.__all__#2",
+        "annotation_export_metadata.annotations.field#3",
+        "annotation_export_metadata.annotations.__binding_Public__#4",
+        "annotation_export_metadata.annotations.__binding___all____#5",
+        "annotation_export_metadata.annotations.__binding_field__#6",
+        "annotation_export_metadata.annotations.__binding_helper__#7",
+        "annotation_export_metadata.annotations.__binding_async_helper__#8",
+        "annotation_export_metadata.annotations.__binding_Container__#9"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "annotation_export_metadata.annotations.helper",
+      "kind": "function",
+      "name": "helper",
+      "nodes": [
+        "annotation_export_metadata.annotations.helper.value#0",
+        "annotation_export_metadata.annotations.helper.__return_0__#1",
+        "annotation_export_metadata.annotations.helper.__binding_value__#2"
+      ],
+      "parent": "annotation_export_metadata.annotations"
+    },
+    {
+      "children": [],
+      "id": "annotation_export_metadata.annotations.async_helper",
+      "kind": "function",
+      "name": "async_helper",
+      "nodes": [
+        "annotation_export_metadata.annotations.async_helper.value#0",
+        "annotation_export_metadata.annotations.async_helper.local#1",
+        "annotation_export_metadata.annotations.async_helper.__return_0__#2",
+        "annotation_export_metadata.annotations.async_helper.__binding_value__#3",
+        "annotation_export_metadata.annotations.async_helper.__binding_local__#4"
+      ],
+      "parent": "annotation_export_metadata.annotations"
+    },
+    {
+      "children": [],
+      "id": "annotation_export_metadata.annotations.Container",
+      "kind": "class",
+      "name": "Container",
+      "nodes": [
+        "annotation_export_metadata.annotations.Container.field#0",
+        "annotation_export_metadata.annotations.Container.__binding_field__#1"
+      ],
+      "parent": "annotation_export_metadata.annotations"
+    },
+    {
+      "children": [
+        "annotation_export_metadata.control.helper",
+        "annotation_export_metadata.control.annotated_export"
+      ],
+      "id": "annotation_export_metadata.control",
+      "kind": "module",
+      "name": "annotation_export_metadata.control",
+      "nodes": [
+        "annotation_export_metadata.control.Public#0",
+        "annotation_export_metadata.control.Worker#1",
+        "annotation_export_metadata.control.__container_0__#2",
+        "annotation_export_metadata.control.__all__#3",
+        "annotation_export_metadata.control.__binding_Public__#4",
+        "annotation_export_metadata.control.__binding_Worker__#5",
+        "annotation_export_metadata.control.__binding___all____#6",
+        "annotation_export_metadata.control.__binding_helper__#7",
+        "annotation_export_metadata.control.__binding_annotated_export__#8"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "annotation_export_metadata.control.helper",
+      "kind": "function",
+      "name": "helper",
+      "nodes": [
+        "annotation_export_metadata.control.helper.__return_0__#0"
+      ],
+      "parent": "annotation_export_metadata.control"
+    },
+    {
+      "children": [],
+      "id": "annotation_export_metadata.control.annotated_export",
+      "kind": "function",
+      "name": "annotated_export",
+      "nodes": [
+        "annotation_export_metadata.control.annotated_export.value#0",
+        "annotation_export_metadata.control.annotated_export.__return_0__#1",
+        "annotation_export_metadata.control.annotated_export.__binding_value__#2"
+      ],
+      "parent": "annotation_export_metadata.control"
+    },
+    {
+      "children": [
+        "annotation_export_metadata.cycle_a.identity"
+      ],
+      "id": "annotation_export_metadata.cycle_a",
+      "kind": "module",
+      "name": "annotation_export_metadata.cycle_a",
+      "nodes": [
+        "annotation_export_metadata.cycle_a.TYPE_CHECKING#0",
+        "annotation_export_metadata.cycle_a.__cond_0__#1",
+        "annotation_export_metadata.cycle_a.__binding_TYPE_CHECKING__#2",
+        "annotation_export_metadata.cycle_a.__binding_identity__#3"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "annotation_export_metadata.cycle_a.identity",
+      "kind": "function",
+      "name": "identity",
+      "nodes": [
+        "annotation_export_metadata.cycle_a.identity.value#0",
+        "annotation_export_metadata.cycle_a.identity.__return_0__#1",
+        "annotation_export_metadata.cycle_a.identity.__binding_value__#2"
+      ],
+      "parent": "annotation_export_metadata.cycle_a"
+    },
+    {
+      "children": [
+        "annotation_export_metadata.cycle_b.identity"
+      ],
+      "id": "annotation_export_metadata.cycle_b",
+      "kind": "module",
+      "name": "annotation_export_metadata.cycle_b",
+      "nodes": [
+        "annotation_export_metadata.cycle_b.TYPE_CHECKING#0",
+        "annotation_export_metadata.cycle_b.__cond_0__#1",
+        "annotation_export_metadata.cycle_b.__binding_TYPE_CHECKING__#2",
+        "annotation_export_metadata.cycle_b.__binding_identity__#3"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "annotation_export_metadata.cycle_b.identity",
+      "kind": "function",
+      "name": "identity",
+      "nodes": [
+        "annotation_export_metadata.cycle_b.identity.value#0",
+        "annotation_export_metadata.cycle_b.identity.__return_0__#1",
+        "annotation_export_metadata.cycle_b.identity.__binding_value__#2"
+      ],
+      "parent": "annotation_export_metadata.cycle_b"
+    },
+    {
+      "children": [
+        "annotation_export_metadata.entry.main",
+        "annotation_export_metadata.entry.metadata_only",
+        "annotation_export_metadata.entry.cyclic_metadata",
+        "annotation_export_metadata.entry.resolved_metadata"
+      ],
+      "id": "annotation_export_metadata.entry",
+      "kind": "module",
+      "name": "annotation_export_metadata.entry",
+      "nodes": [
+        "annotation_export_metadata.entry.Public#0",
+        "annotation_export_metadata.entry.from_annotations#1",
+        "annotation_export_metadata.entry.Public#2",
+        "annotation_export_metadata.entry.from_control#3",
+        "annotation_export_metadata.entry.TYPE_CHECKING#4",
+        "annotation_export_metadata.entry.__cond_1__#5",
+        "annotation_export_metadata.entry.__binding_Public__#6",
+        "annotation_export_metadata.entry.__binding_from_annotations__#7",
+        "annotation_export_metadata.entry.__binding_from_control__#8",
+        "annotation_export_metadata.entry.__binding_TYPE_CHECKING__#9",
+        "annotation_export_metadata.entry.__binding_main__#10",
+        "annotation_export_metadata.entry.__binding_metadata_only__#11",
+        "annotation_export_metadata.entry.__binding_cyclic_metadata__#12",
+        "annotation_export_metadata.entry.__binding_resolved_metadata__#13"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "annotation_export_metadata.entry.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "annotation_export_metadata.entry.main.__container_0__#0",
+        "annotation_export_metadata.entry.main.__return_0__#1"
+      ],
+      "parent": "annotation_export_metadata.entry"
+    },
+    {
+      "children": [],
+      "id": "annotation_export_metadata.entry.metadata_only",
+      "kind": "function",
+      "name": "metadata_only",
+      "nodes": [
+        "annotation_export_metadata.entry.metadata_only.value#0",
+        "annotation_export_metadata.entry.metadata_only.__return_0__#1",
+        "annotation_export_metadata.entry.metadata_only.__binding_value__#2"
+      ],
+      "parent": "annotation_export_metadata.entry"
+    },
+    {
+      "children": [],
+      "id": "annotation_export_metadata.entry.cyclic_metadata",
+      "kind": "function",
+      "name": "cyclic_metadata",
+      "nodes": [
+        "annotation_export_metadata.entry.cyclic_metadata.value#0",
+        "annotation_export_metadata.entry.cyclic_metadata.__return_0__#1",
+        "annotation_export_metadata.entry.cyclic_metadata.__binding_value__#2"
+      ],
+      "parent": "annotation_export_metadata.entry"
+    },
+    {
+      "children": [],
+      "id": "annotation_export_metadata.entry.resolved_metadata",
+      "kind": "function",
+      "name": "resolved_metadata",
+      "nodes": [
+        "annotation_export_metadata.entry.resolved_metadata.value#0",
+        "annotation_export_metadata.entry.resolved_metadata.__ref_2__#1",
+        "annotation_export_metadata.entry.resolved_metadata.__call_value.run_3__#2",
+        "annotation_export_metadata.entry.resolved_metadata.__return_0__#3",
+        "annotation_export_metadata.entry.resolved_metadata.__binding_value__#4"
+      ],
+      "parent": "annotation_export_metadata.entry"
+    },
+    {
+      "children": [
+        "annotation_export_metadata.provider.identity"
+      ],
+      "id": "annotation_export_metadata.provider",
+      "kind": "module",
+      "name": "annotation_export_metadata.provider",
+      "nodes": [
+        "annotation_export_metadata.provider.__binding_identity__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "annotation_export_metadata.provider.identity",
+      "kind": "function",
+      "name": "identity",
+      "nodes": [
+        "annotation_export_metadata.provider.identity.value#0",
+        "annotation_export_metadata.provider.identity.__return_0__#1",
+        "annotation_export_metadata.provider.identity.__binding_value__#2"
+      ],
+      "parent": "annotation_export_metadata.provider"
+    },
+    {
+      "children": [
+        "annotation_export_metadata.return_only.helper"
+      ],
+      "id": "annotation_export_metadata.return_only",
+      "kind": "module",
+      "name": "annotation_export_metadata.return_only",
+      "nodes": [
+        "annotation_export_metadata.return_only.Public#0",
+        "annotation_export_metadata.return_only.__container_0__#1",
+        "annotation_export_metadata.return_only.__all__#2",
+        "annotation_export_metadata.return_only.__binding_Public__#3",
+        "annotation_export_metadata.return_only.__binding___all____#4",
+        "annotation_export_metadata.return_only.__binding_helper__#5"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "annotation_export_metadata.return_only.helper",
+      "kind": "function",
+      "name": "helper",
+      "nodes": [
+        "annotation_export_metadata.return_only.helper.__return_0__#0"
+      ],
+      "parent": "annotation_export_metadata.return_only"
+    },
+    {
+      "children": [],
+      "id": "annotation_export_metadata.runtime",
+      "kind": "module",
+      "name": "annotation_export_metadata.runtime",
+      "nodes": [
+        "annotation_export_metadata.runtime.__container_0__#0",
+        "annotation_export_metadata.runtime.__all__#1",
+        "annotation_export_metadata.runtime.__call_configure_1__#2",
+        "annotation_export_metadata.runtime.configure#3",
+        "annotation_export_metadata.runtime.__binding___all____#4"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "annotation_export_metadata.types.Worker"
+      ],
+      "id": "annotation_export_metadata.types",
+      "kind": "module",
+      "name": "annotation_export_metadata.types",
+      "nodes": [
+        "annotation_export_metadata.types.__binding_Worker__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [
+        "annotation_export_metadata.types.Worker.run"
+      ],
+      "id": "annotation_export_metadata.types.Worker",
+      "kind": "class",
+      "name": "Worker",
+      "nodes": [
+        "annotation_export_metadata.types.Worker.__binding_run__#0"
+      ],
+      "parent": "annotation_export_metadata.types"
+    },
+    {
+      "children": [],
+      "id": "annotation_export_metadata.types.Worker.run",
+      "kind": "function",
+      "name": "run",
+      "nodes": [
+        "annotation_export_metadata.types.Worker.run.self#0",
+        "annotation_export_metadata.types.Worker.run.__return_0__#1",
+        "annotation_export_metadata.types.Worker.run.payload#2",
+        "annotation_export_metadata.types.Worker.run.__binding_self__#3"
+      ],
+      "parent": "annotation_export_metadata.types.Worker"
+    }
+  ],
+  "version": "0.1.0"
+}

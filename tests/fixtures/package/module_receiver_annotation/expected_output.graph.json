@@ -1,0 +1,256 @@
+{
+  "edges": [
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_receiver_annotation.entry.invoke",
+      "target": "module_receiver_annotation.entry.__binding_invoke__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_receiver_annotation.entry.invoke.__binding_value__#4",
+      "target": "module_receiver_annotation.entry.invoke.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_receiver_annotation.entry.invoke.__call_value.run_1__#2",
+      "target": "module_receiver_annotation.entry.invoke.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_receiver_annotation.entry.invoke.__ref_0__#1",
+      "target": "module_receiver_annotation.entry.invoke.__call_value.run_1__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "module_receiver_annotation.entry.invoke.value#0",
+      "target": "module_receiver_annotation.entry.invoke.__ref_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "module_receiver_annotation.worker.run",
+      "target": "module_receiver_annotation.worker.__binding_run__#0"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "invoke",
+      "id": "module_receiver_annotation.entry.__binding_invoke__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_invoke__",
+      "scope": "module_receiver_annotation.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "module_receiver_annotation.entry.invoke.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "module_receiver_annotation.entry.invoke"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "module_receiver_annotation.entry.invoke.value#0"
+      ],
+      "display_name": "value.run",
+      "id": "module_receiver_annotation.entry.invoke.__ref_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_0__",
+      "scope": "module_receiver_annotation.entry.invoke"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_receiver_annotation.entry.invoke.__ref_0__#1"
+      ],
+      "display_name": "value.run()",
+      "id": "module_receiver_annotation.entry.invoke.__call_value.run_1__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_value.run_1__",
+      "scope": "module_receiver_annotation.entry.invoke"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "module_receiver_annotation.entry.invoke.__call_value.run_1__#2"
+      ],
+      "display_name": "return value.run()",
+      "id": "module_receiver_annotation.entry.invoke.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "module_receiver_annotation.entry.invoke"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "module_receiver_annotation.entry.invoke.__binding_value__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "module_receiver_annotation.entry.invoke"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "run",
+      "id": "module_receiver_annotation.worker.__binding_run__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_run__",
+      "scope": "module_receiver_annotation.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return 1",
+      "id": "module_receiver_annotation.worker.run.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "module_receiver_annotation.worker.run"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "module_receiver_annotation.entry",
+        "module_receiver_annotation.worker"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [],
+      "parent": null
+    },
+    {
+      "children": [
+        "module_receiver_annotation.entry.invoke"
+      ],
+      "id": "module_receiver_annotation.entry",
+      "kind": "module",
+      "name": "module_receiver_annotation.entry",
+      "nodes": [
+        "module_receiver_annotation.entry.__binding_invoke__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "module_receiver_annotation.entry.invoke",
+      "kind": "function",
+      "name": "invoke",
+      "nodes": [
+        "module_receiver_annotation.entry.invoke.value#0",
+        "module_receiver_annotation.entry.invoke.__ref_0__#1",
+        "module_receiver_annotation.entry.invoke.__call_value.run_1__#2",
+        "module_receiver_annotation.entry.invoke.__return_0__#3",
+        "module_receiver_annotation.entry.invoke.__binding_value__#4"
+      ],
+      "parent": "module_receiver_annotation.entry"
+    },
+    {
+      "children": [
+        "module_receiver_annotation.worker.run"
+      ],
+      "id": "module_receiver_annotation.worker",
+      "kind": "module",
+      "name": "module_receiver_annotation.worker",
+      "nodes": [
+        "module_receiver_annotation.worker.__binding_run__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "module_receiver_annotation.worker.run",
+      "kind": "function",
+      "name": "run",
+      "nodes": [
+        "module_receiver_annotation.worker.run.__return_0__#0"
+      ],
+      "parent": "module_receiver_annotation.worker"
+    }
+  ],
+  "version": "0.1.0"
+}

@@ -1,0 +1,518 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.builtins.list#1",
+      "target": "coverage_external_base.worker.ExternalBase#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.coverage_external_base.worker.Worker#0",
+      "target": "coverage_external_base.entry.ImportedWorker#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "builtins.__binding_list__#1",
+      "target": "builtins.list#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "builtins.list#0",
+      "target": "__root__.builtins.list#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "coverage_external_base.entry.ImportedWorker#0",
+      "target": "coverage_external_base.entry.main.__call_ImportedWorker_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_external_base.entry.__binding_ImportedWorker__#1",
+      "target": "coverage_external_base.entry.ImportedWorker#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_external_base.entry.main",
+      "target": "coverage_external_base.entry.__binding_main__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_external_base.entry.main.__binding_value__#3",
+      "target": "coverage_external_base.entry.main.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_external_base.entry.main.__call_ImportedWorker_0__#1",
+      "target": "coverage_external_base.entry.main.__return_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "coverage_external_base.entry.main.value#0",
+      "target": "coverage_external_base.entry.main.__call_ImportedWorker_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "coverage_external_base.worker.ExternalBase#0",
+      "target": "coverage_external_base.worker.Worker#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "declaration",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_external_base.worker.Worker",
+      "target": "__root__.coverage_external_base.worker.Worker#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "declaration",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_external_base.worker.Worker",
+      "target": "coverage_external_base.worker.Worker#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_external_base.worker.Worker",
+      "target": "coverage_external_base.worker.__binding_Worker__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_external_base.worker.Worker#1",
+      "target": "__root__.coverage_external_base.worker.Worker#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_external_base.worker.__binding_ExternalBase__#2",
+      "target": "coverage_external_base.worker.ExternalBase#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "coverage_external_base.worker.__binding_Worker__#3",
+      "target": "coverage_external_base.worker.Worker#1"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [
+        "coverage_external_base.worker.Worker#1"
+      ],
+      "display_name": "coverage_external_base.worker.Worker",
+      "id": "__root__.coverage_external_base.worker.Worker#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "coverage_external_base.worker.Worker",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "builtins.list#0"
+      ],
+      "display_name": "builtins.list",
+      "id": "__root__.builtins.list#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "builtins.list",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.coverage_external_base.worker.Worker#0"
+      ],
+      "display_name": "ImportedWorker",
+      "id": "coverage_external_base.entry.ImportedWorker#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "ImportedWorker",
+      "scope": "coverage_external_base.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "ImportedWorker",
+      "id": "coverage_external_base.entry.__binding_ImportedWorker__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_ImportedWorker__",
+      "scope": "coverage_external_base.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "coverage_external_base.entry.__binding_main__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "coverage_external_base.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "coverage_external_base.entry.main.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "coverage_external_base.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "coverage_external_base.entry.ImportedWorker#0",
+        "coverage_external_base.entry.main.value#0"
+      ],
+      "display_name": "ImportedWorker()",
+      "id": "coverage_external_base.entry.main.__call_ImportedWorker_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_ImportedWorker_0__",
+      "scope": "coverage_external_base.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "coverage_external_base.entry.main.__call_ImportedWorker_0__#1"
+      ],
+      "display_name": "return ImportedWorker(value)",
+      "id": "coverage_external_base.entry.main.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "coverage_external_base.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "coverage_external_base.entry.main.__binding_value__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "coverage_external_base.entry.main"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.builtins.list#1"
+      ],
+      "display_name": "ExternalBase",
+      "id": "coverage_external_base.worker.ExternalBase#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "ExternalBase",
+      "scope": "coverage_external_base.worker"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "coverage_external_base.worker.ExternalBase#0"
+      ],
+      "display_name": "Worker",
+      "id": "coverage_external_base.worker.Worker#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "Worker",
+      "scope": "coverage_external_base.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "ExternalBase",
+      "id": "coverage_external_base.worker.__binding_ExternalBase__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_ExternalBase__",
+      "scope": "coverage_external_base.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "Worker",
+      "id": "coverage_external_base.worker.__binding_Worker__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_Worker__",
+      "scope": "coverage_external_base.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "list",
+      "id": "builtins.list#0",
+      "is_builtin": true,
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "list",
+      "scope": "builtins"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "list",
+      "id": "builtins.__binding_list__#1",
+      "is_builtin": true,
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_list__",
+      "scope": "builtins"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "coverage_external_base.entry",
+        "coverage_external_base.worker",
+        "builtins"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.coverage_external_base.worker.Worker#0",
+        "__root__.builtins.list#1"
+      ],
+      "parent": null
+    },
+    {
+      "children": [
+        "coverage_external_base.entry.main"
+      ],
+      "id": "coverage_external_base.entry",
+      "kind": "module",
+      "name": "coverage_external_base.entry",
+      "nodes": [
+        "coverage_external_base.entry.ImportedWorker#0",
+        "coverage_external_base.entry.__binding_ImportedWorker__#1",
+        "coverage_external_base.entry.__binding_main__#2"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "coverage_external_base.entry.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "coverage_external_base.entry.main.value#0",
+        "coverage_external_base.entry.main.__call_ImportedWorker_0__#1",
+        "coverage_external_base.entry.main.__return_0__#2",
+        "coverage_external_base.entry.main.__binding_value__#3"
+      ],
+      "parent": "coverage_external_base.entry"
+    },
+    {
+      "children": [
+        "coverage_external_base.worker.Worker"
+      ],
+      "id": "coverage_external_base.worker",
+      "kind": "module",
+      "name": "coverage_external_base.worker",
+      "nodes": [
+        "coverage_external_base.worker.ExternalBase#0",
+        "coverage_external_base.worker.Worker#1",
+        "coverage_external_base.worker.__binding_ExternalBase__#2",
+        "coverage_external_base.worker.__binding_Worker__#3"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "coverage_external_base.worker.Worker",
+      "kind": "class",
+      "name": "Worker",
+      "nodes": [],
+      "parent": "coverage_external_base.worker"
+    },
+    {
+      "children": [],
+      "id": "builtins",
+      "kind": "builtins",
+      "name": "builtins",
+      "nodes": [
+        "builtins.list#0",
+        "builtins.__binding_list__#1"
+      ],
+      "parent": "__root__"
+    }
+  ],
+  "version": "0.1.0"
+}

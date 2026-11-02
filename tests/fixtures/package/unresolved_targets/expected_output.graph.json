@@ -1,0 +1,626 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.outside.transform#0",
+      "target": "unresolved_targets.entry.transform#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unresolved_targets.entry.__binding_transform__#1",
+      "target": "unresolved_targets.entry.transform#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unresolved_targets.entry.first",
+      "target": "unresolved_targets.entry.__binding_first__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unresolved_targets.entry.first.__binding_callback__#8",
+      "target": "unresolved_targets.entry.first.callback#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unresolved_targets.entry.first.__binding_left__#10",
+      "target": "unresolved_targets.entry.first.left#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unresolved_targets.entry.first.__binding_right__#11",
+      "target": "unresolved_targets.entry.first.right#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unresolved_targets.entry.first.__binding_value__#9",
+      "target": "unresolved_targets.entry.first.value#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unresolved_targets.entry.first.__call_transform_1__#5",
+      "target": "unresolved_targets.entry.first.__return_0__#6"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "unresolved_targets.entry.first.callback#0",
+      "target": "unresolved_targets.entry.first.__call_callback_0__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "unresolved_targets.entry.first.left#2",
+      "target": "unresolved_targets.entry.first.__call_transform_1__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "unresolved_targets.entry.first.mystery#7",
+      "target": "unresolved_targets.entry.first.left#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "unresolved_targets.entry.first.mystery#7",
+      "target": "unresolved_targets.entry.first.right#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "unresolved_targets.entry.first.value#1",
+      "target": "unresolved_targets.entry.first.__call_callback_0__#4"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unresolved_targets.entry.second",
+      "target": "unresolved_targets.entry.__binding_second__#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unresolved_targets.entry.second.__binding_value__#4",
+      "target": "unresolved_targets.entry.second.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "unresolved_targets.entry.second.__call_mystery_2__#1",
+      "target": "unresolved_targets.entry.second.__return_0__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "unresolved_targets.entry.second.mystery#3",
+      "target": "unresolved_targets.entry.second.__call_mystery_2__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "unresolved_targets.entry.second.value#0",
+      "target": "unresolved_targets.entry.second.__call_mystery_2__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "unresolved_targets.entry.transform#0",
+      "target": "unresolved_targets.entry.first.__call_transform_1__#5"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "outside.transform",
+      "id": "__root__.outside.transform#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "outside.transform",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.outside.transform#0"
+      ],
+      "display_name": "transform",
+      "id": "unresolved_targets.entry.transform#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "transform",
+      "scope": "unresolved_targets.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "transform",
+      "id": "unresolved_targets.entry.__binding_transform__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_transform__",
+      "scope": "unresolved_targets.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "first",
+      "id": "unresolved_targets.entry.__binding_first__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_first__",
+      "scope": "unresolved_targets.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "second",
+      "id": "unresolved_targets.entry.__binding_second__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_second__",
+      "scope": "unresolved_targets.entry"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "callback",
+      "id": "unresolved_targets.entry.first.callback#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "callback",
+      "scope": "unresolved_targets.entry.first"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "unresolved_targets.entry.first.value#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "unresolved_targets.entry.first"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "unresolved_targets.entry.first.mystery#7"
+      ],
+      "display_name": "left",
+      "id": "unresolved_targets.entry.first.left#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "left",
+      "scope": "unresolved_targets.entry.first"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "unresolved_targets.entry.first.mystery#7"
+      ],
+      "display_name": "right",
+      "id": "unresolved_targets.entry.first.right#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "right",
+      "scope": "unresolved_targets.entry.first"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "unresolved_targets.entry.first.callback#0",
+        "unresolved_targets.entry.first.value#1"
+      ],
+      "display_name": "callback()",
+      "id": "unresolved_targets.entry.first.__call_callback_0__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_callback_0__",
+      "scope": "unresolved_targets.entry.first"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "unresolved_targets.entry.first.left#2",
+        "unresolved_targets.entry.transform#0"
+      ],
+      "display_name": "transform()",
+      "id": "unresolved_targets.entry.first.__call_transform_1__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_transform_1__",
+      "scope": "unresolved_targets.entry.first"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "unresolved_targets.entry.first.__call_transform_1__#5"
+      ],
+      "display_name": "return transform(left)",
+      "id": "unresolved_targets.entry.first.__return_0__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "unresolved_targets.entry.first"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "mystery",
+      "id": "unresolved_targets.entry.first.mystery#7",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "mystery",
+      "scope": "unresolved_targets.entry.first"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "callback",
+      "id": "unresolved_targets.entry.first.__binding_callback__#8",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_callback__",
+      "scope": "unresolved_targets.entry.first"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "unresolved_targets.entry.first.__binding_value__#9",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "unresolved_targets.entry.first"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "left",
+      "id": "unresolved_targets.entry.first.__binding_left__#10",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_left__",
+      "scope": "unresolved_targets.entry.first"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "right",
+      "id": "unresolved_targets.entry.first.__binding_right__#11",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_right__",
+      "scope": "unresolved_targets.entry.first"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "unresolved_targets.entry.second.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "unresolved_targets.entry.second"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "unresolved_targets.entry.second.mystery#3",
+        "unresolved_targets.entry.second.value#0"
+      ],
+      "display_name": "mystery()",
+      "id": "unresolved_targets.entry.second.__call_mystery_2__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_mystery_2__",
+      "scope": "unresolved_targets.entry.second"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "unresolved_targets.entry.second.__call_mystery_2__#1"
+      ],
+      "display_name": "return mystery(value)",
+      "id": "unresolved_targets.entry.second.__return_0__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "unresolved_targets.entry.second"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "mystery",
+      "id": "unresolved_targets.entry.second.mystery#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "is_unresolved": true,
+      "kind": "unresolved_value",
+      "name": "mystery",
+      "scope": "unresolved_targets.entry.second"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "unresolved_targets.entry.second.__binding_value__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "unresolved_targets.entry.second"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "unresolved_targets.entry"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.outside.transform#0"
+      ],
+      "parent": null
+    },
+    {
+      "children": [
+        "unresolved_targets.entry.first",
+        "unresolved_targets.entry.second"
+      ],
+      "id": "unresolved_targets.entry",
+      "kind": "module",
+      "name": "unresolved_targets.entry",
+      "nodes": [
+        "unresolved_targets.entry.transform#0",
+        "unresolved_targets.entry.__binding_transform__#1",
+        "unresolved_targets.entry.__binding_first__#2",
+        "unresolved_targets.entry.__binding_second__#3"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "unresolved_targets.entry.first",
+      "kind": "function",
+      "name": "first",
+      "nodes": [
+        "unresolved_targets.entry.first.callback#0",
+        "unresolved_targets.entry.first.value#1",
+        "unresolved_targets.entry.first.left#2",
+        "unresolved_targets.entry.first.right#3",
+        "unresolved_targets.entry.first.__call_callback_0__#4",
+        "unresolved_targets.entry.first.__call_transform_1__#5",
+        "unresolved_targets.entry.first.__return_0__#6",
+        "unresolved_targets.entry.first.mystery#7",
+        "unresolved_targets.entry.first.__binding_callback__#8",
+        "unresolved_targets.entry.first.__binding_value__#9",
+        "unresolved_targets.entry.first.__binding_left__#10",
+        "unresolved_targets.entry.first.__binding_right__#11"
+      ],
+      "parent": "unresolved_targets.entry"
+    },
+    {
+      "children": [],
+      "id": "unresolved_targets.entry.second",
+      "kind": "function",
+      "name": "second",
+      "nodes": [
+        "unresolved_targets.entry.second.value#0",
+        "unresolved_targets.entry.second.__call_mystery_2__#1",
+        "unresolved_targets.entry.second.__return_0__#2",
+        "unresolved_targets.entry.second.mystery#3",
+        "unresolved_targets.entry.second.__binding_value__#4"
+      ],
+      "parent": "unresolved_targets.entry"
+    }
+  ],
+  "version": "0.1.0"
+}

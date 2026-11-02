@@ -1,0 +1,673 @@
+{
+  "edges": [
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "call_unknown_member",
+      "target": "__module__.__binding_call_unknown_member__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "call_unknown_member.__binding_obj__#4",
+      "target": "call_unknown_member.obj#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "call_unknown_member.__call_obj.consume_3__#2",
+      "target": "call_unknown_member.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "call_unknown_member.__ref_2__#1",
+      "target": "call_unknown_member.__call_obj.consume_3__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "call_unknown_member.obj#0",
+      "target": "call_unknown_member.__ref_2__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "call_unknown_member_with_keyword",
+      "target": "__module__.__binding_call_unknown_member_with_keyword__#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "call_unknown_member_with_keyword.__binding_obj__#4",
+      "target": "call_unknown_member_with_keyword.obj#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "call_unknown_member_with_keyword.__call_obj.consume_5__#2",
+      "target": "call_unknown_member_with_keyword.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "call_unknown_member_with_keyword.__ref_4__#1",
+      "target": "call_unknown_member_with_keyword.__call_obj.consume_5__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "call_unknown_member_with_keyword.obj#0",
+      "target": "call_unknown_member_with_keyword.__ref_4__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "consume",
+      "target": "__module__.__binding_consume__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "consume",
+      "target": "call_unknown_member.__call_obj.consume_3__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "consume",
+      "target": "call_unknown_member_with_keyword.__call_obj.consume_5__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "consume.__binding_value__#2",
+      "target": "consume.value#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 1,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": true,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "consume.__return_0__#1",
+      "target": "read_attribute.__call_consume_1__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "consume.value#0",
+      "target": "consume.__return_0__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "read_attribute",
+      "target": "__module__.__binding_read_attribute__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "read_attribute.__binding_obj__#4",
+      "target": "read_attribute.obj#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "read_attribute.__call_consume_1__#2",
+      "target": "read_attribute.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "read_attribute.__ref_0__#1",
+      "target": "read_attribute.__call_consume_1__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "read_attribute.obj#0",
+      "target": "read_attribute.__ref_0__#1"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "consume",
+      "id": "__module__.__binding_consume__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_consume__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "read_attribute",
+      "id": "__module__.__binding_read_attribute__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_read_attribute__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "call_unknown_member",
+      "id": "__module__.__binding_call_unknown_member__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_call_unknown_member__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "call_unknown_member_with_keyword",
+      "id": "__module__.__binding_call_unknown_member_with_keyword__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_call_unknown_member_with_keyword__",
+      "scope": "__module__"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "value",
+      "id": "consume.value#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "value",
+      "scope": "consume"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "consume.value#0"
+      ],
+      "display_name": "return value",
+      "id": "consume.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "consume"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "value",
+      "id": "consume.__binding_value__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_value__",
+      "scope": "consume"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "obj",
+      "id": "read_attribute.obj#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "obj",
+      "scope": "read_attribute"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "read_attribute.obj#0"
+      ],
+      "display_name": "obj.value",
+      "id": "read_attribute.__ref_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_0__",
+      "scope": "read_attribute"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "consume.__return_0__#1",
+        "read_attribute.__ref_0__#1"
+      ],
+      "display_name": "consume()",
+      "id": "read_attribute.__call_consume_1__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_consume_1__",
+      "scope": "read_attribute"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "read_attribute.__call_consume_1__#2"
+      ],
+      "display_name": "return consume(obj.value)",
+      "id": "read_attribute.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "read_attribute"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "obj",
+      "id": "read_attribute.__binding_obj__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_obj__",
+      "scope": "read_attribute"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "obj",
+      "id": "call_unknown_member.obj#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "obj",
+      "scope": "call_unknown_member"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "call_unknown_member.obj#0"
+      ],
+      "display_name": "obj.consume",
+      "id": "call_unknown_member.__ref_2__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_2__",
+      "scope": "call_unknown_member"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "call_unknown_member.__ref_2__#1",
+        "consume"
+      ],
+      "display_name": "obj.consume()",
+      "id": "call_unknown_member.__call_obj.consume_3__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_obj.consume_3__",
+      "scope": "call_unknown_member"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "call_unknown_member.__call_obj.consume_3__#2"
+      ],
+      "display_name": "return obj.consume(consume)",
+      "id": "call_unknown_member.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "call_unknown_member"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "obj",
+      "id": "call_unknown_member.__binding_obj__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_obj__",
+      "scope": "call_unknown_member"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "obj",
+      "id": "call_unknown_member_with_keyword.obj#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "obj",
+      "scope": "call_unknown_member_with_keyword"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "call_unknown_member_with_keyword.obj#0"
+      ],
+      "display_name": "obj.consume",
+      "id": "call_unknown_member_with_keyword.__ref_4__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_4__",
+      "scope": "call_unknown_member_with_keyword"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "call_unknown_member_with_keyword.__ref_4__#1",
+        "consume"
+      ],
+      "display_name": "obj.consume()",
+      "id": "call_unknown_member_with_keyword.__call_obj.consume_5__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_obj.consume_5__",
+      "scope": "call_unknown_member_with_keyword"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "call_unknown_member_with_keyword.__call_obj.consume_5__#2"
+      ],
+      "display_name": "return obj.consume(value=consume)",
+      "id": "call_unknown_member_with_keyword.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "call_unknown_member_with_keyword"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "obj",
+      "id": "call_unknown_member_with_keyword.__binding_obj__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_obj__",
+      "scope": "call_unknown_member_with_keyword"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "__module__"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [],
+      "parent": null
+    },
+    {
+      "children": [
+        "consume",
+        "read_attribute",
+        "call_unknown_member",
+        "call_unknown_member_with_keyword"
+      ],
+      "id": "__module__",
+      "kind": "module",
+      "name": "__module__",
+      "nodes": [
+        "__module__.__binding_consume__#0",
+        "__module__.__binding_read_attribute__#1",
+        "__module__.__binding_call_unknown_member__#2",
+        "__module__.__binding_call_unknown_member_with_keyword__#3"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "consume",
+      "kind": "function",
+      "name": "consume",
+      "nodes": [
+        "consume.value#0",
+        "consume.__return_0__#1",
+        "consume.__binding_value__#2"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "read_attribute",
+      "kind": "function",
+      "name": "read_attribute",
+      "nodes": [
+        "read_attribute.obj#0",
+        "read_attribute.__ref_0__#1",
+        "read_attribute.__call_consume_1__#2",
+        "read_attribute.__return_0__#3",
+        "read_attribute.__binding_obj__#4"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "call_unknown_member",
+      "kind": "function",
+      "name": "call_unknown_member",
+      "nodes": [
+        "call_unknown_member.obj#0",
+        "call_unknown_member.__ref_2__#1",
+        "call_unknown_member.__call_obj.consume_3__#2",
+        "call_unknown_member.__return_0__#3",
+        "call_unknown_member.__binding_obj__#4"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "call_unknown_member_with_keyword",
+      "kind": "function",
+      "name": "call_unknown_member_with_keyword",
+      "nodes": [
+        "call_unknown_member_with_keyword.obj#0",
+        "call_unknown_member_with_keyword.__ref_4__#1",
+        "call_unknown_member_with_keyword.__call_obj.consume_5__#2",
+        "call_unknown_member_with_keyword.__return_0__#3",
+        "call_unknown_member_with_keyword.__binding_obj__#4"
+      ],
+      "parent": "__module__"
+    }
+  ],
+  "version": "0.1.0"
+}

@@ -1,0 +1,372 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.nested_attribute_walk.tree.branch.leaf.submodule#0",
+      "target": "nested_attribute_walk.entry.submodule#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.nested_attribute_walk.tree.branch.leaf.submodule.deep.run#1",
+      "target": "nested_attribute_walk.entry.main.__call_submodule.deep.run_2__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "nested_attribute_walk.entry.__binding_submodule__#1",
+      "target": "nested_attribute_walk.entry.submodule#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "nested_attribute_walk.entry.main",
+      "target": "nested_attribute_walk.entry.__binding_main__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "nested_attribute_walk.entry.main.__call_submodule.deep.run_2__#2",
+      "target": "nested_attribute_walk.entry.main.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "nested_attribute_walk.entry.main.__ref_0__#0",
+      "target": "nested_attribute_walk.entry.main.__ref_1__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "nested_attribute_walk.entry.main.__ref_1__#1",
+      "target": "nested_attribute_walk.entry.main.__call_submodule.deep.run_2__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "nested_attribute_walk.entry.submodule#0",
+      "target": "nested_attribute_walk.entry.main.__ref_0__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "nested_attribute_walk.tree.branch.leaf.submodule.deep.run",
+      "target": "__root__.nested_attribute_walk.tree.branch.leaf.submodule.deep.run#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "nested_attribute_walk.tree.branch.leaf.submodule.deep.run",
+      "target": "nested_attribute_walk.tree.branch.leaf.submodule.deep.__binding_run__#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "nested_attribute_walk.tree.branch.leaf.submodule.deep.run.__return_0__#0",
+      "target": "nested_attribute_walk.entry.main.__call_submodule.deep.run_2__#2"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "nested_attribute_walk.tree.branch.leaf.submodule",
+      "id": "__root__.nested_attribute_walk.tree.branch.leaf.submodule#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "nested_attribute_walk.tree.branch.leaf.submodule",
+      "scope": "__root__"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "nested_attribute_walk.tree.branch.leaf.submodule.deep.run"
+      ],
+      "display_name": "nested_attribute_walk.tree.branch.leaf.submodule.deep.run",
+      "id": "__root__.nested_attribute_walk.tree.branch.leaf.submodule.deep.run#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "nested_attribute_walk.tree.branch.leaf.submodule.deep.run",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.nested_attribute_walk.tree.branch.leaf.submodule#0"
+      ],
+      "display_name": "submodule",
+      "id": "nested_attribute_walk.entry.submodule#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "submodule",
+      "scope": "nested_attribute_walk.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "submodule",
+      "id": "nested_attribute_walk.entry.__binding_submodule__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_submodule__",
+      "scope": "nested_attribute_walk.entry"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "nested_attribute_walk.entry.__binding_main__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "nested_attribute_walk.entry"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "nested_attribute_walk.entry.submodule#0"
+      ],
+      "display_name": "submodule.deep",
+      "id": "nested_attribute_walk.entry.main.__ref_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_0__",
+      "scope": "nested_attribute_walk.entry.main"
+    },
+    {
+      "access": "read",
+      "dependencies": [
+        "nested_attribute_walk.entry.main.__ref_0__#0"
+      ],
+      "display_name": "submodule.deep.run",
+      "id": "nested_attribute_walk.entry.main.__ref_1__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "reference",
+      "name": "__ref_1__",
+      "scope": "nested_attribute_walk.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "__root__.nested_attribute_walk.tree.branch.leaf.submodule.deep.run#1",
+        "nested_attribute_walk.entry.main.__ref_1__#1",
+        "nested_attribute_walk.tree.branch.leaf.submodule.deep.run.__return_0__#0"
+      ],
+      "display_name": "submodule.deep.run()",
+      "id": "nested_attribute_walk.entry.main.__call_submodule.deep.run_2__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_submodule.deep.run_2__",
+      "scope": "nested_attribute_walk.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "nested_attribute_walk.entry.main.__call_submodule.deep.run_2__#2"
+      ],
+      "display_name": "return submodule.deep.run()",
+      "id": "nested_attribute_walk.entry.main.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "nested_attribute_walk.entry.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "run",
+      "id": "nested_attribute_walk.tree.branch.leaf.submodule.deep.__binding_run__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_run__",
+      "scope": "nested_attribute_walk.tree.branch.leaf.submodule.deep"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return 1",
+      "id": "nested_attribute_walk.tree.branch.leaf.submodule.deep.run.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "nested_attribute_walk.tree.branch.leaf.submodule.deep.run"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "nested_attribute_walk.entry",
+        "nested_attribute_walk.tree.branch.leaf.submodule.deep"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.nested_attribute_walk.tree.branch.leaf.submodule#0",
+        "__root__.nested_attribute_walk.tree.branch.leaf.submodule.deep.run#1"
+      ],
+      "parent": null
+    },
+    {
+      "children": [
+        "nested_attribute_walk.entry.main"
+      ],
+      "id": "nested_attribute_walk.entry",
+      "kind": "module",
+      "name": "nested_attribute_walk.entry",
+      "nodes": [
+        "nested_attribute_walk.entry.submodule#0",
+        "nested_attribute_walk.entry.__binding_submodule__#1",
+        "nested_attribute_walk.entry.__binding_main__#2"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "nested_attribute_walk.entry.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "nested_attribute_walk.entry.main.__ref_0__#0",
+        "nested_attribute_walk.entry.main.__ref_1__#1",
+        "nested_attribute_walk.entry.main.__call_submodule.deep.run_2__#2",
+        "nested_attribute_walk.entry.main.__return_0__#3"
+      ],
+      "parent": "nested_attribute_walk.entry"
+    },
+    {
+      "children": [
+        "nested_attribute_walk.tree.branch.leaf.submodule.deep.run"
+      ],
+      "id": "nested_attribute_walk.tree.branch.leaf.submodule.deep",
+      "kind": "module",
+      "name": "nested_attribute_walk.tree.branch.leaf.submodule.deep",
+      "nodes": [
+        "nested_attribute_walk.tree.branch.leaf.submodule.deep.__binding_run__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "nested_attribute_walk.tree.branch.leaf.submodule.deep.run",
+      "kind": "function",
+      "name": "run",
+      "nodes": [
+        "nested_attribute_walk.tree.branch.leaf.submodule.deep.run.__return_0__#0"
+      ],
+      "parent": "nested_attribute_walk.tree.branch.leaf.submodule.deep"
+    }
+  ],
+  "version": "0.1.0"
+}

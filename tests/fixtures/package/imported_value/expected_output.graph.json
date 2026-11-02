@@ -1,0 +1,299 @@
+{
+  "edges": [
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "__root__.imported_value.worker.f#0",
+      "target": "imported_value.consumer.f#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_value.consumer.__binding_f__#1",
+      "target": "imported_value.consumer.f#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "imported_value.consumer.f#0",
+      "target": "imported_value.consumer.main.alias#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_value.consumer.main",
+      "target": "imported_value.consumer.__binding_main__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_value.consumer.main.__binding_alias__#2",
+      "target": "imported_value.consumer.main.alias#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "imported_value.consumer.main.alias#0",
+      "target": "imported_value.consumer.main.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_value.worker.f",
+      "target": "__root__.imported_value.worker.f#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "imported_value.worker.f",
+      "target": "imported_value.worker.__binding_f__#0"
+    }
+  ],
+  "nodes": [
+    {
+      "access": null,
+      "dependencies": [
+        "imported_value.worker.f"
+      ],
+      "display_name": "imported_value.worker.f",
+      "id": "__root__.imported_value.worker.f#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "import_target",
+      "name": "imported_value.worker.f",
+      "scope": "__root__"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "__root__.imported_value.worker.f#0"
+      ],
+      "display_name": "f",
+      "id": "imported_value.consumer.f#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "f",
+      "scope": "imported_value.consumer"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "f",
+      "id": "imported_value.consumer.__binding_f__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_f__",
+      "scope": "imported_value.consumer"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "main",
+      "id": "imported_value.consumer.__binding_main__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_main__",
+      "scope": "imported_value.consumer"
+    },
+    {
+      "access": "write",
+      "dependencies": [
+        "imported_value.consumer.f#0"
+      ],
+      "display_name": "alias",
+      "id": "imported_value.consumer.main.alias#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "alias",
+      "scope": "imported_value.consumer.main"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "imported_value.consumer.main.alias#0"
+      ],
+      "display_name": "return alias",
+      "id": "imported_value.consumer.main.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "imported_value.consumer.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "alias",
+      "id": "imported_value.consumer.main.__binding_alias__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_alias__",
+      "scope": "imported_value.consumer.main"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "f",
+      "id": "imported_value.worker.__binding_f__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_f__",
+      "scope": "imported_value.worker"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "return 1",
+      "id": "imported_value.worker.f.__return_0__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "imported_value.worker.f"
+    }
+  ],
+  "scopes": [
+    {
+      "children": [
+        "imported_value.consumer",
+        "imported_value.worker"
+      ],
+      "id": "__root__",
+      "kind": "root",
+      "name": "__root__",
+      "nodes": [
+        "__root__.imported_value.worker.f#0"
+      ],
+      "parent": null
+    },
+    {
+      "children": [
+        "imported_value.consumer.main"
+      ],
+      "id": "imported_value.consumer",
+      "kind": "module",
+      "name": "imported_value.consumer",
+      "nodes": [
+        "imported_value.consumer.f#0",
+        "imported_value.consumer.__binding_f__#1",
+        "imported_value.consumer.__binding_main__#2"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "imported_value.consumer.main",
+      "kind": "function",
+      "name": "main",
+      "nodes": [
+        "imported_value.consumer.main.alias#0",
+        "imported_value.consumer.main.__return_0__#1",
+        "imported_value.consumer.main.__binding_alias__#2"
+      ],
+      "parent": "imported_value.consumer"
+    },
+    {
+      "children": [
+        "imported_value.worker.f"
+      ],
+      "id": "imported_value.worker",
+      "kind": "module",
+      "name": "imported_value.worker",
+      "nodes": [
+        "imported_value.worker.__binding_f__#0"
+      ],
+      "parent": "__root__"
+    },
+    {
+      "children": [],
+      "id": "imported_value.worker.f",
+      "kind": "function",
+      "name": "f",
+      "nodes": [
+        "imported_value.worker.f.__return_0__#0"
+      ],
+      "parent": "imported_value.worker"
+    }
+  ],
+  "version": "0.1.0"
+}
