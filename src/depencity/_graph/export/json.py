@@ -1,8 +1,8 @@
 import json
+from importlib.metadata import version
 
 from depencity._graph.model.node import Node
 from depencity._graph.model.scope import Scope, create_scope_ids, create_unique_id
-from depencity._version import __version__
 
 
 def to_dict(root: Scope) -> dict:
@@ -17,7 +17,7 @@ def to_dict(root: Scope) -> dict:
             node_ids[id(node)] = node_id
             used_ids.add(node_id)
     return {
-        'version': __version__,
+        'version': version('depencity'),
         'scopes': [
             _scope_dict(scope, scope_ids, node_ids)
             for scope in scopes

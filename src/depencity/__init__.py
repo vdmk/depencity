@@ -1,5 +1,7 @@
 """Public Python interface for Depencity."""
 
+from importlib.metadata import version
+
 from depencity._graph.export.dot import to_dot
 from depencity._graph.export.json import to_dict, to_json
 from depencity._graph.graph_builder import build
@@ -17,7 +19,8 @@ from depencity._package_graph.package_builder import build_package, build_target
 from depencity._profile.classifier import profile, profile_subgraph
 from depencity._profile.model.scope_profile import ScopeProfile
 from depencity._profile.summary import summarize
-from depencity._version import __version__
+
+__version__ = version('depencity')
 
 __all__ = [
     '__version__',

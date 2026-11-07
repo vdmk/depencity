@@ -3,12 +3,12 @@
 from __future__ import annotations
 
 import json
+from importlib.metadata import version
 from typing import Any
 
 from depencity._graph.model.scope import Scope, create_scope_ids
 from depencity._profile.classifier import profile, profile_subgraph
 from depencity._profile.model.scope_profile import ScopeProfile
-from depencity._version import __version__
 
 
 def _profile_output(profile: dict, metrics: set[str] | None = None) -> dict:
@@ -163,7 +163,7 @@ def _format_summary(
 ) -> dict:
     scopes_by_id = {}
     result: dict[str, Any] = {
-        'version': __version__,
+        'version': version('depencity'),
         'scopes': [],
     }
     for scope in selected:

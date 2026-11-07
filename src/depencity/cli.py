@@ -1,3 +1,4 @@
+from importlib.metadata import version
 from pathlib import Path
 
 import click
@@ -6,11 +7,10 @@ from depencity._graph.export.dot import to_dot
 from depencity._graph.export.json import to_json
 from depencity._package_graph.package_builder import build_target
 from depencity._profile.summary import serialize_summary, summarize
-from depencity._version import __version__
 
 
 @click.group(name='depencity')
-@click.version_option(version=__version__, prog_name='depencity')
+@click.version_option(version=version('depencity'), prog_name='depencity')
 def main() -> None:
     """Analyze code through the local complexity tools."""
 

@@ -1,7 +1,6 @@
 """Update documentation references to match the package version."""
 
 import re
-import runpy
 import tomllib
 from pathlib import Path
 
@@ -12,12 +11,12 @@ import click
 @click.option('--check', is_flag=True, help='Check generated outputs without modifying files.')
 def main(check: bool) -> None:
     root = Path(__file__).resolve().parents[1]
-    version = runpy.run_path(root / 'src/depencity/_version.py')['__version__']
     readme_path = root / 'README.md'
     readme = readme_path.read_text()
     metadata_path = root / 'pyproject.toml'
     metadata_text = metadata_path.read_text()
     metadata = tomllib.loads(metadata_text)
+    version = metadata['project']['version']
     documentation = metadata['project']['urls']['Documentation']
     errors = []
     expected = f'https://github.com/vdmk/depencity/blob/v{version}/README.md'

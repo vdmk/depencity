@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "depencity"
-dynamic = ["version"]
+version = "0.1.0"
 description = "Measure data-dependency complexity in Python programs"
 authors = [{ name = "Dmitry Vedmedenko" }]
 keywords = ["static-analysis", "dependency-graph", "code-complexity", "refactoring", "mcp"]
@@ -43,9 +43,6 @@ dev = [
 [project.scripts]
 depencity = "depencity.cli:main"
 depencity-mcp = "depencity.mcp:main"
-
-[tool.hatch.version]
-path = "src/depencity/_version.py"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/depencity"]
