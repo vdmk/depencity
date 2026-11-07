@@ -1,0 +1,149 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: '0.13.4'
+          python-version: '3.14'
+      - run: uv sync --locked
+      - run: uv run ruff check src tests scripts
+      - run: uv run mypy
+
+      - run: uv run scripts/check_docs.py
+      - run: uv run scripts/update_fixture_profiles.py --check
+      - run: uv run scripts/update_docs_links.py --check
+
+      - run: uv run --locked bandit -c pyproject.toml -r src
+      - run: uv run --locked pip-audit --local --skip-editable
+
+      - name: Build documentation image
+        run: docker build --platform linux/amd64 -f docker/docs/Dockerfile -t depencity-docs .
+      - name: Check documentation graphs
+        run: docker run --rm --platform linux/amd64 --network none -v "$PWD:/workspace:ro" depencity-docs --check
+
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: hynek/build-and-inspect-python-package@2abe76da66d0a6a4a227101f9348ee855797cfa5
+
+  tests:
+    needs: package
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-15, windows-latest]
+        distribution: ['*.whl', '*.tar.gz']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: '0.13.4'
+          python-version: '3.14'
+      - uses: actions/download-artifact@v4
+        with:
+          name: Packages
+          path: dist
+      - run: uvx --with tox-uv tox run --installpkg dist/${{ matrix.distribution }}
+        shell: bash
+
+  tag-release:
+    needs: [checks, package, tests]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      version: ${{ steps.release.outputs.version }}
+      publish: ${{ steps.release.outputs.publish }}
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: '0.13.4'
+          python-version: '3.14'
+      - name: Tag package version
+        id: release
+        run: |
+          version=$(uv version --short)
+          tag="v${version}"
+          echo "version=${version}" >> "$GITHUB_OUTPUT"
+          existing_tag=$(git ls-remote --tags origin "refs/tags/${tag}")
+
+          if [ -n "$existing_tag" ]; then
+            echo "Tag ${tag} already exists; leaving it unchanged"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git tag -a "${tag}" -m "Release ${tag}"
+            git push origin "${tag}"
+          fi
+
+          # Allow reruns at the release commit to finish an interrupted publication,
+          # even when tagging already succeeded. Later commits with the same
+          # version skip publication; existing tags are never moved.
+          git fetch origin "refs/tags/${tag}:refs/tags/${tag}"
+          if [ "$(git rev-parse "${tag}^{commit}")" = "$GITHUB_SHA" ]; then
+            echo 'publish=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'publish=false' >> "$GITHUB_OUTPUT"
+            echo 'Version belongs to an earlier commit; skipping publication'
+          fi
+
+  publish:
+    needs: tag-release
+    if: needs.tag-release.outputs.publish == 'true'
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      contents: read
+      id-token: write
+    env:
+      RELEASE_VERSION: ${{ needs.tag-release.outputs.version }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: '0.13.4'
+          python-version: '3.14'
+      - name: Verify release tag
+        run: |
+          git fetch origin "refs/tags/v${RELEASE_VERSION}:refs/tags/v${RELEASE_VERSION}"
+          test "$(git rev-parse "v${RELEASE_VERSION}^{commit}")" = "$GITHUB_SHA"
+      - uses: actions/download-artifact@v4
+        with:
+          name: Packages
+          path: release-dist
+      - name: Validate tested distributions
+        run: |
+          test -f "release-dist/depencity-${RELEASE_VERSION}-py3-none-any.whl"
+          test -f "release-dist/depencity-${RELEASE_VERSION}.tar.gz"
+      - name: Publish tested distributions
+        run: |
+          uv publish --trusted-publishing always \
+            "release-dist/depencity-${RELEASE_VERSION}-py3-none-any.whl" \
+            "release-dist/depencity-${RELEASE_VERSION}.tar.gz"
+      - name: Verify published version
+        run: |
+          for attempt in {1..10}; do
+            if output=$(uvx --isolated --refresh --python 3.14 --from "depencity==${RELEASE_VERSION}" depencity --version); then
+              echo "$output"
+              test "$output" = "depencity, version ${RELEASE_VERSION}"
+              exit $?
+            fi
+            if [ "$attempt" -lt 10 ]; then sleep 15; fi
+          done
+          exit 1

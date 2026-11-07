@@ -100,21 +100,17 @@ incidental counter reduction; readability and actual dependencies matter.
 
 ## Release
 
-1. Bump `src/depencity/_version.py`, run `uv run scripts/update_docs_links.py`
-   to update links in `README.md` and `pyproject.toml`, then run `uv lock`.
+1. Run `uv version <version>` to bump the version in `pyproject.toml`, then run
+   `uv run scripts/update_docs_links.py` to update documentation links.
    Update `CHANGELOG.md` under the release version.
 2. Run the development, test, and distribution checks in `CONTRIBUTING.md`.
    Run `uv run --locked scripts/check_security.py` again after the final commit.
    Ensure `dist/` contains only the new version's wheel and sdist.
-3. Commit and push to `main`. Wait for CI to pass and create `v<version>`;
-   existing tags are left unchanged.
-4. Set `UV_PUBLISH_TOKEN` to your PyPI API token, then run `uv publish dist/*`
-   from the checked release commit.
-5. Verify the published version in an isolated environment (replace `VERSION`):
-
-   ```bash
-   uvx --isolated --refresh --python 3.14 --from 'depencity==VERSION' depencity --version
-   ```
-
-Check that the PyPI documentation links and example image resolve. Use a new
-version for any correction to a published release.
+3. Push to `main`. Actions validates and tags the release, then publishes the
+   tested `Packages` artifact through Trusted Publishing. Existing tags remain
+   unchanged; only the commit targeted by the version tag can publish.
+   Retry interrupted publication by rerunning failed jobs in the original run,
+   preserving its tested artifact. Do not rebuild or move the tag to retry.
+4. Actions verifies an isolated installation after publishing, with bounded retries.
+   Inspect the PyPI page rendering and links after publication. Use a new
+   version for any correction to a published release.
