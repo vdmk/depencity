@@ -11,8 +11,8 @@ jobs:
   checks:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v6
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6
         with:
           version: '0.13.4'
           python-version: '3.14'
@@ -35,7 +35,7 @@ jobs:
   package:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
       - uses: hynek/build-and-inspect-python-package@2abe76da66d0a6a4a227101f9348ee855797cfa5
 
   tests:
@@ -47,12 +47,12 @@ jobs:
         os: [ubuntu-latest, macos-15, windows-latest]
         distribution: ['*.whl', '*.tar.gz']
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v6
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6
         with:
           version: '0.13.4'
           python-version: '3.14'
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
         with:
           name: Packages
           path: dist
@@ -63,6 +63,9 @@ jobs:
     needs: [checks, package, tests]
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-release-tag-${{ github.ref }}
+      cancel-in-progress: false
     permissions:
       contents: write
     outputs:
@@ -70,8 +73,8 @@ jobs:
       publish: ${{ steps.release.outputs.publish }}
 
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v6
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6
         with:
           version: '0.13.4'
           python-version: '3.14'
@@ -114,8 +117,8 @@ jobs:
     env:
       RELEASE_VERSION: ${{ needs.tag-release.outputs.version }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v6
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6
         with:
           version: '0.13.4'
           python-version: '3.14'
@@ -123,7 +126,7 @@ jobs:
         run: |
           git fetch origin "refs/tags/v${RELEASE_VERSION}:refs/tags/v${RELEASE_VERSION}"
           test "$(git rev-parse "v${RELEASE_VERSION}^{commit}")" = "$GITHUB_SHA"
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
         with:
           name: Packages
           path: release-dist
@@ -136,6 +139,19 @@ jobs:
           uv publish --trusted-publishing always \
             "release-dist/depencity-${RELEASE_VERSION}-py3-none-any.whl" \
             "release-dist/depencity-${RELEASE_VERSION}.tar.gz"
+
+  verify-release:
+    needs: [tag-release, publish]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    env:
+      RELEASE_VERSION: ${{ needs.tag-release.outputs.version }}
+    steps:
+      - uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6
+        with:
+          version: '0.13.4'
+          python-version: '3.14'
       - name: Verify published version
         run: |
           for attempt in {1..10}; do

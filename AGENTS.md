@@ -111,6 +111,6 @@ incidental counter reduction; readability and actual dependencies matter.
    unchanged; only the commit targeted by the version tag can publish.
    Retry interrupted publication by rerunning failed jobs in the original run,
    preserving its tested artifact. Do not rebuild or move the tag to retry.
-4. Actions verifies an isolated installation after publishing, with bounded retries.
+4. Wait for publication and installation verification to pass.
    Inspect the PyPI page rendering and links after publication. Use a new
    version for any correction to a published release.
