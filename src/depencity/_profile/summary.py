@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+from collections.abc import Sequence
 from importlib.metadata import version
 from typing import Any
 
@@ -27,7 +28,7 @@ def _profile_output(profile: dict, metrics: set[str] | None = None) -> dict:
 def summarize(
     root: Scope, scope_id: str | None = None,
     include_children: bool = False, include_parent: bool = False,
-    metrics: list[str] | None = None,
+    metrics: Sequence[str] | None = None,
     depth: int | None = None,
     include_own_profile: bool = False,
 ) -> dict:
@@ -96,7 +97,7 @@ def serialize_summary(summary: dict) -> str:
 def summarize_document(
     document: dict, scope_id: str | None = None,
     include_children: bool = False, include_parent: bool = False,
-    metrics: list[str] | None = None,
+    metrics: Sequence[str] | None = None,
     depth: int | None = None,
     include_own_profile: bool = False,
 ) -> dict:
@@ -216,7 +217,7 @@ def _profile_dict(value: ScopeProfile, metrics: set[str] | None = None) -> dict:
     return result
 
 
-def _validate_metrics(metrics: list[str] | None) -> None:
+def _validate_metrics(metrics: Sequence[str] | None) -> None:
     if metrics is None:
         return
     known = {name.replace('__', '.') for name in vars(ScopeProfile())}

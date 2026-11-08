@@ -9,6 +9,7 @@ import click
 from mcp.server import MCPServer
 
 from depencity._package_graph.package_builder import build_target
+from depencity._profile.model.metric import Metric
 from depencity._profile.summary import serialize_summary, summarize
 
 
@@ -36,7 +37,7 @@ def profile(
     scope: str | None = None,
     include_children: bool = False,
     include_parent: bool = False,
-    metrics: list[str] | None = None,
+    metrics: list[Metric] | None = None,
     depth: int | None = None,
     include_own_profile: bool = False,
 ) -> str:

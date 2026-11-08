@@ -1,10 +1,12 @@
 import asyncio
 import json
+from dataclasses import fields
 
 import pytest
 from click.testing import CliRunner
 
 import depencity.mcp as mcp_module
+from depencity._profile.model.scope_profile import ScopeProfile
 from depencity.mcp import create_server, profile
 
 from .utils import FIXTURES_ROOT, read_fixture
@@ -158,6 +160,17 @@ def test_graph_mcp_exposes_only_graph_tools():
     tools = asyncio.run(create_server().list_tools())
 
     assert {tool.name for tool in tools} == {"profile"}
+
+
+def test_mcp_profile_advertises_all_supported_metrics():
+    tools = asyncio.run(create_server().list_tools())
+
+    schema = tools[0].input_schema
+    metrics = schema['properties']['metrics']['anyOf'][0]['items']
+    if '$ref' in metrics:
+        metrics = schema['$defs'][metrics['$ref'].rsplit('/', 1)[1]]
+
+    assert set(metrics['enum']) == {field.name.replace('__', '.') for field in fields(ScopeProfile)}
 
 
 def test_mcp_cli_starts_server_in_workspace(tmp_path, monkeypatch):
