@@ -142,6 +142,7 @@ without metrics. Unknown keys raise `ValueError`.
 | `graph.paths.data.length.distribution` | `dict[int, int]` | Path length to path count at named endpoints; JSON object keys are strings. |
 | `graph.version_merges.count` | `int` | Nodes consuming multiple versions of the same binding. |
 | `graph.cyclic_components.count` | `int` | Strongly connected components containing a cycle. |
+| `graph.cyclic_components.nodes.count` | `int` | Total nodes in those components, recomputed for the selected scope set. |
 
 For example, call the MCP `profile` tool with an existing workspace file:
 
@@ -178,6 +179,10 @@ Version merges count nodes that consume multiple versions of the same binding.
 One input with several possible binding versions contributes one read, not one
 read per candidate.
 Cyclic components count strongly connected components that contain a cycle.
+`graph.cyclic_components.nodes.count` reports their total size, including binding
+nodes. Both metrics are recomputed for aggregate scopes, so cycles spanning
+scopes are counted together and growing regions remain visible even when the
+component count stays unchanged.
 
 Path traversal follows `data`, `iteration`, and `predicate` dependencies,
 visiting each dependency endpoint once per consuming node. The JSON export

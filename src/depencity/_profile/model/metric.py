@@ -39,4 +39,5 @@ type Metric = Literal[
     'graph.paths.data.length.distribution',
     'graph.version_merges.count',
     'graph.cyclic_components.count',
+    'graph.cyclic_components.nodes.count',
 ]

@@ -52,7 +52,9 @@ def summarize(
         name.startswith('graph.paths.') for name in metric_filter
     )
     include_cycles = (
-        metric_filter is None or 'graph.cyclic_components.count' in metric_filter
+        metric_filter is None or any(
+            name.startswith('graph.cyclic_components.') for name in metric_filter
+        )
     )
     scope_metrics: dict[int, dict] = {}
     direct = {}

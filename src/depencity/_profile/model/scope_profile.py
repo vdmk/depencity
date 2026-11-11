@@ -41,3 +41,4 @@ class ScopeProfile:
     graph__paths__data__length__distribution: dict[int, int] = field(default_factory=dict)
     graph__version_merges__count: int = 0
     graph__cyclic_components__count: int = 0
+    graph__cyclic_components__nodes__count: int = 0

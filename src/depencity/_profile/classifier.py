@@ -83,7 +83,9 @@ def _measure_scopes(
         result.graph__paths__data__length__p95 = paths.depth_p95
         result.graph__paths__data__length__distribution = paths.depth_distribution
     if include_cycles:
-        result.graph__cyclic_components__count = count_cyclic_components(scopes)
+        components = _cyclic_components([node for scope in scopes for node in scope.nodes])
+        result.graph__cyclic_components__count = len(components)
+        result.graph__cyclic_components__nodes__count = sum(map(len, components))
     return result
 
 
@@ -102,7 +104,7 @@ def _measure_scope_metrics(scope: Scope) -> dict:
     identities = _measure_metric_contract(scope, result, enclosing_depths)
     return {
         name: value for name, value in vars(result).items()
-        if not name.startswith('graph__paths__') and name != 'graph__cyclic_components__count'
+        if not name.startswith('graph__paths__') and not name.startswith('graph__cyclic_components__')
     } | identities
 
 
