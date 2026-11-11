@@ -58,19 +58,22 @@ def main(check: bool) -> None:
             if _write_snapshot(path, output, check):
                 updated.append(path)
 
-    for suffix in ('aggregate', 'own'):
-        arguments = [
-            'profile', str(fixtures / 'package' / 'internal_calls'),
-            '--format', 'text', '--depth', '1',
-        ]
-        if suffix == 'own':
-            arguments.append('--include-own-profile')
-        result = CliRunner().invoke(cli.main, arguments)
-        if result.exit_code:
-            raise RuntimeError(result.output) from result.exception
-        path = fixtures / 'cli' / f'profile_{suffix}.txt'
-        if _write_snapshot(path, result.output, check):
-            updated.append(path)
+    for target, prefix in (
+        (fixtures / 'package' / 'internal_calls', 'profile'),
+        (fixtures / 'builder' / 'path_count_limit' / 'input.py', 'profile_path_count_limit'),
+    ):
+        for suffix in ('aggregate', 'own'):
+            arguments = [
+                'profile', str(target), '--format', 'text', '--depth', '1',
+            ]
+            if suffix == 'own':
+                arguments.append('--include-own-profile')
+            result = CliRunner().invoke(cli.main, arguments)
+            if result.exit_code:
+                raise RuntimeError(result.output) from result.exception
+            path = fixtures / 'cli' / f'{prefix}_{suffix}.txt'
+            if _write_snapshot(path, result.output, check):
+                updated.append(path)
 
     for path in updated:
         print(path.relative_to(repository))

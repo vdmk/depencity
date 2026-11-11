@@ -45,6 +45,7 @@ from .utils import (
         "finally_context_suppression",
         "module_only",
         "recursive_flows",
+        "path_count_limit",
         "attribute_call_arguments",
         "synthetic_name_collision",
         "profile_visibility",

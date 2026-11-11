@@ -84,20 +84,37 @@ def _print_metrics(metrics: dict, own: dict | None,
         label = str(name).replace('_', ' ').replace('.', ' ').capitalize()
         if key.endswith('.distribution'):
             click.echo(f'{indent}{label} (length: paths)')
-            own_buckets = own[key] if own is not None else {}
-            for bucket in sorted(value.keys() | own_buckets.keys(), key=int):
-                row = f'{indent}  {bucket:<{max(1, 48 - len(indent))}} {value.get(bucket, 0):>12}'
+            own_value = own[key] if own is not None else {}
+            if value is None or own_value is None:
+                status = 'unavailable' if value is None else 'available'
+                row = f'{indent}  {"Status":<{max(1, 48 - len(indent))}} {status:>12}'
                 if own is not None:
-                    row += f' {own_buckets.get(bucket, 0):>12}'
+                    own_status = 'unavailable' if own_value is None else 'available'
+                    row += f' {own_status:>12}'
+                click.echo(row)
+            buckets = value or {}
+            own_buckets = own_value or {}
+            for bucket in sorted(buckets.keys() | own_buckets.keys(), key=int):
+                count = 'unavailable' if value is None else buckets.get(bucket, 0)
+                row = f'{indent}  {bucket:<{max(1, 48 - len(indent))}} {count:>12}'
+                if own is not None:
+                    own_count = 'unavailable' if own_value is None else own_buckets.get(bucket, 0)
+                    row += f' {own_count:>12}'
                 click.echo(row)
         elif isinstance(value, dict):
             click.echo(f'{indent}{label}')
             _print_metrics(value, own, indent + '  ', key)
         else:
-            displayed = f'{value:.6g}' if isinstance(value, float) else str(value)
+            if value is None:
+                displayed = 'unavailable'
+            else:
+                displayed = f'{value:.6g}' if isinstance(value, float) else str(value)
             row = f'{indent}{label:<{max(1, 50 - len(indent))}} {displayed:>12}'
             if own is not None:
                 own_value = own[key]
-                displayed_own = f'{own_value:.6g}' if isinstance(own_value, float) else str(own_value)
+                if own_value is None:
+                    displayed_own = 'unavailable'
+                else:
+                    displayed_own = f'{own_value:.6g}' if isinstance(own_value, float) else str(own_value)
                 row += f' {displayed_own:>12}'
             click.echo(row)

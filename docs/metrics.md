@@ -133,13 +133,13 @@ without metrics. Unknown keys raise `ValueError`.
 | `call.dependencies.external.count` | `int` | External graph target contributions summed across calls. |
 | `call.dependencies.external.distinct_count` | `int` | Distinct external graph targets. |
 | `construction.container_creation.count` | `int` | Container literals and list, set, and dict comprehensions. |
-| `graph.paths.expressions.count` | `int` | Dependency paths ending at graph sinks. |
-| `graph.paths.expressions.length.max` | `int` | Longest path ending at a graph sink, in edges. |
-| `graph.paths.data.count_sum` | `int` | Summed path counts at named endpoints, including intermediate values. |
-| `graph.paths.data.length.max` | `int` | Longest path at a named endpoint, in edges. |
-| `graph.paths.data.length.mean` | `float` | Mean path length at named endpoints, in edges. |
-| `graph.paths.data.length.p95` | `int` | Nearest-rank 95th percentile of path lengths at named endpoints. |
-| `graph.paths.data.length.distribution` | `dict[int, int]` | Path length to path count at named endpoints; JSON object keys are strings. |
+| `graph.paths.expressions.count` | `int \| None` | Dependency paths ending at expression endpoints. |
+| `graph.paths.expressions.length.max` | `int \| None` | Longest path at an expression endpoint, in edges. |
+| `graph.paths.data.count_sum` | `int \| None` | Summed path counts at named endpoints, including intermediate values. |
+| `graph.paths.data.length.max` | `int \| None` | Longest path at a named endpoint, in edges. |
+| `graph.paths.data.length.mean` | `float \| None` | Mean path length at named endpoints, in edges. |
+| `graph.paths.data.length.p95` | `int \| None` | Nearest-rank 95th percentile of path lengths at named endpoints. |
+| `graph.paths.data.length.distribution` | `dict[int, int] \| None` | Path length to path count at named endpoints; JSON object keys are strings. |
 | `graph.version_merges.count` | `int` | Nodes consuming multiple versions of the same binding. |
 | `graph.cyclic_components.count` | `int` | Strongly connected components containing a cycle. |
 | `graph.cyclic_components.nodes.count` | `int` | Total nodes in those components, recomputed for the selected scope set. |
@@ -195,8 +195,8 @@ steps. An edge's occurrence `count` does not multiply paths.
 endpoint, including intermediate values. A shared path prefix contributes at
 each endpoint it reaches.
 
-`graph.paths.expressions.length.max` measures the longest path ending at a
-graph sink. It includes computations ending in yields and writes, even when
+`graph.paths.expressions.length.max` measures the longest path ending at an
+expression endpoint, including terminal cyclic components as described below. It includes computations ending in yields and writes, even when
 their outputs are not named data endpoints.
 
 Expression and data paths traverse the same dependency graph and select
@@ -205,17 +205,41 @@ categories. A path ending at a named graph sink contributes to both metrics.
 The data-path length statistics describe paths ending at named endpoints,
 including intermediate values that have later consumers.
 
-Path metrics are computed on the acyclic remainder of the measured node set.
-Every node in a cyclic component and every edge touching those nodes is omitted
-from path counting. A downstream consumer can therefore become a new path root
-when its only dependency was in a cycle; paths through a cycle are not counted.
-Read path counts and depths together with `graph.cyclic_components.count`:
-removing cyclic dependencies can shorten or restart paths, so a lower depth
-alone does not mean the dependency graph became simpler. A direct profile
-measures one scope's nodes; a subgraph profile measures the scope and its
-descendants together, so the latter can detect cycles crossing scopes.
-Path and cycle metrics must be recomputed from the combined node set; adding
-individual scope measurements does not produce a subgraph measurement.
+Paths follow dependencies backward from each endpoint. At a branch, count each
+dependency separately. A root contributes one path of length zero; each traversed
+edge adds one to length. Binding nodes are excluded.
+
+A path stops when it reaches a root or revisits a node already on that path.
+The edge closing a cycle counts toward length. Other paths can still use that
+node and its dependencies. For example, an isolated two-node cycle contributes
+two expression paths, each of length two.
+
+Expression paths end at graph sinks. A cyclic component with no outside consumer
+has no ordinary sink, so every member also serves as an expression endpoint.
+Named data endpoints are unchanged. Counts are independent of traversal order.
+
+Exact counting can require exponentially many visited-node sets. For each cyclic
+component, computation allows 50,000 distinct `(node, visited set)` states and
+1,000,000 work units. A work unit is one dependency examined during state
+discovery or one path-length bucket added during evaluation. These deterministic
+limits apply to the complete component, not individual routes. Acyclic regions
+do not use these limits.
+
+If either limit is exceeded, affected path metrics are **unavailable**: Python
+returns `None`, JSON and MCP return `null`, and CLI text displays `unavailable`.
+If an expression endpoint depends on an unavailable region, both expression
+metrics are unavailable. If a named endpoint depends on one, all five data-path
+metrics are unavailable. Partial sums and distributions are discarded; unrelated
+metrics and scopes remain available. Metric filters preserve `null` values.
+
+Becoming unavailable under the same limits can signal more branching or
+overlapping cycles. It is a measurement limit, not a numerical score or proof
+of worse code. Compare the source, cyclic-region sizes, and other available
+metrics; an unavailable path count cannot establish a numerical improvement.
+
+A direct profile measures one scope; an aggregate measures that scope and its
+descendants together. Aggregate paths and cycles are recomputed across scopes,
+rather than obtained by adding the individual profiles.
 
 `call.occurrences.total.count` counts call nodes. `call.dependencies.external.count`
 counts their external graph targets: one call reaching two output nodes

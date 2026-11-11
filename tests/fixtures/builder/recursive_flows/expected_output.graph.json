@@ -101,6 +101,45 @@
       "is_callee": false,
       "is_variable_read": false,
       "read_contribution_count": 0,
+      "source": "isolated",
+      "target": "__module__.__binding_isolated__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "isolated.__call_isolated_22__#0",
+      "target": "isolated.__return_0__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 1,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": true,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "isolated.__return_0__#1",
+      "target": "isolated.__call_isolated_22__#0"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
       "source": "main",
       "target": "__module__.__binding_main__#0"
     },
@@ -1143,6 +1182,266 @@
       "read_contribution_count": 1,
       "source": "main.values#0",
       "target": "main.__call_flatten_list_19__#1"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "mutual_left",
+      "target": "__module__.__binding_mutual_left__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "mutual_left.__binding_seed__#4",
+      "target": "mutual_left.seed#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "mutual_left.__call_mutual_right_23__#1",
+      "target": "mutual_left.__op_24__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "mutual_left.__op_24__#2",
+      "target": "mutual_left.__return_0__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 1,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": true,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "mutual_left.__return_0__#3",
+      "target": "mutual_right.__call_mutual_left_26__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "mutual_left.seed#0",
+      "target": "mutual_left.__call_mutual_right_23__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "mutual_left.seed#0",
+      "target": "mutual_left.__op_24__#2"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "mutual_right",
+      "target": "__module__.__binding_mutual_right__#3"
+    },
+    {
+      "access": null,
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "binding",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "mutual_right.__binding_seed__#6",
+      "target": "mutual_right.seed#0"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "mutual_right.__call_mutual_left_26__#2",
+      "target": "mutual_right.__op_28__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "mutual_right.__call_mutual_right_27__#3",
+      "target": "mutual_right.__op_28__#4"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "mutual_right.__cond_25__#1",
+      "target": "mutual_right.__call_mutual_left_26__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "predicate",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "mutual_right.__cond_25__#1",
+      "target": "mutual_right.__call_mutual_right_27__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "mutual_right.__op_28__#4",
+      "target": "mutual_right.__return_0__#5"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 1,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": true,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "mutual_right.__return_0__#5",
+      "target": "mutual_left.__call_mutual_right_23__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 1,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": true,
+      "is_callee": true,
+      "is_variable_read": false,
+      "read_contribution_count": 0,
+      "source": "mutual_right.__return_0__#5",
+      "target": "mutual_right.__call_mutual_right_27__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "mutual_right.seed#0",
+      "target": "mutual_right.__call_mutual_left_26__#2"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": true,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "mutual_right.seed#0",
+      "target": "mutual_right.__call_mutual_right_27__#3"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "mutual_right.seed#0",
+      "target": "mutual_right.__cond_25__#1"
+    },
+    {
+      "access": "read",
+      "callable_read_count": 0,
+      "count": 1,
+      "edge_type": "data",
+      "is_call_argument": false,
+      "is_callable_read": false,
+      "is_callee": false,
+      "is_variable_read": true,
+      "read_contribution_count": 1,
+      "source": "mutual_right.seed#0",
+      "target": "mutual_right.__op_28__#4"
     }
   ],
   "nodes": [
@@ -1157,6 +1456,45 @@
       "is_nonlocal_write": false,
       "kind": "binding",
       "name": "__binding_main__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "isolated",
+      "id": "__module__.__binding_isolated__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_isolated__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "mutual_left",
+      "id": "__module__.__binding_mutual_left__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_mutual_left__",
+      "scope": "__module__"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "mutual_right",
+      "id": "__module__.__binding_mutual_right__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_mutual_right__",
       "scope": "__module__"
     },
     {
@@ -1791,6 +2129,218 @@
     },
     {
       "access": null,
+      "dependencies": [
+        "isolated.__return_0__#1"
+      ],
+      "display_name": "isolated()",
+      "id": "isolated.__call_isolated_22__#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_isolated_22__",
+      "scope": "isolated"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "isolated.__call_isolated_22__#0"
+      ],
+      "display_name": "return isolated()",
+      "id": "isolated.__return_0__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "isolated"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "seed",
+      "id": "mutual_left.seed#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "seed",
+      "scope": "mutual_left"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "mutual_left.seed#0",
+        "mutual_right.__return_0__#5"
+      ],
+      "display_name": "mutual_right()",
+      "id": "mutual_left.__call_mutual_right_23__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_mutual_right_23__",
+      "scope": "mutual_left"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "mutual_left.__call_mutual_right_23__#1",
+        "mutual_left.seed#0"
+      ],
+      "display_name": "mutual_right(seed) + seed",
+      "id": "mutual_left.__op_24__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__op_24__",
+      "operation_type": "transform",
+      "scope": "mutual_left"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "mutual_left.__op_24__#2"
+      ],
+      "display_name": "return mutual_right(seed) + seed",
+      "id": "mutual_left.__return_0__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "mutual_left"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "seed",
+      "id": "mutual_left.__binding_seed__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_seed__",
+      "scope": "mutual_left"
+    },
+    {
+      "access": "write",
+      "dependencies": [],
+      "display_name": "seed",
+      "id": "mutual_right.seed#0",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "variable",
+      "name": "seed",
+      "scope": "mutual_right"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "mutual_right.seed#0"
+      ],
+      "display_name": "__cond_25__",
+      "id": "mutual_right.__cond_25__#1",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "condition",
+      "name": "__cond_25__",
+      "scope": "mutual_right"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "mutual_left.__return_0__#3",
+        "mutual_right.__cond_25__#1",
+        "mutual_right.seed#0"
+      ],
+      "display_name": "mutual_left()",
+      "id": "mutual_right.__call_mutual_left_26__#2",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_mutual_left_26__",
+      "scope": "mutual_right"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "mutual_right.__cond_25__#1",
+        "mutual_right.__return_0__#5",
+        "mutual_right.seed#0"
+      ],
+      "display_name": "mutual_right()",
+      "id": "mutual_right.__call_mutual_right_27__#3",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "call",
+      "name": "__call_mutual_right_27__",
+      "scope": "mutual_right"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "mutual_right.__call_mutual_left_26__#2",
+        "mutual_right.__call_mutual_right_27__#3",
+        "mutual_right.seed#0"
+      ],
+      "display_name": "__op_28__",
+      "id": "mutual_right.__op_28__#4",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "operation",
+      "name": "__op_28__",
+      "operation_type": "transform",
+      "scope": "mutual_right"
+    },
+    {
+      "access": null,
+      "dependencies": [
+        "mutual_right.__op_28__#4"
+      ],
+      "display_name": "return mutual_left(seed) if seed else mutual_right(seed)",
+      "id": "mutual_right.__return_0__#5",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "result",
+      "name": "__return_0__",
+      "scope": "mutual_right"
+    },
+    {
+      "access": null,
+      "dependencies": [],
+      "display_name": "seed",
+      "id": "mutual_right.__binding_seed__#6",
+      "is_class_attribute": false,
+      "is_global_write": false,
+      "is_instance_attribute": false,
+      "is_nonlocal_write": false,
+      "kind": "binding",
+      "name": "__binding_seed__",
+      "scope": "mutual_right"
+    },
+    {
+      "access": null,
       "dependencies": [],
       "display_name": "list",
       "id": "builtins.list#0",
@@ -1860,13 +2410,19 @@
     },
     {
       "children": [
-        "main"
+        "main",
+        "isolated",
+        "mutual_left",
+        "mutual_right"
       ],
       "id": "__module__",
       "kind": "module",
       "name": "__module__",
       "nodes": [
-        "__module__.__binding_main__#0"
+        "__module__.__binding_main__#0",
+        "__module__.__binding_isolated__#1",
+        "__module__.__binding_mutual_left__#2",
+        "__module__.__binding_mutual_right__#3"
       ],
       "parent": "__root__"
     },
@@ -1950,6 +2506,47 @@
         "main.flatten_generator.__binding_child__#13"
       ],
       "parent": "main"
+    },
+    {
+      "children": [],
+      "id": "isolated",
+      "kind": "function",
+      "name": "isolated",
+      "nodes": [
+        "isolated.__call_isolated_22__#0",
+        "isolated.__return_0__#1"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "mutual_left",
+      "kind": "function",
+      "name": "mutual_left",
+      "nodes": [
+        "mutual_left.seed#0",
+        "mutual_left.__call_mutual_right_23__#1",
+        "mutual_left.__op_24__#2",
+        "mutual_left.__return_0__#3",
+        "mutual_left.__binding_seed__#4"
+      ],
+      "parent": "__module__"
+    },
+    {
+      "children": [],
+      "id": "mutual_right",
+      "kind": "function",
+      "name": "mutual_right",
+      "nodes": [
+        "mutual_right.seed#0",
+        "mutual_right.__cond_25__#1",
+        "mutual_right.__call_mutual_left_26__#2",
+        "mutual_right.__call_mutual_right_27__#3",
+        "mutual_right.__op_28__#4",
+        "mutual_right.__return_0__#5",
+        "mutual_right.__binding_seed__#6"
+      ],
+      "parent": "__module__"
     },
     {
       "children": [],

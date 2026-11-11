@@ -12,15 +12,16 @@ from depencity.mcp import create_server, profile
 from .utils import FIXTURES_ROOT, read_fixture
 
 
-def test_mcp_profile_matches_fixture_summary(monkeypatch):
+@pytest.mark.parametrize('case', ('resolver_cases', 'path_count_limit'))
+def test_mcp_profile_matches_fixture_summary(monkeypatch, case):
     monkeypatch.chdir(FIXTURES_ROOT)
 
     result = json.loads(
-        profile("builder/resolver_cases/input.py")
+        profile(f"builder/{case}/input.py")
     )
 
     expected = json.loads(
-        read_fixture("builder/resolver_cases/expected_output.summary.json")
+        read_fixture(f"builder/{case}/expected_output.summary.json")
     )
     assert result == expected
     assert "own_profile" not in result["scopes"][0]
@@ -78,6 +79,7 @@ def test_mcp_profile_metric_filter_matches_fixture(monkeypatch):
         read_fixture('builder/metric_filter/expected_output.navigation.json')
     )
     assert result == expected
+
 
 
 @pytest.mark.parametrize(

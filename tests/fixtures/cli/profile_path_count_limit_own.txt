@@ -1,0 +1,96 @@
+Scopes: 9 function, 1 module, 1 root, 11 total
+
+__root__ [root]
+  Metric                                              Aggregate          Own
+  Variable
+    Local read count                                          2            0
+    Enclosing read count                                      0            0
+    Module read count                                        43            0
+    Builtin read count                                        0            0
+    Other scope read count                                    0            0
+    Unresolved read count                                     0            0
+    Total read count                                         45            0
+    Total read distinct count                                 9            0
+    Local write count                                         3            0
+    Enclosing write count                                     0            0
+    Module write count                                        0            0
+    Total write count                                         3            0
+  Attribute
+    Total read count                                          0            0
+    Total write count                                         0            0
+    Class read count                                          0            0
+    Class write count                                         0            0
+    External read count                                       0            0
+    External write count                                      0            0
+  Subscript
+    Read count                                                0            0
+    Write count                                               0            0
+  Call
+    Occurrences total count                                  43            0
+    Occurrences resolved count                               43            0
+    Occurrences unresolved count                              0            0
+    Dependencies resolved targets count                      43            0
+    Dependencies external count                               0            0
+    Dependencies external distinct count                      0            0
+  Construction
+    Container creation count                                  7            0
+  Graph
+    Paths expressions count                         unavailable            0
+    Paths expressions length max                    unavailable            0
+    Paths data count sum                            unavailable            0
+    Paths data length max                           unavailable            0
+    Paths data length mean                          unavailable            0
+    Paths data length p95                           unavailable            0
+    Paths data length distribution (length: paths)
+      Status                                        unavailable    available
+    Version merges count                                      0            0
+    Cyclic components count                                   1            0
+    Cyclic components nodes count                            56            0
+
+  __module__ [module]
+    Metric                                            Aggregate          Own
+    Variable
+      Local read count                                        2            0
+      Enclosing read count                                    0            0
+      Module read count                                      43            0
+      Builtin read count                                      0            0
+      Other scope read count                                  0            0
+      Unresolved read count                                   0            0
+      Total read count                                       45            0
+      Total read distinct count                               9            0
+      Local write count                                       3            1
+      Enclosing write count                                   0            0
+      Module write count                                      0            0
+      Total write count                                       3            1
+    Attribute
+      Total read count                                        0            0
+      Total write count                                       0            0
+      Class read count                                        0            0
+      Class write count                                       0            0
+      External read count                                     0            0
+      External write count                                    0            0
+    Subscript
+      Read count                                              0            0
+      Write count                                             0            0
+    Call
+      Occurrences total count                                43            0
+      Occurrences resolved count                             43            0
+      Occurrences unresolved count                            0            0
+      Dependencies resolved targets count                    43            0
+      Dependencies external count                             0            0
+      Dependencies external distinct count                    0            0
+    Construction
+      Container creation count                                7            0
+    Graph
+      Paths expressions count                       unavailable            1
+      Paths expressions length max                  unavailable            0
+      Paths data count sum                          unavailable            1
+      Paths data length max                         unavailable            0
+      Paths data length mean                        unavailable            0
+      Paths data length p95                         unavailable            0
+      Paths data length distribution (length: paths)
+        Status                                      unavailable    available
+        0                                           unavailable            1
+      Version merges count                                    0            0
+      Cyclic components count                                 1            0
+      Cyclic components nodes count                          56            0

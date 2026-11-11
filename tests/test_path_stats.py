@@ -1,3 +1,5 @@
+import pytest
+
 from depencity._graph.graph_builder import lower
 from depencity._graph.model.enums import NodeKind, OutputType, ScopeKind
 from depencity._graph.model.ir import NodeRecord, ScopeRecord
@@ -74,12 +76,12 @@ def test_measure_handles_cycles_without_recursion_or_key_errors():
     second_stats = measure(scope)
 
     assert first_stats == second_stats
-    assert first_stats.expression_paths == 0
+    assert first_stats.expression_paths == 2
     assert first_stats.count == 0
     assert first_stats.depth_distribution == {}
 
 
-def test_measure_restarts_paths_after_omitting_a_cycle():
+def test_measure_preserves_paths_through_a_cycle():
     scope = ScopeRecord('f', ScopeKind.FUNCTION, None)
     first = NodeRecord('first', scope, binding='first')
     second = NodeRecord('second', scope, binding='second')
@@ -94,9 +96,9 @@ def test_measure_restarts_paths_after_omitting_a_cycle():
     stats = measure(lower([scope]))
 
     assert stats.expression_paths == 1
-    assert stats.count == 2
-    assert stats.depth_distribution == {0: 1, 1: 1}
-    assert stats.depth_max == 1
+    assert stats.count == 4
+    assert stats.depth_distribution == {2: 2, 3: 1, 4: 1}
+    assert stats.depth_max == 4
 
 
 def test_profile_measures_downstream_of_cross_scope_recursion():
@@ -135,9 +137,9 @@ def test_profile_measures_downstream_of_cross_scope_recursion():
     assert profile.graph__cyclic_components__count == 1
     assert profile.graph__cyclic_components__nodes__count == 4
     assert profile.graph__paths__expressions__count == 1
-    assert profile.graph__paths__data__count_sum == 2
-    assert profile.graph__paths__data__length__distribution == {0: 1, 1: 1}
-    assert profile.graph__paths__data__length__max == 1
+    assert profile.graph__paths__data__count_sum == 4
+    assert profile.graph__paths__data__length__distribution == {4: 2, 5: 1, 6: 1}
+    assert profile.graph__paths__data__length__max == 6
 
 
 def test_count_cycles_is_stable_when_nodes_are_reordered():
@@ -166,3 +168,121 @@ def test_profile_subgraph_handles_empty_and_default_profiles():
     profile = profile_subgraph(lower([scope]))
 
     assert profile.graph__paths__expressions__count == 1
+
+
+def test_measure_matches_first_repeat_enumeration_for_every_three_node_graph():
+    """Independent route oracle covers loops, branching and component boundaries."""
+    from collections import Counter
+    from itertools import product
+
+    for bits in product((False, True), repeat=9):
+        adjacency = [{j for j in range(3) if bits[3 * i + j]} for i in range(3)]
+        reachable = [set(deps) | {i} for i, deps in enumerate(adjacency)]
+        for middle in range(3):
+            for start in range(3):
+                if middle in reachable[start]:
+                    reachable[start].update(reachable[middle])
+        groups = [{j for j in range(3) if j in reachable[i] and i in reachable[j]}
+                  for i in range(3)]
+        cyclic = [len(groups[i]) > 1 or i in adjacency[i] for i in range(3)]
+        sinks = {i for i in range(3) if not any(i in deps for deps in adjacency)}
+        sinks.update(i for i in range(3) if cyclic[i] and not any(
+            adjacency[j] & groups[i] for j in range(3) if j not in groups[i]
+        ))
+
+        def enumerate_depths(node, visited):
+            if node in visited or not adjacency[node]:
+                return [0]
+            return [1 + depth for dep in adjacency[node] for depth in enumerate_depths(
+                dep, visited | {node}
+            )]
+
+        data = Counter()
+        expressions = Counter()
+        for i in range(3):
+            depths = enumerate_depths(i, set())
+            data.update(depths)
+            if i in sinks:
+                expressions.update(depths)
+        for reverse in (False, True):
+            scope = ScopeRecord('f', ScopeKind.FUNCTION, None)
+            nodes = [NodeRecord(str(i), scope, binding=str(i)) for i in range(3)]
+            for i in range(3):
+                for j in sorted(adjacency[i], reverse=reverse):
+                    nodes[i].add_dependency(nodes[j])
+            scope.nodes = list(reversed(nodes)) if reverse else nodes
+
+            stats = measure(lower([scope]))
+
+            assert stats.depth_distribution == dict(data), (bits, reverse)
+            assert stats.expression_paths == expressions.total(), (bits, reverse)
+            assert stats.expression_depth_max == max(expressions, default=0)
+
+
+@pytest.mark.parametrize(('limit_name', 'limit', 'available'), (
+    ('_MAX_CYCLIC_STATES', 1, False),
+    ('_MAX_CYCLIC_STATES', 3, False),
+    ('_MAX_CYCLIC_STATES', 4, True),
+    ('_MAX_CYCLIC_WORK', 19, False),
+    ('_MAX_CYCLIC_WORK', 20, True),
+))
+@pytest.mark.parametrize('named_cycle', (False, True))
+def test_measure_reports_limits_without_partial_counts(
+    monkeypatch, limit_name, limit, available, named_cycle,
+):
+    from depencity._profile import path_stats
+
+    monkeypatch.setattr(path_stats, limit_name, limit)
+    measured = []
+    for reverse in (False, True):
+        scope = ScopeRecord('f', ScopeKind.FUNCTION, None)
+        seed = NodeRecord('seed', scope, binding='seed')
+        first = NodeRecord('first', scope, binding='first' if named_cycle else None)
+        second = NodeRecord('second', scope, binding='second' if named_cycle else None)
+        consumer = NodeRecord('consumer', scope, binding='consumer' if named_cycle else None)
+        first_deps = [first, second, seed]
+        second_deps = [first, second]
+        for dep in reversed(first_deps) if reverse else first_deps:
+            first.add_dependency(dep)
+        for dep in reversed(second_deps) if reverse else second_deps:
+            second.add_dependency(dep)
+        consumer.add_dependency(first)
+        nodes = [seed, first, second, consumer]
+        scope.nodes = list(reversed(nodes)) if reverse else nodes
+
+        stats = measure(lower([scope]))
+
+        assert stats.expression_paths == (4 if available else None)
+        assert stats.expression_depth_max == (3 if available else None)
+        if named_cycle:
+            assert stats.count == (13 if available else None)
+            assert stats.depth_distribution == ({0: 1, 1: 3, 2: 7, 3: 2} if available else None)
+            if not available:
+                assert stats.depth_max is stats.depth_mean is stats.depth_p95 is None
+        else:
+            assert stats.count == 1
+            assert stats.depth_distribution == {0: 1}
+        measured.append(stats)
+    assert measured[0] == measured[1]
+
+
+def test_measure_propagates_unavailability_between_cyclic_components(monkeypatch):
+    from depencity._profile import path_stats
+
+    monkeypatch.setattr(path_stats, '_MAX_CYCLIC_STATES', 3)
+    scope = ScopeRecord('f', ScopeKind.FUNCTION, None)
+    first = NodeRecord('first', scope, binding='first')
+    second = NodeRecord('second', scope, binding='second')
+    consumer = NodeRecord('consumer', scope, binding='consumer')
+    for node in (first, second):
+        node.add_dependency(first)
+        node.add_dependency(second)
+    consumer.add_dependency(consumer)
+    consumer.add_dependency(first)
+    scope.nodes = [consumer, first, second]
+
+    stats = measure(lower([scope]))
+
+    assert stats.expression_paths is None
+    assert stats.count is None
+    assert stats.depth_distribution is None

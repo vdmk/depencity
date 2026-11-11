@@ -32,13 +32,13 @@ class ScopeProfile:
     call__dependencies__external__count: int = 0
     call__dependencies__external__distinct_count: int = 0
     construction__container_creation__count: int = 0
-    graph__paths__expressions__count: int = 0
-    graph__paths__expressions__length__max: int = 0
-    graph__paths__data__count_sum: int = 0
-    graph__paths__data__length__max: int = 0
-    graph__paths__data__length__mean: float = 0.0
-    graph__paths__data__length__p95: int = 0
-    graph__paths__data__length__distribution: dict[int, int] = field(default_factory=dict)
+    graph__paths__expressions__count: int | None = 0
+    graph__paths__expressions__length__max: int | None = 0
+    graph__paths__data__count_sum: int | None = 0
+    graph__paths__data__length__max: int | None = 0
+    graph__paths__data__length__mean: float | None = 0.0
+    graph__paths__data__length__p95: int | None = 0
+    graph__paths__data__length__distribution: dict[int, int] | None = field(default_factory=dict)
     graph__version_merges__count: int = 0
     graph__cyclic_components__count: int = 0
     graph__cyclic_components__nodes__count: int = 0

@@ -275,7 +275,7 @@ Supported:
 - Later match clauses exclude earlier case-body bindings; pattern captures and guard writes remain possible.
 - Calls inside tests and iterables participate in graph paths through the
   condition node. Callee paths participate only inside the measured node set
-  and outside excluded cycles.
+  under the first-repeat path definition.
 - Conditional bindings from `if`, `and`/`or`, and conditional expressions.
 - Conditional operands use completed walrus assignments; subsequent reads retain possible prior bindings.
 - Eager `else`/`elif` name reads exclude prior sibling-body bindings; deferred enclosing reads keep final lookup.
@@ -483,12 +483,17 @@ Supported:
 - Callable scopes contribute zero-depth endpoints only when their scopes are selected.
 - Each dependency endpoint is visited once per consuming node; repeated edge
   occurrences do not multiply paths.
-- Nodes in cyclic components and all edges touching them are excluded from
-  path counting after binding nodes are removed. The separate cyclic-component
-  counter uses the full selected node set.
+- Cyclic nodes and their dependencies remain in path measurement. Each path
+  stops on its first repeated node, counting the closing edge in length.
+  Visited nodes are tracked per path, not globally.
+- Exact cyclic counting has deterministic state and work limits documented in
+  [metrics](metrics.md). Exceeding them makes affected path metrics unavailable
+  (`null`), without reporting partial counts. Other metrics remain available.
+- Component and cyclic-node counters include binding nodes; paths exclude them.
 - `graph.paths.data.count_sum` sums path counts at named endpoints, including
   intermediate values; shared prefixes contribute at each endpoint.
-- `graph.paths.expressions.count` sums path counts at sinks.
+- `graph.paths.expressions.count` sums paths at sinks and every member of
+  terminal cyclic components (those without an outside consumer).
 - A root has one path at depth zero. Each edge adds one to depth; incoming path
   distributions are added. Depth p95 uses nearest rank.
 
@@ -497,10 +502,10 @@ Not evaluated:
 | Example | Why |
 | --- | --- |
 | A direct caller profile referencing another function's output | The callee's nodes are outside the measured scope. |
-| A path entering a dependency cycle | Cyclic nodes are removed; a downstream node may become a new path root. |
+| Unbounded walks through cycles | Paths stop at their first repeated node. |
 | Multiple edge types connecting the same dependency to one consumer | They identify one dependency endpoint for path traversal. |
 | Adding direct-scope path counts to obtain an aggregate | Cross-scope dependencies and cycles require recomputing the combined graph. |
 
 Interpret counts and depths within the measured scope boundary and alongside
-the cyclic-component count. Shorter paths after cycle removal do not establish
-that the source became simpler. See [metric definitions](metrics.md).
+cyclic-region size. Path counts are structural measurements, not execution counts
+or code-quality scores. See [metric definitions](metrics.md).

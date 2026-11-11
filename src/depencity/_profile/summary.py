@@ -212,7 +212,7 @@ def _profile_dict(value: ScopeProfile, metrics: set[str] | None = None) -> dict:
         if metrics is None or name.replace('__', '.') in metrics
     }
     distribution = 'graph__paths__data__length__distribution'
-    if distribution in result:
+    if distribution in result and result[distribution] is not None:
         result[distribution] = {
             str(depth): count for depth, count in sorted(result[distribution].items())
         }

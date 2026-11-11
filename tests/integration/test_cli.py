@@ -49,6 +49,7 @@ def test_cli_exports_package_graph():
 
 @pytest.mark.parametrize('target', (
     'builder/resolver_cases/input.py',
+    'builder/path_count_limit/input.py',
     'package/internal_calls',
 ))
 @pytest.mark.parametrize('depth,include_own_profile', ((None, False), (0, True), (2, True)))
@@ -103,8 +104,10 @@ def test_cli_without_command_reports_usage():
 
 
 @pytest.mark.parametrize('include_own_profile', (False, True))
-def test_cli_profile_text_matches_fixture(include_own_profile):
-    path = FIXTURES_ROOT / 'package' / 'internal_calls'
+@pytest.mark.parametrize('case', ('internal_calls', 'path_count_limit'))
+def test_cli_profile_text_matches_fixture(include_own_profile, case):
+    path = (FIXTURES_ROOT / 'package' / case if case == 'internal_calls'
+            else FIXTURES_ROOT / 'builder' / case / 'input.py')
     arguments = ['profile', str(path), '--format', 'text', '--depth', '1']
     if include_own_profile:
         arguments.append('--include-own-profile')
@@ -113,4 +116,5 @@ def test_cli_profile_text_matches_fixture(include_own_profile):
 
     assert result.exit_code == 0
     suffix = 'own' if include_own_profile else 'aggregate'
-    assert result.output == read_fixture(f'cli/profile_{suffix}.txt')
+    prefix = 'profile' if case == 'internal_calls' else f'profile_{case}'
+    assert result.output == read_fixture(f'cli/{prefix}_{suffix}.txt')

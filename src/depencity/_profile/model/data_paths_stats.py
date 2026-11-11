@@ -3,12 +3,12 @@ from dataclasses import dataclass, field
 
 @dataclass(frozen=True)
 class DataPathsStats:
-    """Measured expression-sink and named-node path statistics for one scope."""
+    """Exact path statistics; None marks metrics exceeding cyclic counting limits."""
 
-    expression_paths: int = 0
-    expression_depth_max: int = 0
-    count: int = 0
-    depth_max: int = 0
-    depth_mean: float = 0.0
-    depth_p95: int = 0
-    depth_distribution: dict[int, int] = field(default_factory=dict)
+    expression_paths: int | None = 0
+    expression_depth_max: int | None = 0
+    count: int | None = 0
+    depth_max: int | None = 0
+    depth_mean: float | None = 0.0
+    depth_p95: int | None = 0
+    depth_distribution: dict[int, int] | None = field(default_factory=dict)

@@ -12,3 +12,15 @@ def main(values):
             yield value
 
     return flatten_list(values), list(flatten_generator(values))
+
+
+def isolated():
+    return isolated()
+
+
+def mutual_left(seed):
+    return mutual_right(seed) + seed
+
+
+def mutual_right(seed):
+    return mutual_left(seed) if seed else mutual_right(seed)

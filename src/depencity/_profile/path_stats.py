@@ -1,8 +1,8 @@
 """Statistics for expression paths and local data-dependency chains.
 
-Expression paths end at graph sinks. Data chains end at named nodes, whether
-or not later nodes consume them. Control flow is not modeled here; conditions
-are ordinary data dependencies.
+Expression paths end at sinks or members of terminal cyclic regions. Data chains
+end at named nodes, whether or not later nodes consume them. Control flow is not
+modeled here; conditions are ordinary data dependencies.
 """
 
 from __future__ import annotations
@@ -17,6 +17,12 @@ from depencity._profile.model.data_paths_stats import DataPathsStats
 if TYPE_CHECKING:
     from depencity._graph.model.node import Node
     from depencity._graph.model.scope import Scope
+
+
+# Per cyclic component: bound exact state storage and dependency/bucket work.
+# Exceeding either limit produces unavailable metrics, never partial counts.
+_MAX_CYCLIC_STATES = 50_000
+_MAX_CYCLIC_WORK = 1_000_000
 
 
 def summarize_distribution(distribution: dict[int, int]) -> tuple[int, float, int, int]:
@@ -66,91 +72,156 @@ def _compute(
     nodes: list[Node], named_nodes: list[Node], scope_ids: set[int]
 ) -> tuple[DataPathsStats, DataPathsStats]:
     node_ids = {id(node) for node in nodes}
-    cyclic_ids = {
-        node_id
-        for component in _cyclic_components(nodes)
+    components = _cyclic_components(nodes)
+    groups = {node_id: component for component in components for node_id in component}
+    measured_ids = node_ids | scope_ids
+    dependencies = {
+        id(node): [id(dep) for dep in node.deps if id(dep) in measured_ids]
+        for node in nodes
+    }
+    depended_by = {dep for deps in dependencies.values() for dep in deps}
+    # A terminal cyclic region has no ordinary sink. Use every member as an
+    # endpoint, without choosing an arbitrary representative or deleting edges.
+    consumed_components = {
+        id(groups[dep])
+        for consumer, deps in dependencies.items() for dep in deps
+        if dep in groups and groups.get(consumer) is not groups[dep]
+    }
+    terminal_cycle_ids = {
+        node_id for component in components if id(component) not in consumed_components
         for node_id in component
     }
-    measured_ids = node_ids | scope_ids
-    dependencies: dict[int, list[Node | Scope]] = {}
-    depended_by: set[int] = set()
-
-    for node in nodes:
-        if id(node) in cyclic_ids:
-            continue
-        in_scope: list[Node | Scope] = []
-        for dependency in node.deps:
-            dependency_id = id(dependency)
-            if dependency_id not in measured_ids or dependency_id in cyclic_ids:
-                continue
-            in_scope.append(dependency)
-            depended_by.add(dependency_id)
-        dependencies[id(node)] = in_scope
-
-    computed: dict[int, dict[int, int]] = {
+    computed: dict[int, dict[int, int] | None] = {
         scope_id: {0: 1} for scope_id in scope_ids
     }
 
-    def compute(node: Node) -> dict[int, int]:
-        root_id = id(node)
-        pending: list[tuple[Node | Scope, bool]] = [(node, False)]
+    def compute(root_id: int) -> dict[int, int] | None:
+        pending = [(root_id, False)]
         while pending:
-            current, dependencies_ready = pending.pop()
-            current_id = id(current)
+            current_id, ready = pending.pop()
             if current_id in computed:
                 continue
-            if not dependencies_ready:
-                pending.append((current, True))
+            group = groups.get(current_id, [current_id])
+            members = set(group)
+            if not ready:
+                pending.append((current_id, True))
                 pending.extend(
-                    (dependency, False)
-                    for dependency in dependencies[current_id]
-                    if id(dependency) not in computed
+                    (dep, False) for member in group for dep in dependencies[member]
+                    if dep not in members and dep not in computed
                 )
                 continue
-
+            if current_id in groups:
+                result = _compute_component(group, dependencies, computed)
+                computed.update(result if result is not None else dict.fromkeys(group))
+                continue
             distribution: Counter[int] = Counter()
-            for dependency in dependencies[current_id]:
-                for depth, count in computed[id(dependency)].items():
+            for dep in dependencies[current_id]:
+                source = computed[dep]
+                if source is None:
+                    computed[current_id] = None
+                    break
+                for depth, count in source.items():
                     distribution[depth + 1] += count
-            if not distribution:
-                distribution[0] = 1
-            computed[current_id] = distribution
+            else:
+                computed[current_id] = dict(distribution) or {0: 1}
         return computed[root_id]
 
     distribution: Counter[int] = Counter()
     named_distribution: Counter[int] = Counter()
+    expression_unavailable = False
+    named_unavailable = False
     named_node_ids = {id(node) for node in named_nodes}
     for node in nodes:
         node_id = id(node)
-        if node_id in cyclic_ids:
-            continue
-        node_distribution = compute(node)
-        if node_id not in depended_by:
-            distribution.update(node_distribution)
+        node_distribution = compute(node_id)
+        if node_id not in depended_by or node_id in terminal_cycle_ids:
+            if node_distribution is None:
+                expression_unavailable = True
+            else:
+                distribution.update(node_distribution)
         if node_id in named_node_ids:
-            named_distribution.update(node_distribution)
-    expression_count, expression_mean, expression_maximum, expression_p95 = (
-        summarize_distribution(distribution)
-    )
-    named_count, named_mean, named_maximum, named_p95 = summarize_distribution(
-        named_distribution
-    )
-    return (
-        DataPathsStats(
-            count=expression_count,
-            depth_max=expression_maximum,
-            depth_mean=expression_mean,
-            depth_p95=expression_p95,
-            depth_distribution=dict(distribution),
-        ),
-        DataPathsStats(
-            count=named_count,
-            depth_max=named_maximum,
-            depth_mean=named_mean,
-            depth_p95=named_p95,
-            depth_distribution=dict(named_distribution),
-        ),
-    )
+            if node_distribution is None:
+                named_unavailable = True
+            else:
+                named_distribution.update(node_distribution)
+    results = []
+    for depths, unavailable in (
+        (distribution, expression_unavailable), (named_distribution, named_unavailable),
+    ):
+        if unavailable:
+            results.append(DataPathsStats(
+                count=None, depth_max=None, depth_mean=None, depth_p95=None,
+                depth_distribution=None,
+            ))
+        else:
+            count, mean, maximum, p95 = summarize_distribution(depths)
+            results.append(DataPathsStats(
+                count=count, depth_max=maximum, depth_mean=mean, depth_p95=p95,
+                depth_distribution=dict(depths),
+            ))
+    return results[0], results[1]
+
+
+def _compute_component(
+    component: list[int], dependencies: dict[int, list[int]],
+    computed: dict[int, dict[int, int] | None],
+) -> dict[int, dict[int, int]] | None:
+    """Count exact first-repeat paths with component-local visited-set states.
+
+    Discover states by visited-set size, then evaluate deepest states first.
+    Limits apply to the complete component, so availability is order independent.
+    """
+    if len(component) > _MAX_CYCLIC_STATES:
+        return None
+    bits = {node_id: 1 << index for index, node_id in enumerate(component)}
+    if any(
+        computed[dep] is None for member in component for dep in dependencies[member]
+        if dep not in bits
+    ):
+        return None
+    layer = {(member, bits[member]) for member in component}
+    layers = []
+    states = len(layer)
+    work = 0
+    while layer:
+        if states > _MAX_CYCLIC_STATES:
+            return None
+        layers.append(layer)
+        following = set()
+        for member, visited in layer:
+            work += len(dependencies[member])
+            if work > _MAX_CYCLIC_WORK:
+                return None
+            for dep in dependencies[member]:
+                if dep in bits and not visited & bits[dep]:
+                    following.add((dep, visited | bits[dep]))
+                    # Bound temporary storage as well as completed states.
+                    if states + len(following) > _MAX_CYCLIC_STATES:
+                        return None
+        states += len(following)
+        layer = following
+
+    cache: dict[tuple[int, int], dict[int, int]] = {}
+    for layer in reversed(layers):
+        for member, visited in layer:
+            distribution: Counter[int] = Counter()
+            for dep in dependencies[member]:
+                if dep in bits:
+                    if visited & bits[dep]:
+                        source = {0: 1}
+                    else:
+                        source = cache[(dep, visited | bits[dep])]
+                else:
+                    external_source = computed[dep]
+                    assert external_source is not None
+                    source = external_source
+                work += len(source)
+                if work > _MAX_CYCLIC_WORK:
+                    return None
+                for depth, count in source.items():
+                    distribution[depth + 1] += count
+            cache[(member, visited)] = dict(distribution)
+    return {member: cache[(member, bits[member])] for member in component}
 
 
 def _cyclic_components(nodes: list[Node]) -> list[list[int]]:
