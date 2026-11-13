@@ -55,7 +55,7 @@ def test_measure_handles_a_dependency_chain_longer_than_python_recursion_limit()
 
     profile = profile_subgraph(lower([scope]))
 
-    assert profile.graph__paths__data__count_sum == len(nodes)
+    assert profile.graph__paths__data__count == len(nodes)
     assert profile.graph__paths__data__length__max == len(nodes) - 1
     assert profile.graph__cyclic_components__count == 0
     assert profile.graph__cyclic_components__nodes__count == 0
@@ -137,7 +137,7 @@ def test_profile_measures_downstream_of_cross_scope_recursion():
     assert profile.graph__cyclic_components__count == 1
     assert profile.graph__cyclic_components__nodes__count == 4
     assert profile.graph__paths__expressions__count == 1
-    assert profile.graph__paths__data__count_sum == 4
+    assert profile.graph__paths__data__count == 4
     assert profile.graph__paths__data__length__distribution == {4: 2, 5: 1, 6: 1}
     assert profile.graph__paths__data__length__max == 6
 

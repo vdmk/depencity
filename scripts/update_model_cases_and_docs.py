@@ -69,7 +69,7 @@ def _build_refactoring_document(path: Path) -> str:
         ('Variable writes', 'variable.total.write.count'),
         ('Expression path count', 'graph.paths.expressions.count'),
         ('Maximum expression path length', 'graph.paths.expressions.length.max'),
-        ('Data path count sum', 'graph.paths.data.count_sum'),
+        ('Data path count', 'graph.paths.data.count'),
         ('Maximum data path length', 'graph.paths.data.length.max'),
         ('Mean data path length', 'graph.paths.data.length.mean'),
         ('Data path length p95', 'graph.paths.data.length.p95'),

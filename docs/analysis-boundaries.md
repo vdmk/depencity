@@ -490,7 +490,7 @@ Supported:
   [metrics](metrics.md). Exceeding them makes affected path metrics unavailable
   (`null`), without reporting partial counts. Other metrics remain available.
 - Component and cyclic-node counters include binding nodes; paths exclude them.
-- `graph.paths.data.count_sum` sums path counts at named endpoints, including
+- `graph.paths.data.count` sums path counts at named endpoints, including
   intermediate values; shared prefixes contribute at each endpoint.
 - `graph.paths.expressions.count` sums paths at sinks and every member of
   terminal cyclic components (those without an outside consumer).

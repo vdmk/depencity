@@ -77,7 +77,7 @@ def _measure_scopes(
         )
         result.graph__paths__expressions__count = paths.expression_paths
         result.graph__paths__expressions__length__max = paths.expression_depth_max
-        result.graph__paths__data__count_sum = paths.count
+        result.graph__paths__data__count = paths.count
         result.graph__paths__data__length__max = paths.depth_max
         result.graph__paths__data__length__mean = paths.depth_mean
         result.graph__paths__data__length__p95 = paths.depth_p95

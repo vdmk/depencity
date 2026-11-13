@@ -42,7 +42,7 @@ The function has no nested scopes, so its own and aggregate profiles agree.
 | Variable writes | 4 | 2 |
 | Expression path count | 2 | 2 |
 | Maximum expression path length | 5 | 3 |
-| Data path count sum | 8 | 4 |
+| Data path count | 8 | 4 |
 | Maximum data path length | 5 | 3 |
 | Mean data path length | 2.75 | 1.5 |
 | Data path length p95 | 5 | 3 |

@@ -32,7 +32,7 @@ type Metric = Literal[
     'construction.container_creation.count',
     'graph.paths.expressions.count',
     'graph.paths.expressions.length.max',
-    'graph.paths.data.count_sum',
+    'graph.paths.data.count',
     'graph.paths.data.length.max',
     'graph.paths.data.length.mean',
     'graph.paths.data.length.p95',

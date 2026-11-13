@@ -86,7 +86,7 @@ dependency
     │   │   └── length
     │   │       └── max
     │   └── data
-    │       ├── count_sum
+    │       ├── count
     │       └── length
     │           ├── max
     │           ├── mean
@@ -135,7 +135,7 @@ without metrics. Unknown keys raise `ValueError`.
 | `construction.container_creation.count` | `int` | Container literals and list, set, and dict comprehensions. |
 | `graph.paths.expressions.count` | `int \| None` | Dependency paths ending at expression endpoints. |
 | `graph.paths.expressions.length.max` | `int \| None` | Longest path at an expression endpoint, in edges. |
-| `graph.paths.data.count_sum` | `int \| None` | Summed path counts at named endpoints, including intermediate values. |
+| `graph.paths.data.count` | `int \| None` | Summed path counts at named endpoints, including intermediate values. |
 | `graph.paths.data.length.max` | `int \| None` | Longest path at a named endpoint, in edges. |
 | `graph.paths.data.length.mean` | `float \| None` | Mean path length at named endpoints, in edges. |
 | `graph.paths.data.length.p95` | `int \| None` | Nearest-rank 95th percentile of path lengths at named endpoints. |
@@ -191,7 +191,7 @@ traversal excludes. Callable scopes in the measured scope set act as zero-depth
 dependency endpoints. References to scopes outside that set do not add path
 steps. An edge's occurrence `count` does not multiply paths.
 
-`graph.paths.data.count_sum` sums dependency-path counts at every named data
+`graph.paths.data.count` sums dependency-path counts at every named data
 endpoint, including intermediate values. A shared path prefix contributes at
 each endpoint it reaches.
 
