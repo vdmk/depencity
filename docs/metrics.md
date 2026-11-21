@@ -95,7 +95,9 @@ dependency
     ├── version merges
     │   └── count
     └── cyclic components
-        └── count
+        ├── count
+        └── nodes
+            └── count
 ```
 
 ## Select metrics
@@ -107,16 +109,16 @@ without metrics. Unknown keys raise `ValueError`.
 | Key | Value type | Meaning |
 | --- | --- | --- |
 | `variable.local.read.count` | `int` | Reads of bindings owned by the consuming scope. |
-| `variable.enclosing.read.count` | `int` | Reads of enclosing-function bindings. |
-| `variable.module.read.count` | `int` | Reads of module bindings. |
+| `variable.enclosing.read.count` | `int` | Reads of bindings owned by an enclosing non-module scope. |
+| `variable.module.read.count` | `int` | Reads of module bindings from another scope. |
 | `variable.builtin.read.count` | `int` | Reads of predefined builtin bindings. |
 | `variable.other_scope.read.count` | `int` | Reads of bindings in other scopes. |
 | `variable.unresolved.read.count` | `int` | Read uses without an applicable binding. |
 | `variable.total.read.count` | `int` | All variable read uses. |
 | `variable.total.read.distinct_count` | `int` | Distinct variable dependencies. |
-| `variable.local.write.count` | `int` | Writes to local bindings. |
-| `variable.enclosing.write.count` | `int` | Writes to enclosing bindings. |
-| `variable.module.write.count` | `int` | Writes to module bindings. |
+| `variable.local.write.count` | `int` | Ordinary writes in the current scope, including module-level assignments. |
+| `variable.enclosing.write.count` | `int` | Writes marked `nonlocal`. |
+| `variable.module.write.count` | `int` | Writes marked `global`. |
 | `variable.total.write.count` | `int` | All variable writes. |
 | `attribute.total.read.count` | `int` | All attribute reads. |
 | `attribute.total.write.count` | `int` | All attribute writes. |
@@ -187,13 +189,15 @@ component count stays unchanged.
 Path traversal follows `data`, `iteration`, and `predicate` dependencies,
 visiting each dependency endpoint once per consuming node. The JSON export
 also includes structural `binding` and `declaration` edges, which path
-traversal excludes. Callable scopes in the measured scope set act as zero-depth
-dependency endpoints. References to scopes outside that set do not add path
+traversal excludes. A scope used as a dependency contributes a zero-depth
+endpoint when it is in the measured scope set. References to scopes outside that set do not add path
 steps. An edge's occurrence `count` does not multiply paths.
 
 `graph.paths.data.count` sums dependency-path counts at every named data
-endpoint, including intermediate values. A shared path prefix contributes at
-each endpoint it reaches.
+endpoint, including intermediate values. Named endpoints include nodes with a
+binding name, return-result nodes, and comprehension-result nodes. Path
+traversal excludes structural `binding` nodes. A shared path prefix contributes
+at each endpoint it reaches.
 
 `graph.paths.expressions.length.max` measures the longest path ending at an
 expression endpoint, including terminal cyclic components as described below. It includes computations ending in yields and writes, even when
@@ -323,9 +327,9 @@ the same unresolved spelling within a scope.
 Type annotations provide type information for member resolution. Annotation
 names are not graph dependencies and do not contribute to variable read counts.
 
-Builtin names that resolve through Python's predefined namespace have graph
-binding nodes marked `is_builtin`. Their reads count toward total reads and the
-builtin read metric, but not module or unresolved reads.
+Reads of names resolved through Python's predefined namespace target
+`variable` nodes in the `builtins` scope. Each read contributes to both
+`variable.builtin.read.count` and `variable.total.read.count`.
 
 ## Call occurrences and resolved targets
 

@@ -480,7 +480,7 @@ Supported:
   scope and its descendants together. Paths exclude dependencies outside that set.
 - Path traversal follows data, iteration, and predicate dependencies, excluding
   binding and declaration edges and binding nodes.
-- Callable scopes contribute zero-depth endpoints only when their scopes are selected.
+- A scope used as a dependency contributes a zero-depth endpoint when it is in the measured scope set.
 - Each dependency endpoint is visited once per consuming node; repeated edge
   occurrences do not multiply paths.
 - Cyclic nodes and their dependencies remain in path measurement. Each path

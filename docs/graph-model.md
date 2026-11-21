@@ -30,7 +30,8 @@ Structural relationships may have no access qualifier.
 Scopes form a tree rooted at `__root__`. Its children are the source modules
 and, when used, the `builtins` scope. Classes, functions, methods, and
 comprehensions introduce nested scopes. Each node belongs to one scope.
-A callable scope also identifies the nodes that supply its outputs.
+During resolution, the analyzer tracks which return and yield nodes can supply
+values to callers.
 Name lookup and module-relative edge classification stop at the source module.
 Module and function display paths omit the `__root__` prefix.
 
@@ -49,8 +50,8 @@ Some nodes represent source bindings; others represent synthetic results or
 effects. Generated names such as `__op_0__` are implementation details.
 `name` is the internal graph name, while `display_name` is intended for graph
 presentation. Names are not unique identifiers and may change across source
-edits or analyzer versions. Operations use their source expression as the display name;
-other nodes use their explicit display name, binding, or internal name.
+edits or analyzer versions. Operations display their source expression or a descriptive
+label. Other nodes use their explicit display name, binding, or internal name.
 
 | Kind | Example | Role |
 | --- | --- | --- |
@@ -133,10 +134,9 @@ bindings stay in their lexical scopes. For example, `from x import my_func as f`
 and `from x import my_func as g` both depend on the root's `x.my_func` node.
 The graph omits unused imports and their unreferenced targets.
 
-For modules in the analyzed package, direct imports and `module.VALUE` reads
-depend on the visible source binding through the shared target. An internal
-target's declaration scope feeds that target. For reassigned
-names, this path leads to the currently visible binding versions. Depencity
+Within the analyzed package, direct imports and `module.VALUE` reads use shared
+targets. Visible value versions feed targets for assigned names. Function and
+class targets retain their declaration identity. Depencity
 constructs canonical names statically and leaves external implementations opaque.
 
 Imported calls retain the path from binding to target and depend on known
@@ -184,7 +184,7 @@ and uncertainty propagate through re-exports without executing Python code.
   possible value. Generator-expression writes use the same conservative model
   even when the generator is never consumed; evaluation timing is not inferred.
 - **Classes**: a class is a scope and its methods are child function scopes.
-  A known constructor call links to the class and its `__init__` method.
+  Constructor calls link to known classes and any resolved `__init__`.
   Direct constructor expressions, constructor assignments, and direct
   annotations provide limited receiver types for method lookup. Simple named or
   qualified class return annotations on synchronous, non-generator functions
@@ -339,13 +339,13 @@ The following commands assume a development checkout with `uv sync --locked`
 completed. Replace `path/to/file.py` with an existing source file. For an
 installed tool, run `depencity` directly without the `uv run` prefix.
 
-Use JSON for programmatic inspection:
+JSON preserves individual typed edges:
 
 ```bash
 uv run depencity graph path/to/file.py --format json
 ```
 
-Use DOT for visual inspection. It does not include the JSON version field:
+DOT groups declarations with scopes and combines dependency edges with shared endpoints:
 
 ```bash
 uv run depencity graph path/to/file.py --format dot

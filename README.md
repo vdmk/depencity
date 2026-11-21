@@ -82,7 +82,7 @@ first node:
 
 The profile measures this structure, including reads, writes, and dependency
 path lengths. See [model examples](https://github.com/vdmk/depencity/blob/v0.1.0/docs/model-cases.md)
-for complete exported graphs, including conditions, calls, and mutations.
+for illustrations of conditions, calls, and mutations.
 
 See [graph export instructions](https://github.com/vdmk/depencity/blob/v0.1.0/docs/usage.md#export-a-graph)
 for commands and Graphviz rendering.

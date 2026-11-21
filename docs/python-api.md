@@ -79,7 +79,7 @@ are selected; `own_profile` appears when requested.
 | `root: Scope` | Graph root returned by a builder. |
 | `scope_id: str \| None` | Select an exact ID from a previous summary; `None` selects all scopes. |
 | `include_children`, `include_parent` | With `scope_id`, also select its immediate children or parent. They do not recursively select descendants. |
-| `metrics: list[str] \| None` | Select [exact metric keys](metrics.md#select-metrics); `None` includes all, `[]` returns scope structure without metrics. |
+| `metrics: Sequence[str] \| None` | Select [exact metric keys](metrics.md#select-metrics); `None` includes all, `[]` returns scope structure without metrics. |
 | `depth: int \| None` | Display depth from the selected roots; `0` shows roots only, `None` shows all selected scopes. |
 | `include_own_profile: bool` | Include metrics for each scope without descendants. Aggregate profiles and scope counts always cover descendants, even beyond display depth. |
 
@@ -105,8 +105,10 @@ profile_subgraph(root, scope_metrics=None, *, include_paths=True,
 `profile` measures only the supplied scope. `profile_subgraph` measures the
 scope and its descendants together. Both return a `ScopeProfile`.
 
-Set `include_paths=False` or `include_cycles=False` to skip those calculations;
-skipped metrics remain zero. `scope_metrics` accepts a dictionary cache for
+With `include_paths=False`, numeric path metrics stay zero and the length
+distribution stays empty. With `include_cycles=False`, cycle counters stay
+zero. Path measurement still detects cycles when enabled.
+`scope_metrics` accepts a dictionary cache for
 repeated measurements of an unchanged graph; leave it as `None` otherwise.
 
 `ScopeProfile` stores metrics as attributes. Attribute names use `__` in place
