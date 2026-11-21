@@ -1,6 +1,6 @@
 # Usage
 
-Analyze Python files or packages through the CLI or an MCP client. The commands
+Depencity supports analysis of Python files and packages through its CLI or an MCP client. The commands
 below assume Depencity is installed; see [installation](../README.md#install).
 In a development checkout, prefix CLI commands with `uv run`.
 
@@ -104,8 +104,7 @@ an existing Python file inside the configured workspace, replacing the path:
 {"path": "path/to/file.py", "depth": 2}
 ```
 
-A successful response contains scope counts and a scope tree with profiles.
-Client interfaces for discovering and invoking tools vary.
+The tool returns scope counts and a scope tree with profiles as JSON.
 
 The [package-naming rule](#analyze-a-package) also applies to MCP. For a workspace containing
 `src/my_package`, pass the package directory as the tool's `path`:
@@ -118,8 +117,8 @@ This selects `my_package` as the module prefix. Passing `path="."` with
 `source="src/my_package"` uses the workspace directory's name as the prefix,
 which may not match the code's absolute imports.
 
-The optional tool argument `workspace` selects a directory inside the server's
-configured workspace; relative `path` values then resolve from that directory.
+Relative paths start at the server workspace unless the request selects a
+subdirectory with `workspace`.
 The target must remain inside the selected workspace. `source` selects a source
 directory relative to a directory target and is ignored for file targets.
 `scope` selects an exact ID from a previous profile; `include_children` and

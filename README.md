@@ -129,7 +129,7 @@ for configuration, a first request, tool parameters, and workspace rules.
 
 ## Analysis boundaries
 
-Depencity parses source without executing it. It models statically visible
+Depencity parses code without executing it. It models statically visible
 dependencies, with approximations for name lookup, imports, calls, control flow,
 and mutation. Type annotations supply member-resolution hints rather than data
 dependencies; imports used only in annotations may be omitted.
@@ -154,8 +154,8 @@ MIT licensed. See [LICENSE](https://github.com/vdmk/depencity/blob/v0.1.0/LICENS
 
 ## Custom Graph Model
 
-There are standard [dependence graph](https://llvm.org/docs/DependenceGraphs/index.html#dependence-graphs-in-llvm)
-models such as the data dependence graph (DDG), which represents how operations
+Standard [dependence graph](https://llvm.org/docs/DependenceGraphs/index.html#dependence-graphs-in-llvm)
+models include the data dependence graph (DDG), which represents how operations
 depend on data, and the program dependence graph (PDG), which represents both
 data dependencies and the conditions that determine whether operations execute.
 These models are used in compiler

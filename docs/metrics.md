@@ -313,7 +313,7 @@ contributes to the dependencies of both unpacked targets, `first` and `rest`.
 The corresponding distinct-read metric counts unique semantic dependencies,
 not the number of uses.
 
-See [edge qualifiers and read contributions](graph-model.md#edge-qualifiers-and-read-contributions)
+See [Edge fields](graph-model.md#edge-fields)
 for how these metrics relate to exported graph edges.
 
 Unresolved read counts count uses with no applicable binding, not unresolved

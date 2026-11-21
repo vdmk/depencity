@@ -160,7 +160,7 @@ while profiling or exporting.
 returns distinct dependency endpoints, excluding structural edges.
 `Node.collect_call_targets()` returns `(resolved_targets, external_targets)` as
 tuples of graph objects. Read qualifiers and occurrence counts are explained in
-[edge qualifiers](graph-model.md#edge-qualifiers-and-read-contributions).
+[Edge fields](graph-model.md#edge-fields).
 
 ## Enumerations and version
 

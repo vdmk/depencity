@@ -1,9 +1,9 @@
 # Dependency graph model
 
-This package represents programs as static dependency graphs. The idea is that
-data dependencies help describe program structure and compare refactorings.
-The model builds on data dependence graphs, with scope ownership and explicit
-nodes for conditions and effects.
+Depencity builds a static graph of how operations produce and use values.
+The graph shows program structure and helps compare it before and after a
+refactoring. The model builds on data dependence graphs, with scope ownership
+and explicit nodes for conditions and effects.
 
 A data dependency means that one program item uses a value produced by another.
 For example, in `total = left + right`, `total` depends on `left` and `right`
@@ -15,64 +15,33 @@ Structural relationships may have no access qualifier.
 
 - [Core entities](#core-entities)
 - [Node kinds](#node-kinds)
+- [Node fields](#node-fields)
+- [Edge fields](#edge-fields)
 - [Source coverage](#source-coverage)
 - [Limits](#limits)
 - [Exports](#exports)
 
 ## Core entities
 
-- **Scope**: a graph root, module, class, function or method, comprehension, or predefined
-  builtins environment. A scope owns its nodes and may identify the value nodes
-  it exposes as callable outputs.
-- **Node**: a binding, expression, call, reference, effect, or output owned by a
-  scope.
-- **Edge**: a resolved dependency from a node or scope to a node that uses it.
-- **Unresolved dependency**: a local value node marked `is_unresolved: true`
-  when no target is found. Its edge to the consumer represents the dependency.
+- **Scope** groups nodes and child scopes.
+- **Node** represents a program item.
+- **Edge** connects a node or scope to a node.
 
-Names resolved from Python's predefined namespace target binding nodes in the
-`builtins` scope. Those graph nodes carry `is_builtin: true`.
-The exported graph represents dependencies through edges;
-it does not include a parallel list of raw dependency names.
+Scopes form a tree rooted at `__root__`. Its children are the source modules
+and, when used, the `builtins` scope. Classes, functions, methods, and
+comprehensions introduce nested scopes. Each node belongs to one scope.
+A callable scope also identifies the nodes that supply its outputs.
+Name lookup and module-relative edge classification stop at the source module.
+Module and function display paths omit the `__root__` prefix.
 
-Every graph has one `__root__` scope of kind `root`, whose children are the
-source modules and, when used, the builtins scope. The root owns one shared
-value node per canonical imported target, whether or not its source is part of
-the analyzed package. Local import bindings keep their lexical scopes and
-depend on these shared nodes. When the target is in the analyzed package, its
-declaration value feeds the shared target; external implementations remain
-unknown. For example,
-`from x import my_func as f` and `from x import my_func as g` both depend on
-the same `x.my_func` node. Imported calls retain the binding-to-target path
-and depend on known callee outputs. Passing a callable value does not invoke
-its outputs. Qualified calls use the reference's member dependency when
-available, otherwise a canonical member target: with
-`import x as api`, `api.run()` depends on the root's `x.run` node.
-Canonical names are constructed statically; external packages are never loaded.
-Unused imports and their unreferenced root targets are omitted.
-Star imports use an isolated literal `__all__` list or tuple when available;
-otherwise they include discovered public module names. Uncertain exports also
-retain an unresolved `module.*` dependency. Names and uncertainty propagate
-through re-exports; Python code is never evaluated to determine exports.
+In `y = x`, the assignment creates a new value node for `y`. A dependency
+edge points from the visible value of `x` to that new node. The scope records
+which nodes it owns independently of these edges. A scope can itself supply a
+dependency, as when a function is passed as a value.
 
-For internal package modules, direct imported values and direct
-`module.VALUE` reads connect through the canonical root target to the visible
-source binding. Reassigned names use the currently visible binding versions.
-External module attributes remain opaque because their modules are not loaded.
-
-The root is a graph container, not a Python lexical namespace. Name lookup and
-module-relative edge classification stop at the source module. Existing module
-and function display paths do not acquire a `__root__` prefix. Node identity,
-rather than display names or the number of incoming edges, distinguishes targets.
-
-Edges point from the dependency to its consumer:
-
-```text
-dependency -> consumer
-```
-
-Scopes record ownership separately from dependency edges. A reference to a
-function as a value can produce an edge from its scope to the consuming node.
+Reassigning `y` creates another value node in the same scope. The two nodes
+share a name but have distinct identities. Structural edges link the binding
+for `y` to its value versions and connect declared scopes to their bindings.
 
 ## Node kinds
 
@@ -90,7 +59,7 @@ other nodes use their explicit display name, binding, or internal name.
 | `result` | `return result`, `yield item`, `await task` | Callable output or expression result, including the value received by `yield` |
 | `yield_from_result` | `result = yield from source` | Delegated generator's return value |
 | `import_target` | Canonical `module.name` | Shared imported target |
-| `unresolved_value` | Read of an unknown name | Unresolved dependency |
+| `unresolved_value` | Read of an unknown name | Local placeholder for a value whose source the analyzer cannot resolve. The node carries `is_unresolved: true` and supplies the value dependency to the consumer. |
 | `operation` | `left + right`, `left, right = value`, `[left, right]`, `del value` | Transformation, extraction, container, or effect |
 | `call` | `parse(text)` | Call with callable and argument dependencies; resolved calls may also depend on callee outputs |
 | `reference` | `record.value` | Attribute read or write with an object dependency |
@@ -98,9 +67,32 @@ other nodes use their explicit display name, binding, or internal name.
 | `comprehension` | `[item * 2 for item in items]` | Result linked to an output in a separate comprehension scope |
 | `subscript` | `items[index]` | Read or write with container and index dependencies |
 
-- `access` distinguishes reads and writes where applicable.
-- `operation_type` distinguishes `transform`, `extract`, `container`, `mutation`, `raise`,
-  and `assert` operations.
+A statement is not a graph entity. The model defines no statement scope or
+statement node. It analyzes the program as a graph of operations and records
+dependencies between the resulting graph items. This is a deliberate
+simplification. A scope would be the natural way to group a statement's
+operations, but a scope for every statement would add noise to the graph
+and require scope classification.
+
+## Node fields
+
+| JSON field | Meaning |
+| --- | --- |
+| `id` | Unique identifier for the node within the export. |
+| `name` | Internal graph name. |
+| `display_name` | Name shown in graph presentations. |
+| `scope` | Identifier of the owning scope. |
+| `kind` | One of the [node kinds](#node-kinds). |
+| `access` | Node access mode: `read`, `write`, or `null` when neither applies. |
+| `operation_type` | Operation category, when present: `transform`, `extract`, `container`, `mutation`, `raise`, or `assert`. |
+| `dependencies` | Identifiers of the nodes or scopes this node depends on. |
+| `is_instance_attribute` | Marks an instance attribute. |
+| `is_class_attribute` | Marks a class attribute. |
+| `is_global_write` | Marks a write to a global binding from another scope. |
+| `is_nonlocal_write` | Marks a write to a nonlocal binding. |
+| `is_builtin` | Present and true when the owning scope is the predefined `builtins` scope. |
+| `is_unresolved` | Present and true when the node stands for a value whose source could not be resolved. |
+
 - Ordinary assignments create `variable` nodes named after their binding, such as
   `x`, with `access=write`. Reassignments create distinct nodes for the same
   binding. Global and nonlocal updates use synthetic write names instead. Their
@@ -118,7 +110,45 @@ other nodes use their explicit display name, binding, or internal name.
   they are computed; effects are represented in the graph but are not callable
   outputs.
 
+## Edge fields
+
+| JSON field | Meaning |
+| --- | --- |
+| `source` | Identifier of the node or scope the edge starts from. |
+| `target` | Identifier of the node the edge points to. For a dependency edge, this is the consumer. |
+| `edge_type` | Relationship kind. Dependency edges use `data`, `iteration`, or `predicate`. Structural edges use `binding` or `declaration`. |
+| `count` | Number of occurrences represented by the edge, at least one. |
+| `access` | How the target uses the source: `read`, `write`, or `null` when unqualified. |
+| `is_callee` | The source supplies the callable being invoked. |
+| `is_call_argument` | The source supplies a call argument. |
+| `is_variable_read` | The edge represents a possible variable read. |
+| `is_callable_read` | The edge represents a possible callable read. |
+| `read_contribution_count` | Number of variable reads credited to this edge. |
+| `callable_read_count` | Number of callable reads credited to this edge. |
+
 ## Source coverage
+
+The root owns one shared value node per canonical import target. Import
+bindings stay in their lexical scopes. For example, `from x import my_func as f`
+and `from x import my_func as g` both depend on the root's `x.my_func` node.
+The graph omits unused imports and their unreferenced targets.
+
+For modules in the analyzed package, direct imports and `module.VALUE` reads
+depend on the visible source binding through the shared target. An internal
+target's declaration scope feeds that target. For reassigned
+names, this path leads to the currently visible binding versions. Depencity
+constructs canonical names statically and leaves external implementations opaque.
+
+Imported calls retain the path from binding to target and depend on known
+callee outputs. Passing a callable as a value creates no dependency on those
+outputs. Qualified calls use the reference's member dependency when available.
+Otherwise, they use a canonical member target. For example, with `import x as api`,
+the fallback target for `api.run()` is the root's `x.run` node.
+
+Star imports use an isolated literal `__all__` list or tuple when available.
+Otherwise, they include discovered public module names. If the exports are
+uncertain, the graph retains an unresolved `module.*` dependency. Both names
+and uncertainty propagate through re-exports without executing Python code.
 
 - **Bindings and declarations**: assignments, parameters, imports, defaults,
   decorators, and class bases contribute graph dependencies. Type aliases bind
@@ -166,26 +196,23 @@ other nodes use their explicit display name, binding, or internal name.
   including `Base[T]` and
   `pkg.Base[T]`, support declaration-order inheritance lookup and single-base
   `super()` calls; dynamic bases remain unresolved.
-  Functions declared directly in a class infer their first positional
-  parameter as an instance of that class, regardless of its name; static
-  methods and nested functions do not. Method values retain member and receiver
+  In an instance method, the first positional parameter represents the instance.
+  In a recognized `classmethod`, it represents the class. Parameter spelling
+  does not affect either rule. Static methods and nested functions have no
+  implicit receiver parameter. Method values retain member and receiver
   dependencies; runtime binding is not modeled. Subscript types are inferred
   for lists, tuples and sequences. Methods and their nested functions resolve
   the implicit `__class__` cell; other class names are not closure bindings.
 - **Decorators**: preserve declaration identity; replacement results are not
   inferred. Proven builtin `staticmethod`/`classmethod` identity selects receiver behavior.
-- **Unresolved names**: a missing binding gets one local unresolved value node
-  per spelling and lexical scope. Uses in that scope reuse it; another scope
-  gets a separate node. These nodes feed
+- **Unresolved names**: within each lexical scope, all uses of the same unresolved
+  name share one local value node. These nodes feed
   their consumers and participate in graph and path measurements. Unknown
   callable targets add no extra nodes; calls consume their callee values.
-  Statically named imports connect a local import binding to a shared root target. An internal
-  target's declaration scope feeds that target; an external implementation remains
-  unknown.
 
 ## Limits
 
-The graph records static relationships; it does not prove runtime behavior.
+See [Analysis boundaries](analysis-boundaries.md) for the detailed rules and approximations.
 
 - Type inference is static and limited to direct constructors and annotations;
   unknown receivers remain unresolved, and arbitrary descriptors are not run.
@@ -302,35 +329,11 @@ An abbreviated populated export looks like this:
   are rooted at the corresponding parameter of a builtin `classmethod`.
   Parameter spelling does not determine classification. See the
   [receiver classification rules](metrics.md#scope-profiles) for limitations.
-- Edges contain `source` and `target` identifiers. Their `count` records how many
-  dependency occurrences the edge represents. Each edge has a count of at least
-  one, and repeated source occurrences increase it.
 - Profile fields ending in `distinct_count` are numeric counts. External call
   targets are deduplicated by graph identity; internal identity keys are not
   exported.
 - Current identifiers derive from lexical paths and node positions; they are
   not stable across edits.
-
-### Edge qualifiers and read contributions
-
-Graph JSON exports each edge's endpoints, occurrence multiplicity (`count`),
-`access`, read-contribution fields, relationship qualifiers, and `edge_type`.
-The edge type is one of `data`, `iteration`, `predicate`, `binding`, or
-`declaration`. Only data, iteration, and predicate edges are dependency edges;
-binding and declaration edges describe graph identity and scope declarations.
-
-- `is_callee` and `is_call_argument` identify call relationships; iteration-only
-  dependencies are not callees.
-  Both may be true when one dependency supplies both roles, as in `action(action)`.
-- `is_variable_read` and `is_callable_read` identify possible read relationships.
-
-`read_contribution_count` and `callable_read_count` record how much each edge
-contributes to variable-read and callable-read totals, respectively. They are
-independent of `count`. An alternative binding or callable output can have its
-read flag set while contributing zero: the source occurrence is counted once
-through another edge. A zero contribution does not mean the relationship is
-absent or less likely at runtime. Both fields feed variable-read metrics; they
-do not count call occurrences or resolved call targets.
 
 The following commands assume a development checkout with `uv sync --locked`
 completed. Replace `path/to/file.py` with an existing source file. For an
