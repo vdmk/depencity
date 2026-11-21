@@ -125,22 +125,19 @@ jobs:
             echo 'Version belongs to an earlier commit; skipping publication'
           fi
 
-  publish:
+  sign-provenance:
     needs: tag-release
     if: needs.tag-release.outputs.publish == 'true'
     runs-on: ubuntu-latest
     environment: pypi
     permissions:
       contents: read
+      attestations: write
       id-token: write
     env:
       RELEASE_VERSION: ${{ needs.tag-release.outputs.version }}
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
-      - uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6
-        with:
-          version: '0.13.4'
-          python-version: '3.14'
       - name: Verify release tag
         run: |
           git fetch origin "refs/tags/v${RELEASE_VERSION}:refs/tags/v${RELEASE_VERSION}"
@@ -151,13 +148,108 @@ jobs:
           path: release-dist
       - name: Validate tested distributions
         run: |
+          shopt -s nullglob dotglob
+          files=(release-dist/*)
+          if (( ${#files[@]} != 2 )); then
+            echo "::error::Expected exactly the release wheel and source archive in release-dist/"
+            exit 1
+          fi
           test -f "release-dist/depencity-${RELEASE_VERSION}-py3-none-any.whl"
           test -f "release-dist/depencity-${RELEASE_VERSION}.tar.gz"
-      - name: Publish tested distributions
+      - name: Attest wheel build provenance
+        id: wheel
+        uses: actions/attest@1e69f48acb82d1966a394da916b4c1698aa569d6 # v4.2.2
+        with:
+          subject-path: release-dist/depencity-${{ env.RELEASE_VERSION }}-py3-none-any.whl
+      - name: Attest sdist build provenance
+        id: sdist
+        uses: actions/attest@1e69f48acb82d1966a394da916b4c1698aa569d6 # v4.2.2
+        with:
+          subject-path: release-dist/depencity-${{ env.RELEASE_VERSION }}.tar.gz
+      - name: Stage conversion inputs
+        env:
+          WHEEL_BUNDLE: ${{ steps.wheel.outputs.bundle-path }}
+          SDIST_BUNDLE: ${{ steps.sdist.outputs.bundle-path }}
         run: |
-          uv publish --trusted-publishing always \
-            "release-dist/depencity-${RELEASE_VERSION}-py3-none-any.whl" \
-            "release-dist/depencity-${RELEASE_VERSION}.tar.gz"
+          mkdir conversion-inputs
+          cp "$WHEEL_BUNDLE" conversion-inputs/wheel.bundle
+          cp "$SDIST_BUNDLE" conversion-inputs/sdist.bundle
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: Provenance inputs
+          path: conversion-inputs/
+          if-no-files-found: error
+          overwrite: true
+
+  convert-provenance:
+    needs: sign-provenance
+    runs-on: ubuntu-latest
+    permissions: {}
+    steps:
+      - uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6
+        with:
+          enable-cache: false
+          version: '0.13.4'
+          python-version: '3.14'
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: Provenance inputs
+          path: inputs
+      - name: Convert signed bundles for PyPI
+        run: |
+          mkdir attestations
+          for kind in wheel sdist; do
+            uvx pypi-attestations@0.0.31 convert "inputs/$kind.bundle" --output-file "attestations/$kind.attestation"
+          done
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: SLSA attestations
+          path: attestations/
+          if-no-files-found: error
+          overwrite: true
+
+  publish:
+    needs: [tag-release, convert-provenance]
+    if: needs.tag-release.outputs.publish == 'true'
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      contents: read
+      id-token: write
+    env:
+      RELEASE_VERSION: ${{ needs.tag-release.outputs.version }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Verify release tag
+        run: |
+          git fetch origin "refs/tags/v${RELEASE_VERSION}:refs/tags/v${RELEASE_VERSION}"
+          test "$(git rev-parse "v${RELEASE_VERSION}^{commit}")" = "$GITHUB_SHA"
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: Packages
+          path: release-dist
+      - name: Validate tested distributions
+        run: |
+          shopt -s nullglob dotglob
+          files=(release-dist/*)
+          if (( ${#files[@]} != 2 )); then
+            echo "::error::Expected exactly the release wheel and source archive in release-dist/"
+            exit 1
+          fi
+          test -f "release-dist/depencity-${RELEASE_VERSION}-py3-none-any.whl"
+          test -f "release-dist/depencity-${RELEASE_VERSION}.tar.gz"
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: SLSA attestations
+          path: converted
+      - name: Stage SLSA attestations
+        run: |
+          cp converted/wheel.attestation "release-dist/depencity-${RELEASE_VERSION}-py3-none-any.whl.slsa.attestation"
+          cp converted/sdist.attestation "release-dist/depencity-${RELEASE_VERSION}.tar.gz.slsa.attestation"
+      - name: Publish tested distributions
+        uses: pypa/gh-action-pypi-publish@7245906fb61fa33a13554f9d5fb856fe61758086 # v1.14.3
+        with:
+          packages-dir: release-dist/
 
   verify-release:
     needs: [tag-release, publish]
