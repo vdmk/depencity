@@ -1,8 +1,7 @@
 # Depencity
 
-Experimental project for improving AI-generated Python code. It measures the internal
-“dependency complexity” of variables and expressions, letting LLMs compare code
-versions and optimize toward specific graph topologies.
+Experimental static analyzer for measuring the complexity of data dependencies in Python code.
+It supports agentic refactoring by guiding LLMs toward the required dependency topology.
 
 On this page:
 
