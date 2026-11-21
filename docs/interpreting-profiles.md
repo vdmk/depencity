@@ -10,7 +10,7 @@ container construction, and dependency paths.
 | Attribute and subscript reads and writes | Accesses through members and indexed values. |
 | Call occurrences and targets | Static calls by resolution status, resolved target contributions, and total and distinct external targets. |
 | Container construction | Container literals and list, set, and dict comprehensions; excludes generator expressions and constructor calls such as `list(items)`. |
-| Expression paths | Dependency paths ending at graph sinks; reports count and maximum length. |
+| Expression paths | Paths ending at graph sinks or at members of a cyclic component with no outside consumer. Reports count and maximum length. |
 | Data paths | Dependency paths ending at named values, including intermediate values; reports summed path counts, mean length, maximum, p95, and a length distribution. |
 | Version merges | Dependencies on multiple possible definitions of one binding. |
 | Cyclic components | Groups of nodes containing dependency cycles. |
@@ -65,8 +65,9 @@ depth; overlapping scope trees are counted once.
 
 For a refactoring comparison, profile the same target and options before and
 after the change. Inspect affected scopes as well as totals, path lengths, and
-cycles. Cyclic nodes and edges touching them are excluded from path statistics,
-so shorter paths alone do not establish an improvement.
+cycles. Paths through a cycle include the edge that first revisits a node and stop
+there. If counting exceeds the computation limits, the affected path metrics
+are unavailable.
 
 See [metric definitions](metrics.md) for the complete metric names and
 counting rules.

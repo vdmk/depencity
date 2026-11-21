@@ -138,5 +138,5 @@ absolute paths and resolve relative paths from the current directory.
 | MCP rejects a path outside its workspace | Choose a target inside the configured `--workspace`. The optional request `workspace` must also be inside that directory; it does not expand access. |
 | Internal imports appear external | Check the [package prefix](#analyze-a-package). `--source` changes discovery, not the prefix. |
 | Expected Python files are missing | Check the target, `--source`, and [discovery exclusions](analysis-boundaries.md#import-resolution). Discovery does not use `.gitignore`. |
-| Paths become shorter despite more complex code | Inspect `graph.cyclic_components.count`: cyclic nodes and edges touching them are excluded from path statistics. See [metric boundaries](analysis-boundaries.md#metric-boundaries). |
+| Paths become shorter despite more complex code | Compare the affected scopes and their cycles. A path through a cycle stops at the first repeated node and includes the closing edge. See [metric boundaries](analysis-boundaries.md#metric-boundaries). |
 

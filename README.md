@@ -33,8 +33,8 @@ Agents can work toward a chosen graph topology: reduce data dependencies
 or concentrate complexity inside low-level
 abstractions, leaving higher levels to orchestrate them.
 
-Depencity currently provides graphs and profiles through a CLI, Python API, and
-MCP server.
+The CLI and Python API export graphs and calculate profiles. The MCP server
+exposes profiles to clients.
 
 
 ## Install

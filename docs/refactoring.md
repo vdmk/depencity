@@ -31,8 +31,8 @@ depencity profile refactoring-before.py --depth 2 --include-own-profile
 depencity profile refactoring-after.py --depth 2 --include-own-profile
 ```
 
-These selected measurements apply both to `compute` and the whole graph.
-The function has no nested scopes, so its own and aggregate profiles agree.
+The graph has three scopes in both versions. The remaining measurements in
+the table are the same for `compute` and the whole graph.
 
 <!-- refactoring-table:start -->
 | Measurement | Before | After |
@@ -52,10 +52,9 @@ The function has no nested scopes, so its own and aggregate profiles agree.
 
 The [before graph](refactoring-examples/refactoring-before.svg) and
 [after graph](refactoring-examples/refactoring-after.svg) retain both arithmetic
-operations. Removing the two `total` bindings removes two reads, two writes,
+operations. Removing the two assignments to `total` removes two reads, two writes,
 and two edges from the longest chain. Data path counts also fall because
-intermediate named endpoints are gone. No new scope hides the work, and no
-cycle exclusion explains the shorter paths.
+intermediate named endpoints are gone. The scope count stays the same, and neither graph contains a cycle.
 
 For this short expression, the direct return remains readable. In a larger
 expression, an intermediate name may explain intent and be worth retaining.
