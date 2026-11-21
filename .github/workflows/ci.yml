@@ -71,7 +71,7 @@ jobs:
         with:
           version: '0.13.4'
           python-version: '3.14'
-      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
           name: Packages
           path: dist
@@ -142,7 +142,7 @@ jobs:
         run: |
           git fetch origin "refs/tags/v${RELEASE_VERSION}:refs/tags/v${RELEASE_VERSION}"
           test "$(git rev-parse "v${RELEASE_VERSION}^{commit}")" = "$GITHUB_SHA"
-      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
           name: Packages
           path: release-dist
@@ -191,7 +191,7 @@ jobs:
           enable-cache: false
           version: '0.13.4'
           python-version: '3.14'
-      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
           name: Provenance inputs
           path: inputs
@@ -224,7 +224,7 @@ jobs:
         run: |
           git fetch origin "refs/tags/v${RELEASE_VERSION}:refs/tags/v${RELEASE_VERSION}"
           test "$(git rev-parse "v${RELEASE_VERSION}^{commit}")" = "$GITHUB_SHA"
-      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
           name: Packages
           path: release-dist
@@ -238,7 +238,7 @@ jobs:
           fi
           test -f "release-dist/depencity-${RELEASE_VERSION}-py3-none-any.whl"
           test -f "release-dist/depencity-${RELEASE_VERSION}.tar.gz"
-      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
           name: SLSA attestations
           path: converted
