@@ -416,7 +416,7 @@ def build_package(
         directories[:] = [name for name in directories if name not in _IGNORED_DIRECTORIES]
         discovered_files.extend(directory / name for name in filenames if name.endswith('.py'))
     source_files = []
-    for path in sorted(discovered_files):
+    for path in sorted(discovered_files, key=lambda path: path.parts):
         relative_path = path.relative_to(source_root)
         if path.is_dir():
             continue
@@ -429,7 +429,7 @@ def build_package(
             ) from error
         if path.is_symlink():
             raise ValueError(
-                f'source file symlinks are not supported: {relative_path}'
+                f'source file symlinks are not supported: {relative_path.as_posix()}'
             )
         if not path.is_file():
             continue
@@ -437,7 +437,7 @@ def build_package(
         if module_name in module_paths:
             raise ValueError(
                 f'duplicate module name {module_name!r}: '
-                f'{module_paths[module_name]} and {relative_path}'
+                f'{module_paths[module_name].as_posix()} and {relative_path.as_posix()}'
             )
         module_paths[module_name] = relative_path
         tree = ast.parse(_read_python_source(path), filename=str(path))
