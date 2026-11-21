@@ -2,6 +2,7 @@
 
 import json
 from pathlib import Path
+from unittest.mock import patch
 
 import click
 from click.testing import CliRunner
@@ -178,4 +179,8 @@ def _write_snapshot(path: Path, output: str, check: bool) -> bool:
 
 
 if __name__ == '__main__':
-    main()
+    with (
+        patch("depencity._graph.export.json.version", return_value="0.0.0"),
+        patch("depencity._profile.summary.version", return_value="0.0.0"),
+    ):
+        main()

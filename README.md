@@ -19,8 +19,8 @@ On this page:
 
 Depencity builds a static dependency graph for comparing code structure. It
 represents bindings, values, individual operations, and conditions.
-See the [graph model](https://github.com/vdmk/depencity/blob/v0.1.0/docs/graph-model.md)
-and [analysis boundaries](https://github.com/vdmk/depencity/blob/v0.1.0/docs/analysis-boundaries.md).
+See the [graph model](https://github.com/vdmk/depencity/blob/v0.1.1/docs/graph-model.md)
+and [analysis boundaries](https://github.com/vdmk/depencity/blob/v0.1.1/docs/analysis-boundaries.md).
 
 The graph structure is not set in stone and is subject to change. Think of it as
 a profile of a particular code version that can be recomputed at any time,
@@ -62,29 +62,29 @@ for JSON output.
 
 See [Read a profile](#read-a-profile) for scope aggregation and interpretation,
 [Analyze a package](#analyze-a-package) for source layout and import naming,
-or [compare a refactoring](https://github.com/vdmk/depencity/blob/v0.1.0/docs/refactoring.md)
+or [compare a refactoring](https://github.com/vdmk/depencity/blob/v0.1.1/docs/refactoring.md)
 for a worked before/after example.
 
-For more commands and troubleshooting, see the [usage guide](https://github.com/vdmk/depencity/blob/v0.1.0/docs/usage.md).
+For more commands and troubleshooting, see the [usage guide](https://github.com/vdmk/depencity/blob/v0.1.1/docs/usage.md).
 
 ## Export a graph
 
 Depencity exports graphs as JSON or Graphviz DOT. This graph represents the
-[example source](https://github.com/vdmk/depencity/blob/v0.1.0/docs/cases-examples/readme-example.py):
+[example source](https://github.com/vdmk/depencity/blob/v0.1.1/docs/cases-examples/readme-example.py):
 
 The addition feeds the first value of `total`, which feeds the multiplication.
 Reassigning `total` creates a second value version rather than replacing the
 first node:
 
-![Depencity graph of compute, showing operations and two versions of total](https://raw.githubusercontent.com/vdmk/depencity/v0.1.0/docs/cases-examples/readme-example.svg)
+![Depencity graph of compute, showing operations and two versions of total](https://raw.githubusercontent.com/vdmk/depencity/v0.1.1/docs/cases-examples/readme-example.svg)
 
-[Source](https://github.com/vdmk/depencity/blob/v0.1.0/docs/cases-examples/readme-example.py)
+[Source](https://github.com/vdmk/depencity/blob/v0.1.1/docs/cases-examples/readme-example.py)
 
 The profile measures this structure, including reads, writes, and dependency
-path lengths. See [model examples](https://github.com/vdmk/depencity/blob/v0.1.0/docs/model-cases.md)
+path lengths. See [model examples](https://github.com/vdmk/depencity/blob/v0.1.1/docs/model-cases.md)
 for illustrations of conditions, calls, and mutations.
 
-See [graph export instructions](https://github.com/vdmk/depencity/blob/v0.1.0/docs/usage.md#export-a-graph)
+See [graph export instructions](https://github.com/vdmk/depencity/blob/v0.1.1/docs/usage.md#export-a-graph)
 for commands and Graphviz rendering.
 
 ## Analyze a package
@@ -95,7 +95,7 @@ depencity profile path/to/package --depth 1
 
 The target directory name determines the module prefix. If the checkout name
 differs from the importable package name, target the package directory itself.
-See [package analysis](https://github.com/vdmk/depencity/blob/v0.1.0/docs/usage.md#analyze-a-package)
+See [package analysis](https://github.com/vdmk/depencity/blob/v0.1.1/docs/usage.md#analyze-a-package)
 for source layouts, `--source`, and explicit package naming through the Python API.
 
 ## Read a profile
@@ -108,14 +108,14 @@ Compare the same target and options before and after a refactoring. Inspect
 scope counts, path counts and lengths, and cycles together: shorter paths alone
 do not establish an improvement.
 
-See [profile interpretation](https://github.com/vdmk/depencity/blob/v0.1.0/docs/interpreting-profiles.md)
-for details, [compare a refactoring](https://github.com/vdmk/depencity/blob/v0.1.0/docs/refactoring.md)
-for a worked example, or [metric definitions](https://github.com/vdmk/depencity/blob/v0.1.0/docs/metrics.md)
+See [profile interpretation](https://github.com/vdmk/depencity/blob/v0.1.1/docs/interpreting-profiles.md)
+for details, [compare a refactoring](https://github.com/vdmk/depencity/blob/v0.1.1/docs/refactoring.md)
+for a worked example, or [metric definitions](https://github.com/vdmk/depencity/blob/v0.1.1/docs/metrics.md)
 for exact counting rules.
 
 ## Use from Python
 
-See the [Python API reference](https://github.com/vdmk/depencity/blob/v0.1.0/docs/python-api.md) for library installation,
+See the [Python API reference](https://github.com/vdmk/depencity/blob/v0.1.1/docs/python-api.md) for library installation,
 builders, profiling, graph exports, and public types.
 
 ## Use with an MCP client
@@ -124,7 +124,7 @@ Configure your client to launch `depencity-mcp --workspace /absolute/path/to/pro
 over stdio. The server exposes a `profile` tool for files and packages inside
 that workspace.
 
-See [MCP setup](https://github.com/vdmk/depencity/blob/v0.1.0/docs/usage.md#use-with-an-mcp-client)
+See [MCP setup](https://github.com/vdmk/depencity/blob/v0.1.1/docs/usage.md#use-with-an-mcp-client)
 for configuration, a first request, tool parameters, and workspace rules.
 
 ## Analysis boundaries
@@ -139,18 +139,18 @@ invocations, or a complete shared heap. Conditions gate operations but do not
 form a complete control-flow model. Unsupported syntax or source layouts may
 raise an error; see the documented boundaries before interpreting a result.
 
-- [Graph model](https://github.com/vdmk/depencity/blob/v0.1.0/docs/graph-model.md): nodes, edges, scopes, and dependency meaning.
-- [Model examples](https://github.com/vdmk/depencity/blob/v0.1.0/docs/model-cases.md): source examples and graph illustrations.
-- [Analysis boundaries](https://github.com/vdmk/depencity/blob/v0.1.0/docs/analysis-boundaries.md): supported behavior,
+- [Graph model](https://github.com/vdmk/depencity/blob/v0.1.1/docs/graph-model.md): nodes, edges, scopes, and dependency meaning.
+- [Model examples](https://github.com/vdmk/depencity/blob/v0.1.1/docs/model-cases.md): source examples and graph illustrations.
+- [Analysis boundaries](https://github.com/vdmk/depencity/blob/v0.1.1/docs/analysis-boundaries.md): supported behavior,
   approximations, and fallbacks.
 
 ## Contributing and support
 
 Report bugs or propose features in [GitHub Issues](https://github.com/vdmk/depencity/issues).
-For development instructions, see [Contributing](https://github.com/vdmk/depencity/blob/v0.1.0/CONTRIBUTING.md).
-Release history is in the [Changelog](https://github.com/vdmk/depencity/blob/v0.1.0/CHANGELOG.md).
+For development instructions, see [Contributing](https://github.com/vdmk/depencity/blob/v0.1.1/CONTRIBUTING.md).
+Release history is in the [Changelog](https://github.com/vdmk/depencity/blob/v0.1.1/CHANGELOG.md).
 
-MIT licensed. See [LICENSE](https://github.com/vdmk/depencity/blob/v0.1.0/LICENSE).
+MIT licensed. See [LICENSE](https://github.com/vdmk/depencity/blob/v0.1.1/LICENSE).
 
 ## Custom Graph Model
 

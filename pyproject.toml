@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "depencity"
-version = "0.1.0"
+version = "0.1.1"
 description = "Experimental static analyzer for measuring the complexity of data dependencies in Python code."
 authors = [{ name = "Dmitry Vedmedenko" }]
 keywords = ["static-analysis", "dependency-graph", "code-complexity", "refactoring", "mcp"]
@@ -23,7 +23,7 @@ dependencies = ["click>=8.0", "mcp>=2.3,<3"]
 
 [project.urls]
 Source = "https://github.com/vdmk/depencity"
-Documentation = "https://github.com/vdmk/depencity/blob/v0.1.0/README.md"
+Documentation = "https://github.com/vdmk/depencity/blob/v0.1.1/README.md"
 Issues = "https://github.com/vdmk/depencity/issues"
 Changelog = "https://github.com/vdmk/depencity/blob/main/CHANGELOG.md"
 
