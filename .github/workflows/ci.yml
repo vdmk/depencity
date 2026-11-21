@@ -250,6 +250,8 @@ jobs:
         uses: pypa/gh-action-pypi-publish@7245906fb61fa33a13554f9d5fb856fe61758086 # v1.14.3
         with:
           packages-dir: release-dist/
+          # Since our workflow doesn't move Git tags, we don't expect package contents to change on retries.
+          skip-existing: true
 
   verify-release:
     needs: [tag-release, publish]
